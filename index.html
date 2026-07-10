@@ -25,19 +25,21 @@
     <!-- 主体 -->
     <div class="layout">
 
-      <!-- 侧边导航 -->
-      <nav class="toc">
-        <h3>目录 · فهرس</h3>
-        <div id="toc-list"></div>
-        <div class="search-box" style="margin-top:14px;">
-          <input id="search" type="text" placeholder="搜索中文 / 阿拉伯文 / 拼音…" />
-          <button id="search-clear" class="search-clear" title="清除搜索">✕</button>
-        </div>
-      </nav>
+      <!-- 侧边栏：使用说明 + 目录 -->
+      <aside class="sidebar">
+        <div class="intro" id="intro"></div>
+        <nav class="toc">
+          <h3>目录 · فهرس</h3>
+          <div id="toc-list"></div>
+          <div class="search-box" style="margin-top:14px;">
+            <input id="search" type="text" placeholder="搜索中文 / 阿拉伯文 / 拼音…" />
+            <button id="search-clear" class="search-clear" title="清除搜索">✕</button>
+          </div>
+        </nav>
+      </aside>
 
       <!-- 内容 -->
       <main>
-        <div class="intro" id="intro"></div>
         <div id="sections"></div>
         <p id="empty" style="display:none;color:var(--ink-dim);text-align:center;padding:40px;">未找到匹配的句子。</p>
       </main>

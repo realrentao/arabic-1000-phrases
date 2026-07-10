@@ -124,17 +124,21 @@ header.site .sub {
   padding: 28px 22px 120px;
 }
 
-/* 侧边导航 */
-nav.toc {
+/* 侧边栏（使用说明 + 目录 整体吸附） */
+.sidebar {
   position: sticky; top: 16px;
   align-self: start;
+  max-height: calc(100vh - 40px);
+  overflow: auto;
+  display: flex; flex-direction: column; gap: 18px;
+}
+/* 侧边导航 */
+nav.toc {
   background: linear-gradient(180deg, var(--panel), var(--bg-1));
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 16px 14px;
   box-shadow: var(--shadow);
-  max-height: calc(100vh - 40px);
-  overflow: auto;
 }
 nav.toc h3 {
   font-family: var(--deco-font);
@@ -200,7 +204,7 @@ nav.toc a.active .bullet { background: var(--gold); }
 .intro {
   background: linear-gradient(160deg, var(--panel), var(--bg-1));
   border: 1px solid var(--line); border-radius: 16px;
-  padding: 22px 26px; margin-bottom: 30px;
+  padding: 18px 18px;
   box-shadow: var(--shadow);
 }
 .intro h2 {
@@ -383,7 +387,7 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
 /* ---------------- 响应式 ---------------- */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
-  nav.toc { position: static; max-height: none; }
+  .sidebar { position: static; max-height: none; }
   .dialects { grid-template-columns: repeat(2, 1fr); }
   .card .common { max-width: 100%; margin-left: 0; }
 }
