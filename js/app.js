@@ -101,10 +101,38 @@
     return false;
   }
 
-  function renderSections(filter) {
+  // 单章 HTML（filter 为空表示不过滤，载入该章全部行）
+  function sectionHTML(i, filter) {
+    var s = DATA.sections[i];
+    var rows = s.rows.filter(function (r) { return rowMatches(r, filter); });
+    if (filter && rows.length === 0) return "";
+    var html = '<section class="chapter" id="sec-' + i + '">';
+    html += '<div class="chapter-head"><span class="ch-no">' + (i + 1) + "</span>" +
+            '<span class="ch-title">' + esc(s.title) + "</span>" +
+            '<span class="ch-count">' + rows.length + " 句</span>" +
+            '<button class="play-sec" data-sec="' + i + '">▶ 连播本节</button>' +
+            '<button class="back-toc" data-sec="' + i + '" title="返回目录">↥ 目录</button></div>';
+    html += '<div class="cards">';
+    rows.forEach(function (r) {
+      var ck = commonKey(r.common);
+      html += '<div class="card">';
+      html += '<button class="back-toc card-toc" title="返回目录" aria-label="返回目录">↥</button>';
+      html += '<div class="row-top"><span class="num">' + esc(r.num) + "</span>" +
+              '<span class="cn">' + esc(r.cn) + "</span>";
+      if (r.common) html += '<span class="common">' + esc(r.common) + "</span>";
+      html += "</div>";
+      html += '<div class="dialects">';
+      DIAL_ORDER.forEach(function (k) { html += dialectCell(r, k, k === ck); });
+      html += "</div></div>";
+    });
+    html += "</div></section>";
+    return html;
+  }
+
+  // 搜索模式：一次性渲染全部匹配结果
+  function renderAll(filter) {
     var main = $("#sections");
     var out = "";
-
     if (filter) {
       var total = 0;
       DATA.sections.forEach(function (s) {
@@ -113,38 +141,11 @@
       out += '<div class="search-banner">🔍 搜索 “<b>' + esc(filter) + '</b>” — 共 <b>' +
              total + '</b> 条 <button id="clear-search" class="banner-clear">✕ 清除</button></div>';
     }
-
-    DATA.sections.forEach(function (s, i) {
-      var rows = s.rows.filter(function (r) { return rowMatches(r, filter); });
-      if (filter && rows.length === 0) return;
-
-      out += '<section class="chapter" id="sec-' + i + '">';
-      out += '<div class="chapter-head"><span class="ch-no">' + (i + 1) + "</span>" +
-             '<span class="ch-title">' + esc(s.title) + "</span>" +
-             '<span class="ch-count">' + rows.length + " 句</span>" +
-             '<button class="play-sec" data-sec="' + i + '">▶ 连播本节</button>' +
-             '<button class="back-toc" data-sec="' + i + '" title="返回目录">↥ 目录</button></div>';
-      out += '<div class="cards">';
-      rows.forEach(function (r) {
-        var ck = commonKey(r.common);
-        out += '<div class="card">';
-        out += '<button class="back-toc card-toc" title="返回目录" aria-label="返回目录">↥</button>';
-        out += '<div class="row-top"><span class="num">' + esc(r.num) + "</span>" +
-               '<span class="cn">' + esc(r.cn) + "</span>";
-        if (r.common) out += '<span class="common">' + esc(r.common) + "</span>";
-        out += "</div>";
-        out += '<div class="dialects">';
-        DIAL_ORDER.forEach(function (k) { out += dialectCell(r, k, k === ck); });
-        out += "</div></div>";
-      });
-      out += "</div></section>";
-    });
+    DATA.sections.forEach(function (s, i) { out += sectionHTML(i, filter); });
     main.innerHTML = out;
-
-    if (filter) {
-      var hasResults = out.indexOf('class="chapter"') >= 0;
-      $("#empty").style.display = hasResults ? "none" : "block";
-    }
+    var hasResults = main.querySelector("section.chapter") !== null;
+    $("#empty").style.display = hasResults ? "none" : "block";
+    observeAllSections();
   }
 
   /* ---------------- 音频播放 ---------------- */
@@ -265,12 +266,14 @@
     });
   }
 
-  // 滚动高亮 TOC
+  // 滚动高亮 TOC（逐章观察，兼容懒加载）
   var tocLinks = {};
+  var tocObserver = null;
   function setupTocSpy() {
     var links = document.querySelectorAll("#toc-list a");
     links.forEach(function (a) { tocLinks[a.getAttribute("data-sec")] = a; });
-    var obs = new IntersectionObserver(function (entries) {
+    if (tocObserver) tocObserver.disconnect();
+    tocObserver = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) {
           var id = en.target.id.replace("sec-", "");
@@ -279,17 +282,109 @@
         }
       });
     }, { rootMargin: "-10% 0px -80% 0px" });
-    document.querySelectorAll("section.chapter").forEach(function (s) { obs.observe(s); });
+    observeAllSections();
+  }
+  function observeSection(i) {
+    var sec = document.getElementById("sec-" + i);
+    if (sec && tocObserver) tocObserver.observe(sec);
+  }
+  function observeAllSections() {
+    if (!tocObserver) return;
+    document.querySelectorAll("section.chapter").forEach(function (s) { tocObserver.observe(s); });
+  }
+
+  /* ---------------- 懒加载：首屏只渲染前几章，滚动时续载 ---------------- */
+  var RENDER_BATCH = 3;
+  var lazy = { active: false, upTo: 0, sentinel: null, rafId: 0 };
+
+  function renderNextBatch() {
+    var main = $("#sections");
+    var start = lazy.upTo;
+    var end = Math.min(start + RENDER_BATCH, DATA.sections.length);
+    var html = "";
+    for (var i = start; i < end; i++) { html += sectionHTML(i, ""); }
+    lazy.upTo = end;
+    if (lazy.sentinel) {
+      var tmp = document.createElement("div");
+      tmp.innerHTML = html;
+      while (tmp.firstChild) main.insertBefore(tmp.firstChild, lazy.sentinel);
+    } else {
+      main.insertAdjacentHTML("beforeend", html);
+    }
+    // 插入 DOM 之后再观察，否则 getElementById 拿不到节点
+    for (var j = start; j < end; j++) observeSection(j);
+    if (lazy.upTo >= DATA.sections.length && lazy.sentinel) {
+      lazy.sentinel.remove(); lazy.sentinel = null;
+    }
+  }
+
+  function ensureRendered(index) {
+    if (!lazy.active) return;
+    while (lazy.upTo <= index) renderNextBatch();
+  }
+
+  function pump() {
+    lazy.rafId = 0;
+    if (!lazy.active || lazy.upTo >= DATA.sections.length || !lazy.sentinel) return;
+    var vh = window.innerHeight || document.documentElement.clientHeight;
+    var r = lazy.sentinel.getBoundingClientRect();
+    if (r.top <= vh + 600) { renderNextBatch(); lazy.rafId = requestAnimationFrame(pump); }
+  }
+
+  function onScroll() {
+    if (lazy.rafId) return;
+    lazy.rafId = requestAnimationFrame(pump);
+  }
+
+  function initLazy() {
+    lazy.active = true;
+    lazy.upTo = 0;
+    var main = $("#sections");
+    main.innerHTML = "";
+    if (!lazy.sentinel) {
+      lazy.sentinel = document.createElement("div");
+      lazy.sentinel.id = "lazy-sentinel";
+      lazy.sentinel.style.height = "1px";
+      main.appendChild(lazy.sentinel);
+    }
+    renderNextBatch();
+    requestAnimationFrame(pump);
+  }
+
+  function renderSections(filter) {
+    if (filter) {
+      lazy.active = false;
+      if (lazy.sentinel) { lazy.sentinel.remove(); lazy.sentinel = null; }
+      renderAll(filter);
+    } else {
+      initLazy();
+    }
   }
 
   /* ---------------- 初始化 ---------------- */
   function init() {
     if (!DATA) { document.body.innerHTML = "<p style='color:#fff;padding:40px'>数据未加载 (data.js)</p>"; return; }
+    if (DATA.title) document.getElementById("page-title").textContent = DATA.title;
     renderLegend();
     renderIntro();
     renderToc();
-    renderSections("");
     setupTocSpy();
+    renderSections("");
+    // TOC 点击：目标章节尚未渲染时先渲染再跳转
+    var tocList = $("#toc-list");
+    if (tocList) {
+      tocList.addEventListener("click", function (e) {
+        var a = e.target.closest ? e.target.closest("a[data-sec]") : null;
+        if (!a) return;
+        e.preventDefault();
+        var idx = parseInt(a.getAttribute("data-sec"), 10);
+        ensureRendered(idx);
+        var sec = document.getElementById("sec-" + idx);
+        if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
   }
 
   if (document.readyState === "loading") {
