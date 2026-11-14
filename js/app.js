@@ -185,6 +185,8 @@
     var hasResults = main.querySelector("section.chapter") !== null;
     $("#empty").style.display = hasResults ? "none" : "block";
     observeAllSections();
+    setupCardPrefetch();
+    observeCards(main);
   }
 
   /* ---------------- 音频播放 ---------------- */
@@ -242,6 +244,57 @@
     showNowPlaying(cellLabel(el), el.getAttribute("data-ar"));
     audio.src = current.src;
     audio.play().catch(function () { playNextInQueue(); });
+    // 提前预热后续 2 条，连播不卡顿
+    for (var n = 0; n < Math.min(2, queue.length); n++) {
+      var nx = queue[n];
+      if (nx && nx.getAttribute("data-src")) enqueuePrefetch(nx.getAttribute("data-src"));
+    }
+  }
+
+  /* ---------------- 音频预加载（提升点击/连播效率） ---------------- */
+  // 思路：进入视口（或连播队列）的句子，提前用 fetch 预热 HTTP 缓存；
+  // 之后 <audio> 播放即为本地缓存命中，无需重复下载。仅下载一次、去重、限并发。
+  var prefetched = Object.create(null);
+  var prefetchQueue = [];
+  var prefetchInFlight = 0;
+  var PREFETCH_MAX = 4;
+
+  function enqueuePrefetch(src) {
+    if (!src || prefetched[src]) return;
+    prefetched[src] = true;
+    prefetchQueue.push(src);
+    pumpPrefetch();
+  }
+  function pumpPrefetch() {
+    while (prefetchInFlight < PREFETCH_MAX && prefetchQueue.length) {
+      var src = prefetchQueue.shift();
+      prefetchInFlight++;
+      fetch(src, { cache: "force-cache" })
+        .then(function () {})
+        .catch(function () {})
+        .then(function () { prefetchInFlight--; pumpPrefetch(); });
+    }
+  }
+  function prefetchCard(cardEl) {
+    var cells = cardEl.querySelectorAll(".dial[data-src]");
+    for (var i = 0; i < cells.length; i++) enqueuePrefetch(cells[i].getAttribute("data-src"));
+  }
+  // 进入视口（提前 240px）的句子卡片，预热其音频；命中后即取消观察
+  var cardObserver = null;
+  function setupCardPrefetch() {
+    if (cardObserver) cardObserver.disconnect();
+    cardObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          prefetchCard(en.target);
+          cardObserver.unobserve(en.target);
+        }
+      });
+    }, { rootMargin: "240px 0px" });
+  }
+  function observeCards(root) {
+    if (!cardObserver || !root) return;
+    root.querySelectorAll(".card").forEach(function (c) { cardObserver.observe(c); });
   }
 
   /* ---------------- 事件 ---------------- */
@@ -380,6 +433,7 @@
     }
     // 插入 DOM 之后再观察，否则 getElementById 拿不到节点
     for (var j = start; j < end; j++) observeSection(j);
+    observeCards(main);
     if (lazy.upTo >= DATA.sections.length && lazy.sentinel) {
       lazy.sentinel.remove(); lazy.sentinel = null;
     }
@@ -416,6 +470,7 @@
       lazy.sentinel.style.height = "1px";
       main.appendChild(lazy.sentinel);
     }
+    setupCardPrefetch();
     renderNextBatch();
     requestAnimationFrame(pump);
   }
