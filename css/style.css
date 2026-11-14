@@ -161,6 +161,9 @@ nav.toc a .bullet {
 nav.toc a.active { background: rgba(43,182,168,0.18); color: var(--gold); }
 nav.toc a.active .bullet { background: var(--gold); }
 
+/* 移动端目录下拉按钮：桌面端隐藏 */
+.toc-toggle { display: none; }
+
 /* 搜索 */
 .search-box {
   margin: 0 0 18px; display: flex; gap: 8px; align-items: stretch;
@@ -294,11 +297,6 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
 .card .cn {
   font-size: 19px; font-weight: 700; color: var(--cream);
 }
-.card .common {
-  margin-left: auto; font-size: 12px; color: var(--gold);
-  background: rgba(227,194,117,0.10); border: 1px solid var(--line);
-  padding: 3px 10px; border-radius: 20px; max-width: 46%; text-align: right;
-}
 .card .back-toc.card-toc {
   position: absolute; top: 8px; right: 8px; z-index: 2;
   width: 26px; height: 26px; border-radius: 50%;
@@ -309,12 +307,39 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
 }
 .card .back-toc.card-toc:hover { background: var(--turq); color: var(--bg-deep); border-color: var(--turq); }
 
+/* ---------------- 六方言分类切换条 ---------------- */
+.dial-bar {
+  position: sticky; top: 0; z-index: 15;
+  background: linear-gradient(180deg, rgba(12,34,48,0.97), rgba(8,22,31,0.94));
+  border-bottom: 1px solid var(--gold-soft);
+  backdrop-filter: blur(10px);
+}
+.dial-bar-inner {
+  max-width: 1400px; margin: 0 auto;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  padding: 10px 22px;
+}
+.dial-bar-label { font-size: 12px; letter-spacing: .5px; color: var(--gold); white-space: nowrap; }
+.dial-switch { display: flex; flex-wrap: wrap; gap: 6px; }
+.dial-btn {
+  font-family: var(--cn-font); font-size: 12px;
+  padding: 5px 12px; border-radius: 18px; cursor: pointer;
+  color: var(--ink-dim); background: rgba(8,22,31,0.6);
+  border: 1px solid var(--line); transition: all .15s;
+}
+.dial-btn:hover { color: var(--gold); border-color: var(--gold); }
+.dial-btn.active { color: var(--bg-deep); background: var(--gold); border-color: var(--gold); font-weight: 700; }
+.dial-tip { margin-left: auto; font-size: 11px; color: var(--ink-dim); }
+
 /* 方言列 */
 .dialects {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+.dialects.one-col { grid-template-columns: 1fr; }
+.dialects.one-col .dial .ar { font-size: 28px; }
+.dialects.one-col .dial .rom { font-size: 13px; }
 .dial {
   position: relative;
   background: rgba(8,22,31,0.45);
@@ -326,13 +351,10 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
   overflow: hidden;
 }
 .dial:hover { border-color: var(--gold); background: rgba(227,194,117,0.07); }
-.dial.is-common { border-color: var(--gold); box-shadow: inset 0 0 0 1px rgba(227,194,117,0.35); }
 .dial .tag {
   font-size: 11px; color: var(--turq); letter-spacing: .5px; margin-bottom: 4px;
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
 }
-.dial.is-common .tag { color: var(--gold); }
-.dial .tag .star { color: var(--gold); }
 .dial .note-badge {
   display: inline-block; margin-left: 2px;
   font-size: 10px; line-height: 1; padding: 1px 5px; border-radius: 6px;
@@ -387,9 +409,42 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
 /* ---------------- 响应式 ---------------- */
 @media (max-width: 900px) {
   .layout { grid-template-columns: 1fr; }
-  .sidebar { position: static; max-height: none; }
+  .sidebar { position: static; max-height: none; overflow: visible; }
   .dialects { grid-template-columns: repeat(2, 1fr); }
-  .card .common { max-width: 100%; margin-left: 0; }
+  .dial-tip { display: none; }
+  .dial-bar-inner { padding: 8px 14px; }
+
+  /* 19 章目录折叠为下拉：默认只占一行，展开为浮层不推开内容 */
+  nav.toc { position: relative; padding: 12px; }
+  nav.toc h3 { display: none; }
+  .toc-dropdown { position: relative; }
+  .toc-toggle {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    width: 100%; box-sizing: border-box;
+    background: linear-gradient(160deg, var(--panel), var(--bg-1));
+    border: 1px solid var(--gold-soft); border-radius: 10px;
+    color: var(--gold); font-family: var(--cn-font); font-size: 14px;
+    padding: 11px 14px; cursor: pointer; text-align: left;
+    transition: border-color .15s;
+  }
+  .toc-toggle:hover { border-color: var(--gold); }
+  .toc-toggle .toc-toggle-label {
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .toc-toggle .toc-caret { flex: none; transition: transform .18s; }
+  nav.toc.is-open .toc-caret { transform: rotate(180deg); }
+  #toc-list {
+    display: none;
+    position: absolute; top: calc(100% + 6px); left: 0; right: 0;
+    z-index: 60;
+    max-height: 56vh; overflow-y: auto;
+    background: var(--bg-1); border: 1px solid var(--gold-soft);
+    border-radius: 12px; padding: 8px;
+    box-shadow: 0 18px 40px rgba(0,0,0,.55);
+  }
+  nav.toc.is-open #toc-list { display: block; }
+  #toc-list a { font-size: 14px; padding: 10px; }
+  .search-box { margin-top: 10px !important; }
 }
 @media (max-width: 520px) {
   .dialects { grid-template-columns: 1fr; }

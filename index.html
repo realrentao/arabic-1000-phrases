@@ -16,11 +16,20 @@
     <header class="site">
       <div class="ar-orn">﷽ &nbsp; بِسْمِ ٱللَّٰهِ</div>
       <h1 id="page-title">阿拉伯语常用语1000句</h1>
-      <div class="sub">أَلْفُ جُمْلَةٍ عَرَبِيَّةٍ شَائِعَةٍ · 点按任意阿拉伯文即可聆听</div>
+      <div class="sub">أَلْفُ جُمْلَةٍ عَرَبِيَّةٍ شَائِعَةٍ · 六大方言对照 · 点按任意阿拉伯文即可聆听</div>
       <div class="legend" id="legend"></div>
     </header>
 
     <div class="divider"><span class="diamond"></span></div>
+
+    <!-- 六方言分类切换 -->
+    <div class="dial-bar">
+      <div class="dial-bar-inner">
+        <span class="dial-bar-label">方言分类 · لهجة</span>
+        <div class="dial-switch" id="dial-switch"></div>
+        <span class="dial-tip" id="dial-tip"></span>
+      </div>
+    </div>
 
     <!-- 主体 -->
     <div class="layout">
@@ -28,9 +37,16 @@
       <!-- 侧边栏：使用说明 + 目录 -->
       <aside class="sidebar">
         <div class="intro" id="intro"></div>
-        <nav class="toc">
+        <nav class="toc" id="toc-nav">
           <h3>目录 · فهرس</h3>
-          <div id="toc-list"></div>
+          <div class="toc-dropdown">
+            <button type="button" class="toc-toggle" id="toc-toggle"
+                    aria-expanded="false" aria-controls="toc-list">
+              <span class="toc-toggle-label" id="toc-toggle-label">目录 · 选择章节</span>
+              <span class="toc-caret" aria-hidden="true">▾</span>
+            </button>
+            <div id="toc-list"></div>
+          </div>
           <div class="search-box" style="margin-top:14px;">
             <input id="search" type="text" placeholder="搜索中文 / 阿拉伯文 / 拼音…" />
             <button id="search-clear" class="search-clear" title="清除搜索">✕</button>

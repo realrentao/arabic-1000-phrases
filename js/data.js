@@ -1,22 +1,94 @@
-// Auto-generated from 阿拉伯语常用语1000句.md
+// Auto-generated: 6 dialects (standard/egyptian/levantine/gulf/iraqi/maghreb)
 const DATA = {
  "title": "阿拉伯语常用语1000句",
- "legend": "① 标准语(MSA/الفصحى) · ② 埃及方言(Masri) · ③ 黎凡特/海湾 · ④ 马格里布(Darija)📌 核心结论：日常沟通记住 ②埃及方言 基本走遍阿拉伯世界都通；只有考试、新闻、正式文书才切到 ①标准语。",
+ "legend": "① 标准阿拉伯语(MSA/الفصحى) · ② 埃及阿拉伯语(مصري) · ③ 黎凡特阿拉伯语(شامي) · ④ 海湾阿拉伯语(خليجي) · ⑤ 伊拉克阿拉伯语(عراقي) · ⑥ 马格里布阿拉伯语(دارجة)",
  "intro": [
-  "**① 标准语**：考试、新闻、正式写作专用",
-  "**② 埃及方言**：🇪🇬 日常**最通用❗**——阿拉伯世界\"普通话\"，影视媒体全覆盖，所有人都听得懂",
-  "**③ 黎凡特/海湾**：🇸🇾🇱🇧🇵🇸🇯🇴🇸🇦 叙利亚·黎巴嫩·巴勒斯坦·约旦·沙特·海湾通用",
-  "**④ 马格里布**：🇲🇦🇩🇿🇹🇳 摩洛哥·阿尔及利亚·突尼斯",
-  "**⭐ 最通用标注**：日常口语以 **②埃及方言** 为阿拉伯世界最易沟通版本；正式/考试以 **①标准语** 为准。少数句另标注。",
-  "括号内为罗马化注音（拉丁字母模拟发音），帮助大家开口。",
-  ""
+  "**① 标准阿拉伯语（الفصحى / MSA）**：考试、新闻、正式写作专用",
+  "**② 埃及阿拉伯语（مصري / Masri）**：🇪🇬 日常**最通用❗**——阿拉伯世界\"普通话\"，影视媒体全覆盖",
+  "**③ 黎凡特阿拉伯语（شامي / Shami）**：🇸🇾🇱🇧🇵🇸🇯🇴 叙利亚·黎巴嫩·巴勒斯坦·约旦",
+  "**④ 海湾阿拉伯语（خليجي / Khaliji）**：🇸🇦🇦🇪🇰🇼🇶🇦🇧🇭🇴🇲 沙特·阿联酋·科威特·卡塔尔·巴林·阿曼",
+  "**⑤ 伊拉克阿拉伯语（عراقي / Iraqi）**：🇮🇶 伊拉克，介于海湾与黎凡特之间，شلون / أريد / هسه 为标志词",
+  "**⑥ 马格里布阿拉伯语（دارجة / Darija）**：🇲🇦🇩🇿🇹🇳 摩洛哥·阿尔及利亚·突尼斯",
+  "括号内为罗马化注音（拉丁字母模拟发音），帮助大家开口。"
  ],
  "sections": [
   {
-   "title": "一、问候与礼貌（15句）",
+   "title": "一、问候与礼貌（17句）",
    "rows": [
     {
      "num": 1,
+     "cn": "愿平安降临于你（阿语世界经典问候）",
+     "dialects": {
+      "msa": {
+       "ar": "اَلسَّلَامُ عَلَيْكُمْ",
+       "rom": "as-salāmu ʿalaykum",
+       "note": ""
+      },
+      "egyptian": {
+       "ar": "اَلسَّلَامُ عَلَيْكُم",
+       "rom": "assalāmu ʿalēkum",
+       "note": ""
+      },
+      "levantine": {
+       "ar": "اَلسَّلَامُ عَلَيْكُم",
+       "rom": "as-salāmu ʿalēkum",
+       "note": ""
+      },
+      "gulf": {
+       "ar": "اَلسَّلَامُ عَلَيْكُم",
+       "rom": "as-salāmu ʿalaykum",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اَلسَّلَامُ عَلَيْكُم",
+       "rom": "salāmu ʿalaykum",
+       "note": ""
+      },
+      "maghreb": {
+       "ar": "اَلسَّلَامُ عَلَيْكُم",
+       "rom": "s-salāmu ʿlīkum",
+       "note": ""
+      }
+     }
+    },
+    {
+     "num": 2,
+     "cn": "也愿平安降临于你（标准回礼）",
+     "dialects": {
+      "msa": {
+       "ar": "وَعَلَيْكُمُ السَّلَامُ",
+       "rom": "wa ʿalaykumu s-salām",
+       "note": ""
+      },
+      "egyptian": {
+       "ar": "وَعَلَيْكُمُ السَّلَام",
+       "rom": "wa ʿalēkumu s-salām",
+       "note": ""
+      },
+      "levantine": {
+       "ar": "وَعَلَيْكُمُ السَّلَام",
+       "rom": "wa ʿalēkum is-salām",
+       "note": ""
+      },
+      "gulf": {
+       "ar": "وَعَلَيْكُمُ السَّلَام",
+       "rom": "wa ʿalaykumu s-salām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَعَلَيْكُمُ السَّلَام",
+       "rom": "wa ʿalaykumu s-salām",
+       "note": ""
+      },
+      "maghreb": {
+       "ar": "وَعَلَيْكُمُ السَّلَام",
+       "rom": "wa ʿlīkum s-salām",
+       "note": ""
+      }
+     }
+    },
+    {
+     "num": 3,
      "cn": "你好（通用）",
      "dialects": {
       "msa": {
@@ -34,16 +106,25 @@ const DATA = {
        "rom": "marḥaba",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَرْحَبا",
+       "rom": "marḥaba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَرْحَبا",
+       "rom": "marḥaba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَرْحَبا",
        "rom": "marḥaba",
        "note": ""
       }
-     },
-     "common": "② أهلا 最口语"
+     }
     },
     {
-     "num": 2,
+     "num": 4,
      "cn": "你好吗？（对男）",
      "dialects": {
       "msa": {
@@ -61,16 +142,25 @@ const DATA = {
        "rom": "kīfak",
        "note": ""
       },
+      "gulf": {
+       "ar": "شلونك؟",
+       "rom": "shlūnak",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلونك؟",
+       "rom": "shlūnak",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كِيفَ دَايْر؟",
        "rom": "kīf dāyir",
        "note": ""
       }
-     },
-     "common": "② إزَّيَّك 最通用"
+     }
     },
     {
-     "num": 3,
+     "num": 5,
      "cn": "我很好，谢谢",
      "dialects": {
       "msa": {
@@ -88,16 +178,25 @@ const DATA = {
        "rom": "anā mnīḥ, shukran",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا زين، شكرا",
+       "rom": "anā zayn, shukran",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا زين، شكرا",
+       "rom": "anā zayn, shukran",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا بِخِير، بَرْكَا",
        "rom": "anā bkhīr, barakka",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 4,
+     "num": 6,
      "cn": "早上好",
      "dialects": {
       "msa": {
@@ -115,16 +214,25 @@ const DATA = {
        "rom": "ṣabāḥ el-khayr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَبَاحُ الخَيْر",
+       "rom": "ṣabāḥ el-khayr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَبَاحُ الخَيْر",
+       "rom": "ṣabāḥ el-khayr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْبَاحُ الخِير",
        "rom": "ṣbāḥ l-khīr",
        "note": ""
       }
-     },
-     "common": "① 各方言通用"
+     }
     },
     {
-     "num": 5,
+     "num": 7,
      "cn": "晚上好",
      "dialects": {
       "msa": {
@@ -142,16 +250,25 @@ const DATA = {
        "rom": "masā' el-khayr",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَسَاءُ الخَيْر",
+       "rom": "masā' el-khayr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَسَاءُ الخَيْر",
+       "rom": "masā' el-khayr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْسَاءُ الخِير",
        "rom": "msā' l-khīr",
        "note": ""
       }
-     },
-     "common": "① 各方言通用"
+     }
     },
     {
-     "num": 6,
+     "num": 8,
      "cn": "晚安",
      "dialects": {
       "msa": {
@@ -169,16 +286,25 @@ const DATA = {
        "rom": "tiṣbaḥ ʿalā khēr",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْصْبَحْ عَلَى خَيْر",
+       "rom": "tiṣbaḥ ʿalā khēr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْصْبَحْ عَلَى خَيْر",
+       "rom": "tiṣbaḥ ʿalā khēr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْسْبَحْ عَلَى خِير",
        "rom": "tsbaḥ ʿalā khīr",
        "note": ""
       }
-     },
-     "common": "① 各方言近似"
+     }
     },
     {
-     "num": 7,
+     "num": 9,
      "cn": "再见",
      "dialects": {
       "msa": {
@@ -196,16 +322,25 @@ const DATA = {
        "rom": "maʿa as-salāma",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَعَ السَّلَامَة",
+       "rom": "maʿa as-salāma",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَعَ السَّلَامَة",
+       "rom": "maʿa as-salāma",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِالسَّلَامَة",
        "rom": "b-is-salāma",
        "note": ""
       }
-     },
-     "common": "① مع السلامة 通用"
+     }
     },
     {
-     "num": 8,
+     "num": 10,
      "cn": "谢谢",
      "dialects": {
       "msa": {
@@ -223,16 +358,25 @@ const DATA = {
        "rom": "shukran / mashkūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُكْراً / مَشْكُور",
+       "rom": "shukran / mashkūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُكْراً / مَشْكُور",
+       "rom": "shukran / mashkūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شُكْراً / بَرْكَا",
        "rom": "shukran / barakka",
        "note": ""
       }
-     },
-     "common": "① شكراً 通用"
+     }
     },
     {
-     "num": 9,
+     "num": 11,
      "cn": "不客气",
      "dialects": {
       "msa": {
@@ -250,16 +394,25 @@ const DATA = {
        "rom": "ʿafwan / ʿalēh",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَفْواً / عَلِيهْ",
+       "rom": "ʿafwan / ʿalēh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَفْواً / عَلِيهْ",
+       "rom": "ʿafwan / ʿalēh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفْواً / مَاشِي",
        "rom": "ʿafwan / māshī",
        "note": ""
       }
-     },
-     "common": "①"
+     }
     },
     {
-     "num": 10,
+     "num": 12,
      "cn": "对不起 / 抱歉",
      "dialects": {
       "msa": {
@@ -277,16 +430,25 @@ const DATA = {
        "rom": "anā āsif",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا آسِف",
+       "rom": "anā āsif",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا آسِف",
+       "rom": "anā āsif",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَامْحْلِي",
        "rom": "sāmḥlī",
        "note": ""
       }
-     },
-     "common": "② أنا آسف 最通用"
+     }
     },
     {
-     "num": 11,
+     "num": 13,
      "cn": "请（礼貌）",
      "dialects": {
       "msa": {
@@ -304,16 +466,25 @@ const DATA = {
        "rom": "min faḍlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِنْ فَضْلَك",
+       "rom": "min faḍlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِنْ فَضْلَك",
+       "rom": "min faḍlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك",
        "rom": "ʿafāk",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 12,
+     "num": 14,
      "cn": "是的",
      "dialects": {
       "msa": {
@@ -331,16 +502,25 @@ const DATA = {
        "rom": "īh",
        "note": ""
       },
+      "gulf": {
+       "ar": "إِيه",
+       "rom": "īh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إِيه",
+       "rom": "īh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاخَا",
        "rom": "wākha",
        "note": ""
       }
-     },
-     "common": "② أيوه 最通用"
+     }
     },
     {
-     "num": 13,
+     "num": 15,
      "cn": "不 / 不是",
      "dialects": {
       "msa": {
@@ -358,16 +538,25 @@ const DATA = {
        "rom": "lā / la'",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَا / لَأْ",
+       "rom": "lā / la'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَا / لَأْ",
+       "rom": "lā / la'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَّا",
        "rom": "llā",
        "note": ""
       }
-     },
-     "common": "② لأ 最通用"
+     }
     },
     {
-     "num": 14,
+     "num": 16,
      "cn": "祝好运",
      "dialects": {
       "msa": {
@@ -385,16 +574,25 @@ const DATA = {
        "rom": "bi-t-tawfīq",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِالتَّوْفِيق",
+       "rom": "bi-t-tawfīq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِالتَّوْفِيق",
+       "rom": "bi-t-tawfīq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِالتَّوْفِيق",
        "rom": "bi-t-tawfīq",
        "note": ""
       }
-     },
-     "common": "① 通用"
+     }
     },
     {
-     "num": 15,
+     "num": 17,
      "cn": "欢迎",
      "dialects": {
       "msa": {
@@ -412,13 +610,22 @@ const DATA = {
        "rom": "ahlā wa-sahlā",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَهْلًا وَسَهْلًا",
+       "rom": "ahlā wa-sahlā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَهْلًا وَسَهْلًا",
+       "rom": "ahlā wa-sahlā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَرْحَبَا بِيك",
        "rom": "marḥabā bīk",
        "note": ""
       }
-     },
-     "common": "①"
+     }
     }
    ]
   },
@@ -426,7 +633,7 @@ const DATA = {
    "title": "二、自我介绍（12句）",
    "rows": [
     {
-     "num": 16,
+     "num": 18,
      "cn": "我叫…（例：穆罕默德）",
      "dialects": {
       "msa": {
@@ -444,16 +651,25 @@ const DATA = {
        "rom": "anā ismī …",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا اسْمِي …",
+       "rom": "anā ismī …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا اسْمِي …",
+       "rom": "anā ismī …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْمِيْتِي …",
        "rom": "smīytī …",
        "note": ""
       }
-     },
-     "common": "①/② \"أنا اسمي\" 通用"
+     }
     },
     {
-     "num": 17,
+     "num": 19,
      "cn": "你叫什么名字？（对男）",
      "dialects": {
       "msa": {
@@ -471,16 +687,25 @@ const DATA = {
        "rom": "shū ismak",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو اسمك؟",
+       "rom": "shinū ismak",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو اسمك؟",
+       "rom": "shinū ismak",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَشْمْ الْكُنْيَة دِيَالَك؟",
        "rom": "āshm el-kunya dyālak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 18,
+     "num": 20,
      "cn": "我来自中国",
      "dialects": {
       "msa": {
@@ -498,16 +723,25 @@ const DATA = {
        "rom": "anā min eṣ-ṣīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مِنَ الصِّين",
+       "rom": "anā min eṣ-ṣīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مِنَ الصِّين",
+       "rom": "anā min eṣ-ṣīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مِنَ الصِّين",
        "rom": "anā min eṣ-ṣīn",
        "note": ""
       }
-     },
-     "common": "①/② 通用"
+     }
     },
     {
-     "num": 19,
+     "num": 21,
      "cn": "你来自哪里？（对男）",
      "dialects": {
       "msa": {
@@ -525,16 +759,25 @@ const DATA = {
        "rom": "min wēn inta",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِنْ وَيْنْ إِنْتَ؟",
+       "rom": "min wēn inta",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِنْ وَيْنْ إِنْتَ؟",
+       "rom": "min wēn inta",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِنْ أِينْ نْتَا؟",
        "rom": "min āyn ntā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 20,
+     "num": 22,
      "cn": "我是学生",
      "dialects": {
       "msa": {
@@ -552,16 +795,25 @@ const DATA = {
        "rom": "anā ṭālib",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا طَالِب",
+       "rom": "anā ṭālib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا طَالِب",
+       "rom": "anā ṭālib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا طَالِب",
        "rom": "anā ṭālib",
        "note": ""
       }
-     },
-     "common": "① 通用"
+     }
     },
     {
-     "num": 21,
+     "num": 23,
      "cn": "你是做什么的？（对男）",
      "dialects": {
       "msa": {
@@ -579,16 +831,25 @@ const DATA = {
        "rom": "shū bitʿmal",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو بتعمل؟",
+       "rom": "shinū bitʿmal",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو بتعمل؟",
+       "rom": "shinū bitʿmal",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَشْكَادْ تَخْدَم؟",
        "rom": "āsh-kād takhdam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 22,
+     "num": 24,
      "cn": "我说一点阿拉伯语",
      "dialects": {
       "msa": {
@@ -606,16 +867,25 @@ const DATA = {
        "rom": "biḥkī ʿarabi shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِحْكِي عَرَبِي شَوِي",
+       "rom": "biḥkī ʿarabi shway",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بحكي عربي شوية",
+       "rom": "biḥkī ʿarabi shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كَنْتَكَلَّمْ عَرْبِي شْوِيَّة",
        "rom": "kantkallam ʿarbi shwiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 23,
+     "num": 25,
      "cn": "我不懂",
      "dialects": {
       "msa": {
@@ -633,16 +903,25 @@ const DATA = {
        "rom": "mā bifhamsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا بِفْهَمْش",
+       "rom": "mā bifhamsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا بِفْهَمْش",
+       "rom": "mā bifhamsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا فْهِمْتْش",
        "rom": "mā fhimtish",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 24,
+     "num": 26,
      "cn": "你能说慢一点吗？",
      "dialects": {
       "msa": {
@@ -660,16 +939,25 @@ const DATA = {
        "rom": "miqdūr tiḥkī bi-buṭ'",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُورْ تْحْكِي بِبُطْء؟",
+       "rom": "miqdūr tiḥkī bi-buṭ'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُورْ تْحْكِي بِبُطْء؟",
+       "rom": "miqdūr tiḥkī bi-buṭ'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَقْدَرْ تْقُولْ رَاهُو بِشْوِيَّة؟",
        "rom": "tiqdar tiqūl rāhū b-shwiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 25,
+     "num": 27,
      "cn": "请再说一遍",
      "dialects": {
       "msa": {
@@ -687,16 +975,25 @@ const DATA = {
        "rom": "ʿīd marra tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِيدْ مَرَّة تَانِيَة",
+       "rom": "ʿīd marra tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِيدْ مَرَّة تَانِيَة",
+       "rom": "ʿīd marra tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَاوْدْ مَرَّة أُخْرَى",
        "rom": "ʿāwud marra ukhrā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 26,
+     "num": 28,
      "cn": "很高兴认识你",
      "dialects": {
       "msa": {
@@ -714,16 +1011,25 @@ const DATA = {
        "rom": "mabṣūṭ aʿrifak",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَبْسُوط أَعْرِفَك",
+       "rom": "mabṣūṭ aʿrifak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَبْسُوط أَعْرِفَك",
+       "rom": "mabṣūṭ aʿrifak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فْرْحَان بِلْقَاك",
        "rom": "farḥān b-liqāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 27,
+     "num": 29,
      "cn": "我的朋友（男）",
      "dialects": {
       "msa": {
@@ -741,13 +1047,22 @@ const DATA = {
        "rom": "",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَاحِي (ṣāḥī)",
+       "rom": "",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَاحِي (ṣāḥī)",
+       "rom": "",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَاحِبِي",
        "rom": "ṣāḥibī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -755,7 +1070,7 @@ const DATA = {
    "title": "三、询问类（19句）",
    "rows": [
     {
-     "num": 28,
+     "num": 30,
      "cn": "你在哪？",
      "dialects": {
       "msa": {
@@ -773,16 +1088,25 @@ const DATA = {
        "rom": "wēnak",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينَك؟",
+       "rom": "wēnak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينَك؟",
+       "rom": "wēnak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينَك؟",
        "rom": "fēnak",
        "note": ""
       }
-     },
-     "common": "② إنت فين"
+     }
     },
     {
-     "num": 29,
+     "num": 31,
      "cn": "你是谁？",
      "dialects": {
       "msa": {
@@ -800,16 +1124,25 @@ const DATA = {
        "rom": "mīn inta",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِينْ إِنْتَ؟",
+       "rom": "mīn inta",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِينْ إِنْتَ؟",
+       "rom": "mīn inta",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْكُونْ نْتَا؟",
        "rom": "shkūn ntā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 30,
+     "num": 32,
      "cn": "你几岁？",
      "dialects": {
       "msa": {
@@ -827,16 +1160,25 @@ const DATA = {
        "rom": "kam ʿumrak",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَمْ عُمْرَك؟",
+       "rom": "kam ʿumrak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَمْ عُمْرَك؟",
+       "rom": "kam ʿumrak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ عُمْرَك؟",
        "rom": "shḥāl ʿumrak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 31,
+     "num": 33,
      "cn": "今天几号？",
      "dialects": {
       "msa": {
@@ -854,16 +1196,25 @@ const DATA = {
        "rom": "kam tārīkh al-yawm",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَمْ تَارِيخِ اليَوْم؟",
+       "rom": "kam tārīkh al-yawm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَمْ تَارِيخِ اليَوْم؟",
+       "rom": "kam tārīkh al-yawm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ فِي هَادَ النْهَار؟",
        "rom": "shḥāl fī hāda n-nhār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 32,
+     "num": 34,
      "cn": "现在几点？",
      "dialects": {
       "msa": {
@@ -881,16 +1232,25 @@ const DATA = {
        "rom": "qaddēsh as-sāʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "كم الساعة؟",
+       "rom": "kam as-sāʿa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "كم الساعة؟",
+       "rom": "kam as-sāʿa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْحَالْ فِي السَّاعَة؟",
        "rom": "shḥāl fī s-sāʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 33,
+     "num": 35,
      "cn": "这是什么？",
      "dialects": {
       "msa": {
@@ -908,16 +1268,25 @@ const DATA = {
        "rom": "hād ēsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا شنو؟",
+       "rom": "hādhā shinū",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا شنو؟",
+       "rom": "hādhā shinū",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا أَشْنُو؟",
        "rom": "hādā āshnū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 34,
+     "num": 36,
      "cn": "那是什么？",
      "dialects": {
       "msa": {
@@ -935,16 +1304,25 @@ const DATA = {
        "rom": "hēda ēsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا شنو؟",
+       "rom": "hādhā shinū",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا شنو؟",
+       "rom": "hādhā shinū",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَاكَاكَ أَشْنُو؟",
        "rom": "hākāk āshnū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 35,
+     "num": 37,
      "cn": "为什么？",
      "dialects": {
       "msa": {
@@ -962,16 +1340,25 @@ const DATA = {
        "rom": "līsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "لِيش؟",
+       "rom": "līsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لِيش؟",
+       "rom": "līsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْلَاشْ؟",
        "rom": "ʿlāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 36,
+     "num": 38,
      "cn": "怎么 / 如何？",
      "dialects": {
       "msa": {
@@ -989,16 +1376,25 @@ const DATA = {
        "rom": "kīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "شلون؟",
+       "rom": "shlūn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلون؟",
+       "rom": "shlūn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كِيفَاشْ؟",
        "rom": "kīfāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 37,
+     "num": 39,
      "cn": "多少（钱）？",
      "dialects": {
       "msa": {
@@ -1016,16 +1412,25 @@ const DATA = {
        "rom": "bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِكَم؟",
+       "rom": "bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِكَم؟",
+       "rom": "bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْشْحَالْ؟",
        "rom": "b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 38,
+     "num": 40,
      "cn": "这个多少钱？",
      "dialects": {
       "msa": {
@@ -1043,16 +1448,25 @@ const DATA = {
        "rom": "hād bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا بكم؟",
+       "rom": "hādhā bikam",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا بكم؟",
+       "rom": "hādhā bikam",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا بْشْحَال؟",
        "rom": "hādā b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 39,
+     "num": 41,
      "cn": "你喜欢…吗？",
      "dialects": {
       "msa": {
@@ -1070,16 +1484,25 @@ const DATA = {
        "rom": "btiḥibb …",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِحِبْ …؟",
+       "rom": "btiḥibb …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِحِبْ …؟",
+       "rom": "btiḥibb …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْبْغِي …؟",
        "rom": "katbghī …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 40,
+     "num": 42,
      "cn": "咖啡还是茶？",
      "dialects": {
       "msa": {
@@ -1097,16 +1520,25 @@ const DATA = {
        "rom": "qahwa walla shāy",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَهْوَة وَلاَ شَاي؟",
+       "rom": "qahwa walla shāy",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَهْوَة وَلاَ شَاي؟",
+       "rom": "qahwa walla shāy",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَهْوَة وَلاَ أَتَاي؟",
        "rom": "qahwa walla atāy",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 41,
+     "num": 43,
      "cn": "可以走了吗？",
      "dialects": {
       "msa": {
@@ -1124,16 +1556,25 @@ const DATA = {
        "rom": "nmishī halla'",
        "note": ""
       },
+      "gulf": {
+       "ar": "نمشي الحين؟",
+       "rom": "nmishī al-ḥīn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "نمشي هسه؟",
+       "rom": "nmishī hasse",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نْمْشِيوْ دَابَا؟",
        "rom": "nmishyū dābā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 42,
+     "num": 44,
      "cn": "谁？",
      "dialects": {
       "msa": {
@@ -1151,16 +1592,25 @@ const DATA = {
        "rom": "mīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِين؟",
+       "rom": "mīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِين؟",
+       "rom": "mīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْكُونْ؟",
        "rom": "shkūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 43,
+     "num": 45,
      "cn": "什么时候？",
      "dialects": {
       "msa": {
@@ -1178,16 +1628,25 @@ const DATA = {
        "rom": "imtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "متى؟",
+       "rom": "matā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "متى؟",
+       "rom": "matā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ؟",
        "rom": "waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 44,
+     "num": 46,
      "cn": "你会说英语吗？",
      "dialects": {
       "msa": {
@@ -1205,16 +1664,25 @@ const DATA = {
        "rom": "btiḥkī inglīzī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِحْكِي إِنْجِلِيزِي؟",
+       "rom": "btiḥkī inglīzī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِحْكِي إِنْجِلِيزِي؟",
+       "rom": "btiḥkī inglīzī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْهْدَرْ بِالْأِنْجْلِيزِيَّة؟",
        "rom": "katdhār b-l-inglīziyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 45,
+     "num": 47,
      "cn": "洗手间在哪？",
      "dialects": {
       "msa": {
@@ -1232,16 +1700,25 @@ const DATA = {
        "rom": "wēn al-ḥammām",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ الحَمَّام؟",
        "rom": "fēn al-ḥammām",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 46,
+     "num": 48,
      "cn": "你有…吗？",
      "dialects": {
       "msa": {
@@ -1259,13 +1736,22 @@ const DATA = {
        "rom": "ʿindak …",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ …؟",
+       "rom": "ʿindak …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ …؟",
+       "rom": "ʿindak …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ …؟",
        "rom": "ʿandak …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -1273,7 +1759,7 @@ const DATA = {
    "title": "四、问路与交通（21句）",
    "rows": [
     {
-     "num": 47,
+     "num": 49,
      "cn": "车站在哪？",
      "dialects": {
       "msa": {
@@ -1291,16 +1777,25 @@ const DATA = {
        "rom": "wēn al-maḥaṭṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ المَحَطَّة؟",
+       "rom": "wēn al-maḥaṭṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ المَحَطَّة؟",
+       "rom": "wēn al-maḥaṭṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ المَحَطَّة؟",
        "rom": "fēn al-maḥaṭṭa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 48,
+     "num": 50,
      "cn": "这附近有…吗？",
      "dialects": {
       "msa": {
@@ -1318,16 +1813,25 @@ const DATA = {
        "rom": "fī … qarīb min hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "في … قريب من هنا؟",
+       "rom": "fī … qarīb min hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "في … قريب من هنا؟",
+       "rom": "fī … qarīb min hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كَايْنْ … قْرِيب مِنْ هُنَا؟",
        "rom": "kāyn … qrīb min hnā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 49,
+     "num": 51,
      "cn": "怎么去…？",
      "dialects": {
       "msa": {
@@ -1345,16 +1849,25 @@ const DATA = {
        "rom": "kīf arūḥ ʿalā …",
        "note": ""
       },
+      "gulf": {
+       "ar": "شلون أروح على …؟",
+       "rom": "shlūn arūḥ ʿalā …",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلون أروح على …؟",
+       "rom": "shlūn arūḥ ʿalā …",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كِيفَاشْ نْمْشِي لِـ …؟",
        "rom": "kīfāsh nmishī li …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 50,
+     "num": 52,
      "cn": "远吗？",
      "dialects": {
       "msa": {
@@ -1372,16 +1885,25 @@ const DATA = {
        "rom": "baʿīd",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَعِيد؟",
+       "rom": "baʿīd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَعِيد؟",
+       "rom": "baʿīd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْعِيدْ؟",
        "rom": "bʿīd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 51,
+     "num": 53,
      "cn": "左转",
      "dialects": {
       "msa": {
@@ -1399,16 +1921,25 @@ const DATA = {
        "rom": "dūr yassār",
        "note": ""
       },
+      "gulf": {
+       "ar": "دُورْ يَسَّار",
+       "rom": "dūr yassār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دُورْ يَسَّار",
+       "rom": "dūr yassār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دُورْ عَلَى يَسَّار",
        "rom": "dūr ʿalā yassār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 52,
+     "num": 54,
      "cn": "右转",
      "dialects": {
       "msa": {
@@ -1426,16 +1957,25 @@ const DATA = {
        "rom": "dūr ymīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "دُورْ يْمِين",
+       "rom": "dūr ymīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دُورْ يْمِين",
+       "rom": "dūr ymīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دُورْ عَلَى يَمِين",
        "rom": "dūr ʿalā yamīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 53,
+     "num": 55,
      "cn": "直走",
      "dialects": {
       "msa": {
@@ -1453,16 +1993,25 @@ const DATA = {
        "rom": "imshī quddām",
        "note": ""
       },
+      "gulf": {
+       "ar": "إِمْشِي قُدَّام",
+       "rom": "imshī quddām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إِمْشِي قُدَّام",
+       "rom": "imshī quddām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِيرْ قُدَّام",
        "rom": "sīr quddām",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 54,
+     "num": 56,
      "cn": "在…旁边",
      "dialects": {
       "msa": {
@@ -1480,16 +2029,25 @@ const DATA = {
        "rom": "janb …",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَنْب …",
+       "rom": "janb …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَنْب …",
+       "rom": "janb …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جْنَابْ …",
        "rom": "jnāb …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 55,
+     "num": 57,
      "cn": "在…对面",
      "dialects": {
       "msa": {
@@ -1507,16 +2065,25 @@ const DATA = {
        "rom": "qubāl …",
        "note": ""
       },
+      "gulf": {
+       "ar": "قُبَالْ …",
+       "rom": "qubāl …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قُبَالْ …",
+       "rom": "qubāl …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وِجْهْ …",
        "rom": "wījh …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 56,
+     "num": 58,
      "cn": "请带我去…",
      "dialects": {
       "msa": {
@@ -1534,16 +2101,25 @@ const DATA = {
        "rom": "khūdnī ʿalā …",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُودْنِي عَلَى …",
+       "rom": "khūdnī ʿalā …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُودْنِي عَلَى …",
+       "rom": "khūdnī ʿalā …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَدِّينِي لِـ …",
        "rom": "waddīnī li …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 57,
+     "num": 59,
      "cn": "出租车",
      "dialects": {
       "msa": {
@@ -1561,16 +2137,25 @@ const DATA = {
        "rom": "taksī",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَكْسِي",
+       "rom": "taksī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَكْسِي",
+       "rom": "taksī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَاكْسِي",
        "rom": "tāksī",
        "note": ""
       }
-     },
-     "common": "②（都借 taxi）"
+     }
     },
     {
-     "num": 58,
+     "num": 60,
      "cn": "公共汽车",
      "dialects": {
       "msa": {
@@ -1588,16 +2173,25 @@ const DATA = {
        "rom": "bāṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَاص",
+       "rom": "bāṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَاص",
+       "rom": "bāṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَار",
        "rom": "kār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 59,
+     "num": 61,
      "cn": "火车站",
      "dialects": {
       "msa": {
@@ -1615,16 +2209,25 @@ const DATA = {
        "rom": "maḥaṭṭat al-qiṭār",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَحَطَّة القِطَار",
+       "rom": "maḥaṭṭat al-qiṭār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَحَطَّة القِطَار",
+       "rom": "maḥaṭṭat al-qiṭār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَحَطَّة التْرَان",
        "rom": "maḥaṭṭat at-trān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 60,
+     "num": 62,
      "cn": "一张票",
      "dialects": {
       "msa": {
@@ -1642,16 +2245,25 @@ const DATA = {
        "rom": "tadhkira waḥda",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَذْكِرَة وَحْدَة",
+       "rom": "tadhkira waḥda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَذْكِرَة وَحْدَة",
+       "rom": "tadhkira waḥda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تِذْكِرَة وَحْدَة",
        "rom": "tīzkira waḥda",
        "note": ""
       }
-     },
-     "common": "②/①"
+     }
     },
     {
-     "num": 61,
+     "num": 63,
      "cn": "几点发车？",
      "dialects": {
       "msa": {
@@ -1669,16 +2281,25 @@ const DATA = {
        "rom": "mtā btinṭaliq",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْتَى بْتِنْطَلِق؟",
+       "rom": "mtā btinṭaliq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْتَى بْتِنْطَلِق؟",
+       "rom": "mtā btinṭaliq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ كَتْمْشِي؟",
        "rom": "waqtāsh katmshī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 62,
+     "num": 64,
      "cn": "飞机场",
      "dialects": {
       "msa": {
@@ -1696,16 +2317,25 @@ const DATA = {
        "rom": "maṭār",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَطَار",
+       "rom": "maṭār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَطَار",
+       "rom": "maṭār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَطَار",
        "rom": "maṭār",
        "note": ""
       }
-     },
-     "common": "①/② 通用"
+     }
     },
     {
-     "num": 63,
+     "num": 65,
      "cn": "我想去…",
      "dialects": {
       "msa": {
@@ -1723,16 +2353,25 @@ const DATA = {
        "rom": "baddī arūḥ ʿalā …",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أروح على …",
+       "rom": "abī arūḥ ʿalā …",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أروح على …",
+       "rom": "arīd arūḥ ʿalā …",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ نْمْشِي لِـ …",
        "rom": "bghīt nmishī li …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 64,
+     "num": 66,
      "cn": "上车",
      "dialects": {
       "msa": {
@@ -1750,16 +2389,25 @@ const DATA = {
        "rom": "rkab",
        "note": ""
       },
+      "gulf": {
+       "ar": "رْكَبْ",
+       "rom": "rkab",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رْكَبْ",
+       "rom": "rkab",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْكَبْ",
        "rom": "rkab",
        "note": ""
       }
-     },
-     "common": "①/② 通用"
+     }
     },
     {
-     "num": 65,
+     "num": 67,
      "cn": "下车",
      "dialects": {
       "msa": {
@@ -1777,16 +2425,25 @@ const DATA = {
        "rom": "nzal",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْزِلْ",
+       "rom": "nzal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْزِلْ",
+       "rom": "nzal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْزِلْ",
        "rom": "nzal",
        "note": ""
       }
-     },
-     "common": "①/② 通用"
+     }
     },
     {
-     "num": 66,
+     "num": 68,
      "cn": "到…多少钱？",
      "dialects": {
       "msa": {
@@ -1804,13 +2461,22 @@ const DATA = {
        "rom": "ʿalā … bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَلَى … بِكَم؟",
+       "rom": "ʿalā … bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَلَى … بِكَم؟",
+       "rom": "ʿalā … bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لِـ … بْشْحَال؟",
        "rom": "li … b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -1818,7 +2484,7 @@ const DATA = {
    "title": "五、吃饭（20句）",
    "rows": [
     {
-     "num": 67,
+     "num": 69,
      "cn": "餐厅在哪？",
      "dialects": {
       "msa": {
@@ -1836,16 +2502,25 @@ const DATA = {
        "rom": "wēn al-maṭʿam",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ المَطْعَم؟",
+       "rom": "wēn al-maṭʿam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ المَطْعَم؟",
+       "rom": "wēn al-maṭʿam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ المَطْعَم؟",
        "rom": "fēn al-maṭʿam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 68,
+     "num": 70,
      "cn": "菜单",
      "dialects": {
       "msa": {
@@ -1863,16 +2538,25 @@ const DATA = {
        "rom": "al-manyū",
        "note": ""
       },
+      "gulf": {
+       "ar": "المَنْيُو",
+       "rom": "al-manyū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المَنْيُو",
+       "rom": "al-manyū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لِّسْتَة المَكْلَة",
        "rom": "lista l-makla",
        "note": ""
       }
-     },
-     "common": "②（借 menu）"
+     }
     },
     {
-     "num": 69,
+     "num": 71,
      "cn": "我想点…",
      "dialects": {
       "msa": {
@@ -1890,16 +2574,25 @@ const DATA = {
        "rom": "baddī aṭlub …",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أطلب …",
+       "rom": "abī aṭlub …",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أطلب …",
+       "rom": "arīd aṭlub …",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ نْطْلُب …",
        "rom": "bghīt nṭlub …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 70,
+     "num": 72,
      "cn": "水",
      "dialects": {
       "msa": {
@@ -1917,16 +2610,25 @@ const DATA = {
        "rom": "mī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِي",
+       "rom": "mī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِي",
+       "rom": "mī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَا",
        "rom": "l-mā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 71,
+     "num": 73,
      "cn": "面包",
      "dialects": {
       "msa": {
@@ -1944,16 +2646,25 @@ const DATA = {
        "rom": "khubz",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُبْز",
+       "rom": "khubz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُبْز",
+       "rom": "khubz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْخُبْز",
        "rom": "l-khubz",
        "note": ""
       }
-     },
-     "common": "②（埃及 عيش）"
+     }
     },
     {
-     "num": 72,
+     "num": 74,
      "cn": "米饭",
      "dialects": {
       "msa": {
@@ -1971,16 +2682,25 @@ const DATA = {
        "rom": "ruz",
        "note": ""
       },
+      "gulf": {
+       "ar": "رُز",
+       "rom": "ruz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رُز",
+       "rom": "ruz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رُّز",
        "rom": "rūz",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 73,
+     "num": 75,
      "cn": "鸡肉",
      "dialects": {
       "msa": {
@@ -1998,16 +2718,25 @@ const DATA = {
        "rom": "dajāj",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَجَاج",
+       "rom": "dajāj",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَجَاج",
+       "rom": "dajāj",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْجَاج",
        "rom": "djāj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 74,
+     "num": 76,
      "cn": "鱼",
      "dialects": {
       "msa": {
@@ -2025,16 +2754,25 @@ const DATA = {
        "rom": "samak",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَمَك",
+       "rom": "samak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَمَك",
+       "rom": "samak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حُوت",
        "rom": "ḥūt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 75,
+     "num": 77,
      "cn": "茶",
      "dialects": {
       "msa": {
@@ -2052,16 +2790,25 @@ const DATA = {
        "rom": "shāy",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَاي",
+       "rom": "shāy",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَاي",
+       "rom": "shāy",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَتَاي",
        "rom": "atāy",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 76,
+     "num": 78,
      "cn": "咖啡",
      "dialects": {
       "msa": {
@@ -2079,16 +2826,25 @@ const DATA = {
        "rom": "qahwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَهْوَة",
+       "rom": "qahwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَهْوَة",
+       "rom": "qahwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَهْوَة",
        "rom": "qahwa",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 77,
+     "num": 79,
      "cn": "好吃！",
      "dialects": {
       "msa": {
@@ -2106,16 +2862,25 @@ const DATA = {
        "rom": "ṭayyib",
        "note": ""
       },
+      "gulf": {
+       "ar": "طَيِّب！",
+       "rom": "ṭayyib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "طَيِّب！",
+       "rom": "ṭayyib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْنِين！",
        "rom": "bnīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 78,
+     "num": 80,
      "cn": "我吃饱了",
      "dialects": {
       "msa": {
@@ -2133,16 +2898,25 @@ const DATA = {
        "rom": "shabʿān",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَبْعَان",
+       "rom": "shabʿān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَبْعَان",
+       "rom": "shabʿān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْبْعَان",
        "rom": "shbʿān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 79,
+     "num": 81,
      "cn": "买单 / 结账",
      "dialects": {
       "msa": {
@@ -2160,16 +2934,25 @@ const DATA = {
        "rom": "al-ḥisāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "لْحِسَاب",
+       "rom": "al-ḥisāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لْحِسَاب",
+       "rom": "al-ḥisāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْحْسَاب",
        "rom": "l-ḥsāb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 80,
+     "num": 82,
      "cn": "太贵了",
      "dialects": {
       "msa": {
@@ -2187,16 +2970,25 @@ const DATA = {
        "rom": "hād ghālī ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا غالي وايد",
+       "rom": "hādhā ghālī wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا غالي هواية",
+       "rom": "hādhā ghālī hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا غَالِي بْزَّاف",
        "rom": "hādā ghālī bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 81,
+     "num": 83,
      "cn": "便宜一点",
      "dialects": {
       "msa": {
@@ -2214,16 +3006,25 @@ const DATA = {
        "rom": "naqqiṣ shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَقِّصْ شَوِي",
+       "rom": "naqqiṣ shway",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نقص شوية",
+       "rom": "naqqiṣ shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نَقَّصْ شْوِيَّة",
        "rom": "naqqaṣ shwiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 82,
+     "num": 84,
      "cn": "我不吃…",
      "dialects": {
       "msa": {
@@ -2241,16 +3042,25 @@ const DATA = {
        "rom": "mā bākulsh …",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا بَاكُلْش …",
+       "rom": "mā bākulsh …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا بَاكُلْش …",
+       "rom": "mā bākulsh …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا كْنَاكُلْش …",
        "rom": "mā kanākulsh …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 83,
+     "num": 85,
      "cn": "辣",
      "dialects": {
       "msa": {
@@ -2268,16 +3078,25 @@ const DATA = {
        "rom": "ḥār",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَار",
+       "rom": "ḥār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَار",
+       "rom": "ḥār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَار",
        "rom": "ḥār",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 84,
+     "num": 86,
      "cn": "请给我…",
      "dialects": {
       "msa": {
@@ -2295,16 +3114,25 @@ const DATA = {
        "rom": "ʿṭīnī …",
        "note": ""
       },
+      "gulf": {
+       "ar": "عْطِينِي …",
+       "rom": "ʿṭīnī …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عْطِينِي …",
+       "rom": "ʿṭīnī …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْطِينِي …",
        "rom": "ʿṭīnī …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 85,
+     "num": 87,
      "cn": "叉子",
      "dialects": {
       "msa": {
@@ -2322,16 +3150,25 @@ const DATA = {
        "rom": "shūka",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُوكَة",
+       "rom": "shūka",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُوكَة",
+       "rom": "shūka",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فُورْشِيتَة",
        "rom": "fūrshīta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 86,
+     "num": 88,
      "cn": "杯子",
      "dialects": {
       "msa": {
@@ -2349,13 +3186,22 @@ const DATA = {
        "rom": "kās",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَاس",
+       "rom": "kās",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَاس",
+       "rom": "kās",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاس",
        "rom": "kās",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -2363,7 +3209,7 @@ const DATA = {
    "title": "六、购物（10句）",
    "rows": [
     {
-     "num": 87,
+     "num": 89,
      "cn": "多少钱（询价）",
      "dialects": {
       "msa": {
@@ -2381,16 +3227,25 @@ const DATA = {
        "rom": "bikam hād",
        "note": ""
       },
+      "gulf": {
+       "ar": "بكم هذا؟",
+       "rom": "bikam hādhā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "بكم هذا؟",
+       "rom": "bikam hādhā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بْشْحَال هَادَا؟",
        "rom": "b-shḥāl hādā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 88,
+     "num": 90,
      "cn": "能便宜点吗？",
      "dialects": {
       "msa": {
@@ -2408,16 +3263,25 @@ const DATA = {
        "rom": "miqdūr arkhass",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور أَرْخَص؟",
+       "rom": "miqdūr arkhass",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور أَرْخَص؟",
+       "rom": "miqdūr arkhass",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُمْكِنْ أَقَلَّ؟",
        "rom": "mumkin aqall",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 89,
+     "num": 91,
      "cn": "我买这个",
      "dialects": {
       "msa": {
@@ -2435,16 +3299,25 @@ const DATA = {
        "rom": "raḥ ashtrī hād",
        "note": ""
       },
+      "gulf": {
+       "ar": "رح أشتري هذا",
+       "rom": "raḥ ashtrī hādhā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "رح أشتري هذا",
+       "rom": "raḥ ashtrī hādhā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "غَادِي نْشْرِي هَادَا",
        "rom": "ghādī nshri hādā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 90,
+     "num": 92,
      "cn": "有更大的吗？",
      "dialects": {
       "msa": {
@@ -2462,16 +3335,25 @@ const DATA = {
        "rom": "ʿindak akbar",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ أَكْبَر؟",
+       "rom": "ʿindak akbar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ أَكْبَر؟",
+       "rom": "ʿindak akbar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ أَكْبَر؟",
        "rom": "ʿandak akbar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 91,
+     "num": 93,
      "cn": "有更小的吗？",
      "dialects": {
       "msa": {
@@ -2489,16 +3371,25 @@ const DATA = {
        "rom": "ʿindak aṣghar",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ أَصْغَر؟",
+       "rom": "ʿindak aṣghar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ أَصْغَر؟",
+       "rom": "ʿindak aṣghar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ أَصْغَر؟",
        "rom": "ʿandak aṣghar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 92,
+     "num": 94,
      "cn": "试穿",
      "dialects": {
       "msa": {
@@ -2516,16 +3407,25 @@ const DATA = {
        "rom": "bjarribu",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْجَرِّبُه",
+       "rom": "bjarribu",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْجَرِّبُه",
+       "rom": "bjarribu",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْجَرِّبُو",
        "rom": "njarribū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 93,
+     "num": 95,
      "cn": "颜色",
      "dialects": {
       "msa": {
@@ -2543,16 +3443,25 @@ const DATA = {
        "rom": "lawn",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَوْن",
+       "rom": "lawn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَوْن",
+       "rom": "lawn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْوَن",
        "rom": "lwan",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 94,
+     "num": 96,
      "cn": "红色",
      "dialects": {
       "msa": {
@@ -2570,16 +3479,25 @@ const DATA = {
        "rom": "aḥmar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَحْمَر",
+       "rom": "aḥmar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَحْمَر",
+       "rom": "aḥmar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْمَار",
        "rom": "ḥmār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 95,
+     "num": 97,
      "cn": "蓝色",
      "dialects": {
       "msa": {
@@ -2597,16 +3515,25 @@ const DATA = {
        "rom": "azraq",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَزْرَق",
+       "rom": "azraq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَزْرَق",
+       "rom": "azraq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زْرْقَة",
        "rom": "zrqā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 96,
+     "num": 98,
      "cn": "商店",
      "dialects": {
       "msa": {
@@ -2624,13 +3551,22 @@ const DATA = {
        "rom": "maḥal",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَحَل",
+       "rom": "maḥal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَحَل",
+       "rom": "maḥal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَانُوت",
        "rom": "ḥānūt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -2638,7 +3574,7 @@ const DATA = {
    "title": "七、应急与求助（8句）",
    "rows": [
     {
-     "num": 97,
+     "num": 99,
      "cn": "帮帮我！",
      "dialects": {
       "msa": {
@@ -2656,16 +3592,25 @@ const DATA = {
        "rom": "sāʿidnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَاعِدْنِي！",
+       "rom": "sāʿidnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَاعِدْنِي！",
+       "rom": "sāʿidnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَاوْنِي！",
        "rom": "ʿāwnī",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 98,
+     "num": 100,
      "cn": "医生",
      "dialects": {
       "msa": {
@@ -2683,16 +3628,25 @@ const DATA = {
        "rom": "duktūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "دُكْتُور",
+       "rom": "duktūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دُكْتُور",
+       "rom": "duktūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "طَبِيب",
        "rom": "ṭabīb",
        "note": ""
       }
-     },
-     "common": "②（借 doctor）"
+     }
     },
     {
-     "num": 99,
+     "num": 101,
      "cn": "医院",
      "dialects": {
       "msa": {
@@ -2710,16 +3664,25 @@ const DATA = {
        "rom": "mustashfā",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُسْتَشْفَى",
+       "rom": "mustashfā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُسْتَشْفَى",
+       "rom": "mustashfā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْبِيتَار",
        "rom": "spītār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 100,
+     "num": 102,
      "cn": "警察",
      "dialects": {
       "msa": {
@@ -2737,16 +3700,25 @@ const DATA = {
        "rom": "shurṭī",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُرْطِي",
+       "rom": "shurṭī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُرْطِي",
+       "rom": "shurṭī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُولِيس",
        "rom": "būlīs",
        "note": ""
       }
-     },
-     "common": "②（借 police）"
+     }
     },
     {
-     "num": 101,
+     "num": 103,
      "cn": "我丢了…",
      "dialects": {
       "msa": {
@@ -2764,16 +3736,25 @@ const DATA = {
        "rom": "ḍāʿ minnī …",
        "note": ""
       },
+      "gulf": {
+       "ar": "ضَاعْ مِنِّي …",
+       "rom": "ḍāʿ minnī …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ضَاعْ مِنِّي …",
+       "rom": "ḍāʿ minnī …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "ضَاعْ مِنِّي …",
        "rom": "ḍāʿ minnī …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 102,
+     "num": 104,
      "cn": "护照",
      "dialects": {
       "msa": {
@@ -2791,16 +3772,25 @@ const DATA = {
        "rom": "jawāz as-safar",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَوَاز السَّفَر",
+       "rom": "jawāz as-safar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَوَاز السَّفَر",
+       "rom": "jawāz as-safar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَوَاز السَّفَر",
        "rom": "jawāz as-safar",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 103,
+     "num": 105,
      "cn": "救命！",
      "dialects": {
       "msa": {
@@ -2818,16 +3808,25 @@ const DATA = {
        "rom": "an-najda",
        "note": ""
       },
+      "gulf": {
+       "ar": "النَّجْدَة！",
+       "rom": "an-najda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "النَّجْدَة！",
+       "rom": "an-najda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنْقِذْنِي！",
        "rom": "anqiḍnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 104,
+     "num": 106,
      "cn": "我病了",
      "dialects": {
       "msa": {
@@ -2845,13 +3844,22 @@ const DATA = {
        "rom": "anā mrīḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مْرِيض",
+       "rom": "anā mrīḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مْرِيض",
+       "rom": "anā mrīḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مْرِيض",
        "rom": "anā mrīḍ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -2859,7 +3867,7 @@ const DATA = {
    "title": "八、时间与天气（8句）",
    "rows": [
     {
-     "num": 105,
+     "num": 107,
      "cn": "今天",
      "dialects": {
       "msa": {
@@ -2877,16 +3885,25 @@ const DATA = {
        "rom": "al-yōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "اليَوْم",
+       "rom": "al-yōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اليَوْم",
+       "rom": "al-yōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اليُومَا",
        "rom": "al-yūmā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 106,
+     "num": 108,
      "cn": "明天",
      "dialects": {
       "msa": {
@@ -2904,16 +3921,25 @@ const DATA = {
        "rom": "bukra",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُكْرَة",
+       "rom": "bukra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُكْرَة",
+       "rom": "bukra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غْدُوا",
        "rom": "ghduwa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 107,
+     "num": 109,
      "cn": "昨天",
      "dialects": {
       "msa": {
@@ -2931,16 +3957,25 @@ const DATA = {
        "rom": "mbārīḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْبَارِح",
+       "rom": "mbārīḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْبَارِح",
+       "rom": "mbārīḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْبَارْح",
        "rom": "l-bārḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 108,
+     "num": 110,
      "cn": "周几？",
      "dialects": {
       "msa": {
@@ -2958,16 +3993,25 @@ const DATA = {
        "rom": "ayyu yawm hādā",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَيُّ يَوْمْ هَادَا؟",
+       "rom": "ayyu yawm hādā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَيُّ يَوْمْ هَادَا؟",
+       "rom": "ayyu yawm hādā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَشْمِّ نْهَار؟",
        "rom": "āshmm nhār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 109,
+     "num": 111,
      "cn": "热",
      "dialects": {
       "msa": {
@@ -2985,16 +4029,25 @@ const DATA = {
        "rom": "ḥār",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَار",
+       "rom": "ḥār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَار",
+       "rom": "ḥār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْخُون",
        "rom": "skhūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 110,
+     "num": 112,
      "cn": "冷",
      "dialects": {
       "msa": {
@@ -3012,16 +4065,25 @@ const DATA = {
        "rom": "bārid",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَارْد",
+       "rom": "bārid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَارْد",
+       "rom": "bārid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْرِيد",
        "rom": "brīd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 111,
+     "num": 113,
      "cn": "下雨",
      "dialects": {
       "msa": {
@@ -3039,16 +4101,25 @@ const DATA = {
        "rom": "btmaṭṭar",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتْمَطَّر",
+       "rom": "btmaṭṭar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتْمَطَّر",
+       "rom": "btmaṭṭar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْشْتَا",
        "rom": "katshtā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 112,
+     "num": 114,
      "cn": "天气好",
      "dialects": {
       "msa": {
@@ -3066,13 +4137,22 @@ const DATA = {
        "rom": "al-jaw ḥalw",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَو حَلْو",
+       "rom": "al-jaw ḥalw",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَو حَلْو",
+       "rom": "al-jaw ḥalw",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَوْ زْوِين",
        "rom": "al-jaw zwīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -3080,7 +4160,7 @@ const DATA = {
    "title": "九、数字基础（8句）",
    "rows": [
     {
-     "num": 113,
+     "num": 115,
      "cn": "一",
      "dialects": {
       "msa": {
@@ -3098,16 +4178,25 @@ const DATA = {
        "rom": "waḥad",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَحْد",
+       "rom": "waḥad",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَحْد",
+       "rom": "waḥad",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاحِد",
        "rom": "wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 114,
+     "num": 116,
      "cn": "二",
      "dialects": {
       "msa": {
@@ -3125,16 +4214,25 @@ const DATA = {
        "rom": "tnēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْنِين",
+       "rom": "tnēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْنِين",
+       "rom": "tnēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوج",
        "rom": "jūj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 115,
+     "num": 117,
      "cn": "三",
      "dialects": {
       "msa": {
@@ -3152,16 +4250,25 @@ const DATA = {
        "rom": "tlāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَلَات",
+       "rom": "tlāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَلَات",
+       "rom": "tlāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْلَاتَة",
        "rom": "tlāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 116,
+     "num": 118,
      "cn": "五",
      "dialects": {
       "msa": {
@@ -3179,16 +4286,25 @@ const DATA = {
        "rom": "khams",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْمْسَة",
        "rom": "khmsa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 117,
+     "num": 119,
      "cn": "十",
      "dialects": {
       "msa": {
@@ -3206,16 +4322,25 @@ const DATA = {
        "rom": "ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَشْرَة",
        "rom": "ʿshra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 118,
+     "num": 120,
      "cn": "百",
      "dialects": {
       "msa": {
@@ -3233,16 +4358,25 @@ const DATA = {
        "rom": "miyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِيَّة",
        "rom": "miyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 119,
+     "num": 121,
      "cn": "一共多少钱？",
      "dialects": {
       "msa": {
@@ -3260,16 +4394,25 @@ const DATA = {
        "rom": "bikam al-kull",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِكَم الكُل؟",
+       "rom": "bikam al-kull",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِكَم الكُل؟",
+       "rom": "bikam al-kull",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْشْحَالْ الكُل؟",
        "rom": "b-shḥāl al-kull",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 120,
+     "num": 122,
      "cn": "找零",
      "dialects": {
       "msa": {
@@ -3287,13 +4430,22 @@ const DATA = {
        "rom": "al-fakka",
        "note": ""
       },
+      "gulf": {
+       "ar": "الفَكَّة",
+       "rom": "al-fakka",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الفَكَّة",
+       "rom": "al-fakka",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْفَكَّة",
        "rom": "l-fakka",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -3301,7 +4453,7 @@ const DATA = {
    "title": "十、数字与数量（约100句）",
    "rows": [
     {
-     "num": 121,
+     "num": 123,
      "cn": "一",
      "dialects": {
       "msa": {
@@ -3319,16 +4471,25 @@ const DATA = {
        "rom": "waḥad",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَحْد",
+       "rom": "waḥad",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَحْد",
+       "rom": "waḥad",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاحِد",
        "rom": "wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 122,
+     "num": 124,
      "cn": "二",
      "dialects": {
       "msa": {
@@ -3346,16 +4507,25 @@ const DATA = {
        "rom": "tnēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْنِين",
+       "rom": "tnēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْنِين",
+       "rom": "tnēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوج",
        "rom": "jūj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 123,
+     "num": 125,
      "cn": "三",
      "dialects": {
       "msa": {
@@ -3373,16 +4543,25 @@ const DATA = {
        "rom": "tlāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْلَات",
+       "rom": "tlāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْلَات",
+       "rom": "tlāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْلَاتَة",
        "rom": "tlāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 124,
+     "num": 126,
      "cn": "四",
      "dialects": {
       "msa": {
@@ -3400,16 +4579,25 @@ const DATA = {
        "rom": "arbaʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَرْبَع",
+       "rom": "arbaʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَرْبَع",
+       "rom": "arbaʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْبَعَة",
        "rom": "rbāʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 125,
+     "num": 127,
      "cn": "五",
      "dialects": {
       "msa": {
@@ -3427,16 +4615,25 @@ const DATA = {
        "rom": "khams",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْمْسَة",
        "rom": "khmsa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 126,
+     "num": 128,
      "cn": "六",
      "dialects": {
       "msa": {
@@ -3454,16 +4651,25 @@ const DATA = {
        "rom": "sitt",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِت",
+       "rom": "sitt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِت",
+       "rom": "sitt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِتَّة",
        "rom": "sitta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 127,
+     "num": 129,
      "cn": "七",
      "dialects": {
       "msa": {
@@ -3481,16 +4687,25 @@ const DATA = {
        "rom": "sabʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَبْع",
+       "rom": "sabʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَبْع",
+       "rom": "sabʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَبْعَة",
        "rom": "sabʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 128,
+     "num": 130,
      "cn": "八",
      "dialects": {
       "msa": {
@@ -3508,16 +4723,25 @@ const DATA = {
        "rom": "tmān",
        "note": ""
       },
+      "gulf": {
+       "ar": "ثْمَان",
+       "rom": "tmān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ثْمَان",
+       "rom": "tmān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْمَانِيَة",
        "rom": "tmāniya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 129,
+     "num": 131,
      "cn": "九",
      "dialects": {
       "msa": {
@@ -3535,16 +4759,25 @@ const DATA = {
        "rom": "tisʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِسْع",
+       "rom": "tisʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِسْع",
+       "rom": "tisʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْسَعَة",
        "rom": "tsaʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 130,
+     "num": 132,
      "cn": "十",
      "dialects": {
       "msa": {
@@ -3562,16 +4795,25 @@ const DATA = {
        "rom": "ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَشْرَة",
        "rom": "ʿshra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 131,
+     "num": 133,
      "cn": "十一",
      "dialects": {
       "msa": {
@@ -3589,16 +4831,25 @@ const DATA = {
        "rom": "ḥad ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَدْ عَشَر",
+       "rom": "ḥad ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَدْ عَشَر",
+       "rom": "ḥad ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْدَاش",
        "rom": "ḥdāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 132,
+     "num": 134,
      "cn": "十二",
      "dialects": {
       "msa": {
@@ -3616,16 +4867,25 @@ const DATA = {
        "rom": "tnēn ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْنِين عَشَر",
+       "rom": "tnēn ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْنِين عَشَر",
+       "rom": "tnēn ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْطَاش",
        "rom": "jūjṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 133,
+     "num": 135,
      "cn": "十三",
      "dialects": {
       "msa": {
@@ -3643,16 +4903,25 @@ const DATA = {
        "rom": "tlāt ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْلَات عَشَر",
+       "rom": "tlāt ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْلَات عَشَر",
+       "rom": "tlāt ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْلَاتْطَاش",
        "rom": "tlāṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 134,
+     "num": 136,
      "cn": "十四",
      "dialects": {
       "msa": {
@@ -3670,16 +4939,25 @@ const DATA = {
        "rom": "arbaʿ ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَرْبَع عَشَر",
+       "rom": "arbaʿ ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَرْبَع عَشَر",
+       "rom": "arbaʿ ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْبَعْطَاش",
        "rom": "rbāʿṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 135,
+     "num": 137,
      "cn": "十五",
      "dialects": {
       "msa": {
@@ -3697,16 +4975,25 @@ const DATA = {
        "rom": "khams ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَمْس عَشَر",
+       "rom": "khams ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَمْس عَشَر",
+       "rom": "khams ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْمْسْطَاش",
        "rom": "khmsṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 136,
+     "num": 138,
      "cn": "十六",
      "dialects": {
       "msa": {
@@ -3724,16 +5011,25 @@ const DATA = {
        "rom": "sitt ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِت عَشَر",
+       "rom": "sitt ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِت عَشَر",
+       "rom": "sitt ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْطَاش",
        "rom": "sṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 137,
+     "num": 139,
      "cn": "十七",
      "dialects": {
       "msa": {
@@ -3751,16 +5047,25 @@ const DATA = {
        "rom": "sabʿ ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَبْع عَشَر",
+       "rom": "sabʿ ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَبْع عَشَر",
+       "rom": "sabʿ ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْبَعْطَاش",
        "rom": "sbāʿṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 138,
+     "num": 140,
      "cn": "十八",
      "dialects": {
       "msa": {
@@ -3778,16 +5083,25 @@ const DATA = {
        "rom": "tmān ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "ثْمَان عَشَر",
+       "rom": "tmān ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ثْمَان عَشَر",
+       "rom": "tmān ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْمَانْطَاش",
        "rom": "tmānṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 139,
+     "num": 141,
      "cn": "十九",
      "dialects": {
       "msa": {
@@ -3805,16 +5119,25 @@ const DATA = {
        "rom": "tisʿ ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِسْع عَشَر",
+       "rom": "tisʿ ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِسْع عَشَر",
+       "rom": "tisʿ ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْسَعْطَاش",
        "rom": "tsāʿṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 140,
+     "num": 142,
      "cn": "二十",
      "dialects": {
       "msa": {
@@ -3832,16 +5155,25 @@ const DATA = {
        "rom": "ʿishrīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِشْرِين",
+       "rom": "ʿishrīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِشْرِين",
+       "rom": "ʿishrīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِشْرِين",
        "rom": "ʿshrīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 141,
+     "num": 143,
      "cn": "三十",
      "dialects": {
       "msa": {
@@ -3859,16 +5191,25 @@ const DATA = {
        "rom": "tlātīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْلَاتِين",
+       "rom": "tlātīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْلَاتِين",
+       "rom": "tlātīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْلَاتِين",
        "rom": "tlātīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 142,
+     "num": 144,
      "cn": "四十",
      "dialects": {
       "msa": {
@@ -3886,16 +5227,25 @@ const DATA = {
        "rom": "arbaʿīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَرْبَعِين",
+       "rom": "arbaʿīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَرْبَعِين",
+       "rom": "arbaʿīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْبَعِين",
        "rom": "rbāʿīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 143,
+     "num": 145,
      "cn": "五十",
      "dialects": {
       "msa": {
@@ -3913,16 +5263,25 @@ const DATA = {
        "rom": "khamsīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَمْسِين",
+       "rom": "khamsīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَمْسِين",
+       "rom": "khamsīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْمْسِين",
        "rom": "khmsīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 144,
+     "num": 146,
      "cn": "六十",
      "dialects": {
       "msa": {
@@ -3940,16 +5299,25 @@ const DATA = {
        "rom": "sittīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِتِّين",
+       "rom": "sittīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِتِّين",
+       "rom": "sittīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْتِين",
        "rom": "stīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 145,
+     "num": 147,
      "cn": "七十",
      "dialects": {
       "msa": {
@@ -3967,16 +5335,25 @@ const DATA = {
        "rom": "sabʿīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَبْعِين",
+       "rom": "sabʿīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَبْعِين",
+       "rom": "sabʿīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْبَعِين",
        "rom": "sbāʿīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 146,
+     "num": 148,
      "cn": "八十",
      "dialects": {
       "msa": {
@@ -3994,16 +5371,25 @@ const DATA = {
        "rom": "tmānīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "ثْمَانِين",
+       "rom": "tmānīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ثْمَانِين",
+       "rom": "tmānīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْمَانِين",
        "rom": "tmānīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 147,
+     "num": 149,
      "cn": "九十",
      "dialects": {
       "msa": {
@@ -4021,16 +5407,25 @@ const DATA = {
        "rom": "tisʿīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِسْعِين",
+       "rom": "tisʿīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِسْعِين",
+       "rom": "tisʿīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْسَعِين",
        "rom": "tsāʿīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 148,
+     "num": 150,
      "cn": "一百",
      "dialects": {
       "msa": {
@@ -4048,16 +5443,25 @@ const DATA = {
        "rom": "miyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِيَّة",
        "rom": "miyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 149,
+     "num": 151,
      "cn": "两百",
      "dialects": {
       "msa": {
@@ -4075,16 +5479,25 @@ const DATA = {
        "rom": "mītēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيتِين",
+       "rom": "mītēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيتِين",
+       "rom": "mītēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِيتِين",
        "rom": "mītēn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 150,
+     "num": 152,
      "cn": "一千",
      "dialects": {
       "msa": {
@@ -4102,16 +5515,25 @@ const DATA = {
        "rom": "alf",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَلْف",
+       "rom": "alf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَلْف",
+       "rom": "alf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَلْف",
        "rom": "alf",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 151,
+     "num": 153,
      "cn": "第一",
      "dialects": {
       "msa": {
@@ -4129,16 +5551,25 @@ const DATA = {
        "rom": "al-awwal",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأَوَّل",
+       "rom": "al-awwal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الأَوَّل",
+       "rom": "al-awwal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الأَوَّل",
        "rom": "l-awwal",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 152,
+     "num": 154,
      "cn": "第二",
      "dialects": {
       "msa": {
@@ -4156,16 +5587,25 @@ const DATA = {
        "rom": "it-tānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّانِي",
+       "rom": "it-tānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّانِي",
+       "rom": "it-tānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّانِي",
        "rom": "t-tānī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 153,
+     "num": 155,
      "cn": "第三",
      "dialects": {
       "msa": {
@@ -4183,16 +5623,25 @@ const DATA = {
        "rom": "it-tālt",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّالِت",
+       "rom": "it-tālt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّالِت",
+       "rom": "it-tālt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّالِت",
        "rom": "t-tālt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 154,
+     "num": 156,
      "cn": "第四",
      "dialects": {
       "msa": {
@@ -4210,16 +5659,25 @@ const DATA = {
        "rom": "ar-rābiʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "الرَّابِع",
+       "rom": "ar-rābiʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الرَّابِع",
+       "rom": "ar-rābiʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرَّابِع",
        "rom": "r-rābiʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 155,
+     "num": 157,
      "cn": "第五",
      "dialects": {
       "msa": {
@@ -4237,16 +5695,25 @@ const DATA = {
        "rom": "al-khāmis",
        "note": ""
       },
+      "gulf": {
+       "ar": "الخَامِس",
+       "rom": "al-khāmis",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الخَامِس",
+       "rom": "al-khāmis",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الخَامِس",
        "rom": "l-khāmis",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 156,
+     "num": 158,
      "cn": "第六",
      "dialects": {
       "msa": {
@@ -4264,16 +5731,25 @@ const DATA = {
        "rom": "as-sādis",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّادِس",
+       "rom": "as-sādis",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّادِس",
+       "rom": "as-sādis",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّادِس",
        "rom": "s-sādis",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 157,
+     "num": 159,
      "cn": "第七",
      "dialects": {
       "msa": {
@@ -4291,16 +5767,25 @@ const DATA = {
        "rom": "as-sābiʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّابِع",
+       "rom": "as-sābiʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّابِع",
+       "rom": "as-sābiʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّابِع",
        "rom": "s-sābiʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 158,
+     "num": 160,
      "cn": "第八",
      "dialects": {
       "msa": {
@@ -4318,16 +5803,25 @@ const DATA = {
        "rom": "it-tāmn",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّامِن",
+       "rom": "it-tāmn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّامِن",
+       "rom": "it-tāmn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّامِن",
        "rom": "t-tāmn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 159,
+     "num": 161,
      "cn": "第九",
      "dialects": {
       "msa": {
@@ -4345,16 +5839,25 @@ const DATA = {
        "rom": "it-tāsiʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّاسِع",
+       "rom": "it-tāsiʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّاسِع",
+       "rom": "it-tāsiʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّاسِع",
        "rom": "t-tāsiʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 160,
+     "num": 162,
      "cn": "第十",
      "dialects": {
       "msa": {
@@ -4372,16 +5875,25 @@ const DATA = {
        "rom": "al-ʿāshir",
        "note": ""
       },
+      "gulf": {
+       "ar": "العَاشِر",
+       "rom": "al-ʿāshir",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "العَاشِر",
+       "rom": "al-ʿāshir",
+       "note": ""
+      },
       "maghreb": {
        "ar": "العَاشِر",
        "rom": "l-ʿāshir",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 161,
+     "num": 163,
      "cn": "一半",
      "dialects": {
       "msa": {
@@ -4399,16 +5911,25 @@ const DATA = {
        "rom": "nuṣṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "نِصّ",
+       "rom": "nuṣṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نِصّ",
+       "rom": "nuṣṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نِصّ",
        "rom": "nuṣṣ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 162,
+     "num": 164,
      "cn": "双倍",
      "dialects": {
       "msa": {
@@ -4426,16 +5947,25 @@ const DATA = {
        "rom": "ḍaʿf",
        "note": ""
       },
+      "gulf": {
+       "ar": "ضِعْف",
+       "rom": "ḍaʿf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ضِعْف",
+       "rom": "ḍaʿf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "ضْعَف",
        "rom": "ḍʿaf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 163,
+     "num": 165,
      "cn": "一些",
      "dialects": {
       "msa": {
@@ -4453,16 +5983,25 @@ const DATA = {
        "rom": "shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَوِي",
+       "rom": "shway",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شوية",
+       "rom": "shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْوِيَّة",
        "rom": "shwiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 164,
+     "num": 166,
      "cn": "很多",
      "dialects": {
       "msa": {
@@ -4480,16 +6019,25 @@ const DATA = {
        "rom": "ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "وايد",
+       "rom": "wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هواية",
+       "rom": "hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بْزَّاف",
        "rom": "bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 165,
+     "num": 167,
      "cn": "很少/一点",
      "dialects": {
       "msa": {
@@ -4507,16 +6055,25 @@ const DATA = {
        "rom": "qlīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَلِيل",
+       "rom": "qlīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَلِيل",
+       "rom": "qlīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَلِيل",
        "rom": "qlīl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 166,
+     "num": 168,
      "cn": "足够",
      "dialects": {
       "msa": {
@@ -4534,16 +6091,25 @@ const DATA = {
        "rom": "kfāya",
        "note": ""
       },
+      "gulf": {
+       "ar": "كْفَايَة",
+       "rom": "kfāya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كْفَايَة",
+       "rom": "kfāya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْفَايَة",
        "rom": "kfāya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 167,
+     "num": 169,
      "cn": "更多",
      "dialects": {
       "msa": {
@@ -4561,16 +6127,25 @@ const DATA = {
        "rom": "aktar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكْتَر",
+       "rom": "aktar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكْتَر",
+       "rom": "aktar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زَايِد",
        "rom": "zāyid",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 168,
+     "num": 170,
      "cn": "更少",
      "dialects": {
       "msa": {
@@ -4588,16 +6163,25 @@ const DATA = {
        "rom": "aql",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَقَل",
+       "rom": "aql",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَقَل",
+       "rom": "aql",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَقَل",
        "rom": "aql",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 169,
+     "num": 171,
      "cn": "全部",
      "dialects": {
       "msa": {
@@ -4615,16 +6199,25 @@ const DATA = {
        "rom": "kull",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُل",
+       "rom": "kull",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُل",
+       "rom": "kull",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكُل",
        "rom": "l-kull",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 170,
+     "num": 172,
      "cn": "零",
      "dialects": {
       "msa": {
@@ -4642,16 +6235,25 @@ const DATA = {
        "rom": "ṣifr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صِفْر",
+       "rom": "ṣifr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صِفْر",
+       "rom": "ṣifr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صِفْر",
        "rom": "ṣifr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 171,
+     "num": 173,
      "cn": "多少？",
      "dialects": {
       "msa": {
@@ -4669,16 +6271,25 @@ const DATA = {
        "rom": "kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم؟",
+       "rom": "kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم؟",
+       "rom": "kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَال؟",
        "rom": "shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 172,
+     "num": 174,
      "cn": "几个？",
      "dialects": {
       "msa": {
@@ -4696,16 +6307,25 @@ const DATA = {
        "rom": "kam shī",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم شِي؟",
+       "rom": "kam shī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم شِي؟",
+       "rom": "kam shī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَال حَاجَة؟",
        "rom": "shḥāl ḥāja",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 173,
+     "num": 175,
      "cn": "5块",
      "dialects": {
       "msa": {
@@ -4723,16 +6343,25 @@ const DATA = {
        "rom": "khams",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَمْس",
+       "rom": "khams",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْمْسَة",
        "rom": "khmsa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 174,
+     "num": 176,
      "cn": "10块",
      "dialects": {
       "msa": {
@@ -4750,16 +6379,25 @@ const DATA = {
        "rom": "ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَشْر",
+       "rom": "ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَشْرَة",
        "rom": "ʿshra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 175,
+     "num": 177,
      "cn": "100块",
      "dialects": {
       "msa": {
@@ -4777,16 +6415,25 @@ const DATA = {
        "rom": "miyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيَّة",
+       "rom": "miyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِيَّة",
        "rom": "miyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 176,
+     "num": 178,
      "cn": "1点",
      "dialects": {
       "msa": {
@@ -4804,16 +6451,25 @@ const DATA = {
        "rom": "as-sāʿa waḥda",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة وَحْدَة",
+       "rom": "as-sāʿa waḥda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة وَحْدَة",
+       "rom": "as-sāʿa waḥda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة وَاحِدَة",
        "rom": "s-sāʿa wāḥda",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 177,
+     "num": 179,
      "cn": "2点",
      "dialects": {
       "msa": {
@@ -4831,16 +6487,25 @@ const DATA = {
        "rom": "as-sāʿa tnēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة تْنِين",
+       "rom": "as-sāʿa tnēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة تْنِين",
+       "rom": "as-sāʿa tnēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة جُوج",
        "rom": "s-sāʿa jūj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 178,
+     "num": 180,
      "cn": "3点",
      "dialects": {
       "msa": {
@@ -4858,16 +6523,25 @@ const DATA = {
        "rom": "as-sāʿa tlāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة تْلَات",
+       "rom": "as-sāʿa tlāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة تْلَات",
+       "rom": "as-sāʿa tlāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة تْلَاتَة",
        "rom": "s-sāʿa tlāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 179,
+     "num": 181,
      "cn": "4点",
      "dialects": {
       "msa": {
@@ -4885,16 +6559,25 @@ const DATA = {
        "rom": "as-sāʿa arbaʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة أَرْبَع",
+       "rom": "as-sāʿa arbaʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة أَرْبَع",
+       "rom": "as-sāʿa arbaʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة رْبَعَة",
        "rom": "s-sāʿa rbāʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 180,
+     "num": 182,
      "cn": "5点",
      "dialects": {
       "msa": {
@@ -4912,16 +6595,25 @@ const DATA = {
        "rom": "as-sāʿa khams",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة خَمْس",
+       "rom": "as-sāʿa khams",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة خَمْس",
+       "rom": "as-sāʿa khams",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة خْمْسَة",
        "rom": "s-sāʿa khmsa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 181,
+     "num": 183,
      "cn": "6点",
      "dialects": {
       "msa": {
@@ -4939,16 +6631,25 @@ const DATA = {
        "rom": "as-sāʿa sitt",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة سِت",
+       "rom": "as-sāʿa sitt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة سِت",
+       "rom": "as-sāʿa sitt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة سِتَّة",
        "rom": "s-sāʿa sitta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 182,
+     "num": 184,
      "cn": "7点",
      "dialects": {
       "msa": {
@@ -4966,16 +6667,25 @@ const DATA = {
        "rom": "as-sāʿa sabʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة سَبْع",
+       "rom": "as-sāʿa sabʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة سَبْع",
+       "rom": "as-sāʿa sabʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة سَبْعَة",
        "rom": "s-sāʿa sabʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 183,
+     "num": 185,
      "cn": "8点",
      "dialects": {
       "msa": {
@@ -4993,16 +6703,25 @@ const DATA = {
        "rom": "as-sāʿa tmān",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة ثْمَان",
+       "rom": "as-sāʿa tmān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة ثْمَان",
+       "rom": "as-sāʿa tmān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة تْمَانِيَة",
        "rom": "s-sāʿa tmāniya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 184,
+     "num": 186,
      "cn": "9点",
      "dialects": {
       "msa": {
@@ -5020,16 +6739,25 @@ const DATA = {
        "rom": "as-sāʿa tisʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة تِسْع",
+       "rom": "as-sāʿa tisʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة تِسْع",
+       "rom": "as-sāʿa tisʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة تْسَعَة",
        "rom": "s-sāʿa tsaʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 185,
+     "num": 187,
      "cn": "10点",
      "dialects": {
       "msa": {
@@ -5047,16 +6775,25 @@ const DATA = {
        "rom": "as-sāʿa ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة عَشْر",
+       "rom": "as-sāʿa ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة عَشْر",
+       "rom": "as-sāʿa ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة عَشْرَة",
        "rom": "s-sāʿa ʿshra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 186,
+     "num": 188,
      "cn": "11点",
      "dialects": {
       "msa": {
@@ -5074,16 +6811,25 @@ const DATA = {
        "rom": "as-sāʿa ḥad ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة حَدْ عَشَر",
+       "rom": "as-sāʿa ḥad ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة حَدْ عَشَر",
+       "rom": "as-sāʿa ḥad ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة حْدَاش",
        "rom": "s-sāʿa ḥdāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 187,
+     "num": 189,
      "cn": "12点",
      "dialects": {
       "msa": {
@@ -5101,16 +6847,25 @@ const DATA = {
        "rom": "as-sāʿa tnēn ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "السَّاعَة تْنِين عَشَر",
+       "rom": "as-sāʿa tnēn ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "السَّاعَة تْنِين عَشَر",
+       "rom": "as-sāʿa tnēn ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّاعَة جُوجْطَاش",
        "rom": "s-sāʿa jūjṭāsh",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 188,
+     "num": 190,
      "cn": "几点？",
      "dialects": {
       "msa": {
@@ -5128,16 +6883,25 @@ const DATA = {
        "rom": "qaddēsh as-sāʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "كم الساعة؟",
+       "rom": "kam as-sāʿa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "كم الساعة؟",
+       "rom": "kam as-sāʿa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْحَالْ فِي السَّاعَة؟",
        "rom": "shḥāl fī s-sāʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 189,
+     "num": 191,
      "cn": "半天",
      "dialects": {
       "msa": {
@@ -5155,16 +6919,25 @@ const DATA = {
        "rom": "nuṣṣ yōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "نِصّ يُوم",
+       "rom": "nuṣṣ yōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نِصّ يُوم",
+       "rom": "nuṣṣ yōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نِصّ نْهَار",
        "rom": "nuṣṣ nhār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 190,
+     "num": 192,
      "cn": "一天",
      "dialects": {
       "msa": {
@@ -5182,16 +6955,25 @@ const DATA = {
        "rom": "yōm wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "يُوم وَاحِد",
+       "rom": "yōm wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يُوم وَاحِد",
+       "rom": "yōm wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْهَار وَاحِد",
        "rom": "nhār wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 191,
+     "num": 193,
      "cn": "两天",
      "dialects": {
       "msa": {
@@ -5209,16 +6991,25 @@ const DATA = {
        "rom": "yōmēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "يُومَين",
+       "rom": "yōmēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يُومَين",
+       "rom": "yōmēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْ دْ نْهَار",
        "rom": "jūj d nhār",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 192,
+     "num": 194,
      "cn": "几天？",
      "dialects": {
       "msa": {
@@ -5236,16 +7027,25 @@ const DATA = {
        "rom": "kam yōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم يُوم؟",
+       "rom": "kam yōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم يُوم؟",
+       "rom": "kam yōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ نْهَار؟",
        "rom": "shḥāl nhār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 193,
+     "num": 195,
      "cn": "一周",
      "dialects": {
       "msa": {
@@ -5263,16 +7063,25 @@ const DATA = {
        "rom": "isbūʿ wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُسْبُوع وَاحِد",
+       "rom": "isbūʿ wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُسْبُوع وَاحِد",
+       "rom": "isbūʿ wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِيمَانَة وَحْدَة",
        "rom": "sīmāna waḥda",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 194,
+     "num": 196,
      "cn": "两周",
      "dialects": {
       "msa": {
@@ -5290,16 +7099,25 @@ const DATA = {
        "rom": "isbūʿēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُسْبُوعَين",
+       "rom": "isbūʿēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُسْبُوعَين",
+       "rom": "isbūʿēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْ دْ سِيمَانَات",
        "rom": "jūj d sīmānāt",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 195,
+     "num": 197,
      "cn": "几周？",
      "dialects": {
       "msa": {
@@ -5317,16 +7135,25 @@ const DATA = {
        "rom": "kam isbūʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم أُسْبُوع؟",
+       "rom": "kam isbūʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم أُسْبُوع؟",
+       "rom": "kam isbūʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ سِيمَانَة؟",
        "rom": "shḥāl sīmāna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 196,
+     "num": 198,
      "cn": "一个月",
      "dialects": {
       "msa": {
@@ -5344,16 +7171,25 @@ const DATA = {
        "rom": "shahr wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَهْر وَاحِد",
+       "rom": "shahr wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَهْر وَاحِد",
+       "rom": "shahr wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَهْر وَاحِد",
        "rom": "shahr wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 197,
+     "num": 199,
      "cn": "两个月",
      "dialects": {
       "msa": {
@@ -5371,16 +7207,25 @@ const DATA = {
        "rom": "shahrēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَهْرَين",
+       "rom": "shahrēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَهْرَين",
+       "rom": "shahrēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْ دْ شُهُور",
        "rom": "jūj d shhūr",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 198,
+     "num": 200,
      "cn": "几个月？",
      "dialects": {
       "msa": {
@@ -5398,16 +7243,25 @@ const DATA = {
        "rom": "kam shahr",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم شَهْر؟",
+       "rom": "kam shahr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم شَهْر؟",
+       "rom": "kam shahr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ شَهْر؟",
        "rom": "shḥāl shahr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 199,
+     "num": 201,
      "cn": "一年",
      "dialects": {
       "msa": {
@@ -5425,16 +7279,25 @@ const DATA = {
        "rom": "sana waḥda",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَنَة وَحْدَة",
+       "rom": "sana waḥda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَنَة وَحْدَة",
+       "rom": "sana waḥda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَام وَاحِد",
        "rom": "ʿām wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 200,
+     "num": 202,
      "cn": "两年",
      "dialects": {
       "msa": {
@@ -5452,16 +7315,25 @@ const DATA = {
        "rom": "sanatēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَنَتَين",
+       "rom": "sanatēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَنَتَين",
+       "rom": "sanatēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْ دْ عَام",
        "rom": "jūj d ʿām",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 201,
+     "num": 203,
      "cn": "几年？",
      "dialects": {
       "msa": {
@@ -5479,16 +7351,25 @@ const DATA = {
        "rom": "kam sana",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم سَنَة؟",
+       "rom": "kam sana",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم سَنَة؟",
+       "rom": "kam sana",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ عَام؟",
        "rom": "shḥāl ʿām",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 202,
+     "num": 204,
      "cn": "第一个",
      "dialects": {
       "msa": {
@@ -5506,16 +7387,25 @@ const DATA = {
        "rom": "al-awwal",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأَوَّل",
+       "rom": "al-awwal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الأَوَّل",
+       "rom": "al-awwal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الأَوَّل",
        "rom": "l-awwal",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 203,
+     "num": 205,
      "cn": "最后一个",
      "dialects": {
       "msa": {
@@ -5533,16 +7423,25 @@ const DATA = {
        "rom": "al-akhīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأَخِير",
+       "rom": "al-akhīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الأَخِير",
+       "rom": "al-akhīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الآخِر",
        "rom": "l-ākhar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 204,
+     "num": 206,
      "cn": "第三个",
      "dialects": {
       "msa": {
@@ -5560,16 +7459,25 @@ const DATA = {
        "rom": "it-tālt",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّالِت",
+       "rom": "it-tālt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّالِت",
+       "rom": "it-tālt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّالِت",
        "rom": "t-tālt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 205,
+     "num": 207,
      "cn": "多少人？",
      "dialects": {
       "msa": {
@@ -5587,16 +7495,25 @@ const DATA = {
        "rom": "kam shakhṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم شَخْص؟",
+       "rom": "kam shakhṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم شَخْص؟",
+       "rom": "kam shakhṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ دْ النَّاس؟",
        "rom": "shḥāl d an-nās",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 206,
+     "num": 208,
      "cn": "一杯",
      "dialects": {
       "msa": {
@@ -5614,16 +7531,25 @@ const DATA = {
        "rom": "kās wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَاس وَاحِد",
+       "rom": "kās wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَاس وَاحِد",
+       "rom": "kās wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاس وَاحِد",
        "rom": "kās wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 207,
+     "num": 209,
      "cn": "两杯",
      "dialects": {
       "msa": {
@@ -5641,16 +7567,25 @@ const DATA = {
        "rom": "kāsēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَاسَين",
+       "rom": "kāsēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَاسَين",
+       "rom": "kāsēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُوجْ دْ كَاسَات",
        "rom": "jūj d kāsāt",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 208,
+     "num": 210,
      "cn": "一瓶",
      "dialects": {
       "msa": {
@@ -5668,16 +7603,25 @@ const DATA = {
        "rom": "qanīna wāḥida",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَنِّينَة وَاحِدَة",
+       "rom": "qanīna wāḥida",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَنِّينَة وَاحِدَة",
+       "rom": "qanīna wāḥida",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَارُورَة وَحْدَة",
        "rom": "qārūra waḥda",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 209,
+     "num": 211,
      "cn": "一公斤",
      "dialects": {
       "msa": {
@@ -5695,16 +7639,25 @@ const DATA = {
        "rom": "kīlū wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "كِيلُو وَاحِد",
+       "rom": "kīlū wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كِيلُو وَاحِد",
+       "rom": "kīlū wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كِيلُو وَاحِد",
        "rom": "kīlū wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 210,
+     "num": 212,
      "cn": "几公斤？",
      "dialects": {
       "msa": {
@@ -5722,16 +7675,25 @@ const DATA = {
        "rom": "kam kīlū",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَم كِيلُو؟",
+       "rom": "kam kīlū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَم كِيلُو؟",
+       "rom": "kam kīlū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ كِيلُو؟",
        "rom": "shḥāl kīlū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 211,
+     "num": 213,
      "cn": "一共多少？",
      "dialects": {
       "msa": {
@@ -5749,16 +7711,25 @@ const DATA = {
        "rom": "al-kull kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكُل كَم؟",
+       "rom": "al-kull kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكُل كَم؟",
+       "rom": "al-kull kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكُل شْحَال؟",
        "rom": "al-kull shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 212,
+     "num": 214,
      "cn": "加5",
      "dialects": {
       "msa": {
@@ -5776,16 +7747,25 @@ const DATA = {
        "rom": "zīd khams",
        "note": ""
       },
+      "gulf": {
+       "ar": "زِيد خَمْس",
+       "rom": "zīd khams",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زِيد خَمْس",
+       "rom": "zīd khams",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زِيد خْمْسَة",
        "rom": "zīd khmsa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 213,
+     "num": 215,
      "cn": "减3",
      "dialects": {
       "msa": {
@@ -5803,16 +7783,25 @@ const DATA = {
        "rom": "nāqiṣ tlāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَاقِص تْلَات",
+       "rom": "nāqiṣ tlāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَاقِص تْلَات",
+       "rom": "nāqiṣ tlāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نَاقِص تْلَاتَة",
        "rom": "nāqiṣ tlāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 214,
+     "num": 216,
      "cn": "每个",
      "dialects": {
       "msa": {
@@ -5830,16 +7819,25 @@ const DATA = {
        "rom": "kull wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُل وَاحِد",
+       "rom": "kull wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُل وَاحِد",
+       "rom": "kull wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُل وَحْدَة",
        "rom": "kull waḥda",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 215,
+     "num": 217,
      "cn": "第几次？",
      "dialects": {
       "msa": {
@@ -5857,16 +7855,25 @@ const DATA = {
        "rom": "ayyu marra",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَيُّ مَرَّة؟",
+       "rom": "ayyu marra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَيُّ مَرَّة؟",
+       "rom": "ayyu marra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ مَرَّة؟",
        "rom": "shḥāl marra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 216,
+     "num": 218,
      "cn": "大约/约",
      "dialects": {
       "msa": {
@@ -5884,16 +7891,25 @@ const DATA = {
        "rom": "taqrīban",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَقْرِيباً",
+       "rom": "taqrīban",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَقْرِيباً",
+       "rom": "taqrīban",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْقْرِيباً",
        "rom": "taqrīban",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 217,
+     "num": 219,
      "cn": "十几（10多个）",
      "dialects": {
       "msa": {
@@ -5911,16 +7927,25 @@ const DATA = {
        "rom": "aktar min ʿashar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكْتَر مِن عَشْر",
+       "rom": "aktar min ʿashar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكْتَر مِن عَشْر",
+       "rom": "aktar min ʿashar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زَايِد عَلَى عَشْرَة",
        "rom": "zāyid ʿla ʿshra",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 218,
+     "num": 220,
      "cn": "几十",
      "dialects": {
       "msa": {
@@ -5938,16 +7963,25 @@ const DATA = {
        "rom": "ʿasharāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَشَرَات",
+       "rom": "ʿasharāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَشَرَات",
+       "rom": "ʿasharāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَشَرَات",
        "rom": "ʿasharāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 219,
+     "num": 221,
      "cn": "上百",
      "dialects": {
       "msa": {
@@ -5965,16 +7999,25 @@ const DATA = {
        "rom": "miyāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيَّات",
+       "rom": "miyāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيَّات",
+       "rom": "miyāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِيَّات",
        "rom": "miyāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 220,
+     "num": 222,
      "cn": "每星期",
      "dialects": {
       "msa": {
@@ -5992,13 +8035,22 @@ const DATA = {
        "rom": "kull isbūʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُل أُسْبُوع",
+       "rom": "kull isbūʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُل أُسْبُوع",
+       "rom": "kull isbūʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُلّ سِيمَانَة",
        "rom": "kull sīmāna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -6006,7 +8058,7 @@ const DATA = {
    "title": "十一、身体与健康（约90句）",
    "rows": [
     {
-     "num": 221,
+     "num": 223,
      "cn": "头",
      "dialects": {
       "msa": {
@@ -6024,16 +8076,25 @@ const DATA = {
        "rom": "rās",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَاس",
+       "rom": "rās",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَاس",
+       "rom": "rās",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاس",
        "rom": "rās",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 222,
+     "num": 224,
      "cn": "头发",
      "dialects": {
       "msa": {
@@ -6051,16 +8112,25 @@ const DATA = {
        "rom": "sha'r",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَعْر",
+       "rom": "sha'r",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَعْر",
+       "rom": "sha'r",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْعْر",
        "rom": "shʿr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 223,
+     "num": 225,
      "cn": "脸",
      "dialects": {
       "msa": {
@@ -6078,16 +8148,25 @@ const DATA = {
        "rom": "wajh",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَجْه",
+       "rom": "wajh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَجْه",
+       "rom": "wajh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وُجْه",
        "rom": "wujh",
        "note": ""
       }
-     },
-     "common": "②（埃及 وش）"
+     }
     },
     {
-     "num": 224,
+     "num": 226,
      "cn": "眼睛",
      "dialects": {
       "msa": {
@@ -6105,16 +8184,25 @@ const DATA = {
        "rom": "ʿēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِين",
+       "rom": "ʿēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِين",
+       "rom": "ʿēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِين",
        "rom": "ʿīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 225,
+     "num": 227,
      "cn": "耳朵",
      "dialects": {
       "msa": {
@@ -6132,16 +8220,25 @@ const DATA = {
        "rom": "wudn",
        "note": ""
       },
+      "gulf": {
+       "ar": "وُدْن",
+       "rom": "wudn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وُدْن",
+       "rom": "wudn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وُذُن",
        "rom": "wudhn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 226,
+     "num": 228,
      "cn": "鼻子",
      "dialects": {
       "msa": {
@@ -6159,16 +8256,25 @@ const DATA = {
        "rom": "mnākhīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنَاخِير",
+       "rom": "mnākhīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنَاخِير",
+       "rom": "mnākhīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نِيف",
        "rom": "nīf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 227,
+     "num": 229,
      "cn": "嘴",
      "dialects": {
       "msa": {
@@ -6186,16 +8292,25 @@ const DATA = {
        "rom": "fam",
        "note": ""
       },
+      "gulf": {
+       "ar": "فَم",
+       "rom": "fam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فَم",
+       "rom": "fam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فُوم",
        "rom": "fūm",
        "note": ""
       }
-     },
-     "common": "②（埃及 بوق）"
+     }
     },
     {
-     "num": 228,
+     "num": 230,
      "cn": "牙齿",
      "dialects": {
       "msa": {
@@ -6213,16 +8328,25 @@ const DATA = {
        "rom": "sinn",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِنّ",
+       "rom": "sinn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِنّ",
+       "rom": "sinn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِنّ",
        "rom": "sinn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 229,
+     "num": 231,
      "cn": "舌头",
      "dialects": {
       "msa": {
@@ -6240,16 +8364,25 @@ const DATA = {
        "rom": "lisān",
        "note": ""
       },
+      "gulf": {
+       "ar": "لِسَان",
+       "rom": "lisān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لِسَان",
+       "rom": "lisān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْسَان",
        "rom": "lsān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 230,
+     "num": 232,
      "cn": "脖子/颈",
      "dialects": {
       "msa": {
@@ -6267,16 +8400,25 @@ const DATA = {
        "rom": "raqaba",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَقَبَة",
+       "rom": "raqaba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَقَبَة",
+       "rom": "raqaba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْقَبَة",
        "rom": "rqaba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 231,
+     "num": 233,
      "cn": "肩膀",
      "dialects": {
       "msa": {
@@ -6294,16 +8436,25 @@ const DATA = {
        "rom": "katif",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَتِف",
+       "rom": "katif",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَتِف",
+       "rom": "katif",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْتِف",
        "rom": "ktif",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 232,
+     "num": 234,
      "cn": "手臂",
      "dialects": {
       "msa": {
@@ -6321,16 +8472,25 @@ const DATA = {
        "rom": "dirāʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "دِرَاع",
+       "rom": "dirāʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دِرَاع",
+       "rom": "dirāʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْرَاع",
        "rom": "drāʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 233,
+     "num": 235,
      "cn": "手",
      "dialects": {
       "msa": {
@@ -6348,16 +8508,25 @@ const DATA = {
        "rom": "īd",
        "note": ""
       },
+      "gulf": {
+       "ar": "إِيد",
+       "rom": "īd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إِيد",
+       "rom": "īd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يِد",
        "rom": "yid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 234,
+     "num": 236,
      "cn": "手指",
      "dialects": {
       "msa": {
@@ -6375,16 +8544,25 @@ const DATA = {
        "rom": "ṣabbāʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَبَّاع",
+       "rom": "ṣabbāʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَبَّاع",
+       "rom": "ṣabbāʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَبَاع",
        "rom": "ṣbāʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 235,
+     "num": 237,
      "cn": "胸口/胸",
      "dialects": {
       "msa": {
@@ -6402,16 +8580,25 @@ const DATA = {
        "rom": "ṣadr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَدْر",
+       "rom": "ṣadr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَدْر",
+       "rom": "ṣadr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْدْر",
        "rom": "ṣdr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 236,
+     "num": 238,
      "cn": "肚子/胃",
      "dialects": {
       "msa": {
@@ -6429,16 +8616,25 @@ const DATA = {
        "rom": "baṭn",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَطْن",
+       "rom": "baṭn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَطْن",
+       "rom": "baṭn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَرْش",
        "rom": "krish",
        "note": ""
       }
-     },
-     "common": "②（马格里布 كرش）"
+     }
     },
     {
-     "num": 237,
+     "num": 239,
      "cn": "背",
      "dialects": {
       "msa": {
@@ -6456,16 +8652,25 @@ const DATA = {
        "rom": "ḍahr",
        "note": ""
       },
+      "gulf": {
+       "ar": "ضَهْر",
+       "rom": "ḍahr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ضَهْر",
+       "rom": "ḍahr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "ضْهَر",
        "rom": "ḍhar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 238,
+     "num": 240,
      "cn": "腿",
      "dialects": {
       "msa": {
@@ -6483,16 +8688,25 @@ const DATA = {
        "rom": "rijl",
        "note": ""
       },
+      "gulf": {
+       "ar": "رِجْل",
+       "rom": "rijl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رِجْل",
+       "rom": "rijl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رِجْل",
        "rom": "rijl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 239,
+     "num": 241,
      "cn": "脚",
      "dialects": {
       "msa": {
@@ -6510,16 +8724,25 @@ const DATA = {
        "rom": "qadam",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَدَم",
+       "rom": "qadam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَدَم",
+       "rom": "qadam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رِجْل",
        "rom": "rijl",
        "note": ""
       }
-     },
-     "common": "②（埃及 رجل 同腿）"
+     }
     },
     {
-     "num": 240,
+     "num": 242,
      "cn": "膝盖",
      "dialects": {
       "msa": {
@@ -6537,16 +8760,25 @@ const DATA = {
        "rom": "rukba",
        "note": ""
       },
+      "gulf": {
+       "ar": "رُكْبَة",
+       "rom": "rukba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رُكْبَة",
+       "rom": "rukba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْكْبَة",
        "rom": "rkba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 241,
+     "num": 243,
      "cn": "心脏",
      "dialects": {
       "msa": {
@@ -6564,16 +8796,25 @@ const DATA = {
        "rom": "qalb",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَلْب",
+       "rom": "qalb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَلْب",
+       "rom": "qalb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قْلْب",
        "rom": "qlb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 242,
+     "num": 244,
      "cn": "血",
      "dialects": {
       "msa": {
@@ -6591,16 +8832,25 @@ const DATA = {
        "rom": "dam",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَم",
+       "rom": "dam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَم",
+       "rom": "dam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْم",
        "rom": "dm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 243,
+     "num": 245,
      "cn": "骨头",
      "dialects": {
       "msa": {
@@ -6618,16 +8868,25 @@ const DATA = {
        "rom": "ʿaẓm",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَظْم",
+       "rom": "ʿaẓm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَظْم",
+       "rom": "ʿaẓm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْظْم",
        "rom": "ʿẓm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 244,
+     "num": 246,
      "cn": "我病了",
      "dialects": {
       "msa": {
@@ -6645,16 +8904,25 @@ const DATA = {
        "rom": "anā mrīḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مْرِيض",
+       "rom": "anā mrīḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مْرِيض",
+       "rom": "anā mrīḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مْرِيض",
        "rom": "anā mrīḍ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 245,
+     "num": 247,
      "cn": "我不舒服",
      "dialects": {
       "msa": {
@@ -6672,16 +8940,25 @@ const DATA = {
        "rom": "anā mish mnīḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا مو زين",
+       "rom": "anā mū zayn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا مو زين",
+       "rom": "anā mū zayn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "رَانِي مَا بِخِير",
        "rom": "rānī mā bkhīr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 246,
+     "num": 248,
      "cn": "头痛",
      "dialects": {
       "msa": {
@@ -6699,16 +8976,25 @@ const DATA = {
        "rom": "rāsī bwajjaʿnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَاسِي بْوَجَّعْنِي",
+       "rom": "rāsī bwajjaʿnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَاسِي بْوَجَّعْنِي",
+       "rom": "rāsī bwajjaʿnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاسِي كَيْوَجَّعْنِي",
        "rom": "rāsī kīwajjaʿnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 247,
+     "num": 249,
      "cn": "发烧",
      "dialects": {
       "msa": {
@@ -6726,16 +9012,25 @@ const DATA = {
        "rom": "ʿandī ḥarāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي حَرَارَة",
+       "rom": "ʿandī ḥarāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي حَرَارَة",
+       "rom": "ʿandī ḥarāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي سْخَانَة",
        "rom": "ʿandī skhāna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 248,
+     "num": 250,
      "cn": "咳嗽",
      "dialects": {
       "msa": {
@@ -6753,16 +9048,25 @@ const DATA = {
        "rom": "ʿandī suʿāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي سُعَال",
+       "rom": "ʿandī suʿāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي سُعَال",
+       "rom": "ʿandī suʿāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي كْحَال",
        "rom": "ʿandī kḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 249,
+     "num": 251,
      "cn": "感冒/着凉",
      "dialects": {
       "msa": {
@@ -6780,16 +9084,25 @@ const DATA = {
        "rom": "ʿandī zukām",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي زُكَام",
+       "rom": "ʿandī zukām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي زُكَام",
+       "rom": "ʿandī zukām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي رُوب",
        "rom": "ʿandī rūb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 250,
+     "num": 252,
      "cn": "拉肚子/腹泻",
      "dialects": {
       "msa": {
@@ -6807,16 +9120,25 @@ const DATA = {
        "rom": "ʿandī ishāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي إِسْهَال",
+       "rom": "ʿandī ishāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي إِسْهَال",
+       "rom": "ʿandī ishāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي إِسْهَال",
        "rom": "ʿandī ishāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 251,
+     "num": 253,
      "cn": "累/疲倦",
      "dialects": {
       "msa": {
@@ -6834,16 +9156,25 @@ const DATA = {
        "rom": "anā taʿbān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا تْعْبَان",
+       "rom": "anā taʿbān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا تْعْبَان",
+       "rom": "anā taʿbān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا تْعْبَان",
        "rom": "anā taʿbān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 252,
+     "num": 254,
      "cn": "头晕/晕",
      "dialects": {
       "msa": {
@@ -6861,16 +9192,25 @@ const DATA = {
        "rom": "ʿindī dawakha",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي دَوْخَة",
+       "rom": "ʿindī dawakha",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي دَوْخَة",
+       "rom": "ʿindī dawakha",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي دُوَار",
        "rom": "ʿandī duwār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 253,
+     "num": 255,
      "cn": "恶心/想吐",
      "dialects": {
       "msa": {
@@ -6888,16 +9228,25 @@ const DATA = {
        "rom": "ʿindī ghathayān",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي غَثَيَان",
+       "rom": "ʿindī ghathayān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي غَثَيَان",
+       "rom": "ʿindī ghathayān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي غْثَيَان",
        "rom": "ʿandī ghthayān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 254,
+     "num": 256,
      "cn": "嗓子/喉咙痛",
      "dialects": {
       "msa": {
@@ -6915,16 +9264,25 @@ const DATA = {
        "rom": "ḥalqī bwajjaʿnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَلْقِي بْوَجَّعْنِي",
+       "rom": "ḥalqī bwajjaʿnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَلْقِي بْوَجَّعْنِي",
+       "rom": "ḥalqī bwajjaʿnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَلْقِي كَيْوَجَّعْنِي",
        "rom": "ḥalqī kīwajjaʿnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 255,
+     "num": 257,
      "cn": "肚子/胃痛",
      "dialects": {
       "msa": {
@@ -6942,16 +9300,25 @@ const DATA = {
        "rom": "baṭnī bwajjaʿnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَطْنِي بْوَجَّعْنِي",
+       "rom": "baṭnī bwajjaʿnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَطْنِي بْوَجَّعْنِي",
+       "rom": "baṭnī bwajjaʿnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَرْشِي كَيْوَجَّعْنِي",
        "rom": "krishī kīwajjaʿnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 256,
+     "num": 258,
      "cn": "牙痛",
      "dialects": {
       "msa": {
@@ -6969,16 +9336,25 @@ const DATA = {
        "rom": "sinnī bwajjaʿnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِنِّي بْوَجَّعْنِي",
+       "rom": "sinnī bwajjaʿnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِنِّي بْوَجَّعْنِي",
+       "rom": "sinnī bwajjaʿnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِنِّي كَيْوَجَّعْنِي",
        "rom": "sinnī kīwajjaʿnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 257,
+     "num": 259,
      "cn": "呕吐",
      "dialects": {
       "msa": {
@@ -6996,16 +9372,25 @@ const DATA = {
        "rom": "anā taqayya't",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا تْقَيَّأْت",
+       "rom": "anā taqayya't",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا تْقَيَّأْت",
+       "rom": "anā taqayya't",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا تْقَيَّأْت",
        "rom": "anā taqayya't",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 258,
+     "num": 260,
      "cn": "浑身疼",
      "dialects": {
       "msa": {
@@ -7023,16 +9408,25 @@ const DATA = {
        "rom": "jismī kulluh bwajjaʿnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِسْمِي كُلُّه بْوَجَّعْنِي",
+       "rom": "jismī kulluh bwajjaʿnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِسْمِي كُلُّه بْوَجَّعْنِي",
+       "rom": "jismī kulluh bwajjaʿnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جْسْمِي كُلُّو كَيْوَجَّعْنِي",
        "rom": "jismī kullu kīwajjaʿnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 259,
+     "num": 261,
      "cn": "失眠/睡不着",
      "dialects": {
       "msa": {
@@ -7050,16 +9444,25 @@ const DATA = {
        "rom": "mā bḳadarish anām",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا بْقَدَرْش أْنَام",
+       "rom": "mā bḳadarish anām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا بْقَدَرْش أْنَام",
+       "rom": "mā bḳadarish anām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا كَنْعْرَفْش نْعَاس",
        "rom": "mā kanʿrafsh nʿās",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 260,
+     "num": 262,
      "cn": "没胃口",
      "dialects": {
       "msa": {
@@ -7077,16 +9480,25 @@ const DATA = {
        "rom": "mā ʿindī shahiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا عِنْدِي شَهِيَّة",
+       "rom": "mā ʿindī shahiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا عِنْدِي شَهِيَّة",
+       "rom": "mā ʿindī shahiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا عَنْدِي شَهِيَّة",
        "rom": "mā ʿandī shahiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 261,
+     "num": 263,
      "cn": "过敏",
      "dialects": {
       "msa": {
@@ -7104,16 +9516,25 @@ const DATA = {
        "rom": "ʿandī ḥassāsiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي حَسَّاسِيَّة",
+       "rom": "ʿandī ḥassāsiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي حَسَّاسِيَّة",
+       "rom": "ʿandī ḥassāsiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي حَسَّاسِيَّة",
        "rom": "ʿandī ḥassāsiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 262,
+     "num": 264,
      "cn": "呼吸困难",
      "dialects": {
       "msa": {
@@ -7131,16 +9552,25 @@ const DATA = {
        "rom": "ʿandī ḍīq nafas",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي ضِيق نَفَس",
+       "rom": "ʿandī ḍīq nafas",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي ضِيق نَفَس",
+       "rom": "ʿandī ḍīq nafas",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي ضِيق فِي التَّنَفُّس",
        "rom": "ʿandī ḍīq fī t-tanaffus",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 263,
+     "num": 265,
      "cn": "受伤",
      "dialects": {
       "msa": {
@@ -7158,16 +9588,25 @@ const DATA = {
        "rom": "anā mjrūḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مْجْرُوح",
+       "rom": "anā mjrūḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مْجْرُوح",
+       "rom": "anā mjrūḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مْجْرُوح",
        "rom": "anā mjrūḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 264,
+     "num": 266,
      "cn": "伤口",
      "dialects": {
       "msa": {
@@ -7185,16 +9624,25 @@ const DATA = {
        "rom": "ʿindī jurḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي جُرْح",
+       "rom": "ʿindī jurḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي جُرْح",
+       "rom": "ʿindī jurḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي جْرْح",
        "rom": "ʿandī jrḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 265,
+     "num": 267,
      "cn": "流血/出血",
      "dialects": {
       "msa": {
@@ -7212,16 +9660,25 @@ const DATA = {
        "rom": "ad-dam byanzil",
        "note": ""
       },
+      "gulf": {
+       "ar": "الدَّم بْيَنْزِل",
+       "rom": "ad-dam byanzil",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الدَّم بْيَنْزِل",
+       "rom": "ad-dam byanzil",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الدَّم كَيْنْزِل",
        "rom": "ad-dam kīyanzil",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 266,
+     "num": 268,
      "cn": "出汗/流汗",
      "dialects": {
       "msa": {
@@ -7239,16 +9696,25 @@ const DATA = {
        "rom": "anā btʿarraq",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بْتْعَرَّق",
+       "rom": "anā btʿarraq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بْتْعَرَّق",
+       "rom": "anā btʿarraq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْتْعَرَّق",
        "rom": "anā kantʿarraq",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 267,
+     "num": 269,
      "cn": "打喷嚏",
      "dialects": {
       "msa": {
@@ -7266,16 +9732,25 @@ const DATA = {
        "rom": "bʿaṭis ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "بعطس وايد",
+       "rom": "bʿaṭis wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "بعطس هواية",
+       "rom": "bʿaṭis hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كَنْعْطِس بْزَّاف",
        "rom": "kanʿṭis bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 268,
+     "num": 270,
      "cn": "虚弱/没力气",
      "dialects": {
       "msa": {
@@ -7293,16 +9768,25 @@ const DATA = {
        "rom": "ḥāsis bi-ḍaʿf",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَاسِس بِضَعْف",
+       "rom": "ḥāsis bi-ḍaʿf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَاسِس بِضَعْف",
+       "rom": "ḥāsis bi-ḍaʿf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَاس بْضْعْف",
        "rom": "ḥās b-ḍʿf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 269,
+     "num": 271,
      "cn": "量体温",
      "dialects": {
       "msa": {
@@ -7320,16 +9804,25 @@ const DATA = {
        "rom": "qīsū ḥarāratī",
        "note": ""
       },
+      "gulf": {
+       "ar": "قِيسُوا حَرَارَتِي",
+       "rom": "qīsū ḥarāratī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قِيسُوا حَرَارَتِي",
+       "rom": "qīsū ḥarāratī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قِيسُوا الحَرَارَة دْيَالِي",
        "rom": "qīsū al-ḥarāra dyālī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 270,
+     "num": 272,
      "cn": "好转/好些",
      "dialects": {
       "msa": {
@@ -7347,16 +9840,25 @@ const DATA = {
        "rom": "ṣīrt aḥsan",
        "note": ""
       },
+      "gulf": {
+       "ar": "صِرْتْ أَحْسَن",
+       "rom": "ṣīrt aḥsan",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صِرْتْ أَحْسَن",
+       "rom": "ṣīrt aḥsan",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَلِّيتْ أَحْسَن",
        "rom": "wallīt aḥsan",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 271,
+     "num": 273,
      "cn": "我需要看医生",
      "dialects": {
       "msa": {
@@ -7374,16 +9876,25 @@ const DATA = {
        "rom": "baddī ashūf duktūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أشوف دكتور",
+       "rom": "abī ashūf duktūr",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أشوف دكتور",
+       "rom": "arīd ashūf duktūr",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ نْشُوف طَبِيب",
        "rom": "bghīt nshūf ṭabīb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 272,
+     "num": 274,
      "cn": "医院在哪？",
      "dialects": {
       "msa": {
@@ -7401,16 +9912,25 @@ const DATA = {
        "rom": "wēn al-mustashfā",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ المُسْتَشْفَى؟",
+       "rom": "wēn al-mustashfā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ المُسْتَشْفَى؟",
+       "rom": "wēn al-mustashfā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ السْبِيتَار؟",
        "rom": "fēn as-spītār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 273,
+     "num": 275,
      "cn": "诊所在哪？",
      "dialects": {
       "msa": {
@@ -7428,16 +9948,25 @@ const DATA = {
        "rom": "wēn al-ʿiyāda",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ العِيَادَة؟",
+       "rom": "wēn al-ʿiyāda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ العِيَادَة؟",
+       "rom": "wēn al-ʿiyāda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ العِيَادَة؟",
        "rom": "fēn al-ʿiyāda",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 274,
+     "num": 276,
      "cn": "哪里不舒服？",
      "dialects": {
       "msa": {
@@ -7455,16 +9984,25 @@ const DATA = {
        "rom": "shū fīk",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو فيك؟",
+       "rom": "shinū fīk",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو فيك؟",
+       "rom": "shinū fīk",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْنُو عِنْدَك؟",
        "rom": "shnū ʿindak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 275,
+     "num": 277,
      "cn": "这里痛",
      "dialects": {
       "msa": {
@@ -7482,16 +10020,25 @@ const DATA = {
        "rom": "bwajjaʿnī hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "بوجعني هنا",
+       "rom": "bwajjaʿnī hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "بوجعني هنا",
+       "rom": "bwajjaʿnī hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كَيْوَجَّعْنِي هُنَا",
        "rom": "kīwajjaʿnī hnā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 276,
+     "num": 278,
      "cn": "多久了？",
      "dialects": {
       "msa": {
@@ -7509,16 +10056,25 @@ const DATA = {
        "rom": "min imtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "من متى؟",
+       "rom": "min matā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "من متى؟",
+       "rom": "min matā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مِنْ وْقْتَاش؟",
        "rom": "min waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 277,
+     "num": 279,
      "cn": "吃药",
      "dialects": {
       "msa": {
@@ -7536,16 +10092,25 @@ const DATA = {
        "rom": "khūd ad-dawā",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُودْ الدَّوَا",
+       "rom": "khūd ad-dawā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُودْ الدَّوَا",
+       "rom": "khūd ad-dawā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خُودْ الدْوَا",
        "rom": "khūd ad-dwā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 278,
+     "num": 280,
      "cn": "打针/注射",
      "dialects": {
       "msa": {
@@ -7563,16 +10128,25 @@ const DATA = {
        "rom": "baddī ḥaqna",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي حقنة",
+       "rom": "abī ḥaqna",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد حقنة",
+       "rom": "arīd ḥaqna",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ حَقْنَة",
        "rom": "bghīt ḥaqna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 279,
+     "num": 281,
      "cn": "处方/药方",
      "dialects": {
       "msa": {
@@ -7590,16 +10164,25 @@ const DATA = {
        "rom": "baddī waṣfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي وصفة",
+       "rom": "abī waṣfa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد وصفة",
+       "rom": "arīd waṣfa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ وَصْفَة",
        "rom": "bghīt waṣfa",
        "note": ""
       }
-     },
-     "common": "②（埃及借 روشتة）"
+     }
     },
     {
-     "num": 280,
+     "num": 282,
      "cn": "药",
      "dialects": {
       "msa": {
@@ -7617,16 +10200,25 @@ const DATA = {
        "rom": "ad-dawā",
        "note": ""
       },
+      "gulf": {
+       "ar": "الدَّوَا",
+       "rom": "ad-dawā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الدَّوَا",
+       "rom": "ad-dawā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الدْوَا",
        "rom": "ad-dwā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 281,
+     "num": 283,
      "cn": "抗生素/消炎药",
      "dialects": {
       "msa": {
@@ -7644,16 +10236,25 @@ const DATA = {
        "rom": "muḍād ḥayawī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُضَاد حَيَوِي",
+       "rom": "muḍād ḥayawī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُضَاد حَيَوِي",
+       "rom": "muḍād ḥayawī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُضَاد حَيَوِي",
        "rom": "muḍād ḥayawī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 282,
+     "num": 284,
      "cn": "止痛药",
      "dialects": {
       "msa": {
@@ -7671,16 +10272,25 @@ const DATA = {
        "rom": "musakkin",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُسَكِّن",
+       "rom": "musakkin",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُسَكِّن",
+       "rom": "musakkin",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُسَكِّن",
        "rom": "musakkin",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 283,
+     "num": 285,
      "cn": "检查/体检",
      "dialects": {
       "msa": {
@@ -7698,16 +10308,25 @@ const DATA = {
        "rom": "baddī faḥṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي فحص",
+       "rom": "abī faḥṣ",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد فحص",
+       "rom": "arīd faḥṣ",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ فَحْص",
        "rom": "bghīt faḥṣ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 284,
+     "num": 286,
      "cn": "验血/抽血",
      "dialects": {
       "msa": {
@@ -7725,16 +10344,25 @@ const DATA = {
        "rom": "baddī taḥlīl dam",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي تحليل دم",
+       "rom": "abī taḥlīl dam",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد تحليل دم",
+       "rom": "arīd taḥlīl dam",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ تَحْلِيل دْم",
        "rom": "bghīt taḥlīl dm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 285,
+     "num": 287,
      "cn": "拍片/X光",
      "dialects": {
       "msa": {
@@ -7752,16 +10380,25 @@ const DATA = {
        "rom": "baddī ṣūra ashiʿʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي صورة أشعة",
+       "rom": "abī ṣūra ashiʿʿa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد صورة أشعة",
+       "rom": "arīd ṣūra ashiʿʿa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ رَايُون",
        "rom": "bghīt rāyūn",
        "note": ""
       }
-     },
-     "common": "②（马格里布借 رايون）"
+     }
     },
     {
-     "num": 286,
+     "num": 288,
      "cn": "包扎/绷带",
      "dialects": {
       "msa": {
@@ -7779,16 +10416,25 @@ const DATA = {
        "rom": "luffū al-jurḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "لُفُّ الجُرْح",
+       "rom": "luffū al-jurḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لُفُّ الجُرْح",
+       "rom": "luffū al-jurḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لُفُّ الجْرْح",
        "rom": "luffū al-jrḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 287,
+     "num": 289,
      "cn": "手术/开刀",
      "dialects": {
       "msa": {
@@ -7806,16 +10452,25 @@ const DATA = {
        "rom": "baddī ʿamaliyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي عملية",
+       "rom": "abī ʿamaliyya",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد عملية",
+       "rom": "arīd ʿamaliyya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ عَمَلِيَّة",
        "rom": "bghīt ʿamaliyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 288,
+     "num": 290,
      "cn": "住院",
      "dialects": {
       "msa": {
@@ -7833,16 +10488,25 @@ const DATA = {
        "rom": "dakhalūnī al-mustashfā",
        "note": ""
       },
+      "gulf": {
+       "ar": "دْخَلُونِي المُسْتَشْفَى",
+       "rom": "dakhalūnī al-mustashfā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دْخَلُونِي المُسْتَشْفَى",
+       "rom": "dakhalūnī al-mustashfā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْخَّلُونِي السْبِيتَار",
        "rom": "dakhkhalūnī as-spītār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 289,
+     "num": 291,
      "cn": "叫救护车",
      "dialects": {
       "msa": {
@@ -7860,16 +10524,25 @@ const DATA = {
        "rom": "ittiṣil sayyārat isʿāf",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِتْصِلْ سِيَّارَة إِسْعَاف",
+       "rom": "ittiṣil sayyārat isʿāf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِتْصِلْ سِيَّارَة إِسْعَاف",
+       "rom": "ittiṣil sayyārat isʿāf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْيِّطْ لِطُونُوبِيل إِسْعَاف",
        "rom": "ʿayyiṭ li-ṭūnūbīl isʿāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 290,
+     "num": 292,
      "cn": "叫医生",
      "dialects": {
       "msa": {
@@ -7887,16 +10560,25 @@ const DATA = {
        "rom": "naddī duktūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَادِّي دُكْتُور",
+       "rom": "naddī duktūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَادِّي دُكْتُور",
+       "rom": "naddī duktūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْيِّطْ لِطَبِيب",
        "rom": "ʿayyiṭ li-ṭabīb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 291,
+     "num": 293,
      "cn": "好点了吗？",
      "dialects": {
       "msa": {
@@ -7914,16 +10596,25 @@ const DATA = {
        "rom": "ṣīrt aḥsan",
        "note": ""
       },
+      "gulf": {
+       "ar": "صِرْتْ أَحْسَن؟",
+       "rom": "ṣīrt aḥsan",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صِرْتْ أَحْسَن؟",
+       "rom": "ṣīrt aḥsan",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَلِّيتْ أَحْسَن؟",
        "rom": "wallīt aḥsan",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 292,
+     "num": 294,
      "cn": "会好吗？",
      "dialects": {
       "msa": {
@@ -7941,16 +10632,25 @@ const DATA = {
        "rom": "raḥ atʿāfā",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ أْتْعَافَى؟",
+       "rom": "raḥ atʿāfā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ أْتْعَافَى؟",
+       "rom": "raḥ atʿāfā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَا نْتْعَافَى؟",
        "rom": "ghā ntʿāfā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 293,
+     "num": 295,
      "cn": "多久能好？",
      "dialects": {
       "msa": {
@@ -7968,16 +10668,25 @@ const DATA = {
        "rom": "bīyākhud kam wa't",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِيَاخُدْ كَم وَقْت؟",
+       "rom": "bīyākhud kam wa't",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِيَاخُدْ كَم وَقْت؟",
+       "rom": "bīyākhud kam wa't",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَا يَاخُدْ شْحَالْ مِنْ الوَقْت؟",
        "rom": "ghā yākhud shḥāl min al-waqt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 294,
+     "num": 296,
      "cn": "忌口/注意饮食",
      "dialects": {
       "msa": {
@@ -7995,16 +10704,25 @@ const DATA = {
        "rom": "baʿʿid ʿan akl muʿayyan",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَعِّدْ عَنْ أَكْل مُعَيَّن",
+       "rom": "baʿʿid ʿan akl muʿayyan",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَعِّدْ عَنْ أَكْل مُعَيَّن",
+       "rom": "baʿʿid ʿan akl muʿayyan",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَعِّدْ عَلَى شِي أْكْل",
        "rom": "baʿʿid ʿalā shī akl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 295,
+     "num": 297,
      "cn": "复诊/复查",
      "dialects": {
       "msa": {
@@ -8022,16 +10740,25 @@ const DATA = {
        "rom": "baddī murājaʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي مراجعة",
+       "rom": "abī murājaʿa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد مراجعة",
+       "rom": "arīd murājaʿa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ مُرَاجَعَة",
        "rom": "bghīt murājaʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 296,
+     "num": 298,
      "cn": "药房/药店在哪？",
      "dialects": {
       "msa": {
@@ -8049,16 +10776,25 @@ const DATA = {
        "rom": "wēn aṣ-ṣaydaliyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ الصَّيْدَلِيَّة؟",
+       "rom": "wēn aṣ-ṣaydaliyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ الصَّيْدَلِيَّة؟",
+       "rom": "wēn aṣ-ṣaydaliyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ الصَّيْدَلِيَّة؟",
        "rom": "fēn aṣ-ṣaydaliyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 297,
+     "num": 299,
      "cn": "我想买药",
      "dialects": {
       "msa": {
@@ -8076,16 +10812,25 @@ const DATA = {
        "rom": "baddī ashtrī dawā",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أشتري دوا",
+       "rom": "abī ashtrī dawā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أشتري دوا",
+       "rom": "arīd ashtrī dawā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ نْشْرِي دْوَا",
        "rom": "bghīt nshri dwā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 298,
+     "num": 300,
      "cn": "感冒药",
      "dialects": {
       "msa": {
@@ -8103,16 +10848,25 @@ const DATA = {
        "rom": "dawā zukām",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَوَا زُكَام",
+       "rom": "dawā zukām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَوَا زُكَام",
+       "rom": "dawā zukām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْوَا رُوب",
        "rom": "dwā rūb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 299,
+     "num": 301,
      "cn": "退烧药",
      "dialects": {
       "msa": {
@@ -8130,16 +10884,25 @@ const DATA = {
        "rom": "dawā lil-ḥarāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَوَا لِلْحَرَارَة",
+       "rom": "dawā lil-ḥarāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَوَا لِلْحَرَارَة",
+       "rom": "dawā lil-ḥarāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْوَا لِلْسْخَانَة",
        "rom": "dwā lil-skḥāna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 300,
+     "num": 302,
      "cn": "创可贴",
      "dialects": {
       "msa": {
@@ -8157,16 +10920,25 @@ const DATA = {
        "rom": "lāṣiq",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَاصِق",
+       "rom": "lāṣiq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَاصِق",
+       "rom": "lāṣiq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَاصِق",
        "rom": "lāṣiq",
        "note": ""
       }
-     },
-     "common": "②（埃及借 بلاستر）"
+     }
     },
     {
-     "num": 301,
+     "num": 303,
      "cn": "药膏/软膏",
      "dialects": {
       "msa": {
@@ -8184,16 +10956,25 @@ const DATA = {
        "rom": "marham",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَرْهَم",
+       "rom": "marham",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَرْهَم",
+       "rom": "marham",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَرْهَم",
        "rom": "marham",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 302,
+     "num": 304,
      "cn": "咳嗽糖浆",
      "dialects": {
       "msa": {
@@ -8211,16 +10992,25 @@ const DATA = {
        "rom": "sharāb suʿāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَرَاب سُعَال",
+       "rom": "sharāb suʿāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَرَاب سُعَال",
+       "rom": "sharāb suʿāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْرَاب كْحَال",
        "rom": "shrab kḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 303,
+     "num": 305,
      "cn": "维生素",
      "dialects": {
       "msa": {
@@ -8238,16 +11028,25 @@ const DATA = {
        "rom": "fītāmīnāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيتَامِينَات",
+       "rom": "fītāmīnāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيتَامِينَات",
+       "rom": "fītāmīnāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِيتَامِينَات",
        "rom": "fītāmīnāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 304,
+     "num": 306,
      "cn": "温度计",
      "dialects": {
       "msa": {
@@ -8265,16 +11064,25 @@ const DATA = {
        "rom": "mīzān ḥarāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيزَان حَرَارَة",
+       "rom": "mīzān ḥarāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيزَان حَرَارَة",
+       "rom": "mīzān ḥarāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَرْمُومِتْر",
        "rom": "tarmūmitr",
        "note": ""
       }
-     },
-     "common": "②（借 thermometer）"
+     }
     },
     {
-     "num": 305,
+     "num": 307,
      "cn": "抗过敏药",
      "dialects": {
       "msa": {
@@ -8292,16 +11100,25 @@ const DATA = {
        "rom": "dawā lil-ḥassāsiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَوَا لِلْحَسَّاسِيَّة",
+       "rom": "dawā lil-ḥassāsiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَوَا لِلْحَسَّاسِيَّة",
+       "rom": "dawā lil-ḥassāsiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دْوَا لِلْحَسَّاسِيَّة",
        "rom": "dwā lil-ḥassāsiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 306,
+     "num": 308,
      "cn": "消毒水",
      "dialects": {
       "msa": {
@@ -8319,16 +11136,25 @@ const DATA = {
        "rom": "muṭahhir",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُطَهِّر",
+       "rom": "muṭahhir",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُطَهِّر",
+       "rom": "muṭahhir",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُطَهِّر",
        "rom": "muṭahhir",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 307,
+     "num": 309,
      "cn": "纱布",
      "dialects": {
       "msa": {
@@ -8346,16 +11172,25 @@ const DATA = {
        "rom": "shāsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَاش",
+       "rom": "shāsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَاش",
+       "rom": "shāsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَاش",
        "rom": "shāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 308,
+     "num": 310,
      "cn": "棉签",
      "dialects": {
       "msa": {
@@ -8373,16 +11208,25 @@ const DATA = {
        "rom": "ʿūd quṭn",
        "note": ""
       },
+      "gulf": {
+       "ar": "عُود قُطْن",
+       "rom": "ʿūd quṭn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عُود قُطْن",
+       "rom": "ʿūd quṭn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عُود قُطْن",
        "rom": "ʿūd quṭn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 309,
+     "num": 311,
      "cn": "医疗保险",
      "dialects": {
       "msa": {
@@ -8400,16 +11244,25 @@ const DATA = {
        "rom": "ta'mīn ṣiḥḥī",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَأْمِين صِحِّي",
+       "rom": "ta'mīn ṣiḥḥī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَأْمِين صِحِّي",
+       "rom": "ta'mīn ṣiḥḥī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَأْمِين صِحِّي",
        "rom": "ta'mīn ṣiḥḥī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 310,
+     "num": 312,
      "cn": "保重/注意健康",
      "dialects": {
       "msa": {
@@ -8427,13 +11280,22 @@ const DATA = {
        "rom": "ihtam bi-ṣiḥḥatak",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِهْتَمْ بِصِحَّتَك",
+       "rom": "ihtam bi-ṣiḥḥatak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِهْتَمْ بِصِحَّتَك",
+       "rom": "ihtam bi-ṣiḥḥatak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِهْتَمْ بِصِحَّتَك",
        "rom": "ihtam bi-ṣiḥḥatak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -8441,7 +11303,7 @@ const DATA = {
    "title": "十二、餐饮扩展（约90句）",
    "rows": [
     {
-     "num": 311,
+     "num": 313,
      "cn": "牛肉",
      "dialects": {
       "msa": {
@@ -8459,16 +11321,25 @@ const DATA = {
        "rom": "laḥm baqar",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَحْم بَقَر",
+       "rom": "laḥm baqar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَحْم بَقَر",
+       "rom": "laḥm baqar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَحْم لْبَقَر",
        "rom": "laḥm l-baqar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 312,
+     "num": 314,
      "cn": "羊肉",
      "dialects": {
       "msa": {
@@ -8486,16 +11357,25 @@ const DATA = {
        "rom": "laḥm ghanam",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَحْم غَنَم",
+       "rom": "laḥm ghanam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَحْم غَنَم",
+       "rom": "laḥm ghanam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَحْم لْغَنَم",
        "rom": "laḥm l-ghanam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 313,
+     "num": 315,
      "cn": "肉（泛指）",
      "dialects": {
       "msa": {
@@ -8513,16 +11393,25 @@ const DATA = {
        "rom": "laḥm",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَحْم",
+       "rom": "laḥm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَحْم",
+       "rom": "laḥm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْحَم",
        "rom": "lḥam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 314,
+     "num": 316,
      "cn": "虾 / 虾仁",
      "dialects": {
       "msa": {
@@ -8540,16 +11429,25 @@ const DATA = {
        "rom": "jambari",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَمْبَرِي",
+       "rom": "jambari",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَمْبَرِي",
+       "rom": "jambari",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَمْبْرِي",
        "rom": "jambri",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 315,
+     "num": 317,
      "cn": "鸡蛋",
      "dialects": {
       "msa": {
@@ -8567,16 +11465,25 @@ const DATA = {
        "rom": "bayḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَيْض",
+       "rom": "bayḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَيْض",
+       "rom": "bayḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيْض",
        "rom": "bīḍ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 316,
+     "num": 318,
      "cn": "面条",
      "dialects": {
       "msa": {
@@ -8594,16 +11501,25 @@ const DATA = {
        "rom": "nūdiluz",
        "note": ""
       },
+      "gulf": {
+       "ar": "نُودِلُز",
+       "rom": "nūdiluz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نُودِلُز",
+       "rom": "nūdiluz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْعْرِيَّة",
        "rom": "shʿriyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 317,
+     "num": 319,
      "cn": "汤",
      "dialects": {
       "msa": {
@@ -8621,16 +11537,25 @@ const DATA = {
        "rom": "shūrba",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُورْبَة",
+       "rom": "shūrba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُورْبَة",
+       "rom": "shūrba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شُورْبَة",
        "rom": "shūrba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 318,
+     "num": 320,
      "cn": "沙拉",
      "dialects": {
       "msa": {
@@ -8648,16 +11573,25 @@ const DATA = {
        "rom": "salāṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَلَاطَة",
+       "rom": "salāṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَلَاطَة",
+       "rom": "salāṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَلَاطَة",
        "rom": "salāṭa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 319,
+     "num": 321,
      "cn": "蔬菜",
      "dialects": {
       "msa": {
@@ -8675,16 +11609,25 @@ const DATA = {
        "rom": "khuḍār",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُضَار",
+       "rom": "khuḍār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُضَار",
+       "rom": "khuḍār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْخُضْرَة",
        "rom": "l-khuḍra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 320,
+     "num": 322,
      "cn": "水果",
      "dialects": {
       "msa": {
@@ -8702,16 +11645,25 @@ const DATA = {
        "rom": "fākiha",
        "note": ""
       },
+      "gulf": {
+       "ar": "فَاكِهَة",
+       "rom": "fākiha",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فَاكِهَة",
+       "rom": "fākiha",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فْرُوط",
        "rom": "frūṭ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 321,
+     "num": 323,
      "cn": "甜点",
      "dialects": {
       "msa": {
@@ -8729,16 +11681,25 @@ const DATA = {
        "rom": "ḥalwā",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَلْوَى",
+       "rom": "ḥalwā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَلْوَى",
+       "rom": "ḥalwā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْلَاوِي",
        "rom": "ḥlāwī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 322,
+     "num": 324,
      "cn": "冰淇淋",
      "dialects": {
       "msa": {
@@ -8756,16 +11717,25 @@ const DATA = {
        "rom": "āys krīm",
        "note": ""
       },
+      "gulf": {
+       "ar": "آيْس كْرِيم",
+       "rom": "āys krīm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "آيْس كْرِيم",
+       "rom": "āys krīm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "آيْس كْرِيم",
        "rom": "āys krīm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 323,
+     "num": 325,
      "cn": "糖",
      "dialects": {
       "msa": {
@@ -8783,16 +11753,25 @@ const DATA = {
        "rom": "sukkar",
        "note": ""
       },
+      "gulf": {
+       "ar": "سُكَّر",
+       "rom": "sukkar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سُكَّر",
+       "rom": "sukkar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سُكَّر",
        "rom": "sukkar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 324,
+     "num": 326,
      "cn": "盐",
      "dialects": {
       "msa": {
@@ -8810,16 +11789,25 @@ const DATA = {
        "rom": "milḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِلْح",
+       "rom": "milḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِلْح",
+       "rom": "milḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمِلْح",
        "rom": "l-milḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 325,
+     "num": 327,
      "cn": "油",
      "dialects": {
       "msa": {
@@ -8837,16 +11825,25 @@ const DATA = {
        "rom": "zayt",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَيْت",
+       "rom": "zayt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَيْت",
+       "rom": "zayt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زِيت",
        "rom": "zīt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 326,
+     "num": 328,
      "cn": "奶酪",
      "dialects": {
       "msa": {
@@ -8864,16 +11861,25 @@ const DATA = {
        "rom": "jubn",
        "note": ""
       },
+      "gulf": {
+       "ar": "جُبْن",
+       "rom": "jubn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جُبْن",
+       "rom": "jubn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جْبْن",
        "rom": "jbn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 327,
+     "num": 329,
      "cn": "土豆",
      "dialects": {
       "msa": {
@@ -8891,16 +11897,25 @@ const DATA = {
        "rom": "baṭāṭā",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَطَاطَا",
+       "rom": "baṭāṭā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَطَاطَا",
+       "rom": "baṭāṭā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَطَاطَا",
        "rom": "baṭāṭā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 328,
+     "num": 330,
      "cn": "番茄 / 西红柿",
      "dialects": {
       "msa": {
@@ -8918,16 +11933,25 @@ const DATA = {
        "rom": "bandūra",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَنْدُورَة",
+       "rom": "bandūra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَنْدُورَة",
+       "rom": "bandūra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْمَاتَة",
        "rom": "tmāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 329,
+     "num": 331,
      "cn": "洋葱",
      "dialects": {
       "msa": {
@@ -8945,16 +11969,25 @@ const DATA = {
        "rom": "baṣal",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَصَل",
+       "rom": "baṣal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَصَل",
+       "rom": "baṣal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْصَل",
        "rom": "bṣal",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 330,
+     "num": 332,
      "cn": "柠檬",
      "dialects": {
       "msa": {
@@ -8972,16 +12005,25 @@ const DATA = {
        "rom": "laymūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَيْمُون",
+       "rom": "laymūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَيْمُون",
+       "rom": "laymūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لِيمُون",
        "rom": "līmūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 331,
+     "num": 333,
      "cn": "香蕉",
      "dialects": {
       "msa": {
@@ -8999,16 +12041,25 @@ const DATA = {
        "rom": "mawz",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَوْز",
+       "rom": "mawz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَوْز",
+       "rom": "mawz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَانَان",
        "rom": "bānān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 332,
+     "num": 334,
      "cn": "苹果",
      "dialects": {
       "msa": {
@@ -9026,16 +12077,25 @@ const DATA = {
        "rom": "tuffāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "تُفَّاح",
+       "rom": "tuffāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تُفَّاح",
+       "rom": "tuffāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْفَاح",
        "rom": "tfāḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 333,
+     "num": 335,
      "cn": "橙子",
      "dialects": {
       "msa": {
@@ -9053,16 +12113,25 @@ const DATA = {
        "rom": "burtuqāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُرْتُقَال",
+       "rom": "burtuqāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُرْتُقَال",
+       "rom": "burtuqāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُرْتُقَال",
        "rom": "burtuqāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 334,
+     "num": 336,
      "cn": "葡萄",
      "dialects": {
       "msa": {
@@ -9080,16 +12149,25 @@ const DATA = {
        "rom": "ʿinab",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنَب",
+       "rom": "ʿinab",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنَب",
+       "rom": "ʿinab",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْنْب",
        "rom": "ʿnb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 335,
+     "num": 337,
      "cn": "蜂蜜",
      "dialects": {
       "msa": {
@@ -9107,16 +12185,25 @@ const DATA = {
        "rom": "ʿasal",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَسَل",
+       "rom": "ʿasal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَسَل",
+       "rom": "ʿasal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْسَل",
        "rom": "ʿsal",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 336,
+     "num": 338,
      "cn": "酸奶",
      "dialects": {
       "msa": {
@@ -9134,16 +12221,25 @@ const DATA = {
        "rom": "laban",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَبَن",
+       "rom": "laban",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَبَن",
+       "rom": "laban",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْبَن",
        "rom": "lban",
        "note": ""
       }
-     },
-     "common": "②（注：埃及 لبن=牛奶，黎/马 لبن=酸奶）"
+     }
     },
     {
-     "num": 337,
+     "num": 339,
      "cn": "牛奶",
      "dialects": {
       "msa": {
@@ -9161,16 +12257,25 @@ const DATA = {
        "rom": "ḥalīb",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَلِيب",
+       "rom": "ḥalīb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَلِيب",
+       "rom": "ḥalīb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْلِيب",
        "rom": "ḥlīb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 338,
+     "num": 340,
      "cn": "果汁",
      "dialects": {
       "msa": {
@@ -9188,16 +12293,25 @@ const DATA = {
        "rom": "ʿaṣīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَصِير",
+       "rom": "ʿaṣīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَصِير",
+       "rom": "ʿaṣīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْصِير",
        "rom": "ʿṣīr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 339,
+     "num": 341,
      "cn": "汽水",
      "dialects": {
       "msa": {
@@ -9215,16 +12329,25 @@ const DATA = {
        "rom": "mashrūb ghāzī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَشْرُوب غَازِي",
+       "rom": "mashrūb ghāzī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَشْرُوب غَازِي",
+       "rom": "mashrūb ghāzī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سُودَا",
        "rom": "sūdā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 340,
+     "num": 342,
      "cn": "可乐",
      "dialects": {
       "msa": {
@@ -9242,16 +12365,25 @@ const DATA = {
        "rom": "kūlā",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُولَا",
+       "rom": "kūlā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُولَا",
+       "rom": "kūlā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُولَا",
        "rom": "kūlā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 341,
+     "num": 343,
      "cn": "甜（口味）",
      "dialects": {
       "msa": {
@@ -9269,16 +12401,25 @@ const DATA = {
        "rom": "ḥulw",
        "note": ""
       },
+      "gulf": {
+       "ar": "حُلْو",
+       "rom": "ḥulw",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حُلْو",
+       "rom": "ḥulw",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْلُو",
        "rom": "ḥlū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 342,
+     "num": 344,
      "cn": "咸（口味）",
      "dialects": {
       "msa": {
@@ -9296,16 +12437,25 @@ const DATA = {
        "rom": "māliḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَالِح",
+       "rom": "māliḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَالِح",
+       "rom": "māliḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَالِح",
        "rom": "māliḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 343,
+     "num": 345,
      "cn": "酸（口味）",
      "dialects": {
       "msa": {
@@ -9323,16 +12473,25 @@ const DATA = {
        "rom": "ḥāmiḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَامِض",
+       "rom": "ḥāmiḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَامِض",
+       "rom": "ḥāmiḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَامْض",
        "rom": "ḥāmuḍ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 344,
+     "num": 346,
      "cn": "苦（口味）",
      "dialects": {
       "msa": {
@@ -9350,16 +12509,25 @@ const DATA = {
        "rom": "murr",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُرّ",
+       "rom": "murr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُرّ",
+       "rom": "murr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُرّ",
        "rom": "murr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 345,
+     "num": 347,
      "cn": "新鲜",
      "dialects": {
       "msa": {
@@ -9377,16 +12545,25 @@ const DATA = {
        "rom": "ṭāzaj",
        "note": ""
       },
+      "gulf": {
+       "ar": "طَازَج",
+       "rom": "ṭāzaj",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "طَازَج",
+       "rom": "ṭāzaj",
+       "note": ""
+      },
       "maghreb": {
        "ar": "طَازَج",
        "rom": "ṭāzaj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 346,
+     "num": 348,
      "cn": "难吃",
      "dialects": {
       "msa": {
@@ -9404,16 +12581,25 @@ const DATA = {
        "rom": "mish ṭayyib",
        "note": ""
       },
+      "gulf": {
+       "ar": "مو طيب",
+       "rom": "mū ṭayyib",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "مو طيب",
+       "rom": "mū ṭayyib",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مَاشِي بْنِين",
        "rom": "māshī bnīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 347,
+     "num": 349,
      "cn": "我饿了",
      "dialects": {
       "msa": {
@@ -9431,16 +12617,25 @@ const DATA = {
        "rom": "anā jūʿān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا جُوعَان",
+       "rom": "anā jūʿān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا جُوعَان",
+       "rom": "anā jūʿān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا جِيعَان",
        "rom": "anā jīʿān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 348,
+     "num": 350,
      "cn": "我渴了",
      "dialects": {
       "msa": {
@@ -9458,16 +12653,25 @@ const DATA = {
        "rom": "anā ʿaṭshān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا عَطْشَان",
+       "rom": "anā ʿaṭshān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا عَطْشَان",
+       "rom": "anā ʿaṭshān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا عْطْشَان",
        "rom": "anā ʿṭshān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 349,
+     "num": 351,
      "cn": "有空桌吗 / 有位置吗",
      "dialects": {
       "msa": {
@@ -9485,16 +12689,25 @@ const DATA = {
        "rom": "ʿindkūn ṭāwila fāḍya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدْكُون طَاوِلَة فَاضِيَة؟",
+       "rom": "ʿindkūn ṭāwila fāḍya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدْكُون طَاوِلَة فَاضِيَة؟",
+       "rom": "ʿindkūn ṭāwila fāḍya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدْكُم طَاوْلَة فَاضِيَة؟",
        "rom": "ʿandkum ṭāwla fāḍya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 350,
+     "num": 352,
      "cn": "可以点餐了吗？",
      "dialects": {
       "msa": {
@@ -9512,16 +12725,25 @@ const DATA = {
        "rom": "miqdūr nṭlub hallaʾ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مقدور نطلب الحين؟",
+       "rom": "miqdūr nṭlub al-ḥīn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "مقدور نطلب هسه؟",
+       "rom": "miqdūr nṭlub hasse",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "يَنْجَم نْطْلُبو دَابَا؟",
        "rom": "yanjam nṭlubū dābā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 351,
+     "num": 353,
      "cn": "我要这个",
      "dialects": {
       "msa": {
@@ -9539,16 +12761,25 @@ const DATA = {
        "rom": "baddī hād",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي هذا",
+       "rom": "abī hādhā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد هذا",
+       "rom": "arīd hādhā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت هَادَا",
        "rom": "bghīt hādā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 352,
+     "num": 354,
      "cn": "你们有什么特色菜？",
      "dialects": {
       "msa": {
@@ -9566,16 +12797,25 @@ const DATA = {
        "rom": "shū aḥsan akl ʿindkūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو أحسن أكل عندكون؟",
+       "rom": "shinū aḥsan akl ʿindkūn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو أحسن أكل عندكون؟",
+       "rom": "shinū aḥsan akl ʿindkūn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَشْمَن أَحْسَن مَاكْلَة عَنْدْكُم؟",
        "rom": "āshman aḥsan mākla ʿandkum",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 353,
+     "num": 355,
      "cn": "你推荐吃什么？",
      "dialects": {
       "msa": {
@@ -9593,16 +12833,25 @@ const DATA = {
        "rom": "shū bitnaṣḥnī ākul",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو بتنصحني آكل؟",
+       "rom": "shinū bitnaṣḥnī ākul",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو بتنصحني آكل؟",
+       "rom": "shinū bitnaṣḥnī ākul",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَشْمَن تَنْصَحْنِي نَاكُل؟",
        "rom": "āshman tanṣaḥnī nākul",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 354,
+     "num": 356,
      "cn": "不要辣",
      "dialects": {
       "msa": {
@@ -9620,16 +12869,25 @@ const DATA = {
        "rom": "bidūn shiṭṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِدُون شِطَّة",
+       "rom": "bidūn shiṭṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِدُون شِطَّة",
+       "rom": "bidūn shiṭṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْلَاش لْفِلْفِل",
        "rom": "blāsh l-filfil",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 355,
+     "num": 357,
      "cn": "少放盐",
      "dialects": {
       "msa": {
@@ -9647,16 +12905,25 @@ const DATA = {
        "rom": "shway milḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَوِي مِلْح",
+       "rom": "shway milḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شوية ملح",
+       "rom": "shwayya milḥ",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْوِيَّة مِلْح",
        "rom": "shwiyya milḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 356,
+     "num": 358,
      "cn": "菜怎么还没来 / 催菜",
      "dialects": {
       "msa": {
@@ -9674,16 +12941,25 @@ const DATA = {
        "rom": "aṭ-ṭaʿām mut'akhkhar, law samaḥt",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطَّعَام مُتْأَخِّر، لَوْ سَمَحْت",
+       "rom": "aṭ-ṭaʿām mut'akhkhar, law samaḥt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الطَّعَام مُتْأَخِّر، لَوْ سَمَحْت",
+       "rom": "aṭ-ṭaʿām mut'akhkhar, law samaḥt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المَاكْلَة مَتْأَخِّرَة، عَفَاك",
        "rom": "l-mākla mit'akhkhira, ʿafāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 357,
+     "num": 359,
      "cn": "服务员！",
      "dialects": {
       "msa": {
@@ -9701,16 +12977,25 @@ const DATA = {
        "rom": "yā nādil",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا نَادِل!",
+       "rom": "yā nādil",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا نَادِل!",
+       "rom": "yā nādil",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَا مْعَلِّم!",
        "rom": "yā mʿallim",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 358,
+     "num": 360,
      "cn": "打包 / 带回家",
      "dialects": {
       "msa": {
@@ -9728,16 +13013,25 @@ const DATA = {
        "rom": "laff lī aṭ-ṭaʿām hād",
        "note": ""
       },
+      "gulf": {
+       "ar": "لف لي الطعام هذا",
+       "rom": "laff lī aṭ-ṭaʿām hādhā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "لف لي الطعام هذا",
+       "rom": "laff lī aṭ-ṭaʿām hādhā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "لَفَّ لِي المَاكْلَة هَادِي",
        "rom": "laff lī l-mākla hādī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 359,
+     "num": 361,
      "cn": "小费",
      "dialects": {
       "msa": {
@@ -9755,16 +13049,25 @@ const DATA = {
        "rom": "baqshīsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَقْشِيش",
+       "rom": "baqshīsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَقْشِيش",
+       "rom": "baqshīsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَقْشِيش",
        "rom": "baqshīsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 360,
+     "num": 362,
      "cn": "分开买单",
      "dialects": {
       "msa": {
@@ -9782,16 +13085,25 @@ const DATA = {
        "rom": "ḥisāb lḥāluh",
        "note": ""
       },
+      "gulf": {
+       "ar": "حِسَاب لْحَالُه",
+       "rom": "ḥisāb lḥāluh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حِسَاب لْحَالُه",
+       "rom": "ḥisāb lḥāluh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فَاتُورَة مُفْصُولَة",
        "rom": "fātūra mufṣūla",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 361,
+     "num": 363,
      "cn": "禁烟区",
      "dialects": {
       "msa": {
@@ -9809,16 +13121,25 @@ const DATA = {
        "rom": "makān lil-nās illī mā bidkhunn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَكَان لِلنَّاس الْمَا بِدْخُّن",
+       "rom": "makān lil-nās illī mā bidkhunn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَكَان لِلنَّاس الْمَا بِدْخُّن",
+       "rom": "makān lil-nās illī mā bidkhunn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْلَاصَة بْلَاش الدْخَان",
        "rom": "blāṣa blāsh ad-dkhān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 362,
+     "num": 364,
      "cn": "我订了位（有预订）",
      "dialects": {
       "msa": {
@@ -9836,16 +13157,25 @@ const DATA = {
        "rom": "ʿindī ḥajz",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي حَجْز",
+       "rom": "ʿindī ḥajz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي حَجْز",
+       "rom": "ʿindī ḥajz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي حَجْز",
        "rom": "ʿandī ḥajz",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 363,
+     "num": 365,
      "cn": "卫生间在哪？",
      "dialects": {
       "msa": {
@@ -9863,16 +13193,25 @@ const DATA = {
        "rom": "wēn al-ḥammām",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِين الحَمَّام؟",
        "rom": "fēn al-ḥammām",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 364,
+     "num": 366,
      "cn": "能刷卡吗？",
      "dialects": {
       "msa": {
@@ -9890,16 +13229,25 @@ const DATA = {
        "rom": "mīkān adfaʿ bi-al-kārt",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْكَان أَدْفَع بِالكَارْت؟",
+       "rom": "mīkān adfaʿ bi-al-kārt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْكَان أَدْفَع بِالكَارْت؟",
+       "rom": "mīkān adfaʿ bi-al-kārt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَنْجَم نْخَلِّصو بِالكَارْتَة؟",
        "rom": "yanjam nkhalliṣū bi-al-kārta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 365,
+     "num": 367,
      "cn": "这顿多少钱？",
      "dialects": {
       "msa": {
@@ -9917,16 +13265,25 @@ const DATA = {
        "rom": "al-ḥisāb bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "الحِسَاب بِكَم؟",
+       "rom": "al-ḥisāb bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الحِسَاب بِكَم؟",
+       "rom": "al-ḥisāb bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحْسَاب بْشْحَال؟",
        "rom": "al-ḥsāb b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 366,
+     "num": 368,
      "cn": "饭菜很好吃",
      "dialects": {
       "msa": {
@@ -9944,16 +13301,25 @@ const DATA = {
        "rom": "al-akl kān ṭayyib",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأَكْل كَان طَيِّب",
+       "rom": "al-akl kān ṭayyib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الأَكْل كَان طَيِّب",
+       "rom": "al-akl kān ṭayyib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المَاكْلَة كَانَت بْنِينَة",
        "rom": "l-mākla kānat bnīna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 367,
+     "num": 369,
      "cn": "外卖（带走）",
      "dialects": {
       "msa": {
@@ -9971,16 +13337,25 @@ const DATA = {
        "rom": "akl lil-bēt",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكْل لِلْبَيْت",
+       "rom": "akl lil-bēt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكْل لِلْبَيْت",
+       "rom": "akl lil-bēt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَاكْلَة لِدْدَار",
        "rom": "mākla li-d-dār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 368,
+     "num": 370,
      "cn": "送餐到家",
      "dialects": {
       "msa": {
@@ -9998,16 +13373,25 @@ const DATA = {
        "rom": "waṣṣil al-akl ʿalā al-bēt",
        "note": ""
       },
+      "gulf": {
+       "ar": "وصِّل الأَكْل عَلَى البَيْت",
+       "rom": "waṣṣil al-akl ʿalā al-bēt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وصِّل الأَكْل عَلَى البَيْت",
+       "rom": "waṣṣil al-akl ʿalā al-bēt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وصِّل المَاكْلَة لِدْدَار",
        "rom": "waṣṣil l-mākla li-d-dār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 369,
+     "num": 371,
      "cn": "我请客（这顿我付）",
      "dialects": {
       "msa": {
@@ -10025,16 +13409,25 @@ const DATA = {
        "rom": "al-ḥisāb ʿalayya",
        "note": ""
       },
+      "gulf": {
+       "ar": "الحِسَاب عَلَيَّ",
+       "rom": "al-ḥisāb ʿalayya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الحِسَاب عَلَيَّ",
+       "rom": "al-ḥisāb ʿalayya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحْسَاب عَلِيَّا",
        "rom": "al-ḥsāb ʿaliyyā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 370,
+     "num": 372,
      "cn": "谢谢款待",
      "dialects": {
       "msa": {
@@ -10052,16 +13445,25 @@ const DATA = {
        "rom": "shukran ʿalā al-akl",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُكْراً عَلَى الأَكْل",
+       "rom": "shukran ʿalā al-akl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُكْراً عَلَى الأَكْل",
+       "rom": "shukran ʿalā al-akl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا عَلَى المَاكْلَة",
        "rom": "barakka ʿalā l-mākla",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 371,
+     "num": 373,
      "cn": "再来一份",
      "dialects": {
       "msa": {
@@ -10079,16 +13481,25 @@ const DATA = {
        "rom": "wāḥid tānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَاحِد تَانِي",
+       "rom": "wāḥid tānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَاحِد تَانِي",
+       "rom": "wāḥid tānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاحَد أُخْرَى",
        "rom": "wāḥad ukhrā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 372,
+     "num": 374,
      "cn": "蛋糕",
      "dialects": {
       "msa": {
@@ -10106,16 +13517,25 @@ const DATA = {
        "rom": "tūrta",
        "note": ""
       },
+      "gulf": {
+       "ar": "تُورْتَة",
+       "rom": "tūrta",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تُورْتَة",
+       "rom": "tūrta",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تُورْتَة",
        "rom": "tūrta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 373,
+     "num": 375,
      "cn": "巧克力",
      "dialects": {
       "msa": {
@@ -10133,16 +13553,25 @@ const DATA = {
        "rom": "shūkūlāta",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُوكُولَاتَة",
+       "rom": "shūkūlāta",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُوكُولَاتَة",
+       "rom": "shūkūlāta",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شُوكُولَاتَة",
        "rom": "shūkūlāta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 374,
+     "num": 376,
      "cn": "橄榄",
      "dialects": {
       "msa": {
@@ -10160,16 +13589,25 @@ const DATA = {
        "rom": "zaytūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَيْتُون",
+       "rom": "zaytūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَيْتُون",
+       "rom": "zaytūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زْزِيتُون",
        "rom": "zzītūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 375,
+     "num": 377,
      "cn": "鹰嘴豆 / 鹰嘴豆泥",
      "dialects": {
       "msa": {
@@ -10187,16 +13625,25 @@ const DATA = {
        "rom": "ḥummuṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "حُمُّص",
+       "rom": "ḥummuṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حُمُّص",
+       "rom": "ḥummuṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حُمُّص",
        "rom": "ḥummuṣ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 376,
+     "num": 378,
      "cn": "坚果",
      "dialects": {
       "msa": {
@@ -10214,16 +13661,25 @@ const DATA = {
        "rom": "mukassarāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُكَسَّرَات",
+       "rom": "mukassarāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُكَسَّرَات",
+       "rom": "mukassarāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْكَسَّرَات",
        "rom": "mkassarāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 377,
+     "num": 379,
      "cn": "香肠",
      "dialects": {
       "msa": {
@@ -10241,16 +13697,25 @@ const DATA = {
        "rom": "sujuq",
        "note": ""
       },
+      "gulf": {
+       "ar": "سُجُق",
+       "rom": "sujuq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سُجُق",
+       "rom": "sujuq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سُجُق",
        "rom": "sujuq",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 378,
+     "num": 380,
      "cn": "汉堡",
      "dialects": {
       "msa": {
@@ -10268,16 +13733,25 @@ const DATA = {
        "rom": "burjar",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُرْجَر",
+       "rom": "burjar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُرْجَر",
+       "rom": "burjar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُورْجِر",
        "rom": "būrjir",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 379,
+     "num": 381,
      "cn": "披萨",
      "dialects": {
       "msa": {
@@ -10295,16 +13769,25 @@ const DATA = {
        "rom": "bītzā",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِيتْزَا",
+       "rom": "bītzā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِيتْزَا",
+       "rom": "bītzā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيتْزَا",
        "rom": "bītzā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 380,
+     "num": 382,
      "cn": "我们吃饱了",
      "dialects": {
       "msa": {
@@ -10322,16 +13805,25 @@ const DATA = {
        "rom": "naḥnā shabʿānīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَحْنَا شَبْعَانِين",
+       "rom": "naḥnā shabʿānīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَحْنَا شَبْعَانِين",
+       "rom": "naḥnā shabʿānīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْنَا شْبْعَانِين",
        "rom": "ḥnā shbʿānīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 381,
+     "num": 383,
      "cn": "太饱了",
      "dialects": {
       "msa": {
@@ -10349,16 +13841,25 @@ const DATA = {
        "rom": "shabʿān ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "شبعان وايد",
+       "rom": "shabʿān wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شبعان هواية",
+       "rom": "shabʿān hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "شْبْعَان بْزَّاف",
        "rom": "shbʿān bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 382,
+     "num": 384,
      "cn": "还没吃饱",
      "dialects": {
       "msa": {
@@ -10376,16 +13877,25 @@ const DATA = {
        "rom": "lassā mā shbaʿtsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَسَّا مَا شْبَعْتش",
+       "rom": "lassā mā shbaʿtsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَسَّا مَا شْبَعْتش",
+       "rom": "lassā mā shbaʿtsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَازَالْ مَا شْبِعْتش",
        "rom": "māzāl mā shbiʿtsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 383,
+     "num": 385,
      "cn": "有英文菜单吗？",
      "dialects": {
       "msa": {
@@ -10403,16 +13913,25 @@ const DATA = {
        "rom": "ʿindkūn manyū bi-al-injilīzī",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدْكُون مَنْيُو بِالإنْجْلِيزِي؟",
+       "rom": "ʿindkūn manyū bi-al-injilīzī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدْكُون مَنْيُو بِالإنْجْلِيزِي؟",
+       "rom": "ʿindkūn manyū bi-al-injilīzī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدْكُم لِّسْتَة بِالإنْجْلِيزِيَّة؟",
        "rom": "ʿandkum lista bi-al-injilīziyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 384,
+     "num": 386,
      "cn": "有素食吗？",
      "dialects": {
       "msa": {
@@ -10430,16 +13949,25 @@ const DATA = {
        "rom": "ʿindkūn akl nabātī",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدْكُون أَكْل نَبَاتِي؟",
+       "rom": "ʿindkūn akl nabātī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدْكُون أَكْل نَبَاتِي؟",
+       "rom": "ʿindkūn akl nabātī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدْكُم مَاكْلَة نَبَاتِيَّة؟",
        "rom": "ʿandkum mākla nabātiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 385,
+     "num": 387,
      "cn": "这菜里有坚果吗？",
      "dialects": {
       "msa": {
@@ -10457,16 +13985,25 @@ const DATA = {
        "rom": "fī aṭ-ṭabaq hād mukassarāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "في الطبق هذا مكسرات؟",
+       "rom": "fī aṭ-ṭabaq hādhā mukassarāt",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "في الطبق هذا مكسرات؟",
+       "rom": "fī aṭ-ṭabaq hādhā mukassarāt",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "فِي الطَّبَق هَادِي مْكَسَّرَات؟",
        "rom": "fī aṭ-ṭabaq hādī mkassarāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 386,
+     "num": 388,
      "cn": "来一杯水",
      "dialects": {
       "msa": {
@@ -10484,16 +14021,25 @@ const DATA = {
        "rom": "hāt lī kās mī",
        "note": ""
       },
+      "gulf": {
+       "ar": "هَاتْ لِي كَاس مِي",
+       "rom": "hāt lī kās mī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هَاتْ لِي كَاس مِي",
+       "rom": "hāt lī kās mī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جِيبْ لِي كَاس لْمَا",
        "rom": "jīb lī kās l-mā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 387,
+     "num": 389,
      "cn": "再来一杯",
      "dialects": {
       "msa": {
@@ -10511,16 +14057,25 @@ const DATA = {
        "rom": "wāḥid tānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَاحِد تَانِي",
+       "rom": "wāḥid tānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَاحِد تَانِي",
+       "rom": "wāḥid tānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاحَد أُخْرَى",
        "rom": "wāḥad ukhrā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 388,
+     "num": 390,
      "cn": "慢慢吃",
      "dialects": {
       "msa": {
@@ -10538,16 +14093,25 @@ const DATA = {
        "rom": "kul ʿalā mahlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُل عَلَى مَهْلَك",
+       "rom": "kul ʿalā mahlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُل عَلَى مَهْلَك",
+       "rom": "kul ʿalā mahlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُل عَلَى رَاحَتِك",
        "rom": "kul ʿalā rāḥtak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 389,
+     "num": 391,
      "cn": "请慢用（祝好胃口）",
      "dialects": {
       "msa": {
@@ -10565,16 +14129,25 @@ const DATA = {
        "rom": "bi-ṣiḥḥatak",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِصَحَّتَك",
+       "rom": "bi-ṣiḥḥatak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِصَحَّتَك",
+       "rom": "bi-ṣiḥḥatak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْصْحَّتْك",
        "rom": "b-ṣḥḥatak",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 390,
+     "num": 392,
      "cn": "这菜是怎么做的？",
      "dialects": {
       "msa": {
@@ -10592,16 +14165,25 @@ const DATA = {
        "rom": "aṭ-ṭabaq hād ʿamlu kīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطبق هذا عمله شلون؟",
+       "rom": "aṭ-ṭabaq hādhā ʿamlu shlūn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الطبق هذا عمله شلون؟",
+       "rom": "aṭ-ṭabaq hādhā ʿamlu shlūn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "الطَّبَق هَادِي كِيفَاش مَعْمُول؟",
        "rom": "aṭ-ṭabaq hādī kīfāsh maʿmūl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 391,
+     "num": 393,
      "cn": "太咸了",
      "dialects": {
       "msa": {
@@ -10619,16 +14201,25 @@ const DATA = {
        "rom": "hād māliḥ ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا مالح وايد",
+       "rom": "hādhā māliḥ wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا مالح هواية",
+       "rom": "hādhā māliḥ hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا مَالِح بْزَّاف",
        "rom": "hādā māliḥ bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 392,
+     "num": 394,
      "cn": "太甜了",
      "dialects": {
       "msa": {
@@ -10646,16 +14237,25 @@ const DATA = {
        "rom": "hād ḥulw ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا حلو وايد",
+       "rom": "hādhā ḥulw wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا حلو هواية",
+       "rom": "hādhā ḥulw hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا حْلُو بْزَّاف",
        "rom": "hādā ḥlū bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 393,
+     "num": 395,
      "cn": "请给我勺子",
      "dialects": {
       "msa": {
@@ -10673,16 +14273,25 @@ const DATA = {
        "rom": "ʿṭīnī milʿaqa",
        "note": ""
       },
+      "gulf": {
+       "ar": "عْطِينِي مِلْعَقَة",
+       "rom": "ʿṭīnī milʿaqa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عْطِينِي مِلْعَقَة",
+       "rom": "ʿṭīnī milʿaqa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْطِينِي مْعَلَّقَة",
        "rom": "ʿṭīnī mʿallaqa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 394,
+     "num": 396,
      "cn": "请给我刀",
      "dialects": {
       "msa": {
@@ -10700,16 +14309,25 @@ const DATA = {
        "rom": "ʿṭīnī sikkīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "عْطِينِي سِكِّين",
+       "rom": "ʿṭīnī sikkīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عْطِينِي سِكِّين",
+       "rom": "ʿṭīnī sikkīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْطِينِي مُوس",
        "rom": "ʿṭīnī mūs",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 395,
+     "num": 397,
      "cn": "请给我餐巾纸",
      "dialects": {
       "msa": {
@@ -10727,16 +14345,25 @@ const DATA = {
        "rom": "ʿṭīnī mandīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "عْطِينِي مِنْدِيل",
+       "rom": "ʿṭīnī mandīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عْطِينِي مِنْدِيل",
+       "rom": "ʿṭīnī mandīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْطِينِي مْنْدِيل",
        "rom": "ʿṭīnī mndīl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 396,
+     "num": 398,
      "cn": "这食物干净吗？",
      "dialects": {
       "msa": {
@@ -10754,16 +14381,25 @@ const DATA = {
        "rom": "al-akl hād naẓīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأكل هذا نظيف؟",
+       "rom": "al-akl hādhā naẓīf",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الأكل هذا نظيف؟",
+       "rom": "al-akl hādhā naẓīf",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "المَاكْلَة هَادِي نْظِيفَة؟",
        "rom": "l-mākla hādī nẓīfa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 397,
+     "num": 399,
      "cn": "我过敏",
      "dialects": {
       "msa": {
@@ -10781,16 +14417,25 @@ const DATA = {
        "rom": "ʿindī ḥassāsiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي حَسَّاسِيَّة",
+       "rom": "ʿindī ḥassāsiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي حَسَّاسِيَّة",
+       "rom": "ʿindī ḥassāsiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي حَسَّاسِيَّة",
        "rom": "ʿandī ḥassāsiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 398,
+     "num": 400,
      "cn": "能开发票吗？",
      "dialects": {
       "msa": {
@@ -10808,16 +14453,25 @@ const DATA = {
        "rom": "mīkān tʿṭīnī fātūra",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْكَان تْعْطِينِي فَاتُورَة؟",
+       "rom": "mīkān tʿṭīnī fātūra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْكَان تْعْطِينِي فَاتُورَة؟",
+       "rom": "mīkān tʿṭīnī fātūra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَنْجَم تْعْطِينِي فَاتُورَة؟",
        "rom": "yanjam tʿṭīnī fātūra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 399,
+     "num": 401,
      "cn": "我们走吧",
      "dialects": {
       "msa": {
@@ -10835,16 +14489,25 @@ const DATA = {
        "rom": "yallā nrūḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَلَّا نِرُوح",
+       "rom": "yallā nrūḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَلَّا نِرُوح",
+       "rom": "yallā nrūḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَلَّا نْمْشِيو",
        "rom": "yallā nmashīw",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 400,
+     "num": 402,
      "cn": "下次再约",
      "dialects": {
       "msa": {
@@ -10862,13 +14525,22 @@ const DATA = {
        "rom": "nitqābal marra tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "نِتْقَابَلْ مَرَّة تَانِيَة",
+       "rom": "nitqābal marra tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نِتْقَابَلْ مَرَّة تَانِيَة",
+       "rom": "nitqābal marra tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتْقَابْلُو مَرَّة أُخْرَى",
        "rom": "nitqāblū marra ukhrā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   },
@@ -10876,7 +14548,7 @@ const DATA = {
    "title": "十三、购物扩展（约90句）",
    "rows": [
     {
-     "num": 401,
+     "num": 403,
      "cn": "衣服",
      "dialects": {
       "msa": {
@@ -10894,16 +14566,25 @@ const DATA = {
        "rom": "tyāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْيَاب",
+       "rom": "tyāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْيَاب",
+       "rom": "tyāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْوَايج",
        "rom": "ḥwayj",
        "note": ""
       }
-     },
-     "common": "② هدوم"
+     }
     },
     {
-     "num": 402,
+     "num": 404,
      "cn": "裤子",
      "dialects": {
       "msa": {
@@ -10921,16 +14602,25 @@ const DATA = {
        "rom": "banṭalūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَنْطَلُون",
+       "rom": "banṭalūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَنْطَلُون",
+       "rom": "banṭalūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَرْوَال",
        "rom": "sarwāl",
        "note": ""
       }
-     },
-     "common": "② بنطالون"
+     }
     },
     {
-     "num": 403,
+     "num": 405,
      "cn": "裙子",
      "dialects": {
       "msa": {
@@ -10948,16 +14638,25 @@ const DATA = {
        "rom": "tannūra",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَنُّورَة",
+       "rom": "tannūra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَنُّورَة",
+       "rom": "tannūra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جُونَلَة",
        "rom": "jūnala",
        "note": ""
       }
-     },
-     "common": "② جونلة"
+     }
     },
     {
-     "num": 404,
+     "num": 406,
      "cn": "鞋",
      "dialects": {
       "msa": {
@@ -10975,16 +14674,25 @@ const DATA = {
        "rom": "ḥidā",
        "note": ""
       },
+      "gulf": {
+       "ar": "حِذَا",
+       "rom": "ḥidā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حِذَا",
+       "rom": "ḥidā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَبَّاط",
        "rom": "ṣabbāṭ",
        "note": ""
       }
-     },
-     "common": "② جزمة"
+     }
     },
     {
-     "num": 405,
+     "num": 407,
      "cn": "帽子",
      "dialects": {
       "msa": {
@@ -11002,16 +14710,25 @@ const DATA = {
        "rom": "ṭāqiya",
        "note": ""
       },
+      "gulf": {
+       "ar": "طَاقِيَّة",
+       "rom": "ṭāqiya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "طَاقِيَّة",
+       "rom": "ṭāqiya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاسْكِيتَا",
        "rom": "kaskīta",
        "note": ""
       }
-     },
-     "common": "② طاقية"
+     }
     },
     {
-     "num": 406,
+     "num": 408,
      "cn": "袜子",
      "dialects": {
       "msa": {
@@ -11029,16 +14746,25 @@ const DATA = {
        "rom": "jawārib",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَوَارِب",
+       "rom": "jawārib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَوَارِب",
+       "rom": "jawārib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَرْبِيَّات",
        "rom": "jarbiyyāt",
        "note": ""
       }
-     },
-     "common": "② شراب"
+     }
     },
     {
-     "num": 407,
+     "num": 409,
      "cn": "衬衫",
      "dialects": {
       "msa": {
@@ -11056,16 +14782,25 @@ const DATA = {
        "rom": "qamīṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَمِيص",
+       "rom": "qamīṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَمِيص",
+       "rom": "qamīṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَمِيج",
        "rom": "qamīj",
        "note": ""
       }
-     },
-     "common": "① قميص"
+     }
     },
     {
-     "num": 408,
+     "num": 410,
      "cn": "T恤",
      "dialects": {
       "msa": {
@@ -11083,16 +14818,25 @@ const DATA = {
        "rom": "tī shīrt",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِي شِيرْت",
+       "rom": "tī shīrt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِي شِيرْت",
+       "rom": "tī shīrt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تِي شِيرْت",
        "rom": "tī shīrt",
        "note": ""
       }
-     },
-     "common": "② تي شيرت"
+     }
     },
     {
-     "num": 409,
+     "num": 411,
      "cn": "外套/大衣",
      "dialects": {
       "msa": {
@@ -11110,16 +14854,25 @@ const DATA = {
        "rom": "jākīt",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَاكِيت",
+       "rom": "jākīt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَاكِيت",
+       "rom": "jākīt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَاكِيت",
        "rom": "jākīt",
        "note": ""
       }
-     },
-     "common": "② جاكيت"
+     }
     },
     {
-     "num": 410,
+     "num": 412,
      "cn": "这件衣服多少钱？",
      "dialects": {
       "msa": {
@@ -11137,16 +14890,25 @@ const DATA = {
        "rom": "hād at-tyāb bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا التياب بكم؟",
+       "rom": "hādhā at-tyāb bikam",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا التياب بكم؟",
+       "rom": "hādhā at-tyāb bikam",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَاد التْيَاب بْشْحَال؟",
        "rom": "hād at-tyāb b-shḥāl",
        "note": ""
       }
-     },
-     "common": "② الهدوم ده بكام"
+     }
     },
     {
-     "num": 411,
+     "num": 413,
      "cn": "我想买一件衬衫",
      "dialects": {
       "msa": {
@@ -11164,16 +14926,25 @@ const DATA = {
        "rom": "biddī ashtrī qamīṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أشتري قميص",
+       "rom": "abī ashtrī qamīṣ",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أشتري قميص",
+       "rom": "arīd ashtrī qamīṣ",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْشْرِي قَمِيج",
        "rom": "bghīt nshri qamīj",
        "note": ""
       }
-     },
-     "common": "② عايز أشتري قميص"
+     }
     },
     {
-     "num": 412,
+     "num": 414,
      "cn": "有别的款式吗？",
      "dialects": {
       "msa": {
@@ -11191,16 +14962,25 @@ const DATA = {
        "rom": "ʿindak mūdīlāt tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ مُودِيلَات تَانِيَة؟",
+       "rom": "ʿindak mūdīlāt tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ مُودِيلَات تَانِيَة؟",
+       "rom": "ʿindak mūdīlāt tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ مُودِيلَات أُخْرَى؟",
        "rom": "ʿandak mūdīlāt ukhra",
        "note": ""
       }
-     },
-     "common": "② عندك موديلات تانية"
+     }
     },
     {
-     "num": 413,
+     "num": 415,
      "cn": "这件好看",
      "dialects": {
       "msa": {
@@ -11218,16 +14998,25 @@ const DATA = {
        "rom": "hād ḥilw",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا حلو",
+       "rom": "hādhā ḥilw",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا حلو",
+       "rom": "hādhā ḥilw",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا زْوِين",
        "rom": "hādā zwīn",
        "note": ""
       }
-     },
-     "common": "② ده حلو"
+     }
     },
     {
-     "num": 414,
+     "num": 416,
      "cn": "那件更便宜",
      "dialects": {
       "msa": {
@@ -11245,16 +15034,25 @@ const DATA = {
        "rom": "hīdāk arkhaṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "هِيدَاك أَرْخَص",
+       "rom": "hīdāk arkhaṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هِيدَاك أَرْخَص",
+       "rom": "hīdāk arkhaṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هَادَاك أَرْخَص",
        "rom": "hādāk arkhaṣ",
        "note": ""
       }
-     },
-     "common": "② ده أرخص"
+     }
     },
     {
-     "num": 415,
+     "num": 417,
      "cn": "可以试穿吗？",
      "dialects": {
       "msa": {
@@ -11272,16 +15070,25 @@ const DATA = {
        "rom": "bqadūr ajarribu",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور أْجَرِّبُه؟",
+       "rom": "bqadūr ajarribu",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور أْجَرِّبُه؟",
+       "rom": "bqadūr ajarribu",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْجَرِّبُو؟",
        "rom": "nqdar njarribū",
        "note": ""
       }
-     },
-     "common": "② ينفع أجربه"
+     }
     },
     {
-     "num": 416,
+     "num": 418,
      "cn": "试衣间在哪？",
      "dialects": {
       "msa": {
@@ -11299,16 +15106,25 @@ const DATA = {
        "rom": "ghurfet al-qiyās wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "غُرْفَة القِيَاس وَيْن؟",
+       "rom": "ghurfet al-qiyās wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غُرْفَة القِيَاس وَيْن؟",
+       "rom": "ghurfet al-qiyās wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيت القِيَاس فِين؟",
        "rom": "bīt al-qiyās fīn",
        "note": ""
       }
-     },
-     "common": "② غرفة القياس فين"
+     }
     },
     {
-     "num": 417,
+     "num": 419,
      "cn": "这双鞋有其他颜色吗？",
      "dialects": {
       "msa": {
@@ -11326,16 +15142,25 @@ const DATA = {
        "rom": "al-ḥidā fīhā alwān tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "هَالْحِذَا فِيهَا أَلْوَان تَانِيَة؟",
+       "rom": "al-ḥidā fīhā alwān tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هَالْحِذَا فِيهَا أَلْوَان تَانِيَة؟",
+       "rom": "al-ḥidā fīhā alwān tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هَاد الصَّبَّاط فِيه أَلْوَان أُخْرَى؟",
        "rom": "hād aṣ-ṣabbāṭ fīh alwān ukhra",
        "note": ""
       }
-     },
-     "common": "② الجزمة دي فيها ألوان تانية"
+     }
     },
     {
-     "num": 418,
+     "num": 420,
      "cn": "给我看看那顶帽子",
      "dialects": {
       "msa": {
@@ -11353,16 +15178,25 @@ const DATA = {
        "rom": "warrīnī aṭ-ṭāqiya hīdīk",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَرِّينِي الطَّاقِيَّة هِيدِيك",
+       "rom": "warrīnī aṭ-ṭāqiya hīdīk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَرِّينِي الطَّاقِيَّة هِيدِيك",
+       "rom": "warrīnī aṭ-ṭāqiya hīdīk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَرِّينِي الكَاسْكِيتَا هَادِيك",
        "rom": "warrīnī al-kaskīta hādīk",
        "note": ""
       }
-     },
-     "common": "② وريني الطاقية دي"
+     }
     },
     {
-     "num": 419,
+     "num": 421,
      "cn": "大",
      "dialects": {
       "msa": {
@@ -11380,16 +15214,25 @@ const DATA = {
        "rom": "kbīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "كْبِير",
+       "rom": "kbīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كْبِير",
+       "rom": "kbīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْبِير",
        "rom": "kbīr",
        "note": ""
       }
-     },
-     "common": "② كبير"
+     }
     },
     {
-     "num": 420,
+     "num": 422,
      "cn": "中（码）",
      "dialects": {
       "msa": {
@@ -11407,16 +15250,25 @@ const DATA = {
        "rom": "wasaṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَسَط",
+       "rom": "wasaṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَسَط",
+       "rom": "wasaṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَسَط",
        "rom": "wasaṭ",
        "note": ""
       }
-     },
-     "common": "② وسط"
+     }
     },
     {
-     "num": 421,
+     "num": 423,
      "cn": "小",
      "dialects": {
       "msa": {
@@ -11434,16 +15286,25 @@ const DATA = {
        "rom": "ṣghīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صْغِير",
+       "rom": "ṣghīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صْغِير",
+       "rom": "ṣghīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْغِير",
        "rom": "ṣghīr",
        "note": ""
       }
-     },
-     "common": "② صغير"
+     }
     },
     {
-     "num": 422,
+     "num": 424,
      "cn": "S号",
      "dialects": {
       "msa": {
@@ -11461,16 +15322,25 @@ const DATA = {
        "rom": "miqās S",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِقَاس S",
+       "rom": "miqās S",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِقَاس S",
+       "rom": "miqās S",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِقَاس S",
        "rom": "miqās S",
        "note": ""
       }
-     },
-     "common": "② مقاس S"
+     }
     },
     {
-     "num": 423,
+     "num": 425,
      "cn": "M号",
      "dialects": {
       "msa": {
@@ -11488,16 +15358,25 @@ const DATA = {
        "rom": "miqās M",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِقَاس M",
+       "rom": "miqās M",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِقَاس M",
+       "rom": "miqās M",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِقَاس M",
        "rom": "miqās M",
        "note": ""
       }
-     },
-     "common": "② مقاس M"
+     }
     },
     {
-     "num": 424,
+     "num": 426,
      "cn": "L号",
      "dialects": {
       "msa": {
@@ -11515,16 +15394,25 @@ const DATA = {
        "rom": "miqās L",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِقَاس L",
+       "rom": "miqās L",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِقَاس L",
+       "rom": "miqās L",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مِقَاس L",
        "rom": "miqās L",
        "note": ""
       }
-     },
-     "common": "② مقاس L"
+     }
     },
     {
-     "num": 425,
+     "num": 427,
      "cn": "我要大一点的",
      "dialects": {
       "msa": {
@@ -11542,16 +15430,25 @@ const DATA = {
        "rom": "biddī wāḥid akbar shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي واحد أكبر شوي",
+       "rom": "abī wāḥid akbar shway",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد واحد أكبر شوية",
+       "rom": "arīd wāḥid akbar shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت وَاحِد أَكْبَر شْوِيَّة",
        "rom": "bghīt wāḥid akbar shwiyya",
        "note": ""
       }
-     },
-     "common": "② عايز واحد أكبر شوية"
+     }
     },
     {
-     "num": 426,
+     "num": 428,
      "cn": "我要小一点的",
      "dialects": {
       "msa": {
@@ -11569,16 +15466,25 @@ const DATA = {
        "rom": "biddī wāḥid aṣghar shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي واحد أصغر شوي",
+       "rom": "abī wāḥid aṣghar shway",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد واحد أصغر شوية",
+       "rom": "arīd wāḥid aṣghar shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت وَاحِد أَصْغَر شْوِيَّة",
        "rom": "bghīt wāḥid aṣghar shwiyya",
        "note": ""
       }
-     },
-     "common": "② عايز واحد أصغر شوية"
+     }
     },
     {
-     "num": 427,
+     "num": 429,
      "cn": "这个尺寸不合适",
      "dialects": {
       "msa": {
@@ -11596,16 +15502,25 @@ const DATA = {
        "rom": "al-miqās hād mā byunāsibsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "المقاس هذا ما بيناسبش",
+       "rom": "al-miqās hādhā mā byunāsibsh",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "المقاس هذا ما بيناسبش",
+       "rom": "al-miqās hādhā mā byunāsibsh",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "المِقَاس هَادَا مَا كِيْنَاسِبْش",
        "rom": "al-miqās hādā mā kīnyāsibsh",
        "note": ""
       }
-     },
-     "common": "② المقاس ده ما بيناسبش"
+     }
     },
     {
-     "num": 428,
+     "num": 430,
      "cn": "太长",
      "dialects": {
       "msa": {
@@ -11623,16 +15538,25 @@ const DATA = {
        "rom": "ṭwīl ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "طويل وايد",
+       "rom": "ṭwīl wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "طويل هواية",
+       "rom": "ṭwīl hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "طْوِيل بْزَاف",
        "rom": "ṭwīl b-zāf",
        "note": ""
       }
-     },
-     "common": "② طويل أوي"
+     }
     },
     {
-     "num": 429,
+     "num": 431,
      "cn": "太短",
      "dialects": {
       "msa": {
@@ -11650,16 +15574,25 @@ const DATA = {
        "rom": "qṣīr ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "قصير وايد",
+       "rom": "qṣīr wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "قصير هواية",
+       "rom": "qṣīr hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "قْصِير بْزَاف",
        "rom": "qṣīr b-zāf",
        "note": ""
       }
-     },
-     "common": "② قصير أوي"
+     }
     },
     {
-     "num": 430,
+     "num": 432,
      "cn": "合身",
      "dialects": {
       "msa": {
@@ -11677,16 +15610,25 @@ const DATA = {
        "rom": "al-miqās munāsib",
        "note": ""
       },
+      "gulf": {
+       "ar": "المِقَاس مُنَاسِب",
+       "rom": "al-miqās munāsib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المِقَاس مُنَاسِب",
+       "rom": "al-miqās munāsib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المِقَاس مْزِيَان",
        "rom": "al-miqās mziyān",
        "note": ""
       }
-     },
-     "common": "② المقاس مناسب"
+     }
     },
     {
-     "num": 431,
+     "num": 433,
      "cn": "可以改短吗？",
      "dialects": {
       "msa": {
@@ -11704,16 +15646,25 @@ const DATA = {
        "rom": "bqadūr yitqaṣṣar",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور يِتْقَصَّر؟",
+       "rom": "bqadūr yitqaṣṣar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور يِتْقَصَّر؟",
+       "rom": "bqadūr yitqaṣṣar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نَقْصْرُو؟",
        "rom": "nqdar naqṣrū",
        "note": ""
       }
-     },
-     "common": "② ينفع يتقصر"
+     }
     },
     {
-     "num": 432,
+     "num": 434,
      "cn": "有没有我的尺码？",
      "dialects": {
       "msa": {
@@ -11731,16 +15682,25 @@ const DATA = {
        "rom": "ʿindak miqāsī",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ مِقَاسِي؟",
+       "rom": "ʿindak miqāsī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ مِقَاسِي؟",
+       "rom": "ʿindak miqāsī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ المِقَاس دْيَالِي؟",
        "rom": "ʿandak al-miqās dyālī",
        "note": ""
       }
-     },
-     "common": "② عندك مقاسي"
+     }
     },
     {
-     "num": 433,
+     "num": 435,
      "cn": "绿色",
      "dialects": {
       "msa": {
@@ -11758,16 +15718,25 @@ const DATA = {
        "rom": "akhḍar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَخْضَر",
+       "rom": "akhḍar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَخْضَر",
+       "rom": "akhḍar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْضَر",
        "rom": "khḍar",
        "note": ""
       }
-     },
-     "common": "② أخضر"
+     }
     },
     {
-     "num": 434,
+     "num": 436,
      "cn": "黄色",
      "dialects": {
       "msa": {
@@ -11785,16 +15754,25 @@ const DATA = {
        "rom": "aṣfar",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَصْفَر",
+       "rom": "aṣfar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَصْفَر",
+       "rom": "aṣfar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْفَر",
        "rom": "ṣfar",
        "note": ""
       }
-     },
-     "common": "② أصفر"
+     }
     },
     {
-     "num": 435,
+     "num": 437,
      "cn": "黑色",
      "dialects": {
       "msa": {
@@ -11812,16 +15790,25 @@ const DATA = {
        "rom": "aswad",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَسْوَد",
+       "rom": "aswad",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَسْوَد",
+       "rom": "aswad",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْحَل",
        "rom": "kḥal",
        "note": ""
       }
-     },
-     "common": "② أسود"
+     }
     },
     {
-     "num": 436,
+     "num": 438,
      "cn": "白色",
      "dialects": {
       "msa": {
@@ -11839,16 +15826,25 @@ const DATA = {
        "rom": "abyaḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَبْيَض",
+       "rom": "abyaḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَبْيَض",
+       "rom": "abyaḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيض",
        "rom": "bīḍ",
        "note": ""
       }
-     },
-     "common": "② أبيض"
+     }
     },
     {
-     "num": 437,
+     "num": 439,
      "cn": "紫色",
      "dialects": {
       "msa": {
@@ -11866,16 +15862,25 @@ const DATA = {
        "rom": "banafsajī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَنَفْسَجِي",
+       "rom": "banafsajī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَنَفْسَجِي",
+       "rom": "banafsajī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَنَفْسَجِي",
        "rom": "banafsajī",
        "note": ""
       }
-     },
-     "common": "② بنفسجي"
+     }
     },
     {
-     "num": 438,
+     "num": 440,
      "cn": "什么颜色？",
      "dialects": {
       "msa": {
@@ -11893,16 +15898,25 @@ const DATA = {
        "rom": "shū lawnuh",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو لونه؟",
+       "rom": "shinū lawnuh",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو لونه؟",
+       "rom": "shinū lawnuh",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "آش لَوْن؟",
        "rom": "āsh lūn",
        "note": ""
       }
-     },
-     "common": "② لونه إيه"
+     }
     },
     {
-     "num": 439,
+     "num": 441,
      "cn": "粉色",
      "dialects": {
       "msa": {
@@ -11920,16 +15934,25 @@ const DATA = {
        "rom": "wardī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَرْدِي",
+       "rom": "wardī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَرْدِي",
+       "rom": "wardī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَرْدِي",
        "rom": "wardī",
        "note": ""
       }
-     },
-     "common": "② وردي"
+     }
     },
     {
-     "num": 440,
+     "num": 442,
      "cn": "橙色",
      "dialects": {
       "msa": {
@@ -11947,16 +15970,25 @@ const DATA = {
        "rom": "burtuqālī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُرْتُقَالِي",
+       "rom": "burtuqālī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُرْتُقَالِي",
+       "rom": "burtuqālī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُرْتُقَالِي",
        "rom": "burtuqālī",
        "note": ""
       }
-     },
-     "common": "② برتقالي"
+     }
     },
     {
-     "num": 441,
+     "num": 443,
      "cn": "灰色",
      "dialects": {
       "msa": {
@@ -11974,16 +16006,25 @@ const DATA = {
        "rom": "ramādī",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَمَادِي",
+       "rom": "ramādī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَمَادِي",
+       "rom": "ramādī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَمَادِي",
        "rom": "ramādī",
        "note": ""
       }
-     },
-     "common": "② رمادي"
+     }
     },
     {
-     "num": 442,
+     "num": 444,
      "cn": "棕色",
      "dialects": {
       "msa": {
@@ -12001,16 +16042,25 @@ const DATA = {
        "rom": "bunnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُنِّي",
+       "rom": "bunnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُنِّي",
+       "rom": "bunnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَهْوِي",
        "rom": "qahwī",
        "note": ""
       }
-     },
-     "common": "② بني"
+     }
     },
     {
-     "num": 443,
+     "num": 445,
      "cn": "太贵了",
      "dialects": {
       "msa": {
@@ -12028,16 +16078,25 @@ const DATA = {
        "rom": "ghālī ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "غالي وايد",
+       "rom": "ghālī wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "غالي هواية",
+       "rom": "ghālī hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "غَالِي بْزَاف",
        "rom": "ghālī b-zāf",
        "note": ""
       }
-     },
-     "common": "② غالي أوي"
+     }
     },
     {
-     "num": 444,
+     "num": 446,
      "cn": "便宜点",
      "dialects": {
       "msa": {
@@ -12055,16 +16114,25 @@ const DATA = {
        "rom": "khallīhā arkhaṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَلِّيهَا أَرْخَص",
+       "rom": "khallīhā arkhaṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَلِّيهَا أَرْخَص",
+       "rom": "khallīhā arkhaṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خَلِّيهَا أَرْخَص",
        "rom": "khallīhā arkhaṣ",
        "note": ""
       }
-     },
-     "common": "② خليها أرخص"
+     }
     },
     {
-     "num": 445,
+     "num": 447,
      "cn": "不买了",
      "dialects": {
       "msa": {
@@ -12082,16 +16150,25 @@ const DATA = {
        "rom": "mish raḥ ashtrīh",
        "note": ""
       },
+      "gulf": {
+       "ar": "مو رح أشتريه",
+       "rom": "mū raḥ ashtrīh",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "مو رح أشتريه",
+       "rom": "mū raḥ ashtrīh",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مَاغَادِيش نْشْرِيه",
        "rom": "mā ghādīsh nshrih",
        "note": ""
       }
-     },
-     "common": "② مش هاشتريه"
+     }
     },
     {
-     "num": 446,
+     "num": 448,
      "cn": "最低价多少？",
      "dialects": {
       "msa": {
@@ -12109,16 +16186,25 @@ const DATA = {
        "rom": "aqqal siʿr kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَقَلّ سِعْر كَم؟",
+       "rom": "aqqal siʿr kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَقَلّ سِعْر كَم؟",
+       "rom": "aqqal siʿr kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَقَلّ سِعْر بْشْحَال؟",
        "rom": "aqqal siʿr b-shḥāl",
        "note": ""
       }
-     },
-     "common": "② أقل سعر كام"
+     }
     },
     {
-     "num": 447,
+     "num": 449,
      "cn": "包邮吗？",
      "dialects": {
       "msa": {
@@ -12136,16 +16222,25 @@ const DATA = {
        "rom": "ash-shaḥn majjānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشَّحْن مَجَّانِي؟",
+       "rom": "ash-shaḥn majjānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشَّحْن مَجَّانِي؟",
+       "rom": "ash-shaḥn majjānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الشَّحْن مَجَّانِي؟",
        "rom": "ash-shaḥn majjānī",
        "note": ""
       }
-     },
-     "common": "② الشحن مجاني"
+     }
     },
     {
-     "num": 448,
+     "num": 450,
      "cn": "能刷卡吗？",
      "dialects": {
       "msa": {
@@ -12163,16 +16258,25 @@ const DATA = {
        "rom": "bqadūr adfaʿ bil-kart",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور أْدْفَع بِالكَارْت؟",
+       "rom": "bqadūr adfaʿ bil-kart",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور أْدْفَع بِالكَارْت؟",
+       "rom": "bqadūr adfaʿ bil-kart",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْخَلَّص بِالكَارْت؟",
        "rom": "nqdar nkhallaṣ bil-kart",
        "note": ""
       }
-     },
-     "common": "② ينفع أدفع بالكارت"
+     }
     },
     {
-     "num": 449,
+     "num": 451,
      "cn": "开发票",
      "dialects": {
       "msa": {
@@ -12190,16 +16294,25 @@ const DATA = {
        "rom": "tiṭlaʿlī faṭūra",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْطْلَعْلِي فَاتُورَة؟",
+       "rom": "tiṭlaʿlī faṭūra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْطْلَعْلِي فَاتُورَة؟",
+       "rom": "tiṭlaʿlī faṭūra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْخْرِّجْلِي فَاتُورَة؟",
        "rom": "tkharrjīlī faṭūra",
        "note": ""
       }
-     },
-     "common": "② تطلعلي فاتورة"
+     }
     },
     {
-     "num": 450,
+     "num": 452,
      "cn": "再便宜点吧",
      "dialects": {
       "msa": {
@@ -12217,16 +16330,25 @@ const DATA = {
        "rom": "nazzīl kmān",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَزِّل كْمَان",
+       "rom": "nazzīl kmān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَزِّل كْمَان",
+       "rom": "nazzīl kmān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نَزَّل زِيد",
        "rom": "nazzal zīd",
        "note": ""
       }
-     },
-     "common": "② نزل كمان"
+     }
     },
     {
-     "num": 451,
+     "num": 453,
      "cn": "我没那么多钱",
      "dialects": {
       "msa": {
@@ -12244,16 +16366,25 @@ const DATA = {
        "rom": "maʿī mā fī hēk māl",
        "note": ""
       },
+      "gulf": {
+       "ar": "معي ما في كذا مال",
+       "rom": "maʿī mā fī kadhā māl",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "معي ماكو هيچ مال",
+       "rom": "maʿī māku hīč māl",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مَاعَنْدِيش الفْلُوس بْزَاف",
        "rom": "mā ʿandīsh el-flūs b-zāf",
        "note": ""
       }
-     },
-     "common": "② معيش الفلوس الكتير دي"
+     }
     },
     {
-     "num": 452,
+     "num": 454,
      "cn": "我付现金",
      "dialects": {
       "msa": {
@@ -12271,16 +16402,25 @@ const DATA = {
        "rom": "raḥ adfaʿ kāsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَح أْدْفَع كَاش",
+       "rom": "raḥ adfaʿ kāsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَح أْدْفَع كَاش",
+       "rom": "raḥ adfaʿ kāsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْخَلَّص كَاش",
        "rom": "ghādī nkhallaṣ kāsh",
        "note": ""
       }
-     },
-     "common": "② هادفع كاش"
+     }
     },
     {
-     "num": 453,
+     "num": 455,
      "cn": "可以讲价吗？",
      "dialects": {
       "msa": {
@@ -12298,16 +16438,25 @@ const DATA = {
        "rom": "bqadūr nitfāṣal",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور نْتْفَاصَل؟",
+       "rom": "bqadūr nitfāṣal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور نْتْفَاصَل؟",
+       "rom": "bqadūr nitfāṣal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْتْفَاصَل؟",
        "rom": "nqdar nitfāṣal",
        "note": ""
       }
-     },
-     "common": "② ينفع نتفاصل"
+     }
     },
     {
-     "num": 454,
+     "num": 456,
      "cn": "这质量怎么样？",
      "dialects": {
       "msa": {
@@ -12325,16 +16474,25 @@ const DATA = {
        "rom": "al-jawda tabaʿhā shū",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجودة تبعها شنو؟",
+       "rom": "al-jawda tabaʿhā shinū",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الجودة تبعها شنو؟",
+       "rom": "al-jawda tabaʿhā shinū",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "الجَوْدَة دْيَالْهَا آش هِيَ؟",
        "rom": "al-jawda dyālhā āsh hiya",
        "note": ""
       }
-     },
-     "common": "② الجودة بتاعتها إيه"
+     }
     },
     {
-     "num": 455,
+     "num": 457,
      "cn": "有折扣吗？",
      "dialects": {
       "msa": {
@@ -12352,16 +16510,25 @@ const DATA = {
        "rom": "fīh takhfīḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيه تْخْفِيض؟",
+       "rom": "fīh takhfīḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيه تْخْفِيض؟",
+       "rom": "fīh takhfīḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِيه تْخْفِيض؟",
        "rom": "fīh takhfīḍ",
        "note": ""
       }
-     },
-     "common": "② فيه خصم"
+     }
     },
     {
-     "num": 456,
+     "num": 458,
      "cn": "我付现金，再便宜点",
      "dialects": {
       "msa": {
@@ -12379,16 +16546,25 @@ const DATA = {
        "rom": "raḥ adfaʿ kāsh, nazzīl kmān",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَح أْدْفَع كَاش، نَزِّل كْمَان",
+       "rom": "raḥ adfaʿ kāsh, nazzīl kmān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَح أْدْفَع كَاش، نَزِّل كْمَان",
+       "rom": "raḥ adfaʿ kāsh, nazzīl kmān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْخَلَّص كَاش، نَزَّل زِيد",
        "rom": "ghādī nkhallaṣ kāsh, nazzal zīd",
        "note": ""
       }
-     },
-     "common": "② هادفع كاش، نزل كمان"
+     }
     },
     {
-     "num": 457,
+     "num": 459,
      "cn": "能送个赠品吗？",
      "dialects": {
       "msa": {
@@ -12406,16 +16582,25 @@ const DATA = {
        "rom": "tʿṭīnī shī hadiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْعْطِينِي شِي هَدِيَّة؟",
+       "rom": "tʿṭīnī shī hadiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْعْطِينِي شِي هَدِيَّة؟",
+       "rom": "tʿṭīnī shī hadiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْعْطِينِي حَاجَة هَدِيَّة؟",
        "rom": "tʿṭīnī ḥāja hadiyya",
        "note": ""
       }
-     },
-     "common": "② تديني حاجة هدية"
+     }
     },
     {
-     "num": 458,
+     "num": 460,
      "cn": "这价格含税吗？",
      "dialects": {
       "msa": {
@@ -12433,16 +16618,25 @@ const DATA = {
        "rom": "as-siʿr hād shāmil aḍ-ḍarība",
        "note": ""
       },
+      "gulf": {
+       "ar": "السعر هذا شامل الضريبة؟",
+       "rom": "as-siʿr hādhā shāmil aḍ-ḍarība",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "السعر هذا شامل الضريبة؟",
+       "rom": "as-siʿr hādhā shāmil aḍ-ḍarība",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "السِّعْر هَادَا شَامِل الضَّرِيبَة؟",
        "rom": "as-siʿr hādā shāmil aḍ-ḍarība",
        "note": ""
       }
-     },
-     "common": "② السعر ده شامل الضريبة"
+     }
     },
     {
-     "num": 459,
+     "num": 461,
      "cn": "手机",
      "dialects": {
       "msa": {
@@ -12460,16 +16654,25 @@ const DATA = {
        "rom": "talfōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَلْفُون",
+       "rom": "talfōn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَلْفُون",
+       "rom": "talfōn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تِلِيفُون",
        "rom": "tīlifūn",
        "note": ""
       }
-     },
-     "common": "② موبايل"
+     }
     },
     {
-     "num": 460,
+     "num": 462,
      "cn": "电脑",
      "dialects": {
       "msa": {
@@ -12487,16 +16690,25 @@ const DATA = {
        "rom": "kumbiyūtar",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُمْبْيُوتَر",
+       "rom": "kumbiyūtar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُمْبْيُوتَر",
+       "rom": "kumbiyūtar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُمْبْيُوتَر",
        "rom": "kumbiyūtar",
        "note": ""
       }
-     },
-     "common": "② كمبيوتر"
+     }
     },
     {
-     "num": 461,
+     "num": 463,
      "cn": "充电线",
      "dialects": {
       "msa": {
@@ -12514,16 +16726,25 @@ const DATA = {
        "rom": "kābil ash-shaḥn",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَابْل الشَّحْن",
+       "rom": "kābil ash-shaḥn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَابْل الشَّحْن",
+       "rom": "kābil ash-shaḥn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَابْل الشَّحْن",
        "rom": "kābil ash-shaḥn",
        "note": ""
       }
-     },
-     "common": "② كابل الشحن"
+     }
     },
     {
-     "num": 462,
+     "num": 464,
      "cn": "充电器",
      "dialects": {
       "msa": {
@@ -12541,16 +16762,25 @@ const DATA = {
        "rom": "shāḥin",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَاحِن",
+       "rom": "shāḥin",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَاحِن",
+       "rom": "shāḥin",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَاحِن",
        "rom": "shāḥin",
        "note": ""
       }
-     },
-     "common": "② شاحن"
+     }
     },
     {
-     "num": 463,
+     "num": 465,
      "cn": "耳机",
      "dialects": {
       "msa": {
@@ -12568,16 +16798,25 @@ const DATA = {
        "rom": "sammāʿāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَمَّاعَات",
+       "rom": "sammāʿāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَمَّاعَات",
+       "rom": "sammāʿāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَمَّاعَات",
        "rom": "sammāʿāt",
        "note": ""
       }
-     },
-     "common": "② سماعات"
+     }
     },
     {
-     "num": 464,
+     "num": 466,
      "cn": "这个手机多少钱？",
      "dialects": {
       "msa": {
@@ -12595,16 +16834,25 @@ const DATA = {
        "rom": "at-talfōn hād bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "التلفون هذا بكم؟",
+       "rom": "at-talfōn hādhā bikam",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "التلفون هذا بكم؟",
+       "rom": "at-talfōn hādhā bikam",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "التِّلِيفُون هَادَا بْشْحَال؟",
        "rom": "at-tīlifūn hādā b-shḥāl",
        "note": ""
       }
-     },
-     "common": "② الموبايل ده بكام"
+     }
     },
     {
-     "num": 465,
+     "num": 467,
      "cn": "有保修吗？",
      "dialects": {
       "msa": {
@@ -12622,16 +16870,25 @@ const DATA = {
        "rom": "fīh ḍamān",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيه ضَمَان؟",
+       "rom": "fīh ḍamān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيه ضَمَان؟",
+       "rom": "fīh ḍamān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِيه ضَمَان؟",
        "rom": "fīh ḍamān",
        "note": ""
       }
-     },
-     "common": "② فيه ضمان"
+     }
     },
     {
-     "num": 466,
+     "num": 468,
      "cn": "电池能用多久？",
      "dialects": {
       "msa": {
@@ -12649,16 +16906,25 @@ const DATA = {
        "rom": "al-baṭṭāriyya bitwaqif kam sāʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "البَطَّارِيَّة بِتْوَقِف كَم سَاعَة؟",
+       "rom": "al-baṭṭāriyya bitwaqif kam sāʿa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "البَطَّارِيَّة بِتْوَقِف كَم سَاعَة؟",
+       "rom": "al-baṭṭāriyya bitwaqif kam sāʿa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "البَطَّارِيَّة كَتْبْقَى شْحَال مِن سَاعَة؟",
        "rom": "al-baṭṭāriyya katbqā shḥāl min sāʿa",
        "note": ""
       }
-     },
-     "common": "② البطارية بتقعد كام ساعة"
+     }
     },
     {
-     "num": 467,
+     "num": 469,
      "cn": "新款还是旧款？",
      "dialects": {
       "msa": {
@@ -12676,16 +16942,25 @@ const DATA = {
        "rom": "jadīd walla qadīm",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَدِيد وَلا قَدِيم؟",
+       "rom": "jadīd walla qadīm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَدِيد وَلا قَدِيم؟",
+       "rom": "jadīd walla qadīm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جْدِيد وَلا قْدِيم؟",
        "rom": "jdīd walla qdīm",
        "note": ""
       }
-     },
-     "common": "② جديد ولا قديم"
+     }
     },
     {
-     "num": 468,
+     "num": 470,
      "cn": "能连WiFi吗？",
      "dialects": {
       "msa": {
@@ -12703,16 +16978,25 @@ const DATA = {
        "rom": "bywaṣṣal wāy fāy",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْيْوَصَّل وَاي فَاي؟",
+       "rom": "bywaṣṣal wāy fāy",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْيْوَصَّل وَاي فَاي؟",
+       "rom": "bywaṣṣal wāy fāy",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَيْوَصَّل وَاي فَاي؟",
        "rom": "kaywaṣṣal wāy fāy",
        "note": ""
       }
-     },
-     "common": "② بيوصل واي فاي"
+     }
     },
     {
-     "num": 469,
+     "num": 471,
      "cn": "有耳机卖吗？",
      "dialects": {
       "msa": {
@@ -12730,16 +17014,25 @@ const DATA = {
        "rom": "ʿindak sammāʿāt lil-bayʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ سَمَّاعَات لِلْبَيْع؟",
+       "rom": "ʿindak sammāʿāt lil-bayʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ سَمَّاعَات لِلْبَيْع؟",
+       "rom": "ʿindak sammāʿāt lil-bayʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ سَمَّاعَات لِلْبِيع؟",
        "rom": "ʿandak sammāʿāt lil-bīʿ",
        "note": ""
       }
-     },
-     "common": "② عندك سماعات للبيع"
+     }
     },
     {
-     "num": 470,
+     "num": 472,
      "cn": "超市",
      "dialects": {
       "msa": {
@@ -12757,16 +17050,25 @@ const DATA = {
        "rom": "sūbarmārkit",
        "note": ""
       },
+      "gulf": {
+       "ar": "سُوبرمَارْكِت",
+       "rom": "sūbarmārkit",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سُوبرمَارْكِت",
+       "rom": "sūbarmārkit",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سُوبرمَارْشِي",
        "rom": "sūbarmārshī",
        "note": ""
       }
-     },
-     "common": "② سوبرماركت"
+     }
     },
     {
-     "num": 471,
+     "num": 473,
      "cn": "购物车",
      "dialects": {
       "msa": {
@@ -12784,16 +17086,25 @@ const DATA = {
        "rom": "ʿarabiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَرَبِيَّة",
+       "rom": "ʿarabiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَرَبِيَّة",
+       "rom": "ʿarabiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَرْبِيَّة",
        "rom": "ʿarbīya",
        "note": ""
       }
-     },
-     "common": "② عربية"
+     }
     },
     {
-     "num": 472,
+     "num": 474,
      "cn": "结账",
      "dialects": {
       "msa": {
@@ -12811,16 +17122,25 @@ const DATA = {
        "rom": "al-kāsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَاش",
+       "rom": "al-kāsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَاش",
+       "rom": "al-kāsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَاش",
        "rom": "al-kāsh",
        "note": ""
       }
-     },
-     "common": "② الكاش"
+     }
     },
     {
-     "num": 473,
+     "num": 475,
      "cn": "袋子",
      "dialects": {
       "msa": {
@@ -12838,16 +17158,25 @@ const DATA = {
        "rom": "shanṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَنْطَة",
+       "rom": "shanṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَنْطَة",
+       "rom": "shanṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَنْطَة",
        "rom": "shanṭa",
        "note": ""
       }
-     },
-     "common": "② شنطة"
+     }
     },
     {
-     "num": 474,
+     "num": 476,
      "cn": "收银台在哪？",
      "dialects": {
       "msa": {
@@ -12865,16 +17194,25 @@ const DATA = {
        "rom": "al-kāsh wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَاش وَيْن؟",
+       "rom": "al-kāsh wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَاش وَيْن؟",
+       "rom": "al-kāsh wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَاش فِين؟",
        "rom": "al-kāsh fīn",
        "note": ""
       }
-     },
-     "common": "② الكاش فين"
+     }
     },
     {
-     "num": 475,
+     "num": 477,
      "cn": "这个多少钱一公斤？",
      "dialects": {
       "msa": {
@@ -12892,16 +17230,25 @@ const DATA = {
        "rom": "al-kīlū bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكِيلُو بِكَم؟",
+       "rom": "al-kīlū bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكِيلُو بِكَم؟",
+       "rom": "al-kīlū bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكِيلُو بْشْحَال؟",
        "rom": "al-kīlū b-shḥāl",
        "note": ""
       }
-     },
-     "common": "② الكيلو بكام"
+     }
     },
     {
-     "num": 476,
+     "num": 478,
      "cn": "在哪付钱？",
      "dialects": {
       "msa": {
@@ -12919,16 +17266,25 @@ const DATA = {
        "rom": "adfaʿ wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أْدْفَع وَيْن؟",
+       "rom": "adfaʿ wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أْدْفَع وَيْن؟",
+       "rom": "adfaʿ wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْخَلَّص فِين؟",
        "rom": "nkhallaṣ fīn",
        "note": ""
       }
-     },
-     "common": "② أدفع فين"
+     }
     },
     {
-     "num": 477,
+     "num": 479,
      "cn": "要袋子吗？",
      "dialects": {
       "msa": {
@@ -12946,16 +17302,25 @@ const DATA = {
        "rom": "btiḥib shanṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِتْحِبْ شَنْطَة؟",
+       "rom": "btiḥib shanṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِتْحِبْ شَنْطَة؟",
+       "rom": "btiḥib shanṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَغِيتِي شَنْطَة؟",
        "rom": "bghītī shanṭa",
        "note": ""
       }
-     },
-     "common": "② تحب شنطة"
+     }
     },
     {
-     "num": 478,
+     "num": 480,
      "cn": "有购物袋吗？",
      "dialects": {
       "msa": {
@@ -12973,16 +17338,25 @@ const DATA = {
        "rom": "ʿindak shanṭat tasawwuq",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ شَنْطَة تَسَوُّق؟",
+       "rom": "ʿindak shanṭat tasawwuq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ شَنْطَة تَسَوُّق؟",
+       "rom": "ʿindak shanṭat tasawwuq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ شَنْطَة تَسَوُّق؟",
        "rom": "ʿandak shanṭat tasawwuq",
        "note": ""
       }
-     },
-     "common": "② عندك شنطة تسوق"
+     }
     },
     {
-     "num": 479,
+     "num": 481,
      "cn": "收银员",
      "dialects": {
       "msa": {
@@ -13000,16 +17374,25 @@ const DATA = {
        "rom": "al-kāshīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَاشِير",
+       "rom": "al-kāshīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَاشِير",
+       "rom": "al-kāshīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَاشِير",
        "rom": "al-kāshīr",
        "note": ""
       }
-     },
-     "common": "② الكاشير"
+     }
     },
     {
-     "num": 480,
+     "num": 482,
      "cn": "能退吗？",
      "dialects": {
       "msa": {
@@ -13027,16 +17410,25 @@ const DATA = {
        "rom": "bqadūr arjʿuh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور أْرْجَعُه؟",
+       "rom": "bqadūr arjʿuh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور أْرْجَعُه؟",
+       "rom": "bqadūr arjʿuh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْرْجَعُو؟",
        "rom": "nqdar nrjʿū",
        "note": ""
       }
-     },
-     "common": "② ينفع أرجعه"
+     }
     },
     {
-     "num": 481,
+     "num": 483,
      "cn": "坏了",
      "dialects": {
       "msa": {
@@ -13054,16 +17446,25 @@ const DATA = {
        "rom": "kharbān",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَرْبَان",
+       "rom": "kharbān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَرْبَان",
+       "rom": "kharbān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَايِظ",
        "rom": "bāyiṭ",
        "note": ""
       }
-     },
-     "common": "② بايظ"
+     }
     },
     {
-     "num": 482,
+     "num": 484,
      "cn": "能换一个吗？",
      "dialects": {
       "msa": {
@@ -13081,16 +17482,25 @@ const DATA = {
        "rom": "bqadūr abaddaluh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور أْبَدَّلُه؟",
+       "rom": "bqadūr abaddaluh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور أْبَدَّلُه؟",
+       "rom": "bqadūr abaddaluh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْبَدَّلُو؟",
        "rom": "nqdar nbaddalū",
        "note": ""
       }
-     },
-     "common": "② ينفع أببدله"
+     }
     },
     {
-     "num": 483,
+     "num": 485,
      "cn": "我要退款",
      "dialects": {
       "msa": {
@@ -13108,16 +17518,25 @@ const DATA = {
        "rom": "biddī astarīd al-mablagh",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أسترد المبلغ",
+       "rom": "abī astarīd al-mablagh",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أسترد المبلغ",
+       "rom": "arīd astarīd al-mablagh",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْسْتَرْجَع الفْلُوس",
        "rom": "bghīt nstarjaʿ el-flūs",
        "note": ""
       }
-     },
-     "common": "② عايز أسترد الفلوس"
+     }
     },
     {
-     "num": 484,
+     "num": 486,
      "cn": "在保修期内",
      "dialects": {
       "msa": {
@@ -13135,16 +17554,25 @@ const DATA = {
        "rom": "lassa biḍ-ḍamān",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَسَّا بِالضَّمَان",
+       "rom": "lassa biḍ-ḍamān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَسَّا بِالضَّمَان",
+       "rom": "lassa biḍ-ḍamān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَازَال فِي الضَّمَان",
        "rom": "māzāl fī aḍ-ḍamān",
        "note": ""
       }
-     },
-     "common": "② لسه في الضمان"
+     }
     },
     {
-     "num": 485,
+     "num": 487,
      "cn": "买的东西有问题",
      "dialects": {
       "msa": {
@@ -13162,16 +17590,25 @@ const DATA = {
        "rom": "ash-shī illī sharītuh fīh mushkila",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشِّي اللي شَرِيتُه فِيه مُشْكِلَة",
+       "rom": "ash-shī illī sharītuh fīh mushkila",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشِّي اللي شَرِيتُه فِيه مُشْكِلَة",
+       "rom": "ash-shī illī sharītuh fīh mushkila",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحَاجَة اللي شْرِيتْتْهَا فِيهَا مُشْكِلَة",
        "rom": "al-ḥāja illī shritthā fīhā mushkila",
        "note": ""
       }
-     },
-     "common": "② الحاجة اللي شريتها فيها مشكلة"
+     }
     },
     {
-     "num": 486,
+     "num": 488,
      "cn": "小票/收据",
      "dialects": {
       "msa": {
@@ -13189,16 +17626,25 @@ const DATA = {
        "rom": "īṣāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "إِيصَال",
+       "rom": "īṣāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إِيصَال",
+       "rom": "īṣāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُون",
        "rom": "bōn",
        "note": ""
       }
-     },
-     "common": "② إيصال"
+     }
     },
     {
-     "num": 487,
+     "num": 489,
      "cn": "什么时候能退？",
      "dialects": {
       "msa": {
@@ -13216,16 +17662,25 @@ const DATA = {
        "rom": "arjʿuh imta",
        "note": ""
       },
+      "gulf": {
+       "ar": "أرجعه متى؟",
+       "rom": "arjʿuh matā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أرجعه متى؟",
+       "rom": "arjʿuh matā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نْرْجَعُو وَقْتَاش؟",
        "rom": "nrjʿū waqtāsh",
        "note": ""
       }
-     },
-     "common": "② أرجعه إمتى"
+     }
     },
     {
-     "num": 488,
+     "num": 490,
      "cn": "能送货吗？",
      "dialects": {
       "msa": {
@@ -13243,16 +17698,25 @@ const DATA = {
        "rom": "bqadūr tuwaṣṣaluh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدُور تْوَصَّلُه؟",
+       "rom": "bqadūr tuwaṣṣaluh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدُور تْوَصَّلُه؟",
+       "rom": "bqadūr tuwaṣṣaluh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقْدَر نْوَصَّلُو؟",
        "rom": "nqdar nuwaṣṣalū",
        "note": ""
       }
-     },
-     "common": "② ينفع توصله"
+     }
     },
     {
-     "num": 489,
+     "num": 491,
      "cn": "现金还是刷卡？",
      "dialects": {
       "msa": {
@@ -13270,16 +17734,25 @@ const DATA = {
        "rom": "kāsh walla kart",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَاش وَلا كَارْت؟",
+       "rom": "kāsh walla kart",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَاش وَلا كَارْت؟",
+       "rom": "kāsh walla kart",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاش وَلا كَارْت؟",
        "rom": "kāsh walla kart",
        "note": ""
       }
-     },
-     "common": "② كاش ولا كارت"
+     }
     },
     {
-     "num": 490,
+     "num": 492,
      "cn": "谢谢，我再看看",
      "dialects": {
       "msa": {
@@ -13297,13 +17770,22 @@ const DATA = {
        "rom": "mshkūr, raḥ ashūf akthar",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْشْكُور، رَح أْشُوف أْكْتَر",
+       "rom": "mshkūr, raḥ ashūf akthar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْشْكُور، رَح أْشُوف أْكْتَر",
+       "rom": "mshkūr, raḥ ashūf akthar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا، غَادِي نْشُوف أْكْتَر",
        "rom": "barakka, ghādī nshūf akthar",
        "note": ""
       }
-     },
-     "common": "② متشكر، هشوف أكتر"
+     }
     }
    ]
   },
@@ -13311,7 +17793,7 @@ const DATA = {
    "title": "十四、旅行与住宿（约90句）",
    "rows": [
     {
-     "num": 491,
+     "num": 493,
      "cn": "有空房吗？",
      "dialects": {
       "msa": {
@@ -13329,16 +17811,25 @@ const DATA = {
        "rom": "fī ghurfa fāḍya",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي غُرْفَة فَاضِيَة؟",
+       "rom": "fī ghurfa fāḍya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي غُرْفَة فَاضِيَة؟",
+       "rom": "fī ghurfa fāḍya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ غُرْفَة خَاوِيَة؟",
        "rom": "kāyn ghurfa khāwiya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 492,
+     "num": 494,
      "cn": "我想订一个房间",
      "dialects": {
       "msa": {
@@ -13356,16 +17847,25 @@ const DATA = {
        "rom": "baddī aḥjiz ghurfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أحجز غرفة",
+       "rom": "abī aḥjiz ghurfa",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أحجز غرفة",
+       "rom": "arīd aḥjiz ghurfa",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْحَجْز غُرْفَة",
        "rom": "bghīt nḥajz ghurfa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 493,
+     "num": 495,
      "cn": "你要住几晚？",
      "dialects": {
       "msa": {
@@ -13383,16 +17883,25 @@ const DATA = {
        "rom": "raḥ tbtīt kam lēla",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ تْبِيتْ كَم لَيْلَة؟",
+       "rom": "raḥ tbtīt kam lēla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ تْبِيتْ كَم لَيْلَة؟",
+       "rom": "raḥ tbtīt kam lēla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي تْبِيتْ كَم لِيلَة؟",
        "rom": "ghādī tbtīt kam līla",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 494,
+     "num": 496,
      "cn": "一晚多少钱？",
      "dialects": {
       "msa": {
@@ -13410,16 +17919,25 @@ const DATA = {
        "rom": "al-lēla bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "اللَّيْلَة بِكَم؟",
+       "rom": "al-lēla bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اللَّيْلَة بِكَم؟",
+       "rom": "al-lēla bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اللِّيلَة بْشْحَال؟",
        "rom": "al-līla b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 495,
+     "num": 497,
      "cn": "有更便宜的房间吗？",
      "dialects": {
       "msa": {
@@ -13437,16 +17955,25 @@ const DATA = {
        "rom": "ʿindak ghurfa arkhass",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَك غُرْفَة أَرْخَص؟",
+       "rom": "ʿindak ghurfa arkhass",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَك غُرْفَة أَرْخَص؟",
+       "rom": "ʿindak ghurfa arkhass",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ غُرْفَة أَرْخَص؟",
        "rom": "ʿandak ghurfa arkhass",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 496,
+     "num": 498,
      "cn": "我要一间双人房",
      "dialects": {
       "msa": {
@@ -13464,16 +17991,25 @@ const DATA = {
        "rom": "baddī ghurfa li-tnēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي غرفة لتنين",
+       "rom": "abī ghurfa li-tnēn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد غرفة لتنين",
+       "rom": "arīd ghurfa li-tnēn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت غُرْفَة لْجُوج",
        "rom": "bghīt ghurfa l-jūj",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 497,
+     "num": 499,
      "cn": "我要一间单人房",
      "dialects": {
       "msa": {
@@ -13491,16 +18027,25 @@ const DATA = {
        "rom": "baddī ghurfa li-waḥad",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي غرفة لوحد",
+       "rom": "abī ghurfa li-waḥad",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد غرفة لوحد",
+       "rom": "arīd ghurfa li-waḥad",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت غُرْفَة لْوَاحِد",
        "rom": "bghīt ghurfa l-wāḥid",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 498,
+     "num": 500,
      "cn": "含早餐吗？",
      "dialects": {
       "msa": {
@@ -13518,16 +18063,25 @@ const DATA = {
        "rom": "al-faṭūr dākhil",
        "note": ""
       },
+      "gulf": {
+       "ar": "الفَطُور دَاخِل؟",
+       "rom": "al-faṭūr dākhil",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الفَطُور دَاخِل؟",
+       "rom": "al-faṭūr dākhil",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الفُطُور دَاخِل؟",
        "rom": "al-fuṭūr dākhil",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 499,
+     "num": 501,
      "cn": "早餐几点开始？",
      "dialects": {
       "msa": {
@@ -13545,16 +18099,25 @@ const DATA = {
        "rom": "al-faṭūr btibda' mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "الفَطُور بْتِبْدَأ مْتَى؟",
+       "rom": "al-faṭūr btibda' mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الفَطُور بْتِبْدَأ مْتَى؟",
+       "rom": "al-faṭūr btibda' mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الفُطُور كِيبْدَا وْقْتَاش؟",
        "rom": "al-fuṭūr kībdā waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 500,
+     "num": 502,
      "cn": "有WiFi吗？",
      "dialects": {
       "msa": {
@@ -13572,16 +18135,25 @@ const DATA = {
        "rom": "fī wāy fāy",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي وَاي فَاي؟",
+       "rom": "fī wāy fāy",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي وَاي فَاي؟",
+       "rom": "fī wāy fāy",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ وَاي فَاي؟",
        "rom": "kāyn wāy fāy",
        "note": ""
       }
-     },
-     "common": "②（借 WiFi）"
+     }
     },
     {
-     "num": 501,
+     "num": 503,
      "cn": "退房时间是什么时候？",
      "dialects": {
       "msa": {
@@ -13599,16 +18171,25 @@ const DATA = {
        "rom": "mwʿid at-taslīm mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْوْعِد التَّسْلِيم مْتَى؟",
+       "rom": "mwʿid at-taslīm mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْوْعِد التَّسْلِيم مْتَى؟",
+       "rom": "mwʿid at-taslīm mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَ التَّسْلِيم وْقْتَاش؟",
        "rom": "waqt at-taslīm waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 502,
+     "num": 504,
      "cn": "需要押金吗？",
      "dialects": {
       "msa": {
@@ -13626,16 +18207,25 @@ const DATA = {
        "rom": "lāzim ʿarbūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ عَرْبُون؟",
+       "rom": "lāzim ʿarbūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ عَرْبُون؟",
+       "rom": "lāzim ʿarbūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ عَرْبُون؟",
        "rom": "lāzim ʿarbūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 503,
+     "num": 505,
      "cn": "订房可以刷卡吗？",
      "dialects": {
       "msa": {
@@ -13653,16 +18243,25 @@ const DATA = {
        "rom": "baqdar adfaʿ bil-kārt",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْدْفَعْ بِالْكَارْت؟",
+       "rom": "baqdar adfaʿ bil-kārt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْدْفَعْ بِالْكَارْت؟",
+       "rom": "baqdar adfaʿ bil-kārt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْدَفْعُو بِالْكَارْتَة؟",
        "rom": "naqdar ndafʿū bil-kārta",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 504,
+     "num": 506,
      "cn": "房卡",
      "dialects": {
       "msa": {
@@ -13680,16 +18279,25 @@ const DATA = {
        "rom": "kārt al-ghurfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَارْت الغُرْفَة",
+       "rom": "kārt al-ghurfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَارْت الغُرْفَة",
+       "rom": "kārt al-ghurfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَارْتَة الغُرْفَة",
        "rom": "kārta al-ghurfa",
        "note": ""
       }
-     },
-     "common": "②（借 card）"
+     }
     },
     {
-     "num": 505,
+     "num": 507,
      "cn": "能开空调吗？",
      "dialects": {
       "msa": {
@@ -13707,16 +18315,25 @@ const DATA = {
        "rom": "baqdar ashagghil at-takīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْشَغِّل التَّكِيف؟",
+       "rom": "baqdar ashagghil at-takīf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْشَغِّل التَّكِيف؟",
+       "rom": "baqdar ashagghil at-takīf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْشَغَّلُو التَّكِيف؟",
        "rom": "naqdar nshaghghalū at-takīf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 506,
+     "num": 508,
      "cn": "房间太吵了",
      "dialects": {
       "msa": {
@@ -13734,16 +18351,25 @@ const DATA = {
        "rom": "al-ghurfa muzʿija ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الغرفة مزعجة وايد",
+       "rom": "al-ghurfa muzʿija wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الغرفة مزعجة هواية",
+       "rom": "al-ghurfa muzʿija hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "الغُرْفَة مُزْعِجَة بْزَّاف",
        "rom": "al-ghurfa muzʿija bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 507,
+     "num": 509,
      "cn": "卫生间坏了",
      "dialects": {
       "msa": {
@@ -13761,16 +18387,25 @@ const DATA = {
        "rom": "al-ḥammām maksūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الحَمَّام مَكْسُور",
+       "rom": "al-ḥammām maksūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الحَمَّام مَكْسُور",
+       "rom": "al-ḥammām maksūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحَمَّام مْكْسَّر",
        "rom": "al-ḥammām mksarr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 508,
+     "num": 510,
      "cn": "能换一间房吗？",
      "dialects": {
       "msa": {
@@ -13788,16 +18423,25 @@ const DATA = {
        "rom": "miqdūr aghayyir al-ghurfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور أْغَيِّر الغُرْفَة؟",
+       "rom": "miqdūr aghayyir al-ghurfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور أْغَيِّر الغُرْفَة؟",
+       "rom": "miqdūr aghayyir al-ghurfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُمْكِنْ نْبَدَّلُو الغُرْفَة؟",
        "rom": "mumkin nbadllū al-ghurfa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 509,
+     "num": 511,
      "cn": "行李可以寄存吗？",
      "dialects": {
       "msa": {
@@ -13815,16 +18459,25 @@ const DATA = {
        "rom": "miqdūr asīb ash-shanṭ hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مقدور أسيب الشنط هنا؟",
+       "rom": "miqdūr asīb ash-shanṭ hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "مقدور أسيب الشنط هنا؟",
+       "rom": "miqdūr asīb ash-shanṭ hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مُمْكِنْ نْخَلِّيو لْحْقَائِب هُنَا؟",
        "rom": "mumkin nkhallīw l-ḥqāyib hnā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 510,
+     "num": 512,
      "cn": "有电梯吗？",
      "dialects": {
       "msa": {
@@ -13842,16 +18495,25 @@ const DATA = {
        "rom": "fī asānsīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي أَسَانْسِير؟",
+       "rom": "fī asānsīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي أَسَانْسِير؟",
+       "rom": "fī asānsīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ أَسَانْسِير؟",
        "rom": "kāyn asānsīr",
        "note": ""
       }
-     },
-     "common": "②（借 ascenseur）"
+     }
     },
     {
-     "num": 511,
+     "num": 513,
      "cn": "登机口在哪？",
      "dialects": {
       "msa": {
@@ -13869,16 +18531,25 @@ const DATA = {
        "rom": "wēn bāb aṣ-ṣuʿūd",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين بَاب الصُّعُود؟",
+       "rom": "wēn bāb aṣ-ṣuʿūd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين بَاب الصُّعُود؟",
+       "rom": "wēn bāb aṣ-ṣuʿūd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ بَابْ الصُّعُود؟",
        "rom": "fīn bāb aṣ-ṣuʿūd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 512,
+     "num": 514,
      "cn": "我的航班延误了",
      "dialects": {
       "msa": {
@@ -13896,16 +18567,25 @@ const DATA = {
        "rom": "ar-riḥla t'akharat",
        "note": ""
       },
+      "gulf": {
+       "ar": "الرِّحْلَة تْأَخَّرَت",
+       "rom": "ar-riḥla t'akharat",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الرِّحْلَة تْأَخَّرَت",
+       "rom": "ar-riḥla t'akharat",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرِّحْلَة تْأَخَّرَات",
        "rom": "ar-riḥla t'akharat",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 513,
+     "num": 515,
      "cn": "航班取消了",
      "dialects": {
       "msa": {
@@ -13923,16 +18603,25 @@ const DATA = {
        "rom": "ar-riḥla inlaghat",
        "note": ""
       },
+      "gulf": {
+       "ar": "الرِّحْلَة انْلَغَت",
+       "rom": "ar-riḥla inlaghat",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الرِّحْلَة انْلَغَت",
+       "rom": "ar-riḥla inlaghat",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرِّحْلَة تْلَغَّات",
        "rom": "ar-riḥla tlaghāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 514,
+     "num": 516,
      "cn": "我在哪个航站楼？",
      "dialects": {
       "msa": {
@@ -13950,16 +18639,25 @@ const DATA = {
        "rom": "anā fī ayy ṣāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا فِي أَي صَالَة؟",
+       "rom": "anā fī ayy ṣāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا فِي أَي صَالَة؟",
+       "rom": "anā fī ayy ṣāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا فِينْ أَي صَالَة؟",
        "rom": "anā fīn ayy ṣāla",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 515,
+     "num": 517,
      "cn": "几点登机？",
      "dialects": {
       "msa": {
@@ -13977,16 +18675,25 @@ const DATA = {
        "rom": "aṣ-ṣuʿūd mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "الصُّعُود مْتَى؟",
+       "rom": "aṣ-ṣuʿūd mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الصُّعُود مْتَى؟",
+       "rom": "aṣ-ṣuʿūd mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الصُّعُود وْقْتَاش؟",
        "rom": "aṣ-ṣuʿūd waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 516,
+     "num": 518,
      "cn": "我要托运行李",
      "dialects": {
       "msa": {
@@ -14004,16 +18711,25 @@ const DATA = {
        "rom": "baddī asallim ash-shanṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أسلم الشنط",
+       "rom": "abī asallim ash-shanṭ",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أسلم الشنط",
+       "rom": "arīd asallim ash-shanṭ",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْسَلِّمُو لْحْقَائِب",
        "rom": "bghīt nsallimū l-ḥqāyib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 517,
+     "num": 519,
      "cn": "行李超重了",
      "dialects": {
       "msa": {
@@ -14031,16 +18747,25 @@ const DATA = {
        "rom": "ash-shanṭ zāda bi-al-wazn",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشَّنْط زَادَة بِالوَزْن",
+       "rom": "ash-shanṭ zāda bi-al-wazn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشَّنْط زَادَة بِالوَزْن",
+       "rom": "ash-shanṭ zāda bi-al-wazn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْحْقَائِب زَادَات فِي الوَزْن",
        "rom": "l-ḥqāyib zādat fī al-wazn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 518,
+     "num": 520,
      "cn": "安检在哪？",
      "dialects": {
       "msa": {
@@ -14058,16 +18783,25 @@ const DATA = {
        "rom": "wēn at-taftīsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين التَّفْتِيش؟",
+       "rom": "wēn at-taftīsh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين التَّفْتِيش؟",
+       "rom": "wēn at-taftīsh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ التَّفْتِيش؟",
        "rom": "fīn at-taftīsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 519,
+     "num": 521,
      "cn": "免税店在哪？",
      "dialects": {
       "msa": {
@@ -14085,16 +18819,25 @@ const DATA = {
        "rom": "wēn maḥal ad-dīyūtī frī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين مَحَلْ الدِّيُوتِي فْرِي؟",
+       "rom": "wēn maḥal ad-dīyūtī frī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين مَحَلْ الدِّيُوتِي فْرِي؟",
+       "rom": "wēn maḥal ad-dīyūtī frī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ مَحَلْ الدِّيُوتِي فْرِي؟",
        "rom": "fīn maḥal ad-dīyūtī frī",
        "note": ""
       }
-     },
-     "common": "②（借 duty free）"
+     }
     },
     {
-     "num": 520,
+     "num": 522,
      "cn": "行李认领处在哪？",
      "dialects": {
       "msa": {
@@ -14112,16 +18855,25 @@ const DATA = {
        "rom": "wēn ākhud ash-shanṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين أَاخُد الشَّنْط؟",
+       "rom": "wēn ākhud ash-shanṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين أَاخُد الشَّنْط؟",
+       "rom": "wēn ākhud ash-shanṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ نَاخُدُو لْحْقَائِب؟",
        "rom": "fīn nākhudū l-ḥqāyib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 521,
+     "num": 523,
      "cn": "我的行李丢了",
      "dialects": {
       "msa": {
@@ -14139,16 +18891,25 @@ const DATA = {
        "rom": "ḍāʿat minnī ash-shanṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "ضَاعَتْ مِنِّي الشَّنْط",
+       "rom": "ḍāʿat minnī ash-shanṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ضَاعَتْ مِنِّي الشَّنْط",
+       "rom": "ḍāʿat minnī ash-shanṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "ضَاعُو مِنِّي لْحْقَائِب",
        "rom": "ḍāʿū minnī l-ḥqāyib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 522,
+     "num": 524,
      "cn": "我要转机",
      "dialects": {
       "msa": {
@@ -14166,16 +18927,25 @@ const DATA = {
        "rom": "ʿindī trānzīt",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي تْرَانْزِيت",
+       "rom": "ʿindī trānzīt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي تْرَانْزِيت",
+       "rom": "ʿindī trānzīt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي تْرَانْزِيت",
        "rom": "ʿandī trānzīt",
        "note": ""
       }
-     },
-     "common": "②（借 transit）"
+     }
     },
     {
-     "num": 523,
+     "num": 525,
      "cn": "登机牌",
      "dialects": {
       "msa": {
@@ -14193,16 +18963,25 @@ const DATA = {
        "rom": "kārt aṣ-ṣuʿūd",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَارْت الصُّعُود",
+       "rom": "kārt aṣ-ṣuʿūd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَارْت الصُّعُود",
+       "rom": "kārt aṣ-ṣuʿūd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَارْتَة الصُّعُود",
        "rom": "kārta aṣ-ṣuʿūd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 524,
+     "num": 526,
      "cn": "护照检查在哪？",
      "dialects": {
       "msa": {
@@ -14220,16 +18999,25 @@ const DATA = {
        "rom": "wēn taftīsh al-jawāzāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين تَفْتِيش الجَوَازَات؟",
+       "rom": "wēn taftīsh al-jawāzāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين تَفْتِيش الجَوَازَات؟",
+       "rom": "wēn taftīsh al-jawāzāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ تَفْتِيش الجَوَازَات؟",
        "rom": "fīn taftīsh al-jawāzāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 525,
+     "num": 527,
      "cn": "我要一个靠窗的座位",
      "dialects": {
       "msa": {
@@ -14247,16 +19035,25 @@ const DATA = {
        "rom": "baddī maqʿad janb ash-shubbāk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي مقعد جنب الشباك",
+       "rom": "abī maqʿad janb ash-shubbāk",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد مقعد جنب الشباك",
+       "rom": "arīd maqʿad janb ash-shubbāk",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت مَقْعَد حْدْ النَّافْذَة",
        "rom": "bghīt maqʿad ḥd an-nāfiḍha",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 526,
+     "num": 528,
      "cn": "飞机晚点了",
      "dialects": {
       "msa": {
@@ -14274,16 +19071,25 @@ const DATA = {
        "rom": "aṭ-ṭayyāra t'akharat",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطَّيَّارَة تْأَخَّرَت",
+       "rom": "aṭ-ṭayyāra t'akharat",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الطَّيَّارَة تْأَخَّرَت",
+       "rom": "aṭ-ṭayyāra t'akharat",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الطَّيَّارَة تْأَخَّرَات",
        "rom": "aṭ-ṭayyāra t'akharat",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 527,
+     "num": 529,
      "cn": "我能带这个上飞机吗？",
      "dialects": {
       "msa": {
@@ -14301,16 +19107,25 @@ const DATA = {
        "rom": "baqdar adkhil hād maʿī ʿalā aṭ-ṭayyāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "بقدر أدخل هذا معي على الطيارة؟",
+       "rom": "baqdar adkhil hādhā maʿī ʿalā aṭ-ṭayyāra",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "بقدر أدخل هذا معي على الطيارة؟",
+       "rom": "baqdar adkhil hādhā maʿī ʿalā aṭ-ṭayyāra",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْدْخِّلُو هَادَا مَعَايَا فِي الطَّيَّارَة؟",
        "rom": "naqdar ndkhkhilū hādā maʿāya fī aṭ-ṭayyāra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 528,
+     "num": 530,
      "cn": "航班号是多少？",
      "dialects": {
       "msa": {
@@ -14328,16 +19143,25 @@ const DATA = {
        "rom": "raqam ar-riḥla kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَقَم الرِّحْلَة كَم؟",
+       "rom": "raqam ar-riḥla kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَقَم الرِّحْلَة كَم؟",
+       "rom": "raqam ar-riḥla kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نُّمْرُو الرِّحْلَة كَم؟",
        "rom": "numrū ar-riḥla kam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 529,
+     "num": 531,
      "cn": "我要一个靠走道的座位",
      "dialects": {
       "msa": {
@@ -14355,16 +19179,25 @@ const DATA = {
        "rom": "baddī maqʿad ʿalā al-mamarr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي مقعد على الممر",
+       "rom": "abī maqʿad ʿalā al-mamarr",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد مقعد على الممر",
+       "rom": "arīd maqʿad ʿalā al-mamarr",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت مَقْعَد حْدْ المَمَر",
        "rom": "bghīt maqʿad ḥd al-mamarr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 530,
+     "num": 532,
      "cn": "起飞时间是几点？",
      "dialects": {
       "msa": {
@@ -14382,16 +19215,25 @@ const DATA = {
        "rom": "mwʿid aṭ-ṭayarān mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْوْعِد الطَّيْرَان مْتَى؟",
+       "rom": "mwʿid aṭ-ṭayarān mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْوْعِد الطَّيْرَان مْتَى؟",
+       "rom": "mwʿid aṭ-ṭayarān mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَ الطَّيْرَان وْقْتَاش؟",
        "rom": "waqt aṭ-ṭayarān waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 531,
+     "num": 533,
      "cn": "门票多少钱？",
      "dialects": {
       "msa": {
@@ -14409,16 +19251,25 @@ const DATA = {
        "rom": "at-tadhkira bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّذْكِرَة بِكَم؟",
+       "rom": "at-tadhkira bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّذْكِرَة بِكَم؟",
+       "rom": "at-tadhkira bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التِّذْكِرَة بْشْحَال؟",
        "rom": "at-tīzkira b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 532,
+     "num": 534,
      "cn": "这里几点开门？",
      "dialects": {
       "msa": {
@@ -14436,16 +19287,25 @@ const DATA = {
        "rom": "hōn btiftah mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "هنا بتفتح متى؟",
+       "rom": "hinā btiftah matā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هنا بتفتح متى؟",
+       "rom": "hinā btiftah matā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هُنَا كِيفْتَح وْقْتَاش؟",
        "rom": "hnā kīftaḥ waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 533,
+     "num": 535,
      "cn": "几点关门？",
      "dialects": {
       "msa": {
@@ -14463,16 +19323,25 @@ const DATA = {
        "rom": "btiqful mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِقْفُل مْتَى؟",
+       "rom": "btiqful mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِقْفُل مْتَى؟",
+       "rom": "btiqful mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كِيقْفَل وْقْتَاش؟",
        "rom": "kīqfal waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 534,
+     "num": 536,
      "cn": "有导游吗？",
      "dialects": {
       "msa": {
@@ -14490,16 +19359,25 @@ const DATA = {
        "rom": "fī marshid siyāḥī",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي مَرْشِد سِيَاحِي؟",
+       "rom": "fī marshid siyāḥī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي مَرْشِد سِيَاحِي؟",
+       "rom": "fī marshid siyāḥī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ مُرْشِد سِيَاحِي؟",
        "rom": "kāyn murshid siyāḥī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 535,
+     "num": 537,
      "cn": "可以拍照吗？",
      "dialects": {
       "msa": {
@@ -14517,16 +19395,25 @@ const DATA = {
        "rom": "baqdar atṣawwar",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْتْصَوَّر؟",
+       "rom": "baqdar atṣawwar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْتْصَوَّر؟",
+       "rom": "baqdar atṣawwar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْتْصَوَّرُو؟",
        "rom": "naqdar ntṣawwarū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 536,
+     "num": 538,
      "cn": "可以录像吗？",
      "dialects": {
       "msa": {
@@ -14544,16 +19431,25 @@ const DATA = {
        "rom": "baqdar aṣuwwar fīdyū",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْصُوَّر فِيدْيُو؟",
+       "rom": "baqdar aṣuwwar fīdyū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْصُوَّر فِيدْيُو؟",
+       "rom": "baqdar aṣuwwar fīdyū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْصُوَّرُو فِيدْيُو؟",
        "rom": "naqdar nṣuwwarū fīdyū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 537,
+     "num": 539,
      "cn": "这是免费的吗？",
      "dialects": {
       "msa": {
@@ -14571,16 +19467,25 @@ const DATA = {
        "rom": "hād bil-majjān",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا بلمجان؟",
+       "rom": "hādhā bil-majjān",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا بلمجان؟",
+       "rom": "hādhā bil-majjān",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا بِالْمَجَّان؟",
        "rom": "hādā bil-majjān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 538,
+     "num": 540,
      "cn": "洗手间在哪？",
      "dialects": {
       "msa": {
@@ -14598,16 +19503,25 @@ const DATA = {
        "rom": "wēn al-ḥammām",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين الحَمَّام؟",
+       "rom": "wēn al-ḥammām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ الحَمَّام؟",
        "rom": "fīn al-ḥammām",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 539,
+     "num": 541,
      "cn": "有中文导游吗？",
      "dialects": {
       "msa": {
@@ -14625,16 +19539,25 @@ const DATA = {
        "rom": "fī marshid ṣīnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي مَرْشِد صِينِي؟",
+       "rom": "fī marshid ṣīnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي مَرْشِد صِينِي؟",
+       "rom": "fī marshid ṣīnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ مُرْشِد صِينِي؟",
        "rom": "kāyn murshid ṣīnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 540,
+     "num": 542,
      "cn": "旅游地图",
      "dialects": {
       "msa": {
@@ -14652,16 +19575,25 @@ const DATA = {
        "rom": "kharīṭat as-siyāḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَرِيطَة السِّيَاحَة",
+       "rom": "kharīṭat as-siyāḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَرِيطَة السِّيَاحَة",
+       "rom": "kharīṭat as-siyāḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خَرِيطَة السِّيَاحَة",
        "rom": "kharīṭat as-siyāḥa",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 541,
+     "num": 543,
      "cn": "在哪里换钱？",
      "dialects": {
       "msa": {
@@ -14679,16 +19611,25 @@ const DATA = {
        "rom": "wēn baqdar abaddal flūs",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين بْقَدْر أْبَدَّل فْلُوس؟",
+       "rom": "wēn baqdar abaddal flūs",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين بْقَدْر أْبَدَّل فْلُوس؟",
+       "rom": "wēn baqdar abaddal flūs",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ نْقَدْرُو نْبَدَّلُو لْفْلُوس؟",
        "rom": "fīn naqdarū nbadllū l-flūs",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 542,
+     "num": 544,
      "cn": "汇率是多少？",
      "dialects": {
       "msa": {
@@ -14706,16 +19647,25 @@ const DATA = {
        "rom": "siʿr aṣ-ṣarf kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِعْر الصَّرْف كَم؟",
+       "rom": "siʿr aṣ-ṣarf kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِعْر الصَّرْف كَم؟",
+       "rom": "siʿr aṣ-ṣarf kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سْعْرْ الصَّرْف كَم؟",
        "rom": "sʿr aṣ-ṣarf kam",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 543,
+     "num": 545,
      "cn": "我想换美元",
      "dialects": {
       "msa": {
@@ -14733,16 +19683,25 @@ const DATA = {
        "rom": "baddī abaddal dūlār",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أبدل دولار",
+       "rom": "abī abaddal dūlār",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أبدل دولار",
+       "rom": "arīd abaddal dūlār",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْبَدَّلُو دُولَار",
        "rom": "bghīt nbadllū dūlār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 544,
+     "num": 546,
      "cn": "ATM在哪？",
      "dialects": {
       "msa": {
@@ -14760,16 +19719,25 @@ const DATA = {
        "rom": "mākīnat aṣ-ṣarf wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَاكِينَة الصَّرْف وِين؟",
+       "rom": "mākīnat aṣ-ṣarf wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَاكِينَة الصَّرْف وِين؟",
+       "rom": "mākīnat aṣ-ṣarf wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَاكِينَة الصَّرْف فِين؟",
        "rom": "mākīnat aṣ-ṣarf fīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 545,
+     "num": 547,
      "cn": "现金还是刷卡？",
      "dialects": {
       "msa": {
@@ -14787,16 +19755,25 @@ const DATA = {
        "rom": "kāsh walla kārt",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَاش وَلا كَارْت؟",
+       "rom": "kāsh walla kārt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَاش وَلا كَارْت؟",
+       "rom": "kāsh walla kārt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاشْ وَلا كَارْتَة؟",
        "rom": "kāsh walla kārta",
        "note": ""
       }
-     },
-     "common": "②（借 cash/card）"
+     }
     },
     {
-     "num": 546,
+     "num": 548,
      "cn": "收人民币吗？",
      "dialects": {
       "msa": {
@@ -14814,16 +19791,25 @@ const DATA = {
        "rom": "byākhudū yuwān",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْيَاخْدُو يُوَان؟",
+       "rom": "byākhudū yuwān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْيَاخْدُو يُوَان؟",
+       "rom": "byākhudū yuwān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ تِيقْبَلُو اليُوَان؟",
        "rom": "kāyn tīqbalū al-yuwān",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 547,
+     "num": 549,
      "cn": "帮我换零钱",
      "dialects": {
       "msa": {
@@ -14841,16 +19827,25 @@ const DATA = {
        "rom": "ʿṭīnī fakka min faḍlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "عْطِينِي فَكَّة مِنْ فَضْلَك",
+       "rom": "ʿṭīnī fakka min faḍlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عْطِينِي فَكَّة مِنْ فَضْلَك",
+       "rom": "ʿṭīnī fakka min faḍlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْطِينِي لْفَكَّة مِنْ عَفَاك",
        "rom": "ʿṭīnī l-fakka min ʿafāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 548,
+     "num": 550,
      "cn": "换钱要手续费吗？",
      "dialects": {
       "msa": {
@@ -14868,16 +19863,25 @@ const DATA = {
        "rom": "fī rasūm ʿalā at-tabdīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي رَسُوم عَلَى التَّبْدِيل؟",
+       "rom": "fī rasūm ʿalā at-tabdīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي رَسُوم عَلَى التَّبْدِيل؟",
+       "rom": "fī rasūm ʿalā at-tabdīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ رُسُوم عَلَى التَّبْدِيل؟",
        "rom": "kāyn rusūm ʿalā at-tabdīl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 549,
+     "num": 551,
      "cn": "需要签证吗？",
      "dialects": {
       "msa": {
@@ -14895,16 +19899,25 @@ const DATA = {
        "rom": "lāzim ta'shīra",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ تَأْشِيرَة؟",
+       "rom": "lāzim ta'shīra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ تَأْشِيرَة؟",
+       "rom": "lāzim ta'shīra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ تَأْشِيرَة؟",
        "rom": "lāzim ta'shīra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 550,
+     "num": 552,
      "cn": "我的签证",
      "dialects": {
       "msa": {
@@ -14922,16 +19935,25 @@ const DATA = {
        "rom": "at-ta'shīra tabʿitī",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّأْشِيرَة تَبْعِتِي",
+       "rom": "at-ta'shīra tabʿitī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّأْشِيرَة تَبْعِتِي",
+       "rom": "at-ta'shīra tabʿitī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّأْشِيرَة دْيَالِي",
        "rom": "at-ta'shīra dyālī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 551,
+     "num": 553,
      "cn": "落地签",
      "dialects": {
       "msa": {
@@ -14949,16 +19971,25 @@ const DATA = {
        "rom": "ta'shīra ʿind al-wuṣūl",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَأْشِيرَة عِنْد الوُصُول",
+       "rom": "ta'shīra ʿind al-wuṣūl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَأْشِيرَة عِنْد الوُصُول",
+       "rom": "ta'shīra ʿind al-wuṣūl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَأْشِيرَة عِنْدْ الوُصُول",
        "rom": "ta'shīra ʿind al-wuṣūl",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 552,
+     "num": 554,
      "cn": "我可以停留多久？",
      "dialects": {
       "msa": {
@@ -14976,16 +20007,25 @@ const DATA = {
        "rom": "baqdar abqā kam yōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْبْقَى كَم يُوم؟",
+       "rom": "baqdar abqā kam yōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْبْقَى كَم يُوم؟",
+       "rom": "baqdar abqā kam yōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْبْقَاوْ كَم يُوم؟",
        "rom": "naqdar nbqāw kam yōm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 553,
+     "num": 555,
      "cn": "签证过期了",
      "dialects": {
       "msa": {
@@ -15003,16 +20043,25 @@ const DATA = {
        "rom": "at-ta'shīra khallasat",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّأْشِيرَة خَلَّصَت",
+       "rom": "at-ta'shīra khallasat",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّأْشِيرَة خَلَّصَت",
+       "rom": "at-ta'shīra khallasat",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّأْشِيرَة سَالَات",
        "rom": "at-ta'shīra sālat",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 554,
+     "num": 556,
      "cn": "我迷路了",
      "dialects": {
       "msa": {
@@ -15030,16 +20079,25 @@ const DATA = {
        "rom": "anā tuht",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا تُهْت",
+       "rom": "anā tuht",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا تُهْت",
+       "rom": "anā tuht",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا تْلِفِّت",
        "rom": "anā tlfīt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 555,
+     "num": 557,
      "cn": "帮我指路",
      "dialects": {
       "msa": {
@@ -15057,16 +20115,25 @@ const DATA = {
        "rom": "dillnī min faḍlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "دِلَّنِي مِنْ فَضْلَك",
+       "rom": "dillnī min faḍlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دِلَّنِي مِنْ فَضْلَك",
+       "rom": "dillnī min faḍlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دِّلِّنِي مِنْ عَفَاك",
        "rom": "dillnī min ʿafāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 556,
+     "num": 558,
      "cn": "我在地图上找不到",
      "dialects": {
       "msa": {
@@ -15084,16 +20151,25 @@ const DATA = {
        "rom": "mā lāqīhsh fī al-kharīṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا لَاقِيهْش فِي الخَرِيطَة",
+       "rom": "mā lāqīhsh fī al-kharīṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا لَاقِيهْش فِي الخَرِيطَة",
+       "rom": "mā lāqīhsh fī al-kharīṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا لْقِيتُوْش فِي الخَرِيطَة",
        "rom": "mā lqītūsh fī al-kharīṭa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 557,
+     "num": 559,
      "cn": "最近的地铁站在哪？",
      "dialects": {
       "msa": {
@@ -15111,16 +20187,25 @@ const DATA = {
        "rom": "wēn aqrab maḥaṭṭat mītrū",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين أَقْرَب مَحَطَّة مِتْرُو؟",
+       "rom": "wēn aqrab maḥaṭṭat mītrū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين أَقْرَب مَحَطَّة مِتْرُو؟",
+       "rom": "wēn aqrab maḥaṭṭat mītrū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ أَقْرَبْ مَحَطَّة مِيترُو؟",
        "rom": "fīn aqrab maḥaṭṭat mītrū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 558,
+     "num": 560,
      "cn": "离这里远吗？",
      "dialects": {
       "msa": {
@@ -15138,16 +20223,25 @@ const DATA = {
        "rom": "baʿīd min hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "بعيد من هنا؟",
+       "rom": "baʿīd min hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "بعيد من هنا؟",
+       "rom": "baʿīd min hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بْعِيدْ مِنْ هُنَا؟",
        "rom": "bʿīd min hnā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 559,
+     "num": 561,
      "cn": "走路能到吗？",
      "dialects": {
       "msa": {
@@ -15165,16 +20259,25 @@ const DATA = {
        "rom": "baqdar awaṣṣal mashī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْوَصَّل مَشِي؟",
+       "rom": "baqdar awaṣṣal mashī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْوَصَّل مَشِي؟",
+       "rom": "baqdar awaṣṣal mashī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْوَصَّلُو مَشِي؟",
        "rom": "naqdar nwaṣṣalū mashī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 560,
+     "num": 562,
      "cn": "这附近有酒店吗？",
      "dialects": {
       "msa": {
@@ -15192,16 +20295,25 @@ const DATA = {
        "rom": "fī funduq qarīb min hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "في فندق قريب من هنا؟",
+       "rom": "fī funduq qarīb min hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "في فندق قريب من هنا؟",
+       "rom": "fī funduq qarīb min hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كَايْنْ أُوتِيل قْرِيب مِنْ هُنَا؟",
        "rom": "kāyn ūtīl qrīb min hnā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 561,
+     "num": 563,
      "cn": "可以帮我拍照吗？",
      "dialects": {
       "msa": {
@@ -15219,16 +20331,25 @@ const DATA = {
        "rom": "miqdūr tṣawwirnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور تْصَوِّرْنِي؟",
+       "rom": "miqdūr tṣawwirnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور تْصَوِّرْنِي؟",
+       "rom": "miqdūr tṣawwirnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَقْدَرْ تْصَوِّرْنِي؟",
        "rom": "tiqdar tṣawwirnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 562,
+     "num": 564,
      "cn": "我们合影吧",
      "dialects": {
       "msa": {
@@ -15246,16 +20367,25 @@ const DATA = {
        "rom": "nitṣawwar sawwā",
        "note": ""
       },
+      "gulf": {
+       "ar": "نِتْصَوَّرْ سَوَّا",
+       "rom": "nitṣawwar sawwā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نِتْصَوَّرْ سَوَّا",
+       "rom": "nitṣawwar sawwā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتْصَوَّرُو سْوِيَّة",
        "rom": "nitṣawwarū swiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 563,
+     "num": 565,
      "cn": "我可以自拍吗？",
      "dialects": {
       "msa": {
@@ -15273,16 +20403,25 @@ const DATA = {
        "rom": "baqdar aʿmil sīlfī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْعْمِل سِيلْفِي؟",
+       "rom": "baqdar aʿmil sīlfī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْعْمِل سِيلْفِي؟",
+       "rom": "baqdar aʿmil sīlfī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْعْمْلُو سِيلْفِي؟",
        "rom": "naqdar nʿmlū sīlfī",
        "note": ""
       }
-     },
-     "common": "②（借 selfie）"
+     }
     },
     {
-     "num": 564,
+     "num": 566,
      "cn": "可以和你合影吗？",
      "dialects": {
       "msa": {
@@ -15300,16 +20439,25 @@ const DATA = {
        "rom": "baqdar aṣūr maʿāk",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقَدْر أْصُورْ مَعَاك؟",
+       "rom": "baqdar aṣūr maʿāk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقَدْر أْصُورْ مَعَاك؟",
+       "rom": "baqdar aṣūr maʿāk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْقَدْرْ نْصُورْ مَعَاك؟",
        "rom": "naqdar nṣūr maʿāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 565,
+     "num": 567,
      "cn": "请别拍我",
      "dialects": {
       "msa": {
@@ -15327,16 +20475,25 @@ const DATA = {
        "rom": "mā tṣawwirnīsh min faḍlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا تْصَوِّرْنِيش مِنْ فَضْلَك",
+       "rom": "mā tṣawwirnīsh min faḍlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا تْصَوِّرْنِيش مِنْ فَضْلَك",
+       "rom": "mā tṣawwirnīsh min faḍlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا تْصَوِّرْنِيش مِنْ عَفَاك",
        "rom": "mā tṣawwirnīsh min ʿafāk",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 566,
+     "num": 568,
      "cn": "能再拍一张吗？",
      "dialects": {
       "msa": {
@@ -15354,16 +20511,25 @@ const DATA = {
        "rom": "miqdūr ṣūra tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور صُورَة تَانِيَة؟",
+       "rom": "miqdūr ṣūra tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور صُورَة تَانِيَة؟",
+       "rom": "miqdūr ṣūra tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُمْكِنْ صُورَة أُخْرَى؟",
        "rom": "mumkin ṣūra ukhrā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 567,
+     "num": 569,
      "cn": "我的相机",
      "dialects": {
       "msa": {
@@ -15381,16 +20547,25 @@ const DATA = {
        "rom": "al-kāmīrā tabʿitī",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَامِيرَا تَبْعِتِي",
+       "rom": "al-kāmīrā tabʿitī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَامِيرَا تَبْعِتِي",
+       "rom": "al-kāmīrā tabʿitī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَامِيرَا دْيَالِي",
        "rom": "al-kāmīrā dyālī",
        "note": ""
       }
-     },
-     "common": "②（借 camera）"
+     }
     },
     {
-     "num": 568,
+     "num": 570,
      "cn": "照片能发给我吗？",
      "dialects": {
       "msa": {
@@ -15408,16 +20583,25 @@ const DATA = {
        "rom": "miqdūr tbʿat-lī aṣ-ṣūra",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور تْبْعَتْلِي الصُّورَة؟",
+       "rom": "miqdūr tbʿat-lī aṣ-ṣūra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور تْبْعَتْلِي الصُّورَة؟",
+       "rom": "miqdūr tbʿat-lī aṣ-ṣūra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَقْدَرْ تْبْعَثْلِي الصُّورَة؟",
        "rom": "tiqdar tbʿath-lī aṣ-ṣūra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 569,
+     "num": 571,
      "cn": "这张照片很好看",
      "dialects": {
       "msa": {
@@ -15435,16 +20619,25 @@ const DATA = {
        "rom": "aṣ-ṣūra hādī ḥilwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "الصُّورَة هَادِي حِلْوَة",
+       "rom": "aṣ-ṣūra hādī ḥilwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الصُّورَة هَادِي حِلْوَة",
+       "rom": "aṣ-ṣūra hādī ḥilwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الصُّورَة هَادِي مْزِيَانَة",
        "rom": "aṣ-ṣūra hādī mziyāna",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 570,
+     "num": 572,
      "cn": "行李（统称）",
      "dialects": {
       "msa": {
@@ -15462,16 +20655,25 @@ const DATA = {
        "rom": "ash-shanṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشَّنْط",
+       "rom": "ash-shanṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشَّنْط",
+       "rom": "ash-shanṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْحْقَائِب",
        "rom": "l-ḥqāyib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 571,
+     "num": 573,
      "cn": "我想去旅行",
      "dialects": {
       "msa": {
@@ -15489,16 +20691,25 @@ const DATA = {
        "rom": "baddī asāfir",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أسافر",
+       "rom": "abī asāfir",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أسافر",
+       "rom": "arīd asāfir",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيت نْسَافِر",
        "rom": "bghīt nsāfir",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 572,
+     "num": 574,
      "cn": "带我去酒店",
      "dialects": {
       "msa": {
@@ -15516,16 +20727,25 @@ const DATA = {
        "rom": "khūdnī ʿalā al-funduq",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُودْنِي عَلَى الفُنْدُق",
+       "rom": "khūdnī ʿalā al-funduq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُودْنِي عَلَى الفُنْدُق",
+       "rom": "khūdnī ʿalā al-funduq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَدِّينِي لِلْأُوتِيل",
        "rom": "waddīnī li-l-ūtīl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 573,
+     "num": 575,
      "cn": "几点出发？",
      "dialects": {
       "msa": {
@@ -15543,16 +20763,25 @@ const DATA = {
        "rom": "raḥ nmshī mtā",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ نْمْشِي مْتَى؟",
+       "rom": "raḥ nmshī mtā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ نْمْشِي مْتَى؟",
+       "rom": "raḥ nmshī mtā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْمْشِيو وْقْتَاش؟",
        "rom": "ghādī nmshīw waqtāsh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 574,
+     "num": 576,
      "cn": "旅游团",
      "dialects": {
       "msa": {
@@ -15570,16 +20799,25 @@ const DATA = {
        "rom": "grūp as-siyāḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "جْرُوب السِّيَاحَة",
+       "rom": "grūp as-siyāḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جْرُوب السِّيَاحَة",
+       "rom": "grūp as-siyāḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جْرُوبْ السِّيَاحَة",
        "rom": "grūp as-siyāḥa",
        "note": ""
       }
-     },
-     "common": "②（借 group）"
+     }
     },
     {
-     "num": 575,
+     "num": 577,
      "cn": "纪念品",
      "dialects": {
       "msa": {
@@ -15597,16 +20835,25 @@ const DATA = {
        "rom": "tadhkār",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَذْكَار",
+       "rom": "tadhkār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَذْكَار",
+       "rom": "tadhkār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَذْكَار",
        "rom": "tadhkār",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     },
     {
-     "num": 576,
+     "num": 578,
      "cn": "我在找…",
      "dialects": {
       "msa": {
@@ -15624,16 +20871,25 @@ const DATA = {
        "rom": "badawwar ʿalā …",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَدَوَّرْ عَلَى …",
+       "rom": "badawwar ʿalā …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَدَوَّرْ عَلَى …",
+       "rom": "badawwar ʿalā …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْقَلَّبْ عَلَى …",
        "rom": "kanqallab ʿalā …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 577,
+     "num": 579,
      "cn": "有会说中文的人吗？",
      "dialects": {
       "msa": {
@@ -15651,16 +20907,25 @@ const DATA = {
        "rom": "fī ḥadda bītkallim ṣīnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي حَدَّ بْيْتْكَلَّمْ صِينِي؟",
+       "rom": "fī ḥadda bītkallim ṣīnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي حَدَّ بْيْتْكَلَّمْ صِينِي؟",
+       "rom": "fī ḥadda bītkallim ṣīnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ شِي وَاحِد كِيْتْكَلَّمْ صِينِي؟",
        "rom": "kāyn shī wāḥid kītkallam ṣīnī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 578,
+     "num": 580,
      "cn": "这是哪个国家？",
      "dialects": {
       "msa": {
@@ -15678,16 +20943,25 @@ const DATA = {
        "rom": "hād ayy balad",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا أي بلد؟",
+       "rom": "hādhā ayy balad",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا أي بلد؟",
+       "rom": "hādhā ayy balad",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا أَشْمِنْ بَلَاد؟",
        "rom": "hādā āshmin blād",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 579,
+     "num": 581,
      "cn": "附近有餐厅吗？",
      "dialects": {
       "msa": {
@@ -15705,16 +20979,25 @@ const DATA = {
        "rom": "fī maṭʿam qarīb",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي مَطْعَم قَرِيب؟",
+       "rom": "fī maṭʿam qarīb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي مَطْعَم قَرِيب؟",
+       "rom": "fī maṭʿam qarīb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ مَطْعَم قْرِيب؟",
        "rom": "kāyn maṭʿam qrīb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 580,
+     "num": 582,
      "cn": "旅途愉快！",
      "dialects": {
       "msa": {
@@ -15732,13 +21015,22 @@ const DATA = {
        "rom": "riḥla saʿīda",
        "note": ""
       },
+      "gulf": {
+       "ar": "رِحْلَة سَعِيدَة",
+       "rom": "riḥla saʿīda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رِحْلَة سَعِيدَة",
+       "rom": "riḥla saʿīda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَحْلَة سْعِيدَة",
        "rom": "raḥla sʿīda",
        "note": ""
       }
-     },
-     "common": "①/②"
+     }
     }
    ]
   },
@@ -15746,7 +21038,7 @@ const DATA = {
    "title": "十五、社交与情感（约90句）",
    "rows": [
     {
-     "num": 581,
+     "num": 583,
      "cn": "好久不见",
      "dialects": {
       "msa": {
@@ -15764,16 +21056,25 @@ const DATA = {
        "rom": "mā shuftak min zamān",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا شُفْتَكْ مُنْ زَمَان",
+       "rom": "mā shuftak min zamān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا شُفْتَكْ مُنْ زَمَان",
+       "rom": "mā shuftak min zamān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا شُفْتَكْش مُنْ زَمَان",
        "rom": "mā shuftaksh min zamān",
        "note": ""
       }
-     },
-     "common": "② ما شفتكش من زمان"
+     }
     },
     {
-     "num": 582,
+     "num": 584,
      "cn": "最近咋样？",
      "dialects": {
       "msa": {
@@ -15791,16 +21092,25 @@ const DATA = {
        "rom": "kīfak hāl-ayyām",
        "note": ""
       },
+      "gulf": {
+       "ar": "شلونك هالأيام؟",
+       "rom": "shlūnak hāl-ayyām",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلونك هالأيام؟",
+       "rom": "shlūnak hāl-ayyām",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كِيفَ دَايْرْ فِي هَادِ الْأَيَّام؟",
        "rom": "kīf dāyir fī hād al-ayyām",
        "note": ""
       }
-     },
-     "common": "② إزَّيَّك في الأيام دي"
+     }
     },
     {
-     "num": 583,
+     "num": 585,
      "cn": "代我问候…（请代问…好）",
      "dialects": {
       "msa": {
@@ -15818,16 +21128,25 @@ const DATA = {
        "rom": "sallim ʿalā …",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَلِّمْ عَلَى …",
+       "rom": "sallim ʿalā …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَلِّمْ عَلَى …",
+       "rom": "sallim ʿalā …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَلِّمْ لِـ …",
        "rom": "sallim li …",
        "note": ""
       }
-     },
-     "common": "② سلّم لـ"
+     }
     },
     {
-     "num": 584,
+     "num": 586,
      "cn": "你也一样",
      "dialects": {
       "msa": {
@@ -15845,16 +21164,25 @@ const DATA = {
        "rom": "wa-inta kman",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَإِنْتَ كْمَان",
+       "rom": "wa-inta kman",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَإِنْتَ كْمَان",
+       "rom": "wa-inta kman",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَنْتَا زَادَة",
        "rom": "wa-ntā zāda",
        "note": ""
       }
-     },
-     "common": "② وإنت كمان"
+     }
     },
     {
-     "num": 585,
+     "num": 587,
      "cn": "见到你真高兴",
      "dialects": {
       "msa": {
@@ -15872,16 +21200,25 @@ const DATA = {
        "rom": "mabṣūṭ ashūfak",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَبْسُوط أْشُوفَك",
+       "rom": "mabṣūṭ ashūfak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَبْسُوط أْشُوفَك",
+       "rom": "mabṣūṭ ashūfak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فْرْحَان نْشُوفُك",
        "rom": "farḥān nshūfuk",
        "note": ""
       }
-     },
-     "common": "② فرحان أشوفك"
+     }
     },
     {
-     "num": 586,
+     "num": 588,
      "cn": "你最近在忙什么？",
      "dialects": {
       "msa": {
@@ -15899,16 +21236,25 @@ const DATA = {
        "rom": "shū ʿāmil hāl-fatra",
        "note": ""
       },
+      "gulf": {
+       "ar": "شنو عامل هالفترة؟",
+       "rom": "shinū ʿāmil hāl-fatra",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شنو عامل هالفترة؟",
+       "rom": "shinū ʿāmil hāl-fatra",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَشْكَادْ رَاكْ عَامِل فِي هَادِ الْفَتْرَة؟",
        "rom": "āsh-kād rāk ʿāmil fī hād al-fatra",
        "note": ""
       }
-     },
-     "common": "② إنت عامل إيه الفترة دي"
+     }
     },
     {
-     "num": 587,
+     "num": 589,
      "cn": "一切都好吗？",
      "dialects": {
       "msa": {
@@ -15926,16 +21272,25 @@ const DATA = {
        "rom": "kull shī tamām",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُلُّ شِيء تَمَام؟",
+       "rom": "kull shī tamām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُلُّ شِيء تَمَام؟",
+       "rom": "kull shī tamām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُلُّشِي مْزِيَان؟",
        "rom": "kull-shī mziyān",
        "note": ""
       }
-     },
-     "common": "② كله تمام"
+     }
     },
     {
-     "num": 588,
+     "num": 590,
      "cn": "你过得怎么样？",
      "dialects": {
       "msa": {
@@ -15953,16 +21308,25 @@ const DATA = {
        "rom": "ḥayātak kīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "حياتك شلون؟",
+       "rom": "ḥayātak shlūn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "حياتك شلون؟",
+       "rom": "ḥayātak shlūn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "عِيشْتِكْ كِيفَاش؟",
        "rom": "ʿīshtik kīfāsh",
        "note": ""
       }
-     },
-     "common": "② عيشتك إزَّاي"
+     }
     },
     {
-     "num": 589,
+     "num": 591,
      "cn": "欢迎（欢迎来我家）",
      "dialects": {
       "msa": {
@@ -15980,16 +21344,25 @@ const DATA = {
        "rom": "ahlā bik fī bētik",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَهْلًا بِك فِي بَيْتِك",
+       "rom": "ahlā bik fī bētik",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَهْلًا بِك فِي بَيْتِك",
+       "rom": "ahlā bik fī bētik",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَرْحَبَا بِيك فِي دَارِي",
        "rom": "marḥabā bīk fī dārī",
        "note": ""
       }
-     },
-     "common": "② أهلا بيك في بيتي"
+     }
     },
     {
-     "num": 590,
+     "num": 592,
      "cn": "请进",
      "dialects": {
       "msa": {
@@ -16007,16 +21380,25 @@ const DATA = {
        "rom": "tafaddal",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَفَضَّلْ",
+       "rom": "tafaddal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَفَضَّلْ",
+       "rom": "tafaddal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَفَضَّلْ",
        "rom": "tafaddal",
        "note": ""
       }
-     },
-     "common": "② تفضل（各方言通用）"
+     }
     },
     {
-     "num": 591,
+     "num": 593,
      "cn": "请坐",
      "dialects": {
       "msa": {
@@ -16034,16 +21416,25 @@ const DATA = {
        "rom": "iqʿud",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِقْعُدْ",
+       "rom": "iqʿud",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِقْعُدْ",
+       "rom": "iqʿud",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِقْعُدْ",
        "rom": "iqʿud",
        "note": ""
       }
-     },
-     "common": "② اقعد（通用）"
+     }
     },
     {
-     "num": 592,
+     "num": 594,
      "cn": "保重 / 照顾好自己",
      "dialects": {
       "msa": {
@@ -16061,16 +21452,25 @@ const DATA = {
        "rom": "iḥfaẓ ḥālak",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِحْفَظْ حَالَك",
+       "rom": "iḥfaẓ ḥālak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِحْفَظْ حَالَك",
+       "rom": "iḥfaẓ ḥālak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاعِي رَاسِك",
        "rom": "rāʿī rāsik",
        "note": ""
       }
-     },
-     "common": "② احفظ نفسك"
+     }
     },
     {
-     "num": 593,
+     "num": 595,
      "cn": "回头见 / 待会儿见",
      "dialects": {
       "msa": {
@@ -16088,16 +21488,25 @@ const DATA = {
        "rom": "nshūfak baʿdayn",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْشُوفَك بَعْدَيْن",
+       "rom": "nshūfak baʿdayn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْشُوفَك بَعْدَيْن",
+       "rom": "nshūfak baʿdayn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْشُوفُوك بَعْدَيْن",
        "rom": "nshūfūk baʿdayn",
        "note": ""
       }
-     },
-     "common": "② نشوفك بعدين"
+     }
     },
     {
-     "num": 594,
+     "num": 596,
      "cn": "代我问你家人好",
      "dialects": {
       "msa": {
@@ -16115,16 +21524,25 @@ const DATA = {
        "rom": "sallim ʿalā ah lak",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَلِّمْ عَلَى أَهْلَك",
+       "rom": "sallim ʿalā ah lak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَلِّمْ عَلَى أَهْلَك",
+       "rom": "sallim ʿalā ah lak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَلِّمْ عَلَى عَائِلَتِك",
        "rom": "sallim ʿalā ʿā'ilatik",
        "note": ""
       }
-     },
-     "common": "② سلّم على أهلك"
+     }
     },
     {
-     "num": 595,
+     "num": 597,
      "cn": "很高兴又见到你",
      "dialects": {
       "msa": {
@@ -16142,16 +21560,25 @@ const DATA = {
        "rom": "mabṣūṭ ashūfak tānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَبْسُوط أْشُوفَك تَانِي",
+       "rom": "mabṣūṭ ashūfak tānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَبْسُوط أْشُوفَك تَانِي",
+       "rom": "mabṣūṭ ashūfak tānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فْرْحَان نْشُوفُك مَرَّة أُخْرَى",
        "rom": "farḥān nshūfuk marra ukhrā",
        "note": ""
       }
-     },
-     "common": "② فرحان أشوفك تاني"
+     }
     },
     {
-     "num": 596,
+     "num": 598,
      "cn": "你家人好吗？",
      "dialects": {
       "msa": {
@@ -16169,16 +21596,25 @@ const DATA = {
        "rom": "ahlak kīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "أهلك شلون؟",
+       "rom": "ahlak shlūn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أهلك شلون؟",
+       "rom": "ahlak shlūn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "عَائِلْتِكْ كِيفَاش؟",
        "rom": "ʿā'ilatik kīfāsh",
        "note": ""
       }
-     },
-     "common": "② أهلك إزَّي"
+     }
     },
     {
-     "num": 597,
+     "num": 599,
      "cn": "工作忙吗？",
      "dialects": {
       "msa": {
@@ -16196,16 +21632,25 @@ const DATA = {
        "rom": "shughlak mashghūl",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُغْلَكْ مَشْغُول؟",
+       "rom": "shughlak mashghūl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُغْلَكْ مَشْغُول؟",
+       "rom": "shughlak mashghūl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْدَمْتِكْ مَشْغُولَة؟",
        "rom": "khdamtik mashghūla",
        "note": ""
       }
-     },
-     "common": "② شغلك مشغول"
+     }
     },
     {
-     "num": 598,
+     "num": 600,
      "cn": "周末你打算干啥？",
      "dialects": {
       "msa": {
@@ -16223,16 +21668,25 @@ const DATA = {
        "rom": "nihāyat al-usbūʿ ʿāmil ēsh",
        "note": ""
       },
+      "gulf": {
+       "ar": "نهاية الأسبوع عامل شنو؟",
+       "rom": "nihāyat al-usbūʿ ʿāmil shinū",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "نهاية الأسبوع عامل شنو؟",
+       "rom": "nihāyat al-usbūʿ ʿāmil shinū",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نْهَايَة الْأُسْبُوع رَاكْ عَامِل أَشْنُو؟",
        "rom": "nhāyat al-usbūʿ rāk ʿāmil āshnū",
        "note": ""
       }
-     },
-     "common": "② آخر الأسبوع عامل إيه"
+     }
     },
     {
-     "num": 599,
+     "num": 601,
      "cn": "今天天气真好",
      "dialects": {
       "msa": {
@@ -16250,16 +21704,25 @@ const DATA = {
        "rom": "al-jaw al-yōm ḥalw ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجو اليوم حلو وايد",
+       "rom": "al-jaw al-yōm ḥalw wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الجو اليوم حلو هواية",
+       "rom": "al-jaw al-yōm ḥalw hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "الجَوْ اليُومَا زْوِين بْزَّاف",
        "rom": "al-jaw al-yūmā zwīn bzzāf",
        "note": ""
       }
-     },
-     "common": "② الجو النهاردة حلو قوي"
+     }
     },
     {
-     "num": 600,
+     "num": 602,
      "cn": "你结婚了吗？",
      "dialects": {
       "msa": {
@@ -16277,16 +21740,25 @@ const DATA = {
        "rom": "inta mtazawwij",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ مْتَزَوِّج؟",
+       "rom": "inta mtazawwij",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ مْتَزَوِّج؟",
+       "rom": "inta mtazawwij",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتَا مْتَزَوِّج؟",
        "rom": "ntā mtazawwij",
        "note": ""
       }
-     },
-     "common": "② إنت متجوز"
+     }
     },
     {
-     "num": 601,
+     "num": 603,
      "cn": "你有孩子吗？",
      "dialects": {
       "msa": {
@@ -16304,16 +21776,25 @@ const DATA = {
        "rom": "ʿindak wlād",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ وْلَاد؟",
+       "rom": "ʿindak wlād",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ وْلَاد؟",
+       "rom": "ʿindak wlād",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ وْلَاد؟",
        "rom": "ʿandak wlād",
        "note": ""
       }
-     },
-     "common": "② عندك عيال"
+     }
     },
     {
-     "num": 602,
+     "num": 604,
      "cn": "你住在哪里？",
      "dialects": {
       "msa": {
@@ -16331,16 +21812,25 @@ const DATA = {
        "rom": "inta sākin wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ سَاكِن وِين؟",
+       "rom": "inta sākin wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ سَاكِن وِين؟",
+       "rom": "inta sākin wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتَا سَاكِن فِين؟",
        "rom": "ntā sākin fīn",
        "note": ""
       }
-     },
-     "common": "② إنت ساكن فين"
+     }
     },
     {
-     "num": 603,
+     "num": 605,
      "cn": "你喜欢这个城市吗？",
      "dialects": {
       "msa": {
@@ -16358,16 +21848,25 @@ const DATA = {
        "rom": "btiḥibb al-madīna hādī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِحِبْ المَدِينَة هَادِي؟",
+       "rom": "btiḥibb al-madīna hādī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِحِبْ المَدِينَة هَادِي؟",
+       "rom": "btiḥibb al-madīna hādī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْبْغِي المَدِينَة هَادِي؟",
        "rom": "katbghī al-madīna hādī",
        "note": ""
       }
-     },
-     "common": "② بتحب المدينة دي"
+     }
     },
     {
-     "num": 604,
+     "num": 606,
      "cn": "你在哪儿工作？",
      "dialects": {
       "msa": {
@@ -16385,16 +21884,25 @@ const DATA = {
        "rom": "btishtaghil wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِشْتْغِل وِين؟",
+       "rom": "btishtaghil wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِشْتْغِل وِين؟",
+       "rom": "btishtaghil wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْخْدَم فِين؟",
        "rom": "katkhdam fīn",
        "note": ""
       }
-     },
-     "common": "② بتشغل فين"
+     }
     },
     {
-     "num": 605,
+     "num": 607,
      "cn": "今天好热啊",
      "dialects": {
       "msa": {
@@ -16412,16 +21920,25 @@ const DATA = {
        "rom": "al-yōm sakhan ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "اليوم سخن وايد",
+       "rom": "al-yōm sakhan wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "اليوم سخن هواية",
+       "rom": "al-yōm sakhan hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "اليُومَا سْخُون بْزَّاف",
        "rom": "al-yūmā skhūn bzzāf",
        "note": ""
       }
-     },
-     "common": "② النهاردة سخن قوي"
+     }
     },
     {
-     "num": 606,
+     "num": 608,
      "cn": "你吃过了吗？",
      "dialects": {
       "msa": {
@@ -16439,16 +21956,25 @@ const DATA = {
        "rom": "akalt",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكَلْتَ؟",
+       "rom": "akalt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكَلْتَ؟",
+       "rom": "akalt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْلِيتِي؟",
        "rom": "klītī",
        "note": ""
       }
-     },
-     "common": "② أكلت؟"
+     }
     },
     {
-     "num": 607,
+     "num": 609,
      "cn": "我们聊聊天吧",
      "dialects": {
       "msa": {
@@ -16466,16 +21992,25 @@ const DATA = {
        "rom": "nḥkī shway",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْحْكِي شُوَي",
+       "rom": "nḥkī shway",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نحكي شوية",
+       "rom": "nḥkī shwayya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "نْهْدْرُو شْوِيَّة",
        "rom": "nhdrū shwiyya",
        "note": ""
       }
-     },
-     "common": "② نتكلم شوية"
+     }
     },
     {
-     "num": 608,
+     "num": 610,
      "cn": "你有空吗？",
      "dialects": {
       "msa": {
@@ -16493,16 +22028,25 @@ const DATA = {
        "rom": "ʿindak waqt",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ وَقْت؟",
+       "rom": "ʿindak waqt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ وَقْت؟",
+       "rom": "ʿindak waqt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ وَقْت؟",
        "rom": "ʿandak waqt",
        "note": ""
       }
-     },
-     "common": "② عندك وقت؟"
+     }
     },
     {
-     "num": 609,
+     "num": 611,
      "cn": "一起喝杯咖啡吧",
      "dialects": {
       "msa": {
@@ -16520,16 +22064,25 @@ const DATA = {
        "rom": "nshrab qahwa maʿ baʿḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْشْرَبْ قَهْوَة مَعْ بَعْض",
+       "rom": "nshrab qahwa maʿ baʿḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْشْرَبْ قَهْوَة مَعْ بَعْض",
+       "rom": "nshrab qahwa maʿ baʿḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْشْرَبُو قَهْوَة مَعَا بَعْضْنَا",
        "rom": "nshrabū qahwa maʿa baʿḍnā",
        "note": ""
       }
-     },
-     "common": "② نشرب قهوة سوا"
+     }
     },
     {
-     "num": 610,
+     "num": 612,
      "cn": "你老家是哪的？",
      "dialects": {
       "msa": {
@@ -16547,16 +22100,25 @@ const DATA = {
        "rom": "aṣlak min wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَصْلَكْ مِنْ وَيْن؟",
+       "rom": "aṣlak min wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَصْلَكْ مِنْ وَيْن؟",
+       "rom": "aṣlak min wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَصْلُكْ مِنْ أِينْ؟",
        "rom": "aṣluk min āyn",
        "note": ""
       }
-     },
-     "common": "② أصلك من إيه"
+     }
     },
     {
-     "num": 611,
+     "num": 613,
      "cn": "你饿了吗？",
      "dialects": {
       "msa": {
@@ -16574,16 +22136,25 @@ const DATA = {
        "rom": "inta jawʿān",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ جَوْعَان؟",
+       "rom": "inta jawʿān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ جَوْعَان؟",
+       "rom": "inta jawʿān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتَا جْوْعَان؟",
        "rom": "ntā jwʿān",
        "note": ""
       }
-     },
-     "common": "② إنت جوعان؟"
+     }
     },
     {
-     "num": 612,
+     "num": 614,
      "cn": "我们要不要出去走走？",
      "dialects": {
       "msa": {
@@ -16601,16 +22172,25 @@ const DATA = {
        "rom": "niṭlaʿ nitamashshā",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْطْلَعْ نْتَمَشَّى؟",
+       "rom": "niṭlaʿ nitamashshā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْطْلَعْ نْتَمَشَّى؟",
+       "rom": "niṭlaʿ nitamashshā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْخْرْجُو نْتَمَشَّاوْ؟",
        "rom": "nkhrajū nitamashshāw",
        "note": ""
       }
-     },
-     "common": "② نطلع نتمشى؟"
+     }
     },
     {
-     "num": 613,
+     "num": 615,
      "cn": "你习惯这儿的生活吗？",
      "dialects": {
       "msa": {
@@ -16628,16 +22208,25 @@ const DATA = {
        "rom": "tʿawwadt ʿēsha hōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تعودت عيشة هنا؟",
+       "rom": "tʿawwadt ʿēsha hinā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "تعودت عيشة هنا؟",
+       "rom": "tʿawwadt ʿēsha hinā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "تْعَوَّدْتْ عَلَى العِيشْة هُنَا؟",
        "rom": "tʿawwadt ʿalā al-ʿēsha hnā",
        "note": ""
       }
-     },
-     "common": "② اتعودت عيشة هنا؟"
+     }
     },
     {
-     "num": 614,
+     "num": 616,
      "cn": "我喜欢你",
      "dialects": {
       "msa": {
@@ -16655,16 +22244,25 @@ const DATA = {
        "rom": "anā bḥibbak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بْحِبَّك",
+       "rom": "anā bḥibbak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بْحِبَّك",
+       "rom": "anā bḥibbak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْبْغِيك",
        "rom": "anā kanbghīk",
        "note": ""
       }
-     },
-     "common": "② أنا بحبك"
+     }
     },
     {
-     "num": 615,
+     "num": 617,
      "cn": "我爱你",
      "dialects": {
       "msa": {
@@ -16682,16 +22280,25 @@ const DATA = {
        "rom": "anā bḥibbak ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا بحبك وايد",
+       "rom": "anā bḥibbak wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا بحبك هواية",
+       "rom": "anā bḥibbak hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا كَنْبْغِيك بْزَّاف",
        "rom": "anā kanbghīk bzzāf",
        "note": ""
       }
-     },
-     "common": "② أنا بحبك أوي"
+     }
     },
     {
-     "num": 616,
+     "num": 618,
      "cn": "我想你",
      "dialects": {
       "msa": {
@@ -16709,16 +22316,25 @@ const DATA = {
        "rom": "inta waḥḥishtīnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ وَحِّشْتِينِي",
+       "rom": "inta waḥḥishtīnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ وَحِّشْتِينِي",
+       "rom": "inta waḥḥishtīnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَاحِشْنِي",
        "rom": "wāḥishnī",
        "note": ""
       }
-     },
-     "common": "② إنت وحشتيني"
+     }
     },
     {
-     "num": 617,
+     "num": 619,
      "cn": "我（很）高兴",
      "dialects": {
       "msa": {
@@ -16736,16 +22352,25 @@ const DATA = {
        "rom": "anā mabṣūṭ ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا مبسوط وايد",
+       "rom": "anā mabṣūṭ wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا مبسوط هواية",
+       "rom": "anā mabṣūṭ hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا فْرْحَان بْزَّاف",
        "rom": "anā farḥān bzzāf",
        "note": ""
       }
-     },
-     "common": "② أنا فرحان قوي"
+     }
     },
     {
-     "num": 618,
+     "num": 620,
      "cn": "我很难过",
      "dialects": {
       "msa": {
@@ -16763,16 +22388,25 @@ const DATA = {
        "rom": "anā zaʿlān ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا زعلان وايد",
+       "rom": "anā zaʿlān wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا زعلان هواية",
+       "rom": "anā zaʿlān hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا زْعْلَان بْزَّاف",
        "rom": "anā zʿlān bzzāf",
        "note": ""
       }
-     },
-     "common": "② أنا زعلان قوي"
+     }
     },
     {
-     "num": 619,
+     "num": 621,
      "cn": "我生气了",
      "dialects": {
       "msa": {
@@ -16790,16 +22424,25 @@ const DATA = {
        "rom": "anā mʿaṣṣub",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مْعَصُّب",
+       "rom": "anā mʿaṣṣub",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مْعَصُّب",
+       "rom": "anā mʿaṣṣub",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مْعَصُّب",
        "rom": "anā mʿaṣṣub",
        "note": ""
       }
-     },
-     "common": "② أنا معصّب"
+     }
     },
     {
-     "num": 620,
+     "num": 622,
      "cn": "我害怕",
      "dialects": {
       "msa": {
@@ -16817,16 +22460,25 @@ const DATA = {
        "rom": "anā khāyif",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا خَايِف",
+       "rom": "anā khāyif",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا خَايِف",
+       "rom": "anā khāyif",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا خَايِف",
        "rom": "anā khāyif",
        "note": ""
       }
-     },
-     "common": "② أنا خايف"
+     }
     },
     {
-     "num": 621,
+     "num": 623,
      "cn": "我累了",
      "dialects": {
       "msa": {
@@ -16844,16 +22496,25 @@ const DATA = {
        "rom": "anā taʿbān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا تَعْبَان",
+       "rom": "anā taʿbān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا تَعْبَان",
+       "rom": "anā taʿbān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا تْعْبَان",
        "rom": "anā tʿbān",
        "note": ""
       }
-     },
-     "common": "② أنا تعبان"
+     }
     },
     {
-     "num": 622,
+     "num": 624,
      "cn": "我饿了",
      "dialects": {
       "msa": {
@@ -16871,16 +22532,25 @@ const DATA = {
        "rom": "anā jawʿān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا جَوْعَان",
+       "rom": "anā jawʿān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا جَوْعَان",
+       "rom": "anā jawʿān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا جْوْعَان",
        "rom": "anā jwʿān",
        "note": ""
       }
-     },
-     "common": "② أنا جوعان"
+     }
     },
     {
-     "num": 623,
+     "num": 625,
      "cn": "我渴了",
      "dialects": {
       "msa": {
@@ -16898,16 +22568,25 @@ const DATA = {
        "rom": "anā ʿaṭshān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا عَطْشَان",
+       "rom": "anā ʿaṭshān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا عَطْشَان",
+       "rom": "anā ʿaṭshān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا عْطْشَان",
        "rom": "anā ʿṭshān",
        "note": ""
       }
-     },
-     "common": "② أنا عطشان"
+     }
     },
     {
-     "num": 624,
+     "num": 626,
      "cn": "我担心你",
      "dialects": {
       "msa": {
@@ -16925,16 +22604,25 @@ const DATA = {
        "rom": "anā qalqān ʿalēk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا قَلْقَان عَلَيْك",
+       "rom": "anā qalqān ʿalēk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا قَلْقَان عَلَيْك",
+       "rom": "anā qalqān ʿalēk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا قَلْقَان عَلِيك",
        "rom": "anā qalqān ʿalīk",
        "note": ""
       }
-     },
-     "common": "② أنا قلقان عليك"
+     }
     },
     {
-     "num": 625,
+     "num": 627,
      "cn": "我为你感到骄傲",
      "dialects": {
       "msa": {
@@ -16952,16 +22640,25 @@ const DATA = {
        "rom": "anā fakhūr fīk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا فَخُور فِيك",
+       "rom": "anā fakhūr fīk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا فَخُور فِيك",
+       "rom": "anā fakhūr fīk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا فَخُور بِيك",
        "rom": "anā fakhūr bīk",
        "note": ""
       }
-     },
-     "common": "② أنا فخور بيك"
+     }
     },
     {
-     "num": 626,
+     "num": 628,
      "cn": "我吃醋了 / 我嫉妒",
      "dialects": {
       "msa": {
@@ -16979,16 +22676,25 @@ const DATA = {
        "rom": "anā ghayrān minnak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا غَيْرَان مِنَّك",
+       "rom": "anā ghayrān minnak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا غَيْرَان مِنَّك",
+       "rom": "anā ghayrān minnak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا غَيْرَان مِنَّك",
        "rom": "anā ghayrān minnak",
        "note": ""
       }
-     },
-     "common": "② أنا غيران منك"
+     }
     },
     {
-     "num": 627,
+     "num": 629,
      "cn": "我好无聊",
      "dialects": {
       "msa": {
@@ -17006,16 +22712,25 @@ const DATA = {
        "rom": "anā zahqān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا زَهْقَان",
+       "rom": "anā zahqān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا زَهْقَان",
+       "rom": "anā zahqān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا زَهْقَان",
        "rom": "anā zahqān",
        "note": ""
       }
-     },
-     "common": "② أنا زهقان"
+     }
     },
     {
-     "num": 628,
+     "num": 630,
      "cn": "我好紧张",
      "dialects": {
       "msa": {
@@ -17033,16 +22748,25 @@ const DATA = {
        "rom": "anā mutawattir",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مُتَوَتِّر",
+       "rom": "anā mutawattir",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مُتَوَتِّر",
+       "rom": "anā mutawattir",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مُتَوَتِّر",
        "rom": "anā mutawattir",
        "note": ""
       }
-     },
-     "common": "② أنا متوتر"
+     }
     },
     {
-     "num": 629,
+     "num": 631,
      "cn": "我很兴奋",
      "dialects": {
       "msa": {
@@ -17060,16 +22784,25 @@ const DATA = {
        "rom": "anā mitḥammis ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا متحمس وايد",
+       "rom": "anā mitḥammis wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا متحمس هواية",
+       "rom": "anā mitḥammis hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا مِتْحَمِّس بْزَّاف",
        "rom": "anā mitḥammis bzzāf",
        "note": ""
       }
-     },
-     "common": "② أنا متحمس قوي"
+     }
     },
     {
-     "num": 630,
+     "num": 632,
      "cn": "我好害羞",
      "dialects": {
       "msa": {
@@ -17087,16 +22820,25 @@ const DATA = {
        "rom": "anā khajlān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا خَجْلَان",
+       "rom": "anā khajlān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا خَجْلَان",
+       "rom": "anā khajlān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا خَجْلَان",
        "rom": "anā khajlān",
        "note": ""
       }
-     },
-     "common": "② أنا خجلان"
+     }
     },
     {
-     "num": 631,
+     "num": 633,
      "cn": "我好失望",
      "dialects": {
       "msa": {
@@ -17114,16 +22856,25 @@ const DATA = {
        "rom": "anā mḥbaṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا مْحْبَط",
+       "rom": "anā mḥbaṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا مْحْبَط",
+       "rom": "anā mḥbaṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا مْحْبَط",
        "rom": "anā mḥbaṭ",
        "note": ""
       }
-     },
-     "common": "② أنا محبط"
+     }
     },
     {
-     "num": 632,
+     "num": 634,
      "cn": "我好烦 / 我厌烦了",
      "dialects": {
       "msa": {
@@ -17141,16 +22892,25 @@ const DATA = {
        "rom": "anā zaḥiqt",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا زَهِقْت",
+       "rom": "anā zaḥiqt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا زَهِقْت",
+       "rom": "anā zaḥiqt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا زْهِقْت",
        "rom": "anā zhiqt",
        "note": ""
       }
-     },
-     "common": "② أنا زهقت"
+     }
     },
     {
-     "num": 633,
+     "num": 635,
      "cn": "我原谅你",
      "dialects": {
       "msa": {
@@ -17168,16 +22928,25 @@ const DATA = {
        "rom": "anā sāmaḥtak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا سَامَحْتَك",
+       "rom": "anā sāmaḥtak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا سَامَحْتَك",
+       "rom": "anā sāmaḥtak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا سَامَحْتِيك",
        "rom": "anā sāmaḥtīk",
        "note": ""
       }
-     },
-     "common": "② أنا سامحتك"
+     }
     },
     {
-     "num": 634,
+     "num": 636,
      "cn": "我信任你",
      "dialects": {
       "msa": {
@@ -17195,16 +22964,25 @@ const DATA = {
        "rom": "anā wāthiq fīk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا وَاثِق فِيك",
+       "rom": "anā wāthiq fīk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا وَاثِق فِيك",
+       "rom": "anā wāthiq fīk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا وَاثِق فِيك",
        "rom": "anā wāthiq fīk",
        "note": ""
       }
-     },
-     "common": "② أنا واثق فيك"
+     }
     },
     {
-     "num": 635,
+     "num": 637,
      "cn": "我支持你",
      "dialects": {
       "msa": {
@@ -17222,16 +23000,25 @@ const DATA = {
        "rom": "anā bsāndak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بْسَانْدَك",
+       "rom": "anā bsāndak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بْسَانْدَك",
+       "rom": "anā bsāndak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْسَانْدُك",
        "rom": "anā kansānduk",
        "note": ""
       }
-     },
-     "common": "② أنا بساندك"
+     }
     },
     {
-     "num": 636,
+     "num": 638,
      "cn": "我理解你",
      "dialects": {
       "msa": {
@@ -17249,16 +23036,25 @@ const DATA = {
        "rom": "anā fāhimak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا فَاهِمَك",
+       "rom": "anā fāhimak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا فَاهِمَك",
+       "rom": "anā fāhimak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْفْهَمُك",
        "rom": "anā kanfhamuk",
        "note": ""
       }
-     },
-     "common": "② أنا فاهمك"
+     }
     },
     {
-     "num": 637,
+     "num": 639,
      "cn": "我尊重你",
      "dialects": {
       "msa": {
@@ -17276,16 +23072,25 @@ const DATA = {
        "rom": "anā bḥātermak",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بْحَاتِرْمَك",
+       "rom": "anā bḥātermak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بْحَاتِرْمَك",
+       "rom": "anā bḥātermak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْحْتَرْمُك",
        "rom": "anā kanḥtarmuk",
        "note": ""
       }
-     },
-     "common": "② أنا بحاترمك"
+     }
     },
     {
-     "num": 638,
+     "num": 640,
      "cn": "谢谢你的礼物",
      "dialects": {
       "msa": {
@@ -17303,16 +23108,25 @@ const DATA = {
        "rom": "mashkūr ʿalā al-hadīya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَشْكُور عَلَى الهَدِيَّة",
+       "rom": "mashkūr ʿalā al-hadīya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَشْكُور عَلَى الهَدِيَّة",
+       "rom": "mashkūr ʿalā al-hadīya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا عَلَى الهَدِيَّة",
        "rom": "barakka ʿalā al-hadīya",
        "note": ""
       }
-     },
-     "common": "② متشكر على الهدية"
+     }
     },
     {
-     "num": 639,
+     "num": 641,
      "cn": "恭喜你 / 祝贺你",
      "dialects": {
       "msa": {
@@ -17330,16 +23144,25 @@ const DATA = {
        "rom": "mabrūk ʿalēk",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَبْرُوك عَلَيْك",
+       "rom": "mabrūk ʿalēk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَبْرُوك عَلَيْك",
+       "rom": "mabrūk ʿalēk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْبَارْك عَلِيك",
        "rom": "mbārk ʿalīk",
        "note": ""
       }
-     },
-     "common": "② مبروك عليك"
+     }
     },
     {
-     "num": 640,
+     "num": 642,
      "cn": "生日快乐",
      "dialects": {
       "msa": {
@@ -17357,16 +23180,25 @@ const DATA = {
        "rom": "kull ʿām wa-inta bkhēr",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُلْ عَام وَإِنْتَ بْخَيْر",
+       "rom": "kull ʿām wa-inta bkhēr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُلْ عَام وَإِنْتَ بْخَيْر",
+       "rom": "kull ʿām wa-inta bkhēr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُلْ عَام وَنْتَا فِي الصِّحَّة",
        "rom": "kull ʿām wa-ntā fī ṣ-ṣiḥḥa",
        "note": ""
       }
-     },
-     "common": "② كل سنة وأنت طيب"
+     }
     },
     {
-     "num": 641,
+     "num": 643,
      "cn": "新婚快乐",
      "dialects": {
       "msa": {
@@ -17384,16 +23216,25 @@ const DATA = {
        "rom": "alf mabrūk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَلْف مَبْرُوك",
+       "rom": "alf mabrūk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَلْف مَبْرُوك",
+       "rom": "alf mabrūk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَبِّي يْخَلِّيكُمْ",
        "rom": "rabbī ykhallīkum",
        "note": ""
       }
-     },
-     "common": "② عقبال ما تفرحوا"
+     }
     },
     {
-     "num": 642,
+     "num": 644,
      "cn": "新年快乐",
      "dialects": {
       "msa": {
@@ -17411,16 +23252,25 @@ const DATA = {
        "rom": "sanā jadīda saʿīda",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَنَة جَدِيدَة سَعِيدَة",
+       "rom": "sanā jadīda saʿīda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَنَة جَدِيدَة سَعِيدَة",
+       "rom": "sanā jadīda saʿīda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَام جْدِيد سَعِيد",
        "rom": "ʿām jdīd saʿīd",
        "note": ""
       }
-     },
-     "common": "② سنة جديدة سعيدة"
+     }
     },
     {
-     "num": 643,
+     "num": 645,
      "cn": "干杯",
      "dialects": {
       "msa": {
@@ -17438,16 +23288,25 @@ const DATA = {
        "rom": "bi-ṣ-ṣiḥḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِالصِّحَّة",
+       "rom": "bi-ṣ-ṣiḥḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِالصِّحَّة",
+       "rom": "bi-ṣ-ṣiḥḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِالصِّحَّة",
        "rom": "bi-ṣ-ṣiḥḥa",
        "note": ""
       }
-     },
-     "common": "② بالصحة"
+     }
     },
     {
-     "num": 644,
+     "num": 646,
      "cn": "祝你健康",
      "dialects": {
       "msa": {
@@ -17465,16 +23324,25 @@ const DATA = {
        "rom": "ʿalā ṣiḥḥatak",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَلَى صِحَّتَك",
+       "rom": "ʿalā ṣiḥḥatak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَلَى صِحَّتَك",
+       "rom": "ʿalā ṣiḥḥatak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَلَى صِحَّتِك",
        "rom": "ʿalā ṣiḥḥatik",
        "note": ""
       }
-     },
-     "common": "② على صحتك"
+     }
     },
     {
-     "num": 645,
+     "num": 647,
      "cn": "祝你好运",
      "dialects": {
       "msa": {
@@ -17492,16 +23360,25 @@ const DATA = {
        "rom": "bi-t-tawfīq",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِالتَّوْفِيق",
+       "rom": "bi-t-tawfīq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِالتَّوْفِيق",
+       "rom": "bi-t-tawfīq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِالتَّوْفِيق",
        "rom": "bi-t-tawfīq",
        "note": ""
       }
-     },
-     "common": "①/② بالتوفيق"
+     }
     },
     {
-     "num": 646,
+     "num": 648,
      "cn": "节日快乐",
      "dialects": {
       "msa": {
@@ -17519,16 +23396,25 @@ const DATA = {
        "rom": "ʿīd saʿīd",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِيد سَعِيد",
+       "rom": "ʿīd saʿīd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِيد سَعِيد",
+       "rom": "ʿīd saʿīd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِيد سَعِيد",
        "rom": "ʿīd saʿīd",
        "note": ""
       }
-     },
-     "common": "② عيد سعيد"
+     }
     },
     {
-     "num": 647,
+     "num": 649,
      "cn": "升职快乐 / 恭喜升职",
      "dialects": {
       "msa": {
@@ -17546,16 +23432,25 @@ const DATA = {
        "rom": "mabrūk at-tarqīya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَبْرُوك التَّرْقِيَة",
+       "rom": "mabrūk at-tarqīya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَبْرُوك التَّرْقِيَة",
+       "rom": "mabrūk at-tarqīya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْبَارْك التَّرْقِيَة",
        "rom": "mbārk at-tarqīya",
        "note": ""
       }
-     },
-     "common": "② مبروك الترقية"
+     }
     },
     {
-     "num": 648,
+     "num": 650,
      "cn": "一路平安 / 旅途愉快",
      "dialects": {
       "msa": {
@@ -17573,16 +23468,25 @@ const DATA = {
        "rom": "riḥla saʿīda",
        "note": ""
       },
+      "gulf": {
+       "ar": "رِحْلَة سَعِيدَة",
+       "rom": "riḥla saʿīda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رِحْلَة سَعِيدَة",
+       "rom": "riḥla saʿīda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاحْلَة سَعِيدَة",
        "rom": "rāḥla saʿīda",
        "note": ""
       }
-     },
-     "common": "② رحلة سعيدة"
+     }
     },
     {
-     "num": 649,
+     "num": 651,
      "cn": "我想邀请你",
      "dialects": {
       "msa": {
@@ -17600,16 +23504,25 @@ const DATA = {
        "rom": "baddī adʿīk",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي أدعيك",
+       "rom": "abī adʿīk",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد أدعيك",
+       "rom": "arīd adʿīk",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ نْدْعِيك",
        "rom": "bghīt ndʿīk",
        "note": ""
       }
-     },
-     "common": "② عايز أدعيك"
+     }
     },
     {
-     "num": 650,
+     "num": 652,
      "cn": "你有空来我家吗？",
      "dialects": {
       "msa": {
@@ -17627,16 +23540,25 @@ const DATA = {
        "rom": "ʿindak waqt tzūrnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ وَقْت تْزُورْنِي؟",
+       "rom": "ʿindak waqt tzūrnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ وَقْت تْزُورْنِي؟",
+       "rom": "ʿindak waqt tzūrnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ وَقْت تْزُورْنِي؟",
        "rom": "ʿandak waqt tzūrnī",
        "note": ""
       }
-     },
-     "common": "② عندك وقت تزورني؟"
+     }
     },
     {
-     "num": 651,
+     "num": 653,
      "cn": "请来参加我的派对",
      "dialects": {
       "msa": {
@@ -17654,16 +23576,25 @@ const DATA = {
        "rom": "taʿāl ʿalā ḥaflatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَعَالَ عَلَى حَفْلَتِي",
+       "rom": "taʿāl ʿalā ḥaflatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَعَالَ عَلَى حَفْلَتِي",
+       "rom": "taʿāl ʿalā ḥaflatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَعَالَ لِـ حَفْلَتِي",
        "rom": "taʿāl li-ḥaflatī",
        "note": ""
       }
-     },
-     "common": "② تعالى حفلتي"
+     }
     },
     {
-     "num": 652,
+     "num": 654,
      "cn": "下次见",
      "dialects": {
       "msa": {
@@ -17681,16 +23612,25 @@ const DATA = {
        "rom": "nshūfak al-marra al-jāya",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْشُوفَك المَرَّة الجَايَة",
+       "rom": "nshūfak al-marra al-jāya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْشُوفَك المَرَّة الجَايَة",
+       "rom": "nshūfak al-marra al-jāya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْشُوفُكْ المَرَّة الجَايَة",
        "rom": "nshūfak al-marra al-jāya",
        "note": ""
       }
-     },
-     "common": "② نشوفك المرة الجاية"
+     }
     },
     {
-     "num": 653,
+     "num": 655,
      "cn": "我们什么时候见？",
      "dialects": {
       "msa": {
@@ -17708,16 +23648,25 @@ const DATA = {
        "rom": "imtā nshūf baʿḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "متى نشوف بعض؟",
+       "rom": "matā nshūf baʿḍ",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "متى نشوف بعض؟",
+       "rom": "matā nshūf baʿḍ",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ نْشُوفُو بْعْضْنَا؟",
        "rom": "waqtāsh nshūfū baʿḍnā",
        "note": ""
       }
-     },
-     "common": "② إمتى نشوف بعض؟"
+     }
     },
     {
-     "num": 654,
+     "num": 656,
      "cn": "别客气，多吃点",
      "dialects": {
       "msa": {
@@ -17735,16 +23684,25 @@ const DATA = {
        "rom": "tfaddal, kul ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "تفضل، كل وايد",
+       "rom": "tfaddal, kul wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "تفضل، كل هواية",
+       "rom": "tfaddal, kul hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "تْفَضَّلْ، كُلْ بْزَّاف",
        "rom": "tfaddal, kul bzzāf",
        "note": ""
       }
-     },
-     "common": "② اتفضل، كل كتير"
+     }
     },
     {
-     "num": 655,
+     "num": 657,
      "cn": "玩得开心",
      "dialects": {
       "msa": {
@@ -17762,16 +23720,25 @@ const DATA = {
        "rom": "istamtiʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِسْتَمْتِع",
+       "rom": "istamtiʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِسْتَمْتِع",
+       "rom": "istamtiʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْفَرَّح",
        "rom": "tfarraḥ",
        "note": ""
       }
-     },
-     "common": "② اتفهّى"
+     }
     },
     {
-     "num": 656,
+     "num": 658,
      "cn": "我得走了",
      "dialects": {
       "msa": {
@@ -17789,16 +23756,25 @@ const DATA = {
        "rom": "lāzim amshī",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ أْمْشِي",
+       "rom": "lāzim amshī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ أْمْشِي",
+       "rom": "lāzim amshī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ نْمْشِي",
        "rom": "lāzim nmishī",
        "note": ""
       }
-     },
-     "common": "② لازم أمشي"
+     }
     },
     {
-     "num": 657,
+     "num": 659,
      "cn": "谢谢你邀请我",
      "dialects": {
       "msa": {
@@ -17816,16 +23792,25 @@ const DATA = {
        "rom": "mashkūr ʿalā ad-daʿwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَشْكُور عَلَى الدَّعْوَة",
+       "rom": "mashkūr ʿalā ad-daʿwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَشْكُور عَلَى الدَّعْوَة",
+       "rom": "mashkūr ʿalā ad-daʿwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا عَلَى الدَّعْوَة",
        "rom": "barakka ʿalā ad-daʿwa",
        "note": ""
       }
-     },
-     "common": "② متشكر على الدعوة"
+     }
     },
     {
-     "num": 658,
+     "num": 660,
      "cn": "我们改天再聚",
      "dialects": {
       "msa": {
@@ -17843,16 +23828,25 @@ const DATA = {
        "rom": "ntqābal yōm tānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْتْقَابَلْ يَوْم تَانِي",
+       "rom": "ntqābal yōm tānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْتْقَابَلْ يَوْم تَانِي",
+       "rom": "ntqābal yōm tānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتْقَابْلُو نْهَار أُخْرَى",
        "rom": "ntqāblū nhār ukhrā",
        "note": ""
       }
-     },
-     "common": "② نتقابل يوم تاني"
+     }
     },
     {
-     "num": 659,
+     "num": 661,
      "cn": "你一定要来",
      "dialects": {
       "msa": {
@@ -17870,16 +23864,25 @@ const DATA = {
        "rom": "lāzim tījī",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ تِيجِي",
+       "rom": "lāzim tījī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ تِيجِي",
+       "rom": "lāzim tījī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ تْجِي",
        "rom": "lāzim tjī",
        "note": ""
       }
-     },
-     "common": "② لازم تيجي"
+     }
     },
     {
-     "num": 660,
+     "num": 662,
      "cn": "时间不早了",
      "dialects": {
       "msa": {
@@ -17897,16 +23900,25 @@ const DATA = {
        "rom": "it'akhkhar al-waqt",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْأَخَّرْ الوَقْت",
+       "rom": "it'akhkhar al-waqt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْأَخَّرْ الوَقْت",
+       "rom": "it'akhkhar al-waqt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْأَخَّرْ الوَقْت",
        "rom": "t'akhkhar al-waqt",
        "note": ""
       }
-     },
-     "common": "② الوقت متأخر"
+     }
     },
     {
-     "num": 661,
+     "num": 663,
      "cn": "给我打电话",
      "dialects": {
       "msa": {
@@ -17924,16 +23936,25 @@ const DATA = {
        "rom": "daqq ʿalayya",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَقَّ عَلَيَّ",
+       "rom": "daqq ʿalayya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَقَّ عَلَيَّ",
+       "rom": "daqq ʿalayya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دَقَّ عْلِيَّا",
        "rom": "daqq ʿaliyyā",
        "note": ""
       }
-     },
-     "common": "② دقّ عليّا"
+     }
     },
     {
-     "num": 662,
+     "num": 664,
      "cn": "发消息给我",
      "dialects": {
       "msa": {
@@ -17951,16 +23972,25 @@ const DATA = {
        "rom": "ibʿat-lī rasāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِبْعَتْلِي رَسَالَة",
+       "rom": "ibʿat-lī rasāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِبْعَتْلِي رَسَالَة",
+       "rom": "ibʿat-lī rasāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِبْعَتْلِي مِيسَاج",
        "rom": "ibʿat-lī mīsāj",
        "note": ""
       }
-     },
-     "common": "② ابعتلي مسّاج"
+     }
     },
     {
-     "num": 663,
+     "num": 665,
      "cn": "你在忙吗？",
      "dialects": {
       "msa": {
@@ -17978,16 +24008,25 @@ const DATA = {
        "rom": "inta mashghūl",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ مَشْغُول؟",
+       "rom": "inta mashghūl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ مَشْغُول؟",
+       "rom": "inta mashghūl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتَا مَشْغُول؟",
        "rom": "ntā mashghūl",
        "note": ""
       }
-     },
-     "common": "② إنت مشغول؟"
+     }
     },
     {
-     "num": 664,
+     "num": 666,
      "cn": "你的电话号码是多少？",
      "dialects": {
       "msa": {
@@ -18005,16 +24044,25 @@ const DATA = {
        "rom": "raqm tīlifūnak kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَقْمْ تِلِيفُونَكْ كَم؟",
+       "rom": "raqm tīlifūnak kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَقْمْ تِلِيفُونَكْ كَم؟",
+       "rom": "raqm tīlifūnak kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَقْمْ تِيفُونِكْ شْحَال؟",
        "rom": "raqm tīfūnik shḥāl",
        "note": ""
       }
-     },
-     "common": "② رقم تليفونك كام؟"
+     }
     },
     {
-     "num": 665,
+     "num": 667,
      "cn": "我打不通",
      "dialects": {
       "msa": {
@@ -18032,16 +24080,25 @@ const DATA = {
        "rom": "mā qdart awṣal-lak",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا قْدَرْتْ أَوْصَلْلَك",
+       "rom": "mā qdart awṣal-lak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا قْدَرْتْ أَوْصَلْلَك",
+       "rom": "mā qdart awṣal-lak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا قْدِيتْشْ نْوْصَلْلِك",
        "rom": "mā qdītsh nwṣal-līk",
        "note": ""
       }
-     },
-     "common": "② معرفتش أوصلّك"
+     }
     },
     {
-     "num": 666,
+     "num": 668,
      "cn": "请回我消息",
      "dialects": {
       "msa": {
@@ -18059,16 +24116,25 @@ const DATA = {
        "rom": "rudda ʿalā ar-rasāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "رُدَّ عَلَى الرَّسَالَة",
+       "rom": "rudda ʿalā ar-rasāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رُدَّ عَلَى الرَّسَالَة",
+       "rom": "rudda ʿalā ar-rasāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رُدَّ عَلَى المِيسَاج",
        "rom": "rudda ʿalā al-mīsāj",
        "note": ""
       }
-     },
-     "common": "② ردّ على المسّاج"
+     }
     },
     {
-     "num": 667,
+     "num": 669,
      "cn": "我给你发微信（发信息）",
      "dialects": {
       "msa": {
@@ -18086,16 +24152,25 @@ const DATA = {
        "rom": "raḥ abʿatlak ʿalā wātsāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ أْبْعَتْلَك عَلَى وَاتْسَاب",
+       "rom": "raḥ abʿatlak ʿalā wātsāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ أْبْعَتْلَك عَلَى وَاتْسَاب",
+       "rom": "raḥ abʿatlak ʿalā wātsāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْبْعَتْلَك عَلَى وَاتْسَاب",
        "rom": "ghādī nbʿatlak ʿalā wātsāb",
        "note": ""
       }
-     },
-     "common": "② 阿拉伯人实际多用WhatsApp(واتساب)；微信=ويتشات"
+     }
     },
     {
-     "num": 668,
+     "num": 670,
      "cn": "手机没电了",
      "dialects": {
       "msa": {
@@ -18113,16 +24188,25 @@ const DATA = {
        "rom": "al-jawāl ṭāfī",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَوَال طَافِي",
+       "rom": "al-jawāl ṭāfī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَوَال طَافِي",
+       "rom": "al-jawāl ṭāfī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْلِيفُونْ طَافِي",
        "rom": "tīlifūn ṭāfī",
        "note": ""
       }
-     },
-     "common": "② الموبايل فصّل"
+     }
     },
     {
-     "num": 669,
+     "num": 671,
      "cn": "你在线吗？",
      "dialects": {
       "msa": {
@@ -18140,16 +24224,25 @@ const DATA = {
        "rom": "inta ʿalā an-nit",
        "note": ""
       },
+      "gulf": {
+       "ar": "إنْتَ عَلَى النِّت؟",
+       "rom": "inta ʿalā an-nit",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إنْتَ عَلَى النِّت؟",
+       "rom": "inta ʿalā an-nit",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْتَا عْلَى النِّت؟",
        "rom": "ntā ʿalā an-nit",
        "note": ""
       }
-     },
-     "common": "② إنت على النت؟"
+     }
     },
     {
-     "num": 670,
+     "num": 672,
      "cn": "收到消息了吗？",
      "dialects": {
       "msa": {
@@ -18167,13 +24260,22 @@ const DATA = {
        "rom": "waṣalak ar-rasāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَصَلَكْ الرَّسَالَة؟",
+       "rom": "waṣalak ar-rasāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَصَلَكْ الرَّسَالَة؟",
+       "rom": "waṣalak ar-rasāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَصَّلَكْ المِيسَاج؟",
        "rom": "waṣṣalak al-mīsāj",
        "note": ""
       }
-     },
-     "common": "② وصّلك المسّاج؟"
+     }
     }
    ]
   },
@@ -18181,7 +24283,7 @@ const DATA = {
    "title": "十六、工作与商务（约90句）",
    "rows": [
     {
-     "num": 671,
+     "num": 673,
      "cn": "我在办公室",
      "dialects": {
       "msa": {
@@ -18199,16 +24301,25 @@ const DATA = {
        "rom": "anā bil-maktab",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بِالمَكْتَب",
+       "rom": "anā bil-maktab",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بِالمَكْتَب",
+       "rom": "anā bil-maktab",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا فِي لْمَكْتَب",
        "rom": "anā fī l-maktab",
        "note": ""
       }
-     },
-     "common": "② أنا في المكتب"
+     }
     },
     {
-     "num": 672,
+     "num": 674,
      "cn": "我的电脑坏了",
      "dialects": {
       "msa": {
@@ -18226,16 +24337,25 @@ const DATA = {
        "rom": "al-kumbūtar tabaʿī kharban",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكُمْبْيُوتَر تَبِعِي خَرْبَان",
+       "rom": "al-kumbūtar tabaʿī kharban",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكُمْبْيُوتَر تَبِعِي خَرْبَان",
+       "rom": "al-kumbūtar tabaʿī kharban",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْكُومْبِيُوطِير دِيَالِي خَارْب",
        "rom": "l-kumbiyūṭīr dyālī khārb",
        "note": ""
       }
-     },
-     "common": "② الكمبيوتر بتاعي باظ"
+     }
     },
     {
-     "num": 673,
+     "num": 675,
      "cn": "打印机不工作",
      "dialects": {
       "msa": {
@@ -18253,16 +24373,25 @@ const DATA = {
        "rom": "aṭ-ṭābiʿa mā shaghghāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطَّابِعَة مَا شَغَّالَة",
+       "rom": "aṭ-ṭābiʿa mā shaghghāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الطَّابِعَة مَا شَغَّالَة",
+       "rom": "aṭ-ṭābiʿa mā shaghghāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لطَّابِعَة مَاخْدَمَاتْش",
        "rom": "aṭ-ṭābiʿa mā khdamatsh",
        "note": ""
       }
-     },
-     "common": "② الطابعة مش شغالة"
+     }
     },
     {
-     "num": 674,
+     "num": 676,
      "cn": "我们去开会",
      "dialects": {
       "msa": {
@@ -18280,16 +24409,25 @@ const DATA = {
        "rom": "raḥ nrūḥ nʿmal ijtimāʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ نروح نْعْمَل اجْتِمَاع",
+       "rom": "raḥ nrūḥ nʿmal ijtimāʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ نروح نْعْمَل اجْتِمَاع",
+       "rom": "raḥ nrūḥ nʿmal ijtimāʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِين نَدِّيرُو اجْتِمَاع",
        "rom": "ghādīn nddīrū ijtimāʿ",
        "note": ""
       }
-     },
-     "common": "② رايحين نعمل اجتماع"
+     }
     },
     {
-     "num": 675,
+     "num": 677,
      "cn": "会议几点开始？",
      "dialects": {
       "msa": {
@@ -18307,16 +24445,25 @@ const DATA = {
        "rom": "mtā byabda' al-ijtimāʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْتَى بْيَبْدَأ الاجْتِمَاع؟",
+       "rom": "mtā byabda' al-ijtimāʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْتَى بْيَبْدَأ الاجْتِمَاع؟",
+       "rom": "mtā byabda' al-ijtimāʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ كَيْبْدَأ الاجْتِمَاع؟",
        "rom": "waqtāsh kībda' al-ijtimāʿ",
        "note": ""
       }
-     },
-     "common": "② الاجتماع بيبدا الساعة كام"
+     }
     },
     {
-     "num": 676,
+     "num": 678,
      "cn": "请把文件打印出来",
      "dialects": {
       "msa": {
@@ -18334,16 +24481,25 @@ const DATA = {
        "rom": "min faḍlak iṭbaʿ al-wara'a",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اطْبَع الوَرَقَة",
+       "rom": "min faḍlak iṭbaʿ al-wara'a",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اطْبَع الوَرَقَة",
+       "rom": "min faḍlak iṭbaʿ al-wara'a",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك طْبَعْ لْوَرَقَة",
        "rom": "ʿafāk ṭbaʿ l-wara'a",
        "note": ""
       }
-     },
-     "common": "② من فضلك اطبع الورقة"
+     }
     },
     {
-     "num": 677,
+     "num": 679,
      "cn": "这份文件很重要",
      "dialects": {
       "msa": {
@@ -18361,16 +24517,25 @@ const DATA = {
        "rom": "hēdi al-wara'a muhimma ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذي الورقة مهمة وايد",
+       "rom": "hādhī al-wara'a muhimma wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذي الورقة مهمة هواية",
+       "rom": "hādhī al-wara'a muhimma hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادِي لْوَرَقَة مُهِمَّة بْزَّاف",
        "rom": "hādī l-wara'a muhimma bzzāf",
        "note": ""
       }
-     },
-     "common": "② الورقة دي مهمة قوي"
+     }
     },
     {
-     "num": 678,
+     "num": 680,
      "cn": "老板在吗？",
      "dialects": {
       "msa": {
@@ -18388,16 +24553,25 @@ const DATA = {
        "rom": "al-mudīr mawjūd",
        "note": ""
       },
+      "gulf": {
+       "ar": "المُدِير مَوْجُود؟",
+       "rom": "al-mudīr mawjūd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المُدِير مَوْجُود؟",
+       "rom": "al-mudīr mawjūd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المُدِير رَاهُ مَوْجُود؟",
        "rom": "al-mudīr rāhu mawjūd",
        "note": ""
       }
-     },
-     "common": "② المدير موجود؟"
+     }
     },
     {
-     "num": 679,
+     "num": 681,
      "cn": "我的同事很友好",
      "dialects": {
       "msa": {
@@ -18415,16 +24589,25 @@ const DATA = {
        "rom": "zamīlī ṭayyib ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "زميلي طيب وايد",
+       "rom": "zamīlī ṭayyib wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "زميلي طيب هواية",
+       "rom": "zamīlī ṭayyib hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "زَمِيلِي طَيِّب بْزَّاف",
        "rom": "zamīlī ṭayyib bzzāf",
        "note": ""
       }
-     },
-     "common": "② زميلي طيب قوي"
+     }
     },
     {
-     "num": 680,
+     "num": 682,
      "cn": "我需要加班",
      "dialects": {
       "msa": {
@@ -18442,16 +24625,25 @@ const DATA = {
        "rom": "miḥtāj ashtaghal wa't ziyāda",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْحْتَاج أِشْتَغِل وَقْت زِيَادَة",
+       "rom": "miḥtāj ashtaghal wa't ziyāda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْحْتَاج أِشْتَغِل وَقْت زِيَادَة",
+       "rom": "miḥtāj ashtaghal wa't ziyāda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُحْتَاج نْخْدَم سَاعَات زَايْدَة",
        "rom": "muḥtāj nkhdam sāʿāt zāyda",
        "note": ""
       }
-     },
-     "common": "② محتاج أشتغل وقت زيادة"
+     }
     },
     {
-     "num": 681,
+     "num": 683,
      "cn": "我今天请假",
      "dialects": {
       "msa": {
@@ -18469,16 +24661,25 @@ const DATA = {
        "rom": "raḥ ākhud ijāza al-yōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ آخُد إِجَازَة اليَوْم",
+       "rom": "raḥ ākhud ijāza al-yōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ آخُد إِجَازَة اليَوْم",
+       "rom": "raḥ ākhud ijāza al-yōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْشُدْ عُطْلَة اليُومَا",
        "rom": "ghādī nshud ʿuṭla al-yūmā",
        "note": ""
       }
-     },
-     "common": "② هاخد إجازة النهاردة"
+     }
     },
     {
-     "num": 682,
+     "num": 684,
      "cn": "我迟到了",
      "dialects": {
       "msa": {
@@ -18496,16 +24697,25 @@ const DATA = {
        "rom": "anā ta'akhkart",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا تْأَخَّرْت",
+       "rom": "anā ta'akhkart",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا تْأَخَّرْت",
+       "rom": "anā ta'akhkart",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا تْأَخَّرْت",
        "rom": "anā ta'akhkart",
        "note": ""
       }
-     },
-     "common": "② أنا تأخرت"
+     }
     },
     {
-     "num": 683,
+     "num": 685,
      "cn": "你收到邮件了吗？",
      "dialects": {
       "msa": {
@@ -18523,16 +24733,25 @@ const DATA = {
        "rom": "waṣalak al-īmēl",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَصَلَك الإِيمَيْل؟",
+       "rom": "waṣalak al-īmēl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَصَلَك الإِيمَيْل؟",
+       "rom": "waṣalak al-īmēl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَصْلَك الإِيمِيل؟",
        "rom": "waṣlak al-īmīl",
        "note": ""
       }
-     },
-     "common": "② وصّلك الإيميل؟"
+     }
     },
     {
-     "num": 684,
+     "num": 686,
      "cn": "请发邮件给我",
      "dialects": {
       "msa": {
@@ -18550,16 +24769,25 @@ const DATA = {
        "rom": "min faḍlak ibʿat-lī īmēl",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اِبْعَتْلِي إِيمَيْل",
+       "rom": "min faḍlak ibʿat-lī īmēl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اِبْعَتْلِي إِيمَيْل",
+       "rom": "min faḍlak ibʿat-lī īmēl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك اِبْعَثْلِي إِيمِيل",
        "rom": "ʿafāk ibʿath-lī īmīl",
        "note": ""
       }
-     },
-     "common": "② من فضلك ابعتلي إيميل"
+     }
     },
     {
-     "num": 685,
+     "num": 687,
      "cn": "我忘记密码了",
      "dialects": {
       "msa": {
@@ -18577,16 +24805,25 @@ const DATA = {
        "rom": "nisīt ar-ramz",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْسِيت الرَّمْز",
+       "rom": "nisīt ar-ramz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْسِيت الرَّمْز",
+       "rom": "nisīt ar-ramz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْسِيتْ الرَّمْز",
        "rom": "nisīt ar-ramz",
        "note": ""
       }
-     },
-     "common": "② نسيت الرمز"
+     }
     },
     {
-     "num": 686,
+     "num": 688,
      "cn": "请帮我保存文件",
      "dialects": {
       "msa": {
@@ -18604,16 +24841,25 @@ const DATA = {
        "rom": "min faḍlak sāʿidnī aḥfaẓ al-wara'a",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك سَاعِدْنِي أَحْفَظ الوَرَقَة",
+       "rom": "min faḍlak sāʿidnī aḥfaẓ al-wara'a",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك سَاعِدْنِي أَحْفَظ الوَرَقَة",
+       "rom": "min faḍlak sāʿidnī aḥfaẓ al-wara'a",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك عَاوْنِي نْحَفْظُو لْوَرَقَة",
        "rom": "ʿafāk ʿāwnī nḥfaẓū l-wara'a",
        "note": ""
       }
-     },
-     "common": "② من فضلك ساعدني أحفظ الورقة"
+     }
     },
     {
-     "num": 687,
+     "num": 689,
      "cn": "文件夹在哪？",
      "dialects": {
       "msa": {
@@ -18631,16 +24877,25 @@ const DATA = {
        "rom": "wēn al-malaf",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِين المَلَف؟",
+       "rom": "wēn al-malaf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِين المَلَف؟",
+       "rom": "wēn al-malaf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينَ لْمَلَف؟",
        "rom": "fēn al-malaf",
        "note": ""
       }
-     },
-     "common": "② الملف فين؟"
+     }
     },
     {
-     "num": 688,
+     "num": 690,
      "cn": "我很忙",
      "dialects": {
       "msa": {
@@ -18658,16 +24913,25 @@ const DATA = {
        "rom": "anā mashghūl ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا مشغول وايد",
+       "rom": "anā mashghūl wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا مشغول هواية",
+       "rom": "anā mashghūl hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا مَشْغُول بْزَّاف",
        "rom": "anā mashghūl bzzāf",
        "note": ""
       }
-     },
-     "common": "② أنا مشغول قوي"
+     }
     },
     {
-     "num": 689,
+     "num": 691,
      "cn": "我下班了",
      "dialects": {
       "msa": {
@@ -18685,16 +24949,25 @@ const DATA = {
        "rom": "khallaṣt ash-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَلَّصْت الشُّغُل",
+       "rom": "khallaṣt ash-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَلَّصْت الشُّغُل",
+       "rom": "khallaṣt ash-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خَلَّصْتْ لْخْدْمَة",
        "rom": "khallaṣt l-khdma",
        "note": ""
       }
-     },
-     "common": "② خلّصت الشغل"
+     }
     },
     {
-     "num": 690,
+     "num": 692,
      "cn": "明天要交报告",
      "dialects": {
       "msa": {
@@ -18712,16 +24985,25 @@ const DATA = {
        "rom": "at-taqrīr lāzim yinsallam bukra",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّقْرِير لَازِم يِنْسَلَّم بُكْرَة",
+       "rom": "at-taqrīr lāzim yinsallam bukra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّقْرِير لَازِم يِنْسَلَّم بُكْرَة",
+       "rom": "at-taqrīr lāzim yinsallam bukra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّقْرِير لَازِم يِتْسَلَّم غْدُوا",
        "rom": "at-taqrīr lāzim yitsallam ghduwa",
        "note": ""
       }
-     },
-     "common": "② التقرير لازم يتسلّم بكرة"
+     }
     },
     {
-     "num": 691,
+     "num": 693,
      "cn": "我在找工作",
      "dialects": {
       "msa": {
@@ -18739,16 +25021,25 @@ const DATA = {
        "rom": "anā badawwar ʿalā shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بَدَوَّر عَلَى شُغْل",
+       "rom": "anā badawwar ʿalā shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بَدَوَّر عَلَى شُغْل",
+       "rom": "anā badawwar ʿalā shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَنْدَوَّر عَلَى خْدْمَة",
        "rom": "anā kandawwar ʿalā khdma",
        "note": ""
       }
-     },
-     "common": "② أنا بدوّر على شغل"
+     }
     },
     {
-     "num": 692,
+     "num": 694,
      "cn": "请给我你的简历",
      "dialects": {
       "msa": {
@@ -18766,16 +25057,25 @@ const DATA = {
        "rom": "min faḍlak iʿṭīnī as-sīra adh-dhātiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اِعْطِينِي السِّيرَة الذَّاتِيَّة",
+       "rom": "min faḍlak iʿṭīnī as-sīra adh-dhātiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اِعْطِينِي السِّيرَة الذَّاتِيَّة",
+       "rom": "min faḍlak iʿṭīnī as-sīra adh-dhātiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك عْطِينِي السِّيفِي",
        "rom": "ʿafāk ʿṭīnī as-sīfī",
        "note": ""
       }
-     },
-     "common": "② من فضلك ديني السيرة الذاتية"
+     }
     },
     {
-     "num": 693,
+     "num": 695,
      "cn": "我投了简历",
      "dialects": {
       "msa": {
@@ -18793,16 +25093,25 @@ const DATA = {
        "rom": "qaddamt as-sīra adh-dhātiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَدَّمْت السِّيرَة الذَّاتِيَّة",
+       "rom": "qaddamt as-sīra adh-dhātiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَدَّمْت السِّيرَة الذَّاتِيَّة",
+       "rom": "qaddamt as-sīra adh-dhātiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دَّيْتْ السِّيفِي",
        "rom": "ddayt as-sīfī",
        "note": ""
       }
-     },
-     "common": "② قدّمت السيرة الذاتية"
+     }
     },
     {
-     "num": 694,
+     "num": 696,
      "cn": "你有工作经验吗？",
      "dialects": {
       "msa": {
@@ -18820,16 +25129,25 @@ const DATA = {
        "rom": "ʿindak khibra bish-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَك خِبْرَة بِالشُّغْل؟",
+       "rom": "ʿindak khibra bish-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَك خِبْرَة بِالشُّغْل؟",
+       "rom": "ʿindak khibra bish-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ خْبْرَة فِي لْخْدْمَة؟",
        "rom": "ʿandak khibra fī l-khdma",
        "note": ""
       }
-     },
-     "common": "② عندك خبرة في الشغل؟"
+     }
     },
     {
-     "num": 695,
+     "num": 697,
      "cn": "你有面试吗？",
      "dialects": {
       "msa": {
@@ -18847,16 +25165,25 @@ const DATA = {
        "rom": "ʿindak muqābala",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَك مُقَابَلَة؟",
+       "rom": "ʿindak muqābala",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَك مُقَابَلَة؟",
+       "rom": "ʿindak muqābala",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ مُقَابَلَة؟",
        "rom": "ʿandak muqābala",
        "note": ""
       }
-     },
-     "common": "② عندك مقابلة؟"
+     }
     },
     {
-     "num": 696,
+     "num": 698,
      "cn": "面试几点？",
      "dialects": {
       "msa": {
@@ -18874,16 +25201,25 @@ const DATA = {
        "rom": "mtā al-muqābala",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْتَى المُقَابَلَة؟",
+       "rom": "mtā al-muqābala",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْتَى المُقَابَلَة؟",
+       "rom": "mtā al-muqābala",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ المُقَابَلَة؟",
        "rom": "waqtāsh al-muqābala",
        "note": ""
       }
-     },
-     "common": "② المقابلة الساعة كام؟"
+     }
     },
     {
-     "num": 697,
+     "num": 699,
      "cn": "我通过了面试",
      "dialects": {
       "msa": {
@@ -18901,16 +25237,25 @@ const DATA = {
        "rom": "njaḥt fī al-muqābala",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْجَحْت فِي المُقَابَلَة",
+       "rom": "njaḥt fī al-muqābala",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْجَحْت فِي المُقَابَلَة",
+       "rom": "njaḥt fī al-muqābala",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْجَحْتْ فِي المُقَابَلَة",
        "rom": "njaḥt fī al-muqābala",
        "note": ""
       }
-     },
-     "common": "② نجحت في المقابلة"
+     }
     },
     {
-     "num": 698,
+     "num": 700,
      "cn": "工资是多少？",
      "dialects": {
       "msa": {
@@ -18928,16 +25273,25 @@ const DATA = {
        "rom": "ar-rātib kam",
        "note": ""
       },
+      "gulf": {
+       "ar": "الرَّاتِب كَم؟",
+       "rom": "ar-rātib kam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الرَّاتِب كَم؟",
+       "rom": "ar-rātib kam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ فِي لْخْلَاص؟",
        "rom": "shḥāl fī l-khlāṣ",
        "note": ""
       }
-     },
-     "common": "② المرتب كام؟"
+     }
     },
     {
-     "num": 699,
+     "num": 701,
      "cn": "我想要更高的工资",
      "dialects": {
       "msa": {
@@ -18955,16 +25309,25 @@ const DATA = {
        "rom": "baddī rātib aʿlā",
        "note": ""
       },
+      "gulf": {
+       "ar": "أبي راتب أعلى",
+       "rom": "abī rātib aʿlā",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أريد راتب أعلى",
+       "rom": "arīd rātib aʿlā",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "بَغِيتْ لْخْلَاصْ أَعْلَى",
        "rom": "bghīt l-khlāṣ aʿlā",
        "note": ""
       }
-     },
-     "common": "② عايز مرتب أعلى"
+     }
     },
     {
-     "num": 700,
+     "num": 702,
      "cn": "有奖金吗？",
      "dialects": {
       "msa": {
@@ -18982,16 +25345,25 @@ const DATA = {
        "rom": "fī bōnuṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي بُونُص؟",
+       "rom": "fī bōnuṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي بُونُص؟",
+       "rom": "fī bōnuṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ لْبُونِي؟",
        "rom": "kāyn l-būnī",
        "note": ""
       }
-     },
-     "common": "② فيه بونص؟"
+     }
     },
     {
-     "num": 701,
+     "num": 703,
      "cn": "有年假吗？",
      "dialects": {
       "msa": {
@@ -19009,16 +25381,25 @@ const DATA = {
        "rom": "fī ijāza sanawiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِي إِجَازَة سَنَوِيَّة؟",
+       "rom": "fī ijāza sanawiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِي إِجَازَة سَنَوِيَّة؟",
+       "rom": "fī ijāza sanawiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ عُطْلَة سَنَوِيَّة؟",
        "rom": "kāyn ʿuṭla sanawiyya",
        "note": ""
       }
-     },
-     "common": "② فيه إجازة سنوية؟"
+     }
     },
     {
-     "num": 702,
+     "num": 704,
      "cn": "我被录用了",
      "dialects": {
       "msa": {
@@ -19036,16 +25417,25 @@ const DATA = {
        "rom": "inwaẓẓaft",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِنْوَظَّفْت",
+       "rom": "inwaẓẓaft",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِنْوَظَّفْت",
+       "rom": "inwaẓẓaft",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْوَظَّفْت",
        "rom": "twaẓẓaft",
        "note": ""
       }
-     },
-     "common": "② اتوظّفت"
+     }
     },
     {
-     "num": 703,
+     "num": 705,
      "cn": "录用通知 / 工作邀约",
      "dialects": {
       "msa": {
@@ -19063,16 +25453,25 @@ const DATA = {
        "rom": "ʿarḍ ash-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَرْض الشُّغْل",
+       "rom": "ʿarḍ ash-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَرْض الشُّغْل",
+       "rom": "ʿarḍ ash-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْرَضْ لْخْدْمَة",
        "rom": "ʿraḍ l-khdma",
        "note": ""
       }
-     },
-     "common": "② عرض الشغل"
+     }
     },
     {
-     "num": 704,
+     "num": 706,
      "cn": "什么时候开始上班？",
      "dialects": {
       "msa": {
@@ -19090,16 +25489,25 @@ const DATA = {
        "rom": "mtā babda' ash-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْتَى بَبْدَأ الشُّغْل؟",
+       "rom": "mtā babda' ash-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْتَى بَبْدَأ الشُّغْل؟",
+       "rom": "mtā babda' ash-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وْقْتَاشْ نْبْدَاوْ لْخْدْمَة؟",
        "rom": "waqtāsh nbddāw l-khdma",
        "note": ""
       }
-     },
-     "common": "② هابدا الشغل امتى؟"
+     }
     },
     {
-     "num": 705,
+     "num": 707,
      "cn": "这是全职还是兼职？",
      "dialects": {
       "msa": {
@@ -19117,16 +25525,25 @@ const DATA = {
        "rom": "hād dawwām kāmil walla juz'ī",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا دوام كامل ولا جزئي؟",
+       "rom": "hādhā dawwām kāmil walla juz'ī",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا دوام كامل ولا جزئي؟",
+       "rom": "hādhā dawwām kāmil walla juz'ī",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا دَوَّام كَامِل وَلا بَارْت تَايْم؟",
        "rom": "hādā dawwām kāmil walla part-time",
        "note": ""
       }
-     },
-     "common": "② ده دوّام كامل ولا بعضية؟"
+     }
     },
     {
-     "num": 706,
+     "num": 708,
      "cn": "试用期",
      "dialects": {
       "msa": {
@@ -19144,16 +25561,25 @@ const DATA = {
        "rom": "fatrat at-tajriba",
        "note": ""
       },
+      "gulf": {
+       "ar": "فَتْرَة التَّجْرِبَة",
+       "rom": "fatrat at-tajriba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فَتْرَة التَّجْرِبَة",
+       "rom": "fatrat at-tajriba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فَتْرَة التَّجْرِبَة",
        "rom": "fatrat at-tajriba",
        "note": ""
       }
-     },
-     "common": "①/② فترة التجربة 通用"
+     }
     },
     {
-     "num": 707,
+     "num": 709,
      "cn": "我辞职了",
      "dialects": {
       "msa": {
@@ -19171,16 +25597,25 @@ const DATA = {
        "rom": "qaddamt istiqāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَدَّمْت اِسْتِقَالَة",
+       "rom": "qaddamt istiqāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَدَّمْت اِسْتِقَالَة",
+       "rom": "qaddamt istiqāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قَدَّمْتْ سْتِقَالَة",
        "rom": "qaddamt istiqāla",
        "note": ""
       }
-     },
-     "common": "② قدّمت استقالة"
+     }
     },
     {
-     "num": 708,
+     "num": 710,
      "cn": "我失业了",
      "dialects": {
       "msa": {
@@ -19198,16 +25633,25 @@ const DATA = {
        "rom": "anā mish shughghāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا مو شغال",
+       "rom": "anā mū shughghāl",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا مو شغال",
+       "rom": "anā mū shughghāl",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا مَا شُغَّالْش",
        "rom": "anā mā shughghālsh",
        "note": ""
       }
-     },
-     "common": "② أنا مش شغال"
+     }
     },
     {
-     "num": 709,
+     "num": 711,
      "cn": "社保",
      "dialects": {
       "msa": {
@@ -19225,16 +25669,25 @@ const DATA = {
        "rom": "at-ta'mīn al-ijtimāʿī",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّأْمِين الاِجْتِمَاعِي",
+       "rom": "at-ta'mīn al-ijtimāʿī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّأْمِين الاِجْتِمَاعِي",
+       "rom": "at-ta'mīn al-ijtimāʿī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْتَأْمِينْ لِاجْتِمَاعِي",
        "rom": "at-ta'mīn al-ijtimāʿī",
        "note": ""
       }
-     },
-     "common": "①/② التأمين الاجتماعي 通用"
+     }
     },
     {
-     "num": 710,
+     "num": 712,
      "cn": "工作合同",
      "dialects": {
       "msa": {
@@ -19252,16 +25705,25 @@ const DATA = {
        "rom": "ʿaqd ash-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَقْد الشُّغْل",
+       "rom": "ʿaqd ash-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَقْد الشُّغْل",
+       "rom": "ʿaqd ash-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْكُونْتْرَاة دِيَالْ لْخْدْمَة",
        "rom": "l-kuntrāṭ dyāl l-khdma",
        "note": ""
       }
-     },
-     "common": "② عقد الشغل"
+     }
     },
     {
-     "num": 711,
+     "num": 713,
      "cn": "我们有合作项目",
      "dialects": {
       "msa": {
@@ -19279,16 +25741,25 @@ const DATA = {
        "rom": "ʿindanā mashrūʿ taʿāwun",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَنَا مَشْرُوع تَعَاوُن",
+       "rom": "ʿindanā mashrūʿ taʿāwun",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَنَا مَشْرُوع تَعَاوُن",
+       "rom": "ʿindanā mashrūʿ taʿāwun",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَنَا مَشْرُوع شَرْكَة",
        "rom": "ʿandnā mashrūʿ sharka",
        "note": ""
       }
-     },
-     "common": "② عندنا مشروع تعاون"
+     }
     },
     {
-     "num": 712,
+     "num": 714,
      "cn": "请签合同",
      "dialects": {
       "msa": {
@@ -19306,16 +25777,25 @@ const DATA = {
        "rom": "min faḍlak waqqiʿ al-ʿaqd",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك وَقِّع العَقْد",
+       "rom": "min faḍlak waqqiʿ al-ʿaqd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك وَقِّع العَقْد",
+       "rom": "min faḍlak waqqiʿ al-ʿaqd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك وَقَّعْ لْكُونْتْرَاة",
        "rom": "ʿafāk waqqaʿ l-kuntrāṭ",
        "note": ""
       }
-     },
-     "common": "② من فضلك وقّع العقد"
+     }
     },
     {
-     "num": 713,
+     "num": 715,
      "cn": "合同准备好了",
      "dialects": {
       "msa": {
@@ -19333,16 +25813,25 @@ const DATA = {
        "rom": "al-ʿaqd jāhiz",
        "note": ""
       },
+      "gulf": {
+       "ar": "العَقْد جَاهِز",
+       "rom": "al-ʿaqd jāhiz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "العَقْد جَاهِز",
+       "rom": "al-ʿaqd jāhiz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْكُونْتْرَاة جَاهِزَة",
        "rom": "l-kuntrāṭ jāhiza",
        "note": ""
       }
-     },
-     "common": "② العقد جاهز"
+     }
     },
     {
-     "num": 714,
+     "num": 716,
      "cn": "客户来了",
      "dialects": {
       "msa": {
@@ -19360,16 +25849,25 @@ const DATA = {
        "rom": "al-ʿamīl jā'",
        "note": ""
       },
+      "gulf": {
+       "ar": "العَمِيل جَاء",
+       "rom": "al-ʿamīl jā'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "العَمِيل جَاء",
+       "rom": "al-ʿamīl jā'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْكْلِيَان وَصَلْ",
        "rom": "al-klīān waṣal",
        "note": ""
       }
-     },
-     "common": "② العميل جه"
+     }
     },
     {
-     "num": 715,
+     "num": 717,
      "cn": "这个价格太高",
      "dialects": {
       "msa": {
@@ -19387,16 +25885,25 @@ const DATA = {
        "rom": "hād as-siʿr ʿālī ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "هذا السعر عالي وايد",
+       "rom": "hādhā as-siʿr ʿālī wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هذا السعر عالي هواية",
+       "rom": "hādhā as-siʿr ʿālī hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هَادَا تْثَمْن عَالِي بْزَّاف",
        "rom": "hādā th-thaman ʿālī bzzāf",
        "note": ""
       }
-     },
-     "common": "② السعر ده عالي قوي"
+     }
     },
     {
-     "num": 716,
+     "num": 718,
      "cn": "能优惠吗？",
      "dialects": {
       "msa": {
@@ -19414,16 +25921,25 @@ const DATA = {
        "rom": "miqdūr tnazzal as-siʿr",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور تْنَزَّل السِّعْر؟",
+       "rom": "miqdūr tnazzal as-siʿr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور تْنَزَّل السِّعْر؟",
+       "rom": "miqdūr tnazzal as-siʿr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُمْكِنْ تْنَزَّلْ تْثَمْن؟",
        "rom": "mumkin tnazzal th-thaman",
        "note": ""
       }
-     },
-     "common": "② ممكن تنزيل السعر؟"
+     }
     },
     {
-     "num": 717,
+     "num": 719,
      "cn": "请报个价",
      "dialects": {
       "msa": {
@@ -19441,16 +25957,25 @@ const DATA = {
        "rom": "min faḍlak qullī as-siʿr",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك قُلْلِي السِّعْر",
+       "rom": "min faḍlak qullī as-siʿr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك قُلْلِي السِّعْر",
+       "rom": "min faḍlak qullī as-siʿr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك قُولْلِي تْثَمْن",
        "rom": "ʿafāk qūllī th-thaman",
        "note": ""
       }
-     },
-     "common": "② من فضلك قولّلي السعر"
+     }
     },
     {
-     "num": 718,
+     "num": 720,
      "cn": "我们接受订单",
      "dialects": {
       "msa": {
@@ -19468,16 +25993,25 @@ const DATA = {
        "rom": "minqbal aṭ-ṭalab",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْقْبَل الطَّلَب",
+       "rom": "minqbal aṭ-ṭalab",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْقْبَل الطَّلَب",
+       "rom": "minqbal aṭ-ṭalab",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْقْبَلُو الطَّلَب",
        "rom": "kanqbalū aṭ-ṭalab",
        "note": ""
       }
-     },
-     "common": "② بنقبل الطلب"
+     }
     },
     {
-     "num": 719,
+     "num": 721,
      "cn": "订单已确认",
      "dialects": {
       "msa": {
@@ -19495,16 +26029,25 @@ const DATA = {
        "rom": "aṭ-ṭalab in'akkad",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطَّلَب اِنْأَكَّد",
+       "rom": "aṭ-ṭalab in'akkad",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الطَّلَب اِنْأَكَّد",
+       "rom": "aṭ-ṭalab in'akkad",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الطَّلَب تْأَكَّد",
        "rom": "aṭ-ṭalab t'akkad",
        "note": ""
       }
-     },
-     "common": "② الطلب اتأكد"
+     }
     },
     {
-     "num": 720,
+     "num": 722,
      "cn": "请付款",
      "dialects": {
       "msa": {
@@ -19522,16 +26065,25 @@ const DATA = {
        "rom": "min faḍlak idfaʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اِدْفَع",
+       "rom": "min faḍlak idfaʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اِدْفَع",
+       "rom": "min faḍlak idfaʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك اِدْفَعْ",
        "rom": "ʿafāk idfaʿ",
        "note": ""
       }
-     },
-     "common": "② من فضلك ادفع"
+     }
     },
     {
-     "num": 721,
+     "num": 723,
      "cn": "我转账了",
      "dialects": {
       "msa": {
@@ -19549,16 +26101,25 @@ const DATA = {
        "rom": "ḥawwalt al-maṣārī",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَوَّلْت المصَارِي",
+       "rom": "ḥawwalt al-maṣārī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَوَّلْت المصَارِي",
+       "rom": "ḥawwalt al-maṣārī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَوَّلْتْ لْفْلُوس",
        "rom": "ḥawwalt l-fulūs",
        "note": ""
       }
-     },
-     "common": "② حوّلت الفلوس"
+     }
     },
     {
-     "num": 722,
+     "num": 724,
      "cn": "发票开了吗？",
      "dialects": {
       "msa": {
@@ -19576,16 +26137,25 @@ const DATA = {
        "rom": "al-fātūra ṭalaʿat",
        "note": ""
       },
+      "gulf": {
+       "ar": "الفَاتُورَة طَلَعَت؟",
+       "rom": "al-fātūra ṭalaʿat",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الفَاتُورَة طَلَعَت؟",
+       "rom": "al-fātūra ṭalaʿat",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْفَاتُورَة خْرَجَاتْ؟",
        "rom": "al-fātūra khrajāt",
        "note": ""
       }
-     },
-     "common": "② الفاتورة طلعت؟"
+     }
     },
     {
-     "num": 723,
+     "num": 725,
      "cn": "利润不错",
      "dialects": {
       "msa": {
@@ -19603,16 +26173,25 @@ const DATA = {
        "rom": "ar-ribḥ mnīḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "الربح زين",
+       "rom": "ar-ribḥ zayn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الربح زين",
+       "rom": "ar-ribḥ zayn",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "لْرْبَح مْلِيح",
        "rom": "ar-ribḥ mlīḥ",
        "note": ""
       }
-     },
-     "common": "② الربح كويس"
+     }
     },
     {
-     "num": 724,
+     "num": 726,
      "cn": "我们谈谈生意",
      "dialects": {
       "msa": {
@@ -19630,16 +26209,25 @@ const DATA = {
        "rom": "niḥkī fī sh-shughul",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْحْكِي فِي الشُّغْل",
+       "rom": "niḥkī fī sh-shughul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْحْكِي فِي الشُّغْل",
+       "rom": "niḥkī fī sh-shughul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْهْدْرُو فِي لْبِيزْنِس",
        "rom": "nhdārū fī al-bīznīs",
        "note": ""
       }
-     },
-     "common": "② نتكلم في البزنس"
+     }
     },
     {
-     "num": 725,
+     "num": 727,
      "cn": "这个项目很赚钱",
      "dialects": {
       "msa": {
@@ -19657,16 +26245,25 @@ const DATA = {
        "rom": "al-mashrūʿ hād bīribḥ ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "المشروع هذا بيربح وايد",
+       "rom": "al-mashrūʿ hādhā bīribḥ wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "المشروع هذا بيربح هواية",
+       "rom": "al-mashrūʿ hādhā bīribḥ hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "المَشْرُوع هَادَا كَيْرْبَحْ بْزَّاف",
        "rom": "al-mashrūʿ hādā kīrbah bzzāf",
        "note": ""
       }
-     },
-     "common": "② المشروع ده بيربح قوي"
+     }
     },
     {
-     "num": 726,
+     "num": 728,
      "cn": "市场需求大",
      "dialects": {
       "msa": {
@@ -19684,16 +26281,25 @@ const DATA = {
        "rom": "aṭ-ṭalab bis-sūq kbīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الطَّلَب بِالسُّوق كْبِير",
+       "rom": "aṭ-ṭalab bis-sūq kbīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الطَّلَب بِالسُّوق كْبِير",
+       "rom": "aṭ-ṭalab bis-sūq kbīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الطَّلَب فِي السُّوق كْبِير",
        "rom": "aṭ-ṭalab fī s-sūq kbīr",
        "note": ""
       }
-     },
-     "common": "② الطلب في السوق كبير"
+     }
     },
     {
-     "num": 727,
+     "num": 729,
      "cn": "质量很好",
      "dialects": {
       "msa": {
@@ -19711,16 +26317,25 @@ const DATA = {
        "rom": "al-jawda ḥalwa ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجودة حلوة وايد",
+       "rom": "al-jawda ḥalwa wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الجودة حلوة هواية",
+       "rom": "al-jawda ḥalwa hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "الجَوْدَة زْوِينَة بْزَّاف",
        "rom": "al-jawda zwīna bzzāf",
        "note": ""
       }
-     },
-     "common": "② الجودة حلوة قوي"
+     }
     },
     {
-     "num": 728,
+     "num": 730,
      "cn": "交货时间",
      "dialects": {
       "msa": {
@@ -19738,16 +26353,25 @@ const DATA = {
        "rom": "mawʿid at-taslīm",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَوْعِد التَّسْلِيم",
+       "rom": "mawʿid at-taslīm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَوْعِد التَّسْلِيم",
+       "rom": "mawʿid at-taslīm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَقْتْ التَّسْلِيم",
        "rom": "waqt at-taslīm",
        "note": ""
       }
-     },
-     "common": "② موعد التسليم"
+     }
     },
     {
-     "num": 729,
+     "num": 731,
      "cn": "我们长期合作",
      "dialects": {
       "msa": {
@@ -19765,16 +26389,25 @@ const DATA = {
        "rom": "raḥ nitʿāwan ʿalā ṭūl",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ نْتَعَاوَن عَلَى طُول",
+       "rom": "raḥ nitʿāwan ʿalā ṭūl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ نْتَعَاوَن عَلَى طُول",
+       "rom": "raḥ nitʿāwan ʿalā ṭūl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِين نْتَعَاوْنُو عَلَى طُول",
        "rom": "ghādīn nitʿāwnū ʿalā ṭūl",
        "note": ""
       }
-     },
-     "common": "② هنتعاون على طول"
+     }
     },
     {
-     "num": 730,
+     "num": 732,
      "cn": "竞争对手",
      "dialects": {
       "msa": {
@@ -19792,16 +26425,25 @@ const DATA = {
        "rom": "al-munāfis",
        "note": ""
       },
+      "gulf": {
+       "ar": "المُنَافِس",
+       "rom": "al-munāfis",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المُنَافِس",
+       "rom": "al-munāfis",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المُنَافِس",
        "rom": "al-munāfis",
        "note": ""
       }
-     },
-     "common": "② المنافس"
+     }
     },
     {
-     "num": 731,
+     "num": 733,
      "cn": "预算",
      "dialects": {
       "msa": {
@@ -19819,16 +26461,25 @@ const DATA = {
        "rom": "al-mīzāniyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "المِيزَانِيَّة",
+       "rom": "al-mīzāniyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المِيزَانِيَّة",
+       "rom": "al-mīzāniyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمِيزَانِيَّة",
        "rom": "al-mīzāniyya",
        "note": ""
       }
-     },
-     "common": "①/② الميزانية 通用"
+     }
     },
     {
-     "num": 732,
+     "num": 734,
      "cn": "营业额 / 收入",
      "dialects": {
       "msa": {
@@ -19846,16 +26497,25 @@ const DATA = {
        "rom": "al-īrādāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "الإِيرَادَات",
+       "rom": "al-īrādāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الإِيرَادَات",
+       "rom": "al-īrādāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَدْخُولَات",
        "rom": "al-madkhūlāt",
        "note": ""
       }
-     },
-     "common": "①/② الإيرادات 通用"
+     }
     },
     {
-     "num": 733,
+     "num": 735,
      "cn": "谈判",
      "dialects": {
       "msa": {
@@ -19873,16 +26533,25 @@ const DATA = {
        "rom": "al-mufāwaḍa",
        "note": ""
       },
+      "gulf": {
+       "ar": "المُفَاوَضَة",
+       "rom": "al-mufāwaḍa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المُفَاوَضَة",
+       "rom": "al-mufāwaḍa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمُفَاوَضَة",
        "rom": "al-mufāwaḍa",
        "note": ""
       }
-     },
-     "common": "①/② المفاوضة 通用"
+     }
     },
     {
-     "num": 734,
+     "num": 736,
      "cn": "展销会 / 展会",
      "dialects": {
       "msa": {
@@ -19900,16 +26569,25 @@ const DATA = {
        "rom": "al-maʿriḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "المَعْرِض",
+       "rom": "al-maʿriḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المَعْرِض",
+       "rom": "al-maʿriḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَعْرِض",
        "rom": "al-maʿriḍ",
        "note": ""
       }
-     },
-     "common": "② المعرض"
+     }
     },
     {
-     "num": 735,
+     "num": 737,
      "cn": "工厂",
      "dialects": {
       "msa": {
@@ -19927,16 +26605,25 @@ const DATA = {
        "rom": "al-maṣnaʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "المَصْنَع",
+       "rom": "al-maṣnaʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المَصْنَع",
+       "rom": "al-maṣnaʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَعْمَل",
        "rom": "al-maʿmal",
        "note": ""
       }
-     },
-     "common": "② المصنع"
+     }
     },
     {
-     "num": 736,
+     "num": 738,
      "cn": "仓库",
      "dialects": {
       "msa": {
@@ -19954,16 +26641,25 @@ const DATA = {
        "rom": "al-makhzan",
        "note": ""
       },
+      "gulf": {
+       "ar": "المَخْزَن",
+       "rom": "al-makhzan",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "المَخْزَن",
+       "rom": "al-makhzan",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَخْزَن",
        "rom": "al-makhzan",
        "note": ""
       }
-     },
-     "common": "② المخزن"
+     }
     },
     {
-     "num": 737,
+     "num": 739,
      "cn": "物流 / 送货",
      "dialects": {
       "msa": {
@@ -19981,16 +26677,25 @@ const DATA = {
        "rom": "at-tawṣīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّوْصِيل",
+       "rom": "at-tawṣīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّوْصِيل",
+       "rom": "at-tawṣīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْتْوَصِيل",
        "rom": "at-tawṣīl",
        "note": ""
       }
-     },
-     "common": "② التوصيل"
+     }
     },
     {
-     "num": 738,
+     "num": 740,
      "cn": "进口 / 出口",
      "dialects": {
       "msa": {
@@ -20008,16 +26713,25 @@ const DATA = {
        "rom": "istīrād / taṣdīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِسْتِيرَاد / تَصْدِير",
+       "rom": "istīrād / taṣdīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِسْتِيرَاد / تَصْدِير",
+       "rom": "istīrād / taṣdīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْإِسْتِيرَاد / لْإِكْسْبُور",
        "rom": "al-istīrād / al-īkspūr",
        "note": ""
       }
-     },
-     "common": "② استيراد / تصدير"
+     }
     },
     {
-     "num": 739,
+     "num": 741,
      "cn": "货币",
      "dialects": {
       "msa": {
@@ -20035,16 +26749,25 @@ const DATA = {
        "rom": "al-ʿumla",
        "note": ""
       },
+      "gulf": {
+       "ar": "العُمْلَة",
+       "rom": "al-ʿumla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "العُمْلَة",
+       "rom": "al-ʿumla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْعُمْلَة",
        "rom": "al-ʿumla",
        "note": ""
       }
-     },
-     "common": "①/② العملة 通用"
+     }
     },
     {
-     "num": 740,
+     "num": 742,
      "cn": "银行",
      "dialects": {
       "msa": {
@@ -20062,16 +26785,25 @@ const DATA = {
        "rom": "al-bank",
        "note": ""
       },
+      "gulf": {
+       "ar": "البَنْك",
+       "rom": "al-bank",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "البَنْك",
+       "rom": "al-bank",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْبَنْك",
        "rom": "al-bank",
        "note": ""
       }
-     },
-     "common": "①/② البنك 通用"
+     }
     },
     {
-     "num": 741,
+     "num": 743,
      "cn": "请转接王经理",
      "dialects": {
       "msa": {
@@ -20089,16 +26821,25 @@ const DATA = {
        "rom": "min faḍlak ḥawwilnī ʿalā al-mudīr Wāng",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك حَوِّلْنِي عَلَى المُدِير وَانْغ",
+       "rom": "min faḍlak ḥawwilnī ʿalā al-mudīr Wāng",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك حَوِّلْنِي عَلَى المُدِير وَانْغ",
+       "rom": "min faḍlak ḥawwilnī ʿalā al-mudīr Wāng",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك حَوِّلْنِي لِلمُدِير وَانْغ",
        "rom": "ʿafāk ḥawwilnī lil-mudīr Wāng",
        "note": ""
       }
-     },
-     "common": "② من فضلك حوّلني على المدير وانغ"
+     }
     },
     {
-     "num": 742,
+     "num": 744,
      "cn": "请稍等",
      "dialects": {
       "msa": {
@@ -20116,16 +26857,25 @@ const DATA = {
        "rom": "istannā",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِسْتَنَّى",
+       "rom": "istannā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِسْتَنَّى",
+       "rom": "istannā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِسْتَنَّى شْوِيَّة",
        "rom": "istannā shwiyya",
        "note": ""
       }
-     },
-     "common": "② استنّى حضرتك"
+     }
     },
     {
-     "num": 743,
+     "num": 745,
      "cn": "他现在不在",
      "dialects": {
       "msa": {
@@ -20143,16 +26893,25 @@ const DATA = {
        "rom": "huwa mish mawjūd halla'",
        "note": ""
       },
+      "gulf": {
+       "ar": "هو مو موجود الحين",
+       "rom": "huwa mū mawjūd al-ḥīn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "هو مو موجود هسه",
+       "rom": "huwa mū mawjūd hasse",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "هُوَ مَا رَاهْش مَوْجُود دَابَا",
        "rom": "huwa mā rāhsh mawjūd dābā",
        "note": ""
       }
-     },
-     "common": "② هو مش موجود دلوقتي"
+     }
     },
     {
-     "num": 744,
+     "num": 746,
      "cn": "请留言",
      "dialects": {
       "msa": {
@@ -20170,16 +26929,25 @@ const DATA = {
        "rom": "min faḍlak khallī risāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك خَلِّي رِسَالَة",
+       "rom": "min faḍlak khallī risāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك خَلِّي رِسَالَة",
+       "rom": "min faḍlak khallī risāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك خَلِّي رِسَالَة",
        "rom": "ʿafāk khallī risāla",
        "note": ""
       }
-     },
-     "common": "② من فضلك سيب رسالة"
+     }
     },
     {
-     "num": 745,
+     "num": 747,
      "cn": "请让他回电",
      "dialects": {
       "msa": {
@@ -20197,16 +26965,25 @@ const DATA = {
        "rom": "min faḍlak qullu yittaṣṣal bī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك قُلْلُه يْتَصَّل بِي",
+       "rom": "min faḍlak qullu yittaṣṣal bī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك قُلْلُه يْتَصَّل بِي",
+       "rom": "min faḍlak qullu yittaṣṣal bī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك قُولْلُو يْعَاوِدْنِي",
        "rom": "ʿafāk qūllū yʿāwidnī",
        "note": ""
       }
-     },
-     "common": "② من فضلك قولّه يتصل بيا"
+     }
     },
     {
-     "num": 746,
+     "num": 748,
      "cn": "我打不通",
      "dialects": {
       "msa": {
@@ -20224,16 +27001,25 @@ const DATA = {
        "rom": "mā qdartish awṣul",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا قْدَرْتِش أُوصُل",
+       "rom": "mā qdartish awṣul",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا قْدَرْتِش أُوصُل",
+       "rom": "mā qdartish awṣul",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا قْدِيتْش نْوَصِّل",
        "rom": "mā qdītsh nwaṣṣil",
        "note": ""
       }
-     },
-     "common": "② ما قدرتش أوصل"
+     }
     },
     {
-     "num": 747,
+     "num": 749,
      "cn": "占线",
      "dialects": {
       "msa": {
@@ -20251,16 +27037,25 @@ const DATA = {
        "rom": "al-khaṭṭ mashghūl",
        "note": ""
       },
+      "gulf": {
+       "ar": "الخَطّ مَشْغُول",
+       "rom": "al-khaṭṭ mashghūl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الخَطّ مَشْغُول",
+       "rom": "al-khaṭṭ mashghūl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْخَطّ مَشْغُول",
        "rom": "al-khaṭṭ mashghūl",
        "note": ""
       }
-     },
-     "common": "② الخط مشغول"
+     }
     },
     {
-     "num": 748,
+     "num": 750,
      "cn": "请说慢一点",
      "dialects": {
       "msa": {
@@ -20278,16 +27073,25 @@ const DATA = {
        "rom": "min faḍlak ḥkī bi-buṭ'",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك حْكِي بِبُطْء",
+       "rom": "min faḍlak ḥkī bi-buṭ'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك حْكِي بِبُطْء",
+       "rom": "min faḍlak ḥkī bi-buṭ'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك قُولْ بِشْوِيَّة",
        "rom": "ʿafāk qūl b-shwiyya",
        "note": ""
       }
-     },
-     "common": "② من فضلك قول ببطء"
+     }
     },
     {
-     "num": 749,
+     "num": 751,
      "cn": "能重复一遍吗？",
      "dialects": {
       "msa": {
@@ -20305,16 +27109,25 @@ const DATA = {
        "rom": "miqdūr tiḥkī marra tāniya",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْقَدُور تْحْكِي مَرَّة تَانِيَة؟",
+       "rom": "miqdūr tiḥkī marra tāniya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْقَدُور تْحْكِي مَرَّة تَانِيَة؟",
+       "rom": "miqdūr tiḥkī marra tāniya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَقْدَرْ تْقُولْ مَرَّة أُخْرَى؟",
        "rom": "tiqdar tiqūl marra ukhrā",
        "note": ""
       }
-     },
-     "common": "② تقدر تقول تاني؟"
+     }
     },
     {
-     "num": 750,
+     "num": 752,
      "cn": "信号不好",
      "dialects": {
       "msa": {
@@ -20332,16 +27145,25 @@ const DATA = {
        "rom": "ash-shabaka ḍaʿīfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشَّبَكَة ضَعِيفَة",
+       "rom": "ash-shabaka ḍaʿīfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشَّبَكَة ضَعِيفَة",
+       "rom": "ash-shabaka ḍaʿīfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْبَكَة ضْعِيفَة",
        "rom": "shabaka ḍʿīfa",
        "note": ""
       }
-     },
-     "common": "② الشبكة ضعيفة"
+     }
     },
     {
-     "num": 751,
+     "num": 753,
      "cn": "请发到我的微信",
      "dialects": {
       "msa": {
@@ -20359,16 +27181,25 @@ const DATA = {
        "rom": "min faḍlak ibʿat-lī ʿalā al-wēchāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اِبْعَتْلِي عَلَى الوِيْتْشَات",
+       "rom": "min faḍlak ibʿat-lī ʿalā al-wēchāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اِبْعَتْلِي عَلَى الوِيْتْشَات",
+       "rom": "min faḍlak ibʿat-lī ʿalā al-wēchāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك اِبْعَثْلِي عَلَى الْوِيتْشَاتْ",
        "rom": "ʿafāk ibʿath-lī ʿalā al-wītshāt",
        "note": ""
       }
-     },
-     "common": "② من فضلك ابعتلي على الويتشات"
+     }
     },
     {
-     "num": 752,
+     "num": 754,
      "cn": "我记下了",
      "dialects": {
       "msa": {
@@ -20386,16 +27217,25 @@ const DATA = {
        "rom": "anā kātbuh",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا كَاتْبُه",
+       "rom": "anā kātbuh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا كَاتْبُه",
+       "rom": "anā kātbuh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا كَاتْبُو",
        "rom": "anā kātbū",
        "note": ""
       }
-     },
-     "common": "② أنا كاتبه"
+     }
     },
     {
-     "num": 753,
+     "num": 755,
      "cn": "稍后联系你",
      "dialects": {
       "msa": {
@@ -20413,16 +27253,25 @@ const DATA = {
        "rom": "raḥ attaṣṣal bik baʿdēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ أْتَصَّل بِك بَعْدَيْن",
+       "rom": "raḥ attaṣṣal bik baʿdēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ أْتَصَّل بِك بَعْدَيْن",
+       "rom": "raḥ attaṣṣal bik baʿdēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي نْعَاوِدْ عَلِيكْ مُرَّة أُخْرَى",
        "rom": "ghādī nʿāwid ʿalīk marra ukhrā",
        "note": ""
       }
-     },
-     "common": "② هاتصل بيك بعدين"
+     }
     },
     {
-     "num": 754,
+     "num": 756,
      "cn": "方便通话吗？",
      "dialects": {
       "msa": {
@@ -20440,16 +27289,25 @@ const DATA = {
        "rom": "mnāsib niḥkī halla'",
        "note": ""
       },
+      "gulf": {
+       "ar": "مناسب نحكي الحين؟",
+       "rom": "mnāsib niḥkī al-ḥīn",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "مناسب نحكي هسه؟",
+       "rom": "mnāsib niḥkī hasse",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مُنَاسِب نْهْدْرُو دَابَا؟",
        "rom": "mnāsib nhdārū dābā",
        "note": ""
       }
-     },
-     "common": "② مناسب نتكلم دلوقتي؟"
+     }
     },
     {
-     "num": 755,
+     "num": 757,
      "cn": "请发传真",
      "dialects": {
       "msa": {
@@ -20467,16 +27325,25 @@ const DATA = {
        "rom": "min faḍlak ibʿat al-fāks",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْنْ فَضْلَك اِبْعَت الفَاكْس",
+       "rom": "min faḍlak ibʿat al-fāks",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْنْ فَضْلَك اِبْعَت الفَاكْس",
+       "rom": "min faḍlak ibʿat al-fāks",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَفَاك اِبْعَثْ لْفَاكْس",
        "rom": "ʿafāk ibʿath al-fāks",
        "note": ""
       }
-     },
-     "common": "② من فضلك ابعت الفاكس"
+     }
     },
     {
-     "num": 756,
+     "num": 758,
      "cn": "视频会议",
      "dialects": {
       "msa": {
@@ -20494,16 +27361,25 @@ const DATA = {
        "rom": "ijtimāʿ bil-fīdyū",
        "note": ""
       },
+      "gulf": {
+       "ar": "اجْتِمَاع بِالفِيدْيُو",
+       "rom": "ijtimāʿ bil-fīdyū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اجْتِمَاع بِالفِيدْيُو",
+       "rom": "ijtimāʿ bil-fīdyū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اجْتِمَاع بِالفِيدْيُو",
        "rom": "ijtimāʿ bil-fīdyū",
        "note": ""
       }
-     },
-     "common": "② اجتماع بالفيديو"
+     }
     },
     {
-     "num": 757,
+     "num": 759,
      "cn": "我同意",
      "dialects": {
       "msa": {
@@ -20521,16 +27397,25 @@ const DATA = {
        "rom": "mwāfiq",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْوَافِق",
+       "rom": "mwāfiq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْوَافِق",
+       "rom": "mwāfiq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُوَافِق",
        "rom": "mwāfiq",
        "note": ""
       }
-     },
-     "common": "② موافق"
+     }
     },
     {
-     "num": 758,
+     "num": 760,
      "cn": "没问题",
      "dialects": {
       "msa": {
@@ -20548,16 +27433,25 @@ const DATA = {
        "rom": "mā fī mushkila",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا فِي مُشْكِلَة",
+       "rom": "mā fī mushkila",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ماكو مشكلة",
+       "rom": "māku mushkila",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مَاكَايْنْش مُشْكِل",
        "rom": "mākāynsh mushkil",
        "note": ""
       }
-     },
-     "common": "② مافيش مشكلة"
+     }
     },
     {
-     "num": 759,
+     "num": 761,
      "cn": "祝合作愉快",
      "dialects": {
       "msa": {
@@ -20575,16 +27469,25 @@ const DATA = {
        "rom": "btamannā taʿāwun saʿīd",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتَمَنَّى تَعَاوُن سَعِيد",
+       "rom": "btamannā taʿāwun saʿīd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتَمَنَّى تَعَاوُن سَعِيد",
+       "rom": "btamannā taʿāwun saʿīd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْتْمَنَّى تَعَاوُن سَعِيد",
        "rom": "kantmannā taʿāwun saʿīd",
        "note": ""
       }
-     },
-     "common": "② بتمنّى تعاون سعيد"
+     }
     },
     {
-     "num": 760,
+     "num": 762,
      "cn": "期待合作",
      "dialects": {
       "msa": {
@@ -20602,13 +27505,22 @@ const DATA = {
        "rom": "mstanīn nitʿāwan",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْسْتَنِّين نْتَعَاوَن",
+       "rom": "mstanīn nitʿāwan",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْسْتَنِّين نْتَعَاوَن",
+       "rom": "mstanīn nitʿāwan",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُسْتَانِّين نْتْعَاوْنُو",
        "rom": "mustānnīn nitʿāwnū",
        "note": ""
       }
-     },
-     "common": "② مستنّين نتعاون"
+     }
     }
    ]
   },
@@ -20616,7 +27528,7 @@ const DATA = {
    "title": "十七、家居与生活（约90句）",
    "rows": [
     {
-     "num": 761,
+     "num": 763,
      "cn": "家 / 房子",
      "dialects": {
       "msa": {
@@ -20634,16 +27546,25 @@ const DATA = {
        "rom": "bēt",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَيْت",
+       "rom": "bēt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَيْت",
+       "rom": "bēt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دَار",
        "rom": "dār",
        "note": ""
       }
-     },
-     "common": "② بيت 通用（④ 马格里布用 دار）"
+     }
     },
     {
-     "num": 762,
+     "num": 764,
      "cn": "我的房间",
      "dialects": {
       "msa": {
@@ -20661,16 +27582,25 @@ const DATA = {
        "rom": "ghurfatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "غُرْفَتِي",
+       "rom": "ghurfatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غُرْفَتِي",
+       "rom": "ghurfatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيتِي",
        "rom": "bītī",
        "note": ""
       }
-     },
-     "common": "② أوضعي"
+     }
     },
     {
-     "num": 763,
+     "num": 765,
      "cn": "卧室",
      "dialects": {
       "msa": {
@@ -20688,16 +27618,25 @@ const DATA = {
        "rom": "ghurfet an-nōm",
        "note": ""
       },
+      "gulf": {
+       "ar": "غُرْفَة النَّوْم",
+       "rom": "ghurfet an-nōm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غُرْفَة النَّوْم",
+       "rom": "ghurfet an-nōm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِيت النَّعَاس",
        "rom": "bīt an-nʿās",
        "note": ""
       }
-     },
-     "common": "②/①"
+     }
     },
     {
-     "num": 764,
+     "num": 766,
      "cn": "厨房",
      "dialects": {
       "msa": {
@@ -20715,16 +27654,25 @@ const DATA = {
        "rom": "maṭbakh",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَطْبَخ",
+       "rom": "maṭbakh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَطْبَخ",
+       "rom": "maṭbakh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكُوزِينَة",
        "rom": "l-kūzīna",
        "note": ""
       }
-     },
-     "common": "② مطبخ；④ الكوزينة"
+     }
     },
     {
-     "num": 765,
+     "num": 767,
      "cn": "客厅",
      "dialects": {
       "msa": {
@@ -20742,16 +27690,25 @@ const DATA = {
        "rom": "aṣ-ṣālōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "الصَّالُون",
+       "rom": "aṣ-ṣālōn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الصَّالُون",
+       "rom": "aṣ-ṣālōn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الصَّالُون",
        "rom": "aṣ-ṣālūn",
        "note": ""
       }
-     },
-     "common": "② الصالة"
+     }
     },
     {
-     "num": 766,
+     "num": 768,
      "cn": "浴室 / 卫生间",
      "dialects": {
       "msa": {
@@ -20769,16 +27726,25 @@ const DATA = {
        "rom": "ḥammām",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَمَّام",
+       "rom": "ḥammām",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَمَّام",
+       "rom": "ḥammām",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحَمَّام",
        "rom": "l-ḥammām",
        "note": ""
       }
-     },
-     "common": "①/② حمام 通用"
+     }
     },
     {
-     "num": 767,
+     "num": 769,
      "cn": "阳台",
      "dialects": {
       "msa": {
@@ -20796,16 +27762,25 @@ const DATA = {
        "rom": "balkōna",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَلْكُونَة",
+       "rom": "balkōna",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَلْكُونَة",
+       "rom": "balkōna",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّرَّاس",
        "rom": "t-terrās",
        "note": ""
       }
-     },
-     "common": "② بلكونة；④ التراس"
+     }
     },
     {
-     "num": 768,
+     "num": 770,
      "cn": "门",
      "dialects": {
       "msa": {
@@ -20823,16 +27798,25 @@ const DATA = {
        "rom": "bāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَاب",
+       "rom": "bāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَاب",
+       "rom": "bāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "البَاب",
        "rom": "l-bāb",
        "note": ""
       }
-     },
-     "common": "①/② باب 通用"
+     }
     },
     {
-     "num": 769,
+     "num": 771,
      "cn": "窗户",
      "dialects": {
       "msa": {
@@ -20850,16 +27834,25 @@ const DATA = {
        "rom": "shubbāk",
        "note": ""
       },
+      "gulf": {
+       "ar": "شُبَّاك",
+       "rom": "shubbāk",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شُبَّاك",
+       "rom": "shubbāk",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الشِّبَّاك",
        "rom": "sh-shibbāk",
        "note": ""
       }
-     },
-     "common": "② شباك（④ 音变 شِبّاك）"
+     }
     },
     {
-     "num": 770,
+     "num": 772,
      "cn": "钥匙",
      "dialects": {
       "msa": {
@@ -20877,16 +27870,25 @@ const DATA = {
        "rom": "miftāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِفْتَاح",
+       "rom": "miftāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِفْتَاح",
+       "rom": "miftāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْرُو",
        "rom": "ṣrū",
        "note": "核"
       }
-     },
-     "common": "② مفتاح；④ صرو"
+     }
     },
     {
-     "num": 771,
+     "num": 773,
      "cn": "墙",
      "dialects": {
       "msa": {
@@ -20904,16 +27906,25 @@ const DATA = {
        "rom": "jidār",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِدَار",
+       "rom": "jidār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِدَار",
+       "rom": "jidār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحِيط",
        "rom": "l-ḥīṭ",
        "note": ""
       }
-     },
-     "common": "② حيطة"
+     }
     },
     {
-     "num": 772,
+     "num": 774,
      "cn": "地板",
      "dialects": {
       "msa": {
@@ -20931,16 +27942,25 @@ const DATA = {
        "rom": "arḍiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَرْضِيَّة",
+       "rom": "arḍiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَرْضِيَّة",
+       "rom": "arḍiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الأَرْضِيَّة",
        "rom": "l-arḍiyya",
        "note": ""
       }
-     },
-     "common": "② الأرضية"
+     }
     },
     {
-     "num": 773,
+     "num": 775,
      "cn": "天花板 / 屋顶",
      "dialects": {
       "msa": {
@@ -20958,16 +27978,25 @@ const DATA = {
        "rom": "saqf",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَقْف",
+       "rom": "saqf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَقْف",
+       "rom": "saqf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّقْف",
        "rom": "s-saqf",
        "note": ""
       }
-     },
-     "common": "② سقف"
+     }
     },
     {
-     "num": 774,
+     "num": 776,
      "cn": "楼梯",
      "dialects": {
       "msa": {
@@ -20985,16 +28014,25 @@ const DATA = {
        "rom": "daraj",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَرَج",
+       "rom": "daraj",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَرَج",
+       "rom": "daraj",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الدَّرَج",
        "rom": "d-daraj",
        "note": ""
       }
-     },
-     "common": "② سلم；③ 用 درج"
+     }
     },
     {
-     "num": 775,
+     "num": 777,
      "cn": "花园",
      "dialects": {
       "msa": {
@@ -21012,16 +28050,25 @@ const DATA = {
        "rom": "ḥadīqa",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَدِيقَة",
+       "rom": "ḥadīqa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَدِيقَة",
+       "rom": "ḥadīqa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَنِّينَة",
        "rom": "l-jannīna",
        "note": ""
       }
-     },
-     "common": "② حديقة"
+     }
     },
     {
-     "num": 776,
+     "num": 778,
      "cn": "车库",
      "dialects": {
       "msa": {
@@ -21039,16 +28086,25 @@ const DATA = {
        "rom": "karāj",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَرَاج",
+       "rom": "karāj",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَرَاج",
+       "rom": "karāj",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَرَاج",
        "rom": "l-karāj",
        "note": ""
       }
-     },
-     "common": "② جراج（埃）/ ③ كراج"
+     }
     },
     {
-     "num": 777,
+     "num": 779,
      "cn": "邻居",
      "dialects": {
       "msa": {
@@ -21066,16 +28122,25 @@ const DATA = {
        "rom": "jīrān",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِيرَان",
+       "rom": "jīrān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِيرَان",
+       "rom": "jīrān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجِيرَان",
        "rom": "j-jīrān",
        "note": ""
       }
-     },
-     "common": "② جيران"
+     }
     },
     {
-     "num": 778,
+     "num": 780,
      "cn": "公寓 / 房租",
      "dialects": {
       "msa": {
@@ -21093,16 +28158,25 @@ const DATA = {
        "rom": "shiqqa",
        "note": ""
       },
+      "gulf": {
+       "ar": "شِقَّة",
+       "rom": "shiqqa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شِقَّة",
+       "rom": "shiqqa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الشَّقَّة",
        "rom": "sh-shiqqa",
        "note": ""
       }
-     },
-     "common": "② شقة"
+     }
     },
     {
-     "num": 779,
+     "num": 781,
      "cn": "床",
      "dialects": {
       "msa": {
@@ -21120,16 +28194,25 @@ const DATA = {
        "rom": "sarīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَرِير",
+       "rom": "sarīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَرِير",
+       "rom": "sarīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّرِير",
        "rom": "s-sarīr",
        "note": ""
       }
-     },
-     "common": "② سرير 通用"
+     }
     },
     {
-     "num": 780,
+     "num": 782,
      "cn": "桌子",
      "dialects": {
       "msa": {
@@ -21147,16 +28230,25 @@ const DATA = {
        "rom": "ṭāwla",
        "note": ""
       },
+      "gulf": {
+       "ar": "طَاوِلَة",
+       "rom": "ṭāwla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "طَاوِلَة",
+       "rom": "ṭāwla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الطَّابْلَة",
        "rom": "ṭ-ṭābla",
        "note": ""
       }
-     },
-     "common": "③ طاولة；② 用 ترابيزة"
+     }
     },
     {
-     "num": 781,
+     "num": 783,
      "cn": "椅子",
      "dialects": {
       "msa": {
@@ -21174,16 +28266,25 @@ const DATA = {
        "rom": "kursī",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُرْسِي",
+       "rom": "kursī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُرْسِي",
+       "rom": "kursī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكُرْسِي",
        "rom": "l-kursī",
        "note": ""
       }
-     },
-     "common": "② كرسي 通用"
+     }
     },
     {
-     "num": 782,
+     "num": 784,
      "cn": "沙发",
      "dialects": {
       "msa": {
@@ -21201,16 +28302,25 @@ const DATA = {
        "rom": "kanaba",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَنَبَة",
+       "rom": "kanaba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَنَبَة",
+       "rom": "kanaba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَنَابَا",
        "rom": "l-kanābā",
        "note": ""
       }
-     },
-     "common": "② كنبة"
+     }
     },
     {
-     "num": 783,
+     "num": 785,
      "cn": "灯",
      "dialects": {
       "msa": {
@@ -21228,16 +28338,25 @@ const DATA = {
        "rom": "miṣbāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِصْبَاح",
+       "rom": "miṣbāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِصْبَاح",
+       "rom": "miṣbāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اللَّامْبَة",
        "rom": "l-lampa",
        "note": ""
       }
-     },
-     "common": "② لمبة（埃）/ ③ مصباح"
+     }
     },
     {
-     "num": 784,
+     "num": 786,
      "cn": "冰箱",
      "dialects": {
       "msa": {
@@ -21255,16 +28374,25 @@ const DATA = {
        "rom": "thallāja",
        "note": ""
       },
+      "gulf": {
+       "ar": "ثَلَّاجَة",
+       "rom": "thallāja",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ثَلَّاجَة",
+       "rom": "thallāja",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الفْرِيدِير",
        "rom": "l-frīdīr",
        "note": ""
       }
-     },
-     "common": "② تلاجة"
+     }
     },
     {
-     "num": 785,
+     "num": 787,
      "cn": "电视",
      "dialects": {
       "msa": {
@@ -21282,16 +28410,25 @@ const DATA = {
        "rom": "tilfizyūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِلْفِزْيُون",
+       "rom": "tilfizyūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِلْفِزْيُون",
+       "rom": "tilfizyūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التِّلْفِزْيُون",
        "rom": "t-tilfizyūn",
        "note": ""
       }
-     },
-     "common": "② تلفزيون 通用"
+     }
     },
     {
-     "num": 786,
+     "num": 788,
      "cn": "洗衣机",
      "dialects": {
       "msa": {
@@ -21309,16 +28446,25 @@ const DATA = {
        "rom": "ghaṣṣāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "غَسَّالَة",
+       "rom": "ghaṣṣāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غَسَّالَة",
+       "rom": "ghaṣṣāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الغَسَّالَة",
        "rom": "l-ghaṣṣāla",
        "note": ""
       }
-     },
-     "common": "② غسالة"
+     }
     },
     {
-     "num": 787,
+     "num": 789,
      "cn": "空调",
      "dialects": {
       "msa": {
@@ -21336,16 +28482,25 @@ const DATA = {
        "rom": "mukayyif",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُكَيِّف",
+       "rom": "mukayyif",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُكَيِّف",
+       "rom": "mukayyif",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكْلِيمَاتِيس",
        "rom": "l-klīmātīs",
        "note": ""
       }
-     },
-     "common": "② مكيف"
+     }
     },
     {
-     "num": 788,
+     "num": 790,
      "cn": "微波炉",
      "dialects": {
       "msa": {
@@ -21363,16 +28518,25 @@ const DATA = {
        "rom": "mīkrōwēf",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِيكرُووَيْف",
+       "rom": "mīkrōwēf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِيكرُووَيْف",
+       "rom": "mīkrōwēf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المِيكْرُو",
        "rom": "l-mīkrū",
        "note": ""
       }
-     },
-     "common": "② ميكروويف"
+     }
     },
     {
-     "num": 789,
+     "num": 791,
      "cn": "遥控器",
      "dialects": {
       "msa": {
@@ -21390,16 +28554,25 @@ const DATA = {
        "rom": "rīmōt kontrōl",
        "note": ""
       },
+      "gulf": {
+       "ar": "رِيمُوت كُونْتْرُول",
+       "rom": "rīmōt kontrōl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رِيمُوت كُونْتْرُول",
+       "rom": "rīmōt kontrōl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تِيلْكُونْتْرُول",
        "rom": "tīlkōntrōl",
        "note": ""
       }
-     },
-     "common": "② ريموت"
+     }
     },
     {
-     "num": 790,
+     "num": 792,
      "cn": "电话",
      "dialects": {
       "msa": {
@@ -21417,16 +28590,25 @@ const DATA = {
        "rom": "tīlifōn",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِيلِفُون",
+       "rom": "tīlifōn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِيلِفُون",
+       "rom": "tīlifōn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التِّلِفُون",
        "rom": "t-tīlifūn",
        "note": ""
       }
-     },
-     "common": "② تليفون"
+     }
     },
     {
-     "num": 791,
+     "num": 793,
      "cn": "电脑",
      "dialects": {
       "msa": {
@@ -21444,16 +28626,25 @@ const DATA = {
        "rom": "kumbiyūtar",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُمْبِيُوتَر",
+       "rom": "kumbiyūtar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُمْبِيُوتَر",
+       "rom": "kumbiyūtar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أُورْدِينَاتُور",
        "rom": "ūrdinātūr",
        "note": ""
       }
-     },
-     "common": "② كمبيوتر"
+     }
     },
     {
-     "num": 792,
+     "num": 794,
      "cn": "风扇",
      "dialects": {
       "msa": {
@@ -21471,16 +28662,25 @@ const DATA = {
        "rom": "mirwaḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِرْوَحَة",
+       "rom": "mirwaḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِرْوَحَة",
+       "rom": "mirwaḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المِرْوَحَة",
        "rom": "l-mirwaḥa",
        "note": ""
       }
-     },
-     "common": "② مروحة"
+     }
     },
     {
-     "num": 793,
+     "num": 795,
      "cn": "电 / 电力",
      "dialects": {
       "msa": {
@@ -21498,16 +28698,25 @@ const DATA = {
        "rom": "kahrabā",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَهْرَبَا",
+       "rom": "kahrabā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَهْرَبَا",
+       "rom": "kahrabā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَهْرَبَا",
        "rom": "l-kahrabā",
        "note": ""
       }
-     },
-     "common": "② كهربا"
+     }
     },
     {
-     "num": 794,
+     "num": 796,
      "cn": "水",
      "dialects": {
       "msa": {
@@ -21525,16 +28734,25 @@ const DATA = {
        "rom": "mī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِي",
+       "rom": "mī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِي",
+       "rom": "mī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَا",
        "rom": "lma",
        "note": ""
       }
-     },
-     "common": "② ماية 通用"
+     }
     },
     {
-     "num": 795,
+     "num": 797,
      "cn": "煤气 / 天然气",
      "dialects": {
       "msa": {
@@ -21552,16 +28770,25 @@ const DATA = {
        "rom": "ghāz",
        "note": ""
       },
+      "gulf": {
+       "ar": "غَاز",
+       "rom": "ghāz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غَاز",
+       "rom": "ghāz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الغَاز",
        "rom": "l-ghāz",
        "note": ""
       }
-     },
-     "common": "② غاز"
+     }
     },
     {
-     "num": 796,
+     "num": 798,
      "cn": "枕头",
      "dialects": {
       "msa": {
@@ -21579,16 +28806,25 @@ const DATA = {
        "rom": "wisāda",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِسَادَة",
+       "rom": "wisāda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِسَادَة",
+       "rom": "wisāda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الوِسَادَة",
        "rom": "l-wisāda",
        "note": ""
       }
-     },
-     "common": "② مخدة"
+     }
     },
     {
-     "num": 797,
+     "num": 799,
      "cn": "被子 / 毯子",
      "dialects": {
       "msa": {
@@ -21606,16 +28842,25 @@ const DATA = {
        "rom": "baṭṭāniyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَطَّانِيَّة",
+       "rom": "baṭṭāniyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَطَّانِيَّة",
+       "rom": "baṭṭāniyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "البَطَّانِيَّة",
        "rom": "l-baṭṭāniyya",
        "note": ""
       }
-     },
-     "common": "② بطانية"
+     }
     },
     {
-     "num": 798,
+     "num": 800,
      "cn": "衣柜 / 壁橱",
      "dialects": {
       "msa": {
@@ -21633,16 +28878,25 @@ const DATA = {
        "rom": "khazāna",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَزَانَة",
+       "rom": "khazāna",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَزَانَة",
+       "rom": "khazāna",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الخَزَانَة",
        "rom": "l-khzāna",
        "note": ""
       }
-     },
-     "common": "② دولاب"
+     }
     },
     {
-     "num": 799,
+     "num": 801,
      "cn": "书架",
      "dialects": {
       "msa": {
@@ -21660,16 +28914,25 @@ const DATA = {
        "rom": "raff al-kutub",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَفّ الكُتُب",
+       "rom": "raff al-kutub",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَفّ الكُتُب",
+       "rom": "raff al-kutub",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَفّ دِيَال الكُتُب",
        "rom": "raff dyāl l-kutub",
        "note": ""
       }
-     },
-     "common": "② رف الكتب"
+     }
     },
     {
-     "num": 800,
+     "num": 802,
      "cn": "镜子",
      "dialects": {
       "msa": {
@@ -21687,16 +28950,25 @@ const DATA = {
        "rom": "mir'āt",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِرْآة",
+       "rom": "mir'āt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِرْآة",
+       "rom": "mir'āt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المِرَايَة",
        "rom": "l-mirāya",
        "note": ""
       }
-     },
-     "common": "② مراية"
+     }
     },
     {
-     "num": 801,
+     "num": 803,
      "cn": "打扫房间",
      "dialects": {
       "msa": {
@@ -21714,16 +28986,25 @@ const DATA = {
        "rom": "naẓẓif al-ghurfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَظِّفْ الغُرْفَة",
+       "rom": "naẓẓif al-ghurfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَظِّفْ الغُرْفَة",
+       "rom": "naẓẓif al-ghurfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نَظِّفْ البِيت",
        "rom": "naẓẓif al-bīt",
        "note": ""
       }
-     },
-     "common": "② انضف الأوضة"
+     }
     },
     {
-     "num": 802,
+     "num": 804,
      "cn": "扫地",
      "dialects": {
       "msa": {
@@ -21741,16 +29022,25 @@ const DATA = {
        "rom": "iknis al-arḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِكْنِسْ الأَرْض",
+       "rom": "iknis al-arḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِكْنِسْ الأَرْض",
+       "rom": "iknis al-arḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْنِسْ الأَرْضِيَّة",
        "rom": "knis l-arḍiyya",
        "note": ""
       }
-     },
-     "common": "② اكنس الأرض"
+     }
     },
     {
-     "num": 803,
+     "num": 805,
      "cn": "拖地",
      "dialects": {
       "msa": {
@@ -21768,16 +29058,25 @@ const DATA = {
        "rom": "imsaḥ al-arḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِمْسَحْ الأَرْض",
+       "rom": "imsaḥ al-arḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِمْسَحْ الأَرْض",
+       "rom": "imsaḥ al-arḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْسَحْ الأَرْضِيَّة",
        "rom": "msaḥ l-arḍiyya",
        "note": ""
       }
-     },
-     "common": "② امسح الأرض"
+     }
     },
     {
-     "num": 804,
+     "num": 806,
      "cn": "洗衣服",
      "dialects": {
       "msa": {
@@ -21795,16 +29094,25 @@ const DATA = {
        "rom": "ighsil al-ghasīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِغْسِلْ الغَسِيل",
+       "rom": "ighsil al-ghasīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِغْسِلْ الغَسِيل",
+       "rom": "ighsil al-ghasīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِغْسِلْ الحْوَايِج",
        "rom": "ighsil l-ḥwāyij",
        "note": ""
       }
-     },
-     "common": "② اغسل الهدوم"
+     }
     },
     {
-     "num": 805,
+     "num": 807,
      "cn": "做饭",
      "dialects": {
       "msa": {
@@ -21822,16 +29130,25 @@ const DATA = {
        "rom": "biṭabbikh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِطَبِّخْ",
+       "rom": "biṭabbikh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِطَبِّخْ",
+       "rom": "biṭabbikh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "طَيِّبْ",
        "rom": "ṭayyib",
        "note": ""
       }
-     },
-     "common": "② بطبخ"
+     }
     },
     {
-     "num": 806,
+     "num": 808,
      "cn": "倒垃圾",
      "dialects": {
       "msa": {
@@ -21849,16 +29166,25 @@ const DATA = {
        "rom": "irmī az-zbala",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِرْمِي الزَّبْلَة",
+       "rom": "irmī az-zbala",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِرْمِي الزَّبْلَة",
+       "rom": "irmī az-zbala",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْمِي الزَّبْلَة",
        "rom": "rmī az-zbla",
        "note": ""
       }
-     },
-     "common": "② ارمي الزبالة"
+     }
     },
     {
-     "num": 807,
+     "num": 809,
      "cn": "整理 / 收拾",
      "dialects": {
       "msa": {
@@ -21876,16 +29202,25 @@ const DATA = {
        "rom": "rattib",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَتِّبْ",
+       "rom": "rattib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَتِّبْ",
+       "rom": "rattib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَتِّبْ",
        "rom": "rattib",
        "note": ""
       }
-     },
-     "common": "② رتب"
+     }
     },
     {
-     "num": 808,
+     "num": 810,
      "cn": "洗碗",
      "dialects": {
       "msa": {
@@ -21903,16 +29238,25 @@ const DATA = {
        "rom": "ighsil aṣ-ṣuḥūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِغْسِلْ الصَّحُون",
+       "rom": "ighsil aṣ-ṣuḥūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِغْسِلْ الصَّحُون",
+       "rom": "ighsil aṣ-ṣuḥūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِغْسِلْ الصَّحَاف",
        "rom": "ighsil ṣ-ṣḥāf",
        "note": ""
       }
-     },
-     "common": "② اغسل الصحون"
+     }
     },
     {
-     "num": 809,
+     "num": 811,
      "cn": "晾衣服",
      "dialects": {
       "msa": {
@@ -21930,16 +29274,25 @@ const DATA = {
        "rom": "ʿalliq al-ghasīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَلِّقْ الغَسِيل",
+       "rom": "ʿalliq al-ghasīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَلِّقْ الغَسِيل",
+       "rom": "ʿalliq al-ghasīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَلِّقْ الحْوَايِج",
        "rom": "ʿalliq l-ḥwāyij",
        "note": ""
       }
-     },
-     "common": "② علق الهدوم"
+     }
     },
     {
-     "num": 810,
+     "num": 812,
      "cn": "熨衣服",
      "dialects": {
       "msa": {
@@ -21957,16 +29310,25 @@ const DATA = {
        "rom": "kawwī al-ghasīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَوِّي الغَسِيل",
+       "rom": "kawwī al-ghasīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَوِّي الغَسِيل",
+       "rom": "kawwī al-ghasīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَوِّي الحْوَايِج",
        "rom": "kawwī l-ḥwāyij",
        "note": ""
       }
-     },
-     "common": "② كوي الهدوم"
+     }
     },
     {
-     "num": 811,
+     "num": 813,
      "cn": "去买菜",
      "dialects": {
       "msa": {
@@ -21984,16 +29346,25 @@ const DATA = {
        "rom": "rūḥ ishtarī aghrāḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "رُوحْ اشْتَرِي أَغْرَاض",
+       "rom": "rūḥ ishtarī aghrāḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رُوحْ اشْتَرِي أَغْرَاض",
+       "rom": "rūḥ ishtarī aghrāḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رُوحْ شْرِي حْوَايِج",
        "rom": "rūḥ shrī ḥwāyij",
        "note": ""
       }
-     },
-     "common": "② روح اشتري حاجات"
+     }
     },
     {
-     "num": 812,
+     "num": 814,
      "cn": "吸尘",
      "dialects": {
       "msa": {
@@ -22011,16 +29382,25 @@ const DATA = {
        "rom": "ishfaṭ al-ghubār",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِشْفَطْ الغُبَار",
+       "rom": "ishfaṭ al-ghubār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِشْفَطْ الغُبَار",
+       "rom": "ishfaṭ al-ghubār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْفَطْ الغُبَار",
        "rom": "shfaṭ l-ghubār",
        "note": ""
       }
-     },
-     "common": "② اشفط الغبار"
+     }
     },
     {
-     "num": 813,
+     "num": 815,
      "cn": "擦桌子",
      "dialects": {
       "msa": {
@@ -22038,16 +29418,25 @@ const DATA = {
        "rom": "imsaḥ aṭ-ṭāwla",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِمْسَحْ الطَّاوِلَة",
+       "rom": "imsaḥ aṭ-ṭāwla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِمْسَحْ الطَّاوِلَة",
+       "rom": "imsaḥ aṭ-ṭāwla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِمْسَحْ الطَّابْلَة",
        "rom": "imsaḥ aṭ-ṭābla",
        "note": ""
       }
-     },
-     "common": "② امسح الترابيزة"
+     }
     },
     {
-     "num": 814,
+     "num": 816,
      "cn": "换床单",
      "dialects": {
       "msa": {
@@ -22065,16 +29454,25 @@ const DATA = {
        "rom": "ghayyir ghiṭā' as-sarīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "غَيِّرْ غِطَاء السَّرِير",
+       "rom": "ghayyir ghiṭā' as-sarīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غَيِّرْ غِطَاء السَّرِير",
+       "rom": "ghayyir ghiṭā' as-sarīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَيِّرْ لْحَافْ السَّرِير",
        "rom": "ghayyir l-ḥāf as-sarīr",
        "note": ""
       }
-     },
-     "common": "② غيّر كساوة السرير"
+     }
     },
     {
-     "num": 815,
+     "num": 817,
      "cn": "垃圾",
      "dialects": {
       "msa": {
@@ -22092,16 +29490,25 @@ const DATA = {
        "rom": "zbala",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَبْلَة",
+       "rom": "zbala",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَبْلَة",
+       "rom": "zbala",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الزَّبْلَة",
        "rom": "z-zbla",
        "note": ""
       }
-     },
-     "common": "② زبالة"
+     }
     },
     {
-     "num": 816,
+     "num": 818,
      "cn": "扫把",
      "dialects": {
       "msa": {
@@ -22119,16 +29526,25 @@ const DATA = {
        "rom": "miknasa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِكْنَسَة",
+       "rom": "miknasa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِكْنَسَة",
+       "rom": "miknasa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المِكْنَاسَة",
        "rom": "l-miknāsa",
        "note": ""
       }
-     },
-     "common": "② مكنسة"
+     }
     },
     {
-     "num": 817,
+     "num": 819,
      "cn": "拖把",
      "dialects": {
       "msa": {
@@ -22146,16 +29562,25 @@ const DATA = {
        "rom": "mamsaḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَمْسَحَة",
+       "rom": "mamsaḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَمْسَحَة",
+       "rom": "mamsaḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "المَمْسَحَة",
        "rom": "l-mamsaḥa",
        "note": ""
       }
-     },
-     "common": "② ممسحة"
+     }
     },
     {
-     "num": 818,
+     "num": 820,
      "cn": "洗洁精",
      "dialects": {
       "msa": {
@@ -22173,16 +29598,25 @@ const DATA = {
        "rom": "ṣābūn aṣ-ṣuḥūn",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَابُون الصَّحُون",
+       "rom": "ṣābūn aṣ-ṣuḥūn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَابُون الصَّحُون",
+       "rom": "ṣābūn aṣ-ṣuḥūn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَابُون الصَّحُون",
        "rom": "ṣābūn ṣ-ṣḥūn",
        "note": ""
       }
-     },
-     "common": "② صابون الأطباق"
+     }
     },
     {
-     "num": 819,
+     "num": 821,
      "cn": "洗衣机在转",
      "dialects": {
       "msa": {
@@ -22200,16 +29634,25 @@ const DATA = {
        "rom": "al-ghaṣṣāla shagghāla",
        "note": ""
       },
+      "gulf": {
+       "ar": "الغَسَّالَة شَغَّالَة",
+       "rom": "al-ghaṣṣāla shagghāla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الغَسَّالَة شَغَّالَة",
+       "rom": "al-ghaṣṣāla shagghāla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الغَسَّالَة خْدَامَة",
        "rom": "l-ghaṣṣāla khdāma",
        "note": ""
       }
-     },
-     "common": "② الغسالة شغالة"
+     }
     },
     {
-     "num": 820,
+     "num": 822,
      "cn": "房间很干净",
      "dialects": {
       "msa": {
@@ -22227,16 +29670,25 @@ const DATA = {
        "rom": "al-ghurfa naẓīfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "الغُرْفَة نَظِيفَة",
+       "rom": "al-ghurfa naẓīfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الغُرْفَة نَظِيفَة",
+       "rom": "al-ghurfa naẓīfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "البِيت نَظِيف",
        "rom": "al-bīt naẓīf",
        "note": ""
       }
-     },
-     "common": "② الأوضة نظيفة"
+     }
     },
     {
-     "num": 821,
+     "num": 823,
      "cn": "没水了",
      "dialects": {
       "msa": {
@@ -22254,16 +29706,25 @@ const DATA = {
        "rom": "mā fī mī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَافِي مِي",
+       "rom": "mā fī mī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "ماكو مي",
+       "rom": "māku mī",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "مَا كَايْنْش لْمَا",
        "rom": "mā kāynsh lma",
        "note": ""
       }
-     },
-     "common": "② مافيش ماية"
+     }
     },
     {
-     "num": 822,
+     "num": 824,
      "cn": "停电了",
      "dialects": {
       "msa": {
@@ -22281,16 +29742,25 @@ const DATA = {
        "rom": "l-kahrabā maqṭūʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَهْرَبَا مَقْطُوعَة",
+       "rom": "l-kahrabā maqṭūʿa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَهْرَبَا مَقْطُوعَة",
+       "rom": "l-kahrabā maqṭūʿa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَهْرَبَا مَقْطُوعَة",
        "rom": "l-kahrabā maqṭūʿa",
        "note": ""
       }
-     },
-     "common": "② الكهربا مقطوعة"
+     }
     },
     {
-     "num": 823,
+     "num": 825,
      "cn": "坏了",
      "dialects": {
       "msa": {
@@ -22308,16 +29778,25 @@ const DATA = {
        "rom": "bāẓ",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَاظ",
+       "rom": "bāẓ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَاظ",
+       "rom": "bāẓ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْقَطَّعْ",
        "rom": "tqaṭṭaʿ",
        "note": ""
       }
-     },
-     "common": "② بايظ"
+     }
     },
     {
-     "num": 824,
+     "num": 826,
      "cn": "修一下",
      "dialects": {
       "msa": {
@@ -22335,16 +29814,25 @@ const DATA = {
        "rom": "ṣalliḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَلِّحْ",
+       "rom": "ṣalliḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَلِّحْ",
+       "rom": "ṣalliḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَلِّحْ",
        "rom": "ṣalliḥ",
        "note": ""
       }
-     },
-     "common": "② صلّح"
+     }
     },
     {
-     "num": 825,
+     "num": 827,
      "cn": "漏水",
      "dialects": {
       "msa": {
@@ -22362,16 +29850,25 @@ const DATA = {
        "rom": "fīh tasrīb",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيه تَسْرِيب",
+       "rom": "fīh tasrīb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيه تَسْرِيب",
+       "rom": "fīh tasrīb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْن التَّسْرِيب",
        "rom": "kāyen at-tasrīb",
        "note": ""
       }
-     },
-     "common": "② فيه تسريب"
+     }
     },
     {
-     "num": 826,
+     "num": 828,
      "cn": "换灯泡",
      "dialects": {
       "msa": {
@@ -22389,16 +29886,25 @@ const DATA = {
        "rom": "ghayyir al-miṣbāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "غَيِّرْ المِصْبَاح",
+       "rom": "ghayyir al-miṣbāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غَيِّرْ المِصْبَاح",
+       "rom": "ghayyir al-miṣbāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَيِّرْ اللَّامْبَة",
        "rom": "ghayyir al-lampa",
        "note": ""
       }
-     },
-     "common": "② غيّر اللمبة"
+     }
     },
     {
-     "num": 827,
+     "num": 829,
      "cn": "跳闸了",
      "dialects": {
       "msa": {
@@ -22416,16 +29922,25 @@ const DATA = {
        "rom": "al-qāṭiʿ ṭār",
        "note": ""
       },
+      "gulf": {
+       "ar": "القَاطِع طَار",
+       "rom": "al-qāṭiʿ ṭār",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "القَاطِع طَار",
+       "rom": "al-qāṭiʿ ṭār",
+       "note": ""
+      },
       "maghreb": {
        "ar": "القَاطِع طَار",
        "rom": "l-qāṭiʿ ṭār",
        "note": ""
       }
-     },
-     "common": "② القاطع طار"
+     }
     },
     {
-     "num": 828,
+     "num": 830,
      "cn": "水管",
      "dialects": {
       "msa": {
@@ -22443,16 +29958,25 @@ const DATA = {
        "rom": "unbūb al-mī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُنْبُوب المِي",
+       "rom": "unbūb al-mī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُنْبُوب المِي",
+       "rom": "unbūb al-mī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْبُوبْ لْمَا",
        "rom": "l-būb lma",
        "note": ""
       }
-     },
-     "common": "② ماسورة المية"
+     }
     },
     {
-     "num": 829,
+     "num": 831,
      "cn": "水龙头",
      "dialects": {
       "msa": {
@@ -22470,16 +29994,25 @@ const DATA = {
        "rom": "ṣanbūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَنْبُور",
+       "rom": "ṣanbūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَنْبُور",
+       "rom": "ṣanbūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرُّوبِينَة",
        "rom": "r-rūbīna",
        "note": ""
       }
-     },
-     "common": "② حنفية / ③ صنبور"
+     }
     },
     {
-     "num": 830,
+     "num": 832,
      "cn": "厕所堵了",
      "dialects": {
       "msa": {
@@ -22497,16 +30030,25 @@ const DATA = {
        "rom": "al-ḥammām masdūd",
        "note": ""
       },
+      "gulf": {
+       "ar": "الحَمَّام مَسْدُود",
+       "rom": "al-ḥammām masdūd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الحَمَّام مَسْدُود",
+       "rom": "al-ḥammām masdūd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التُّوَالِيت سِدّ",
        "rom": "t-tuwālīt sidd",
        "note": ""
       }
-     },
-     "common": "② التواليت مسدود"
+     }
     },
     {
-     "num": 831,
+     "num": 833,
      "cn": "灯泡",
      "dialects": {
       "msa": {
@@ -22524,16 +30066,25 @@ const DATA = {
        "rom": "miṣbāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِصْبَاح",
+       "rom": "miṣbāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِصْبَاح",
+       "rom": "miṣbāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اللَّامْبَة",
        "rom": "l-lampa",
        "note": ""
       }
-     },
-     "common": "② لمبة"
+     }
     },
     {
-     "num": 832,
+     "num": 834,
      "cn": "帮个忙",
      "dialects": {
       "msa": {
@@ -22551,16 +30102,25 @@ const DATA = {
        "rom": "sāʿidnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَاعِدْنِي",
+       "rom": "sāʿidnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَاعِدْنِي",
+       "rom": "sāʿidnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَاوِنِّي",
        "rom": "ʿāwinnī",
        "note": ""
       }
-     },
-     "common": "② ساعدني"
+     }
     },
     {
-     "num": 833,
+     "num": 835,
      "cn": "叫修理工",
      "dialects": {
       "msa": {
@@ -22578,16 +30138,25 @@ const DATA = {
        "rom": "ittiṣil bi-ṣ-ṣāniʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِتْصِلْ بِالصَّانِع",
+       "rom": "ittiṣil bi-ṣ-ṣāniʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِتْصِلْ بِالصَّانِع",
+       "rom": "ittiṣil bi-ṣ-ṣāniʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِيِّطْ لِلْمُصْلَحْ",
        "rom": "ʿiyyiṭ lil-muṣlaḥ",
        "note": "核"
       }
-     },
-     "common": "② نادي الصنايعي"
+     }
     },
     {
-     "num": 834,
+     "num": 836,
      "cn": "工具",
      "dialects": {
       "msa": {
@@ -22605,16 +30174,25 @@ const DATA = {
        "rom": "adawāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَدَوَات",
+       "rom": "adawāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَدَوَات",
+       "rom": "adawāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الأُوتِيل",
        "rom": "l-ūtīl",
        "note": ""
       }
-     },
-     "common": "② أدوات"
+     }
     },
     {
-     "num": 835,
+     "num": 837,
      "cn": "开关",
      "dialects": {
       "msa": {
@@ -22632,16 +30210,25 @@ const DATA = {
        "rom": "miftāḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "مِفْتَاح",
+       "rom": "miftāḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مِفْتَاح",
+       "rom": "miftāḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لِينْتِيرْرُوبْتُور",
        "rom": "lintīrrūbtūr",
        "note": "核"
       }
-     },
-     "common": "② الزرّ / ③ مفتاح"
+     }
     },
     {
-     "num": 836,
+     "num": 838,
      "cn": "猫",
      "dialects": {
       "msa": {
@@ -22659,16 +30246,25 @@ const DATA = {
        "rom": "bissa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِسَّة",
+       "rom": "bissa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِسَّة",
+       "rom": "bissa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قُط",
        "rom": "quṭ",
        "note": ""
       }
-     },
-     "common": "② قطة；③ بسة"
+     }
     },
     {
-     "num": 837,
+     "num": 839,
      "cn": "狗",
      "dialects": {
       "msa": {
@@ -22686,16 +30282,25 @@ const DATA = {
        "rom": "kalb",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَلْب",
+       "rom": "kalb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَلْب",
+       "rom": "kalb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَلْب",
        "rom": "kalb",
        "note": ""
       }
-     },
-     "common": "② كلب 通用"
+     }
     },
     {
-     "num": 838,
+     "num": 840,
      "cn": "喂（喂食）",
      "dialects": {
       "msa": {
@@ -22713,16 +30318,25 @@ const DATA = {
        "rom": "aṭʿim",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَطْعِمْ",
+       "rom": "aṭʿim",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَطْعِمْ",
+       "rom": "aṭʿim",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَيْوِّلْ",
        "rom": "kaywwil",
        "note": ""
       }
-     },
-     "common": "② أطعم"
+     }
     },
     {
-     "num": 839,
+     "num": 841,
      "cn": "遛狗",
      "dialects": {
       "msa": {
@@ -22740,16 +30354,25 @@ const DATA = {
        "rom": "dawwir al-kalb",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَوِّرْ الكَلْب",
+       "rom": "dawwir al-kalb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَوِّرْ الكَلْب",
+       "rom": "dawwir al-kalb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دُورْ بِالْكَلْب",
        "rom": "dūr bil-kalb",
        "note": ""
       }
-     },
-     "common": "② اتمشى بالكلب"
+     }
     },
     {
-     "num": 840,
+     "num": 842,
      "cn": "宠物",
      "dialects": {
       "msa": {
@@ -22767,16 +30390,25 @@ const DATA = {
        "rom": "ḥaywān alīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَيْوَان أَلِيف",
+       "rom": "ḥaywān alīf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَيْوَان أَلِيف",
+       "rom": "ḥaywān alīf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْلُوف",
        "rom": "ḥlūf",
        "note": ""
       }
-     },
-     "common": "② حيوان أليف"
+     }
     },
     {
-     "num": 841,
+     "num": 843,
      "cn": "鱼",
      "dialects": {
       "msa": {
@@ -22794,16 +30426,25 @@ const DATA = {
        "rom": "samaka",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَمَكَة",
+       "rom": "samaka",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَمَكَة",
+       "rom": "samaka",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَمْكَة",
        "rom": "samka",
        "note": ""
       }
-     },
-     "common": "② سمكة 通用"
+     }
     },
     {
-     "num": 842,
+     "num": 844,
      "cn": "鸟",
      "dialects": {
       "msa": {
@@ -22821,16 +30462,25 @@ const DATA = {
        "rom": "ʿuṣfūr",
        "note": ""
       },
+      "gulf": {
+       "ar": "عُصْفُور",
+       "rom": "ʿuṣfūr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عُصْفُور",
+       "rom": "ʿuṣfūr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "طْيُور",
        "rom": "ṭyūr",
        "note": ""
       }
-     },
-     "common": "② عصفور"
+     }
     },
     {
-     "num": 843,
+     "num": 845,
      "cn": "笼子",
      "dialects": {
       "msa": {
@@ -22848,16 +30498,25 @@ const DATA = {
        "rom": "qafaṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَفَص",
+       "rom": "qafaṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَفَص",
+       "rom": "qafaṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قْفَص",
        "rom": "qfaṣ",
        "note": ""
       }
-     },
-     "common": "② قفص"
+     }
     },
     {
-     "num": 844,
+     "num": 846,
      "cn": "给猫喂食",
      "dialects": {
       "msa": {
@@ -22875,16 +30534,25 @@ const DATA = {
        "rom": "aṭʿim al-bissa",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَطْعِمْ البِسَّة",
+       "rom": "aṭʿim al-bissa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَطْعِمْ البِسَّة",
+       "rom": "aṭʿim al-bissa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَيْوِّلْ القُط",
        "rom": "kaywwil al-quṭ",
        "note": ""
       }
-     },
-     "common": "② أطعم القطة"
+     }
     },
     {
-     "num": 845,
+     "num": 847,
      "cn": "狗叫",
      "dialects": {
       "msa": {
@@ -22902,16 +30570,25 @@ const DATA = {
        "rom": "al-kalb byanbaḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "الكَلْب بْيَنْبَح",
+       "rom": "al-kalb byanbaḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الكَلْب بْيَنْبَح",
+       "rom": "al-kalb byanbaḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الكَلْب كَيْنْبَح",
        "rom": "al-kalb kaynbaḥ",
        "note": ""
       }
-     },
-     "common": "② الكلب بينّح"
+     }
     },
     {
-     "num": 846,
+     "num": 848,
      "cn": "猫在睡觉",
      "dialects": {
       "msa": {
@@ -22929,16 +30606,25 @@ const DATA = {
        "rom": "al-bissa nā'ima",
        "note": ""
       },
+      "gulf": {
+       "ar": "البِسَّة نَائِمَة",
+       "rom": "al-bissa nā'ima",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "البِسَّة نَائِمَة",
+       "rom": "al-bissa nā'ima",
+       "note": ""
+      },
       "maghreb": {
        "ar": "القُط رَاقِد",
        "rom": "al-quṭ rāqid",
        "note": ""
       }
-     },
-     "common": "② القطة نايمة"
+     }
     },
     {
-     "num": 847,
+     "num": 849,
      "cn": "我喜欢动物",
      "dialects": {
       "msa": {
@@ -22956,16 +30642,25 @@ const DATA = {
        "rom": "bḥibb al-ḥaywānāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْحِبْ الحَيْوَانَات",
+       "rom": "bḥibb al-ḥaywānāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْحِبْ الحَيْوَانَات",
+       "rom": "bḥibb al-ḥaywānāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْبْغِي الحْيْوَانَات",
        "rom": "kanbghī l-ḥywānāt",
        "note": ""
       }
-     },
-     "common": "② بحب الحيوانات"
+     }
     },
     {
-     "num": 848,
+     "num": 850,
      "cn": "狗粮",
      "dialects": {
       "msa": {
@@ -22983,16 +30678,25 @@ const DATA = {
        "rom": "akl al-kalb",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكْل الكَلْب",
+       "rom": "akl al-kalb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكْل الكَلْب",
+       "rom": "akl al-kalb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَاكْلَة الكَلْب",
        "rom": "mākla al-kalb",
        "note": ""
       }
-     },
-     "common": "② أكل الكلب"
+     }
     },
     {
-     "num": 849,
+     "num": 851,
      "cn": "清猫砂",
      "dialects": {
       "msa": {
@@ -23010,16 +30714,25 @@ const DATA = {
        "rom": "naẓẓif ar-raml",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَظِّفْ الرَّمْل",
+       "rom": "naẓẓif ar-raml",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَظِّفْ الرَّمْل",
+       "rom": "naẓẓif ar-raml",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نَظِّفْ الرَّمْل",
        "rom": "naẓẓif ar-raml",
        "note": ""
       }
-     },
-     "common": "② انضف الرمل"
+     }
     },
     {
-     "num": 850,
+     "num": 852,
      "cn": "兽医",
      "dialects": {
       "msa": {
@@ -23037,13 +30750,22 @@ const DATA = {
        "rom": "dōktōr bayṭarī",
        "note": ""
       },
+      "gulf": {
+       "ar": "دُكْتُور بَيْطَرِي",
+       "rom": "dōktōr bayṭarī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دُكْتُور بَيْطَرِي",
+       "rom": "dōktōr bayṭarī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الطَّبِيب دِيَال الحْيْوَانَات",
        "rom": "aṭ-ṭabīb dyāl l-ḥywānāt",
        "note": ""
       }
-     },
-     "common": "② دكتور بيطري"
+     }
     }
    ]
   },
@@ -23051,7 +30773,7 @@ const DATA = {
    "title": "十八、家庭与亲友（约80句）",
    "rows": [
     {
-     "num": 851,
+     "num": 853,
      "cn": "爸爸",
      "dialects": {
       "msa": {
@@ -23069,16 +30791,25 @@ const DATA = {
        "rom": "bābā",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَابَا",
+       "rom": "bābā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَابَا",
+       "rom": "bābā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُوبَا",
        "rom": "būbā",
        "note": ""
       }
-     },
-     "common": "② بابا 最通用"
+     }
     },
     {
-     "num": 852,
+     "num": 854,
      "cn": "妈妈",
      "dialects": {
       "msa": {
@@ -23096,16 +30827,25 @@ const DATA = {
        "rom": "māmā",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَامَا",
+       "rom": "māmā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَامَا",
+       "rom": "māmā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَامَا",
        "rom": "māmā",
        "note": ""
       }
-     },
-     "common": "② ماما 通用"
+     }
     },
     {
-     "num": 853,
+     "num": 855,
      "cn": "爷爷（爸爸的爸爸）",
      "dialects": {
       "msa": {
@@ -23123,16 +30863,25 @@ const DATA = {
        "rom": "jaddū",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَدُّو",
+       "rom": "jaddū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَدُّو",
+       "rom": "jaddū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جِيدِي",
        "rom": "jīdī",
        "note": ""
       }
-     },
-     "common": "② جدو"
+     }
     },
     {
-     "num": 854,
+     "num": 856,
      "cn": "奶奶（爸爸的妈妈）",
      "dialects": {
       "msa": {
@@ -23150,16 +30899,25 @@ const DATA = {
        "rom": "jaddatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَدَّتِي",
+       "rom": "jaddatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَدَّتِي",
+       "rom": "jaddatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَالَّة",
        "rom": "lāla",
        "note": ""
       }
-     },
-     "common": "② تاتا"
+     }
     },
     {
-     "num": 855,
+     "num": 857,
      "cn": "外公（妈妈的爸爸）",
      "dialects": {
       "msa": {
@@ -23177,16 +30935,25 @@ const DATA = {
        "rom": "jaddū",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَدُّو",
+       "rom": "jaddū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَدُّو",
+       "rom": "jaddū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جِيدِي",
        "rom": "jīdī",
        "note": ""
       }
-     },
-     "common": "② جدو（外祖父同称）"
+     }
     },
     {
-     "num": 856,
+     "num": 858,
      "cn": "外婆（妈妈的妈妈）",
      "dialects": {
       "msa": {
@@ -23204,16 +30971,25 @@ const DATA = {
        "rom": "jaddatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَدَّتِي",
+       "rom": "jaddatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَدَّتِي",
+       "rom": "jaddatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَالَّة",
        "rom": "lāla",
        "note": ""
       }
-     },
-     "common": "② تاتا（外祖母同称）"
+     }
     },
     {
-     "num": 857,
+     "num": 859,
      "cn": "哥哥",
      "dialects": {
       "msa": {
@@ -23231,16 +31007,25 @@ const DATA = {
        "rom": "akhūy al-kabīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَخُويْ الْكَبِير",
+       "rom": "akhūy al-kabīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَخُويْ الْكَبِير",
+       "rom": "akhūy al-kabīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خُوْيَا الْكْبِير",
        "rom": "khūyā al-kbīr",
        "note": ""
       }
-     },
-     "common": "② أخويا الكبير"
+     }
     },
     {
-     "num": 858,
+     "num": 860,
      "cn": "弟弟",
      "dialects": {
       "msa": {
@@ -23258,16 +31043,25 @@ const DATA = {
        "rom": "akhūy aṣ-ṣaghīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَخُويْ الصَّغِير",
+       "rom": "akhūy aṣ-ṣaghīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَخُويْ الصَّغِير",
+       "rom": "akhūy aṣ-ṣaghīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خُوْيَا الصْغِير",
        "rom": "khūyā aṣ-ṣghīr",
        "note": ""
       }
-     },
-     "common": "② أخويا الصغير"
+     }
     },
     {
-     "num": 859,
+     "num": 861,
      "cn": "姐姐",
      "dialects": {
       "msa": {
@@ -23285,16 +31079,25 @@ const DATA = {
        "rom": "ukhtī al-kabīra",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُخْتِي الْكَبِيرَة",
+       "rom": "ukhtī al-kabīra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُخْتِي الْكَبِيرَة",
+       "rom": "ukhtī al-kabīra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْتِي الْكْبِيرَة",
        "rom": "khti al-kbīra",
        "note": ""
       }
-     },
-     "common": "② أختي الكبيرة"
+     }
     },
     {
-     "num": 860,
+     "num": 862,
      "cn": "妹妹",
      "dialects": {
       "msa": {
@@ -23312,16 +31115,25 @@ const DATA = {
        "rom": "ukhtī aṣ-ṣaghīra",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُخْتِي الصَّغِيرَة",
+       "rom": "ukhtī aṣ-ṣaghīra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُخْتِي الصَّغِيرَة",
+       "rom": "ukhtī aṣ-ṣaghīra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْتِي الصْغِيرَة",
        "rom": "khti aṣ-ṣghīra",
        "note": ""
       }
-     },
-     "common": "② أختي الصغيرة"
+     }
     },
     {
-     "num": 861,
+     "num": 863,
      "cn": "叔叔（爸爸的弟弟）",
      "dialects": {
       "msa": {
@@ -23339,16 +31151,25 @@ const DATA = {
        "rom": "ʿammū",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَمُّو",
+       "rom": "ʿammū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَمُّو",
+       "rom": "ʿammū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَمِّي",
        "rom": "ʿammī",
        "note": ""
       }
-     },
-     "common": "② عمو"
+     }
     },
     {
-     "num": 862,
+     "num": 864,
      "cn": "伯伯（爸爸的哥哥）",
      "dialects": {
       "msa": {
@@ -23366,16 +31187,25 @@ const DATA = {
        "rom": "ʿammū al-kabīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَمُّو الْكَبِير",
+       "rom": "ʿammū al-kabīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَمُّو الْكَبِير",
+       "rom": "ʿammū al-kabīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَمِّي الْكْبِير",
        "rom": "ʿammī al-kbīr",
        "note": ""
       }
-     },
-     "common": "② عمو الكبير"
+     }
     },
     {
-     "num": 863,
+     "num": 865,
      "cn": "舅舅（妈妈的兄弟）",
      "dialects": {
       "msa": {
@@ -23393,16 +31223,25 @@ const DATA = {
        "rom": "khālū",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَالُو",
+       "rom": "khālū",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَالُو",
+       "rom": "khālū",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خَالِي",
        "rom": "khālī",
        "note": ""
       }
-     },
-     "common": "② خالو"
+     }
     },
     {
-     "num": 864,
+     "num": 866,
      "cn": "姑姑（爸爸的姐妹）",
      "dialects": {
       "msa": {
@@ -23420,16 +31259,25 @@ const DATA = {
        "rom": "ʿammatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَمَّتِي",
+       "rom": "ʿammatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَمَّتِي",
+       "rom": "ʿammatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عْمَّتِي",
        "rom": "ʿammatī",
        "note": ""
       }
-     },
-     "common": "② عمتي"
+     }
     },
     {
-     "num": 865,
+     "num": 867,
      "cn": "姨妈（妈妈的姐妹）",
      "dialects": {
       "msa": {
@@ -23447,16 +31295,25 @@ const DATA = {
        "rom": "khālatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَالَتِي",
+       "rom": "khālatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَالَتِي",
+       "rom": "khālatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خَالَتِي",
        "rom": "khālatī",
        "note": ""
       }
-     },
-     "common": "② خالتي"
+     }
     },
     {
-     "num": 866,
+     "num": 868,
      "cn": "儿子",
      "dialects": {
       "msa": {
@@ -23474,16 +31331,25 @@ const DATA = {
        "rom": "ibnī",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِبْنِي",
+       "rom": "ibnī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِبْنِي",
+       "rom": "ibnī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَلْدِي",
        "rom": "waldī",
        "note": ""
       }
-     },
-     "common": "② ابني"
+     }
     },
     {
-     "num": 867,
+     "num": 869,
      "cn": "女儿",
      "dialects": {
       "msa": {
@@ -23501,16 +31367,25 @@ const DATA = {
        "rom": "bintī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِنْتِي",
+       "rom": "bintī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِنْتِي",
+       "rom": "bintī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بِنْتِي",
        "rom": "bintī",
        "note": ""
       }
-     },
-     "common": "② بنتي"
+     }
     },
     {
-     "num": 868,
+     "num": 870,
      "cn": "丈夫",
      "dialects": {
       "msa": {
@@ -23528,16 +31403,25 @@ const DATA = {
        "rom": "jōzī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جُوزِي",
+       "rom": "jōzī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جُوزِي",
+       "rom": "jōzī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاجْلِي",
        "rom": "rājlī",
        "note": ""
       }
-     },
-     "common": "② جوزي"
+     }
     },
     {
-     "num": 869,
+     "num": 871,
      "cn": "妻子",
      "dialects": {
       "msa": {
@@ -23555,16 +31439,25 @@ const DATA = {
        "rom": "martī",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْرْتِي",
+       "rom": "martī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْرْتِي",
+       "rom": "martī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْرَاتِي",
        "rom": "mrātī",
        "note": ""
       }
-     },
-     "common": "② مراتي"
+     }
     },
     {
-     "num": 870,
+     "num": 872,
      "cn": "孙子",
      "dialects": {
       "msa": {
@@ -23582,16 +31475,25 @@ const DATA = {
        "rom": "ḥafīd",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَفِيد",
+       "rom": "ḥafīd",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَفِيد",
+       "rom": "ḥafīd",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَفِيد",
        "rom": "ḥafīd",
        "note": ""
       }
-     },
-     "common": "② حفيد"
+     }
     },
     {
-     "num": 871,
+     "num": 873,
      "cn": "孙女",
      "dialects": {
       "msa": {
@@ -23609,16 +31511,25 @@ const DATA = {
        "rom": "ḥafīda",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَفِيدَة",
+       "rom": "ḥafīda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَفِيدَة",
+       "rom": "ḥafīda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَفِيدَة",
        "rom": "ḥafīda",
        "note": ""
       }
-     },
-     "common": "② حفيدة"
+     }
     },
     {
-     "num": 872,
+     "num": 874,
      "cn": "侄子（兄弟的儿子）",
      "dialects": {
       "msa": {
@@ -23636,16 +31547,25 @@ const DATA = {
        "rom": "ibn akhūy",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِبْنْ أَخُويْ",
+       "rom": "ibn akhūy",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِبْنْ أَخُويْ",
+       "rom": "ibn akhūy",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَلْدْ خُوْيَا",
        "rom": "wald khūyā",
        "note": ""
       }
-     },
-     "common": "② ولد أخويا"
+     }
     },
     {
-     "num": 873,
+     "num": 875,
      "cn": "外甥（姐妹的儿子）",
      "dialects": {
       "msa": {
@@ -23663,16 +31583,25 @@ const DATA = {
        "rom": "ibn ukhtī",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِبْنْ أُخْتِي",
+       "rom": "ibn ukhtī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِبْنْ أُخْتِي",
+       "rom": "ibn ukhtī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَلْدْ خْتِي",
        "rom": "wald khtī",
        "note": ""
       }
-     },
-     "common": "② ولد أختي"
+     }
     },
     {
-     "num": 874,
+     "num": 876,
      "cn": "全家 / 家庭",
      "dialects": {
       "msa": {
@@ -23690,16 +31619,25 @@ const DATA = {
        "rom": "al-ʿāʾila",
        "note": ""
       },
+      "gulf": {
+       "ar": "الْعَائِلَة",
+       "rom": "al-ʿāʾila",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الْعَائِلَة",
+       "rom": "al-ʿāʾila",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الْعَائِلَة",
        "rom": "el-ʿāʾila",
        "note": ""
       }
-     },
-     "common": "①/② الْعَائِلَة 通用"
+     }
     },
     {
-     "num": 875,
+     "num": 877,
      "cn": "父母",
      "dialects": {
       "msa": {
@@ -23717,16 +31655,25 @@ const DATA = {
        "rom": "abūy wa-ummī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَبُويْ وَأُمِّي",
+       "rom": "abūy wa-ummī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَبُويْ وَأُمِّي",
+       "rom": "abūy wa-ummī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الوَلْدِين",
        "rom": "al-wāldīn",
        "note": ""
       }
-     },
-     "common": "② أبويا وأمي"
+     }
     },
     {
-     "num": 876,
+     "num": 878,
      "cn": "兄弟姐妹",
      "dialects": {
       "msa": {
@@ -23744,16 +31691,25 @@ const DATA = {
        "rom": "ikhwatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "إِخْوَتِي",
+       "rom": "ikhwatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "إِخْوَتِي",
+       "rom": "ikhwatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خْوَاتِي",
        "rom": "khwātī",
        "note": ""
       }
-     },
-     "common": "② إخواتي"
+     }
     },
     {
-     "num": 877,
+     "num": 879,
      "cn": "亲戚 / 亲属",
      "dialects": {
       "msa": {
@@ -23771,16 +31727,25 @@ const DATA = {
        "rom": "aqāribī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَقَارِبِي",
+       "rom": "aqāribī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَقَارِبِي",
+       "rom": "aqāribī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قْرَايْبِي",
        "rom": "qrāybī",
        "note": ""
       }
-     },
-     "common": "② أقاربي"
+     }
     },
     {
-     "num": 878,
+     "num": 880,
      "cn": "双胞胎",
      "dialects": {
       "msa": {
@@ -23798,16 +31763,25 @@ const DATA = {
        "rom": "taw'am",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَوْأَم",
+       "rom": "taw'am",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَوْأَم",
+       "rom": "taw'am",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْوَام",
        "rom": "twām",
        "note": ""
       }
-     },
-     "common": "② توأم"
+     }
     },
     {
-     "num": 879,
+     "num": 881,
      "cn": "我的家人",
      "dialects": {
       "msa": {
@@ -23825,16 +31799,25 @@ const DATA = {
        "rom": "ahlī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَهْلِي",
+       "rom": "ahlī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَهْلِي",
+       "rom": "ahlī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِيلْتِي",
        "rom": "ʿīltī",
        "note": ""
       }
-     },
-     "common": "② أهلي"
+     }
     },
     {
-     "num": 880,
+     "num": 882,
      "cn": "老家 / 故乡",
      "dialects": {
       "msa": {
@@ -23852,16 +31835,25 @@ const DATA = {
        "rom": "baladī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَلَدِي",
+       "rom": "baladī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَلَدِي",
+       "rom": "baladī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْلَادِي",
        "rom": "blādī",
        "note": ""
       }
-     },
-     "common": "② بلدي"
+     }
     },
     {
-     "num": 881,
+     "num": 883,
      "cn": "男朋友",
      "dialects": {
       "msa": {
@@ -23879,16 +31871,25 @@ const DATA = {
        "rom": "ḥabībī",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَبِيبِي",
+       "rom": "ḥabībī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَبِيبِي",
+       "rom": "ḥabībī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَبِيبِي",
        "rom": "ḥabībī",
        "note": ""
       }
-     },
-     "common": "② حبيبي"
+     }
     },
     {
-     "num": 882,
+     "num": 884,
      "cn": "女朋友",
      "dialects": {
       "msa": {
@@ -23906,16 +31907,25 @@ const DATA = {
        "rom": "ḥabībatī",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَبِيبَتِي",
+       "rom": "ḥabībatī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَبِيبَتِي",
+       "rom": "ḥabībatī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَبِيبْتِي",
        "rom": "ḥabībtī",
        "note": ""
       }
-     },
-     "common": "② حبيبتي"
+     }
     },
     {
-     "num": 883,
+     "num": 885,
      "cn": "闺蜜",
      "dialects": {
       "msa": {
@@ -23933,16 +31943,25 @@ const DATA = {
        "rom": "ṣāḥbtī al-qarība",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَاحْبْتِي القَرِيبَة",
+       "rom": "ṣāḥbtī al-qarība",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَاحْبْتِي القَرِيبَة",
+       "rom": "ṣāḥbtī al-qarība",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَاحْبْتِي الْقْرِيبَة",
        "rom": "ṣāḥbtī al-qrība",
        "note": ""
       }
-     },
-     "common": "② صاحبتي القريبة"
+     }
     },
     {
-     "num": 884,
+     "num": 886,
      "cn": "兄弟（称呼语，男哥们）",
      "dialects": {
       "msa": {
@@ -23960,16 +31979,25 @@ const DATA = {
        "rom": "yā ʿamm",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا عَم",
+       "rom": "yā ʿamm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا عَم",
+       "rom": "yā ʿamm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَا خُوْيَا",
        "rom": "yā khūyā",
        "note": ""
       }
-     },
-     "common": "② يا عم"
+     }
     },
     {
-     "num": 885,
+     "num": 887,
      "cn": "我的朋友（男）",
      "dialects": {
       "msa": {
@@ -23987,16 +32015,25 @@ const DATA = {
        "rom": "",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَاحِي (ṣāḥī)",
+       "rom": "",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَاحِي (ṣāḥī)",
+       "rom": "",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَاحِبِي",
        "rom": "ṣāḥibī",
        "note": ""
       }
-     },
-     "common": "② صاحبي"
+     }
     },
     {
-     "num": 886,
+     "num": 888,
      "cn": "我的朋友（女）",
      "dialects": {
       "msa": {
@@ -24014,16 +32051,25 @@ const DATA = {
        "rom": "ṣāḥbtī",
        "note": ""
       },
+      "gulf": {
+       "ar": "صَاحْبْتِي",
+       "rom": "ṣāḥbtī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صَاحْبْتِي",
+       "rom": "ṣāḥbtī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صَاحْبْتِي",
        "rom": "ṣāḥbtī",
        "note": ""
       }
-     },
-     "common": "② صاحبتي"
+     }
     },
     {
-     "num": 887,
+     "num": 889,
      "cn": "我们是好朋友",
      "dialects": {
       "msa": {
@@ -24041,16 +32087,25 @@ const DATA = {
        "rom": "nḥnā ṣḥāb qarībīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْحْنَا صَحَاب قَرِيبِين",
+       "rom": "nḥnā ṣḥāb qarībīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْحْنَا صَحَاب قَرِيبِين",
+       "rom": "nḥnā ṣḥāb qarībīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْنَا صْحَاب قْرَاب",
        "rom": "ḥnā ṣḥāb qrāb",
        "note": ""
       }
-     },
-     "common": "② إحنا أصحاب قريبين"
+     }
     },
     {
-     "num": 888,
+     "num": 890,
      "cn": "我们是朋友",
      "dialects": {
       "msa": {
@@ -24068,16 +32123,25 @@ const DATA = {
        "rom": "nḥnā ṣḥāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْحْنَا صَحَاب",
+       "rom": "nḥnā ṣḥāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْحْنَا صَحَاب",
+       "rom": "nḥnā ṣḥāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْنَا صْحَاب",
        "rom": "ḥnā ṣḥāb",
        "note": ""
       }
-     },
-     "common": "② إحنا أصحاب"
+     }
     },
     {
-     "num": 889,
+     "num": 891,
      "cn": "邻居（男）",
      "dialects": {
       "msa": {
@@ -24095,16 +32159,25 @@ const DATA = {
        "rom": "jīrānī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِيرَانِي",
+       "rom": "jīrānī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِيرَانِي",
+       "rom": "jīrānī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَارِي",
        "rom": "jārī",
        "note": ""
       }
-     },
-     "common": "② جيراني"
+     }
     },
     {
-     "num": 890,
+     "num": 892,
      "cn": "邻居（女）",
      "dialects": {
       "msa": {
@@ -24122,16 +32195,25 @@ const DATA = {
        "rom": "jīrāntī",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِيرَانْتِي",
+       "rom": "jīrāntī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِيرَانْتِي",
+       "rom": "jīrāntī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَارْتِي",
        "rom": "jārtī",
        "note": ""
       }
-     },
-     "common": "② جيرانتي"
+     }
     },
     {
-     "num": 891,
+     "num": 893,
      "cn": "好邻居 / 邻里和睦",
      "dialects": {
       "msa": {
@@ -24149,16 +32231,25 @@ const DATA = {
        "rom": "jīrān ṭayyibīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "جِيرَان طَيِّبِين",
+       "rom": "jīrān ṭayyibīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جِيرَان طَيِّبِين",
+       "rom": "jīrān ṭayyibīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جِيرَان طِيبِين",
        "rom": "jīrān ṭībīn",
        "note": ""
       }
-     },
-     "common": "② جيران طيبين"
+     }
     },
     {
-     "num": 892,
+     "num": 894,
      "cn": "先生（Mr.）",
      "dialects": {
       "msa": {
@@ -24176,16 +32267,25 @@ const DATA = {
        "rom": "yā ustādh",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا أُسْتَاذ",
+       "rom": "yā ustādh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا أُسْتَاذ",
+       "rom": "yā ustādh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سِيدِي",
        "rom": "sīdī",
        "note": ""
       }
-     },
-     "common": "② يا أستاذ"
+     }
     },
     {
-     "num": 893,
+     "num": 895,
      "cn": "女士（Ms./Mrs.）",
      "dialects": {
       "msa": {
@@ -24203,16 +32303,25 @@ const DATA = {
        "rom": "yā ānsa",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا آنسَة",
+       "rom": "yā ānsa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا آنسَة",
+       "rom": "yā ānsa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَالَّة",
        "rom": "lāla",
        "note": ""
       }
-     },
-     "common": "② يا آنسة"
+     }
     },
     {
-     "num": 894,
+     "num": 896,
      "cn": "帅哥",
      "dialects": {
       "msa": {
@@ -24230,16 +32339,25 @@ const DATA = {
        "rom": "shab ḥalaw",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَب حَلَو",
+       "rom": "shab ḥalaw",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَب حَلَو",
+       "rom": "shab ḥalaw",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَاب زِين",
        "rom": "shābb zīn",
        "note": ""
       }
-     },
-     "common": "② شاب حلو"
+     }
     },
     {
-     "num": 895,
+     "num": 897,
      "cn": "美女",
      "dialects": {
       "msa": {
@@ -24257,16 +32375,25 @@ const DATA = {
        "rom": "bint ḥilwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بِنْت حِلْوَة",
+       "rom": "bint ḥilwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بِنْت حِلْوَة",
+       "rom": "bint ḥilwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْنْت زِينَة",
        "rom": "bnt zīna",
        "note": ""
       }
-     },
-     "common": "② بنت حلوة"
+     }
     },
     {
-     "num": 896,
+     "num": 898,
      "cn": "小伙子",
      "dialects": {
       "msa": {
@@ -24284,16 +32411,25 @@ const DATA = {
        "rom": "shab",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَب",
+       "rom": "shab",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَب",
+       "rom": "shab",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَاب",
        "rom": "shābb",
        "note": ""
       }
-     },
-     "common": "② شاب"
+     }
     },
     {
-     "num": 897,
+     "num": 899,
      "cn": "大叔",
      "dialects": {
       "msa": {
@@ -24311,16 +32447,25 @@ const DATA = {
        "rom": "yā ʿamm",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا عَم",
+       "rom": "yā ʿamm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا عَم",
+       "rom": "yā ʿamm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَا عْمِّي",
        "rom": "yā ʿammī",
        "note": ""
       }
-     },
-     "common": "② يا عم"
+     }
     },
     {
-     "num": 898,
+     "num": 900,
      "cn": "阿姨 / 大妈",
      "dialects": {
       "msa": {
@@ -24338,16 +32483,25 @@ const DATA = {
        "rom": "yā ʿamma",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَا عَمَّة",
+       "rom": "yā ʿamma",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَا عَمَّة",
+       "rom": "yā ʿamma",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَا لَالَّة",
        "rom": "yā lāla",
        "note": ""
       }
-     },
-     "common": "② يا ست / يا عمة"
+     }
     },
     {
-     "num": 899,
+     "num": 901,
      "cn": "小朋友 / 孩子",
      "dialects": {
       "msa": {
@@ -24365,16 +32519,25 @@ const DATA = {
        "rom": "ṣghīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "صْغِير",
+       "rom": "ṣghīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صْغِير",
+       "rom": "ṣghīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صْغِير",
        "rom": "ṣghīr",
        "note": ""
       }
-     },
-     "common": "② عيل"
+     }
     },
     {
-     "num": 900,
+     "num": 902,
      "cn": "这是我的家人",
      "dialects": {
       "msa": {
@@ -24392,16 +32555,25 @@ const DATA = {
        "rom": "hadūl ahlī",
        "note": ""
       },
+      "gulf": {
+       "ar": "هَدُولْ أَهْلِي",
+       "rom": "hadūl ahlī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هَدُولْ أَهْلِي",
+       "rom": "hadūl ahlī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هَادُومَا عِيلْتِي",
        "rom": "hādūmā ʿīltī",
        "note": ""
       }
-     },
-     "common": "② دول أهلي"
+     }
     },
     {
-     "num": 901,
+     "num": 903,
      "cn": "我爸爸在家吗？",
      "dialects": {
       "msa": {
@@ -24419,16 +32591,25 @@ const DATA = {
        "rom": "bābā bil-bayt",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَابَا بِالْبَيْت؟",
+       "rom": "bābā bil-bayt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَابَا بِالْبَيْت؟",
+       "rom": "bābā bil-bayt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُوبَا فِي الدَّار؟",
        "rom": "būbā fī d-dār",
        "note": ""
       }
-     },
-     "common": "② بابا في البيت؟"
+     }
     },
     {
-     "num": 902,
+     "num": 904,
      "cn": "你妈妈身体好吗？",
      "dialects": {
       "msa": {
@@ -24446,16 +32627,25 @@ const DATA = {
        "rom": "māmā ṭayyiba",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَامَا طَيِّبَة؟",
+       "rom": "māmā ṭayyiba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَامَا طَيِّبَة؟",
+       "rom": "māmā ṭayyiba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَامَا بْخِير؟",
        "rom": "māmā bkhīr",
        "note": ""
       }
-     },
-     "common": "② ماما طيبة؟"
+     }
     },
     {
-     "num": 903,
+     "num": 905,
      "cn": "我爱我的家人",
      "dialects": {
       "msa": {
@@ -24473,16 +32663,25 @@ const DATA = {
        "rom": "anā bḥibb ahlī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بْحِبْ أَهْلِي",
+       "rom": "anā bḥibb ahlī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بْحِبْ أَهْلِي",
+       "rom": "anā bḥibb ahlī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْبْغِي عِيلْتِي",
        "rom": "kanbghī ʿīltī",
        "note": ""
       }
-     },
-     "common": "② أنا بحب أهلي"
+     }
     },
     {
-     "num": 904,
+     "num": 906,
      "cn": "你结婚了吗？",
      "dialects": {
       "msa": {
@@ -24500,16 +32699,25 @@ const DATA = {
        "rom": "tjawwazt",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْجَوَّزْتَ؟",
+       "rom": "tjawwazt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْجَوَّزْتَ؟",
+       "rom": "tjawwazt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْزَوَّجْتِي؟",
        "rom": "tzawwajtī",
        "note": ""
       }
-     },
-     "common": "② اتجوزت؟"
+     }
     },
     {
-     "num": 905,
+     "num": 907,
      "cn": "你有孩子吗？",
      "dialects": {
       "msa": {
@@ -24527,16 +32735,25 @@ const DATA = {
        "rom": "ʿindak ʿyāl",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ عْيَال؟",
+       "rom": "ʿindak ʿyāl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ عْيَال؟",
+       "rom": "ʿindak ʿyāl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ وِلْدَان؟",
        "rom": "ʿandak wildān",
        "note": ""
       }
-     },
-     "common": "② عندك عيال؟"
+     }
     },
     {
-     "num": 906,
+     "num": 908,
      "cn": "你有兄弟姐妹吗？",
      "dialects": {
       "msa": {
@@ -24554,16 +32771,25 @@ const DATA = {
        "rom": "ʿindak ikhwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدَكْ إِخْوَة؟",
+       "rom": "ʿindak ikhwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدَكْ إِخْوَة؟",
+       "rom": "ʿindak ikhwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدَكْ خْوَات؟",
        "rom": "ʿandak khwāt",
        "note": ""
       }
-     },
-     "common": "② عندك إخوات؟"
+     }
     },
     {
-     "num": 907,
+     "num": 909,
      "cn": "你家有几口人？",
      "dialects": {
       "msa": {
@@ -24581,16 +32807,25 @@ const DATA = {
        "rom": "bētkum fīh kam wāḥid",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَيْتْكُم فِيه كَم وَاحِد؟",
+       "rom": "bētkum fīh kam wāḥid",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَيْتْكُم فِيه كَم وَاحِد؟",
+       "rom": "bētkum fīh kam wāḥid",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِي دَارْكُمْ شْحَالْ فِي وَاحِد؟",
        "rom": "fī dārkum shḥāl fī wāḥid",
        "note": ""
       }
-     },
-     "common": "② بيتكم فيه كام واحد؟"
+     }
     },
     {
-     "num": 908,
+     "num": 910,
      "cn": "我们是一家人",
      "dialects": {
       "msa": {
@@ -24608,16 +32843,25 @@ const DATA = {
        "rom": "nḥnā ʿāʾila waḥda",
        "note": ""
       },
+      "gulf": {
+       "ar": "نْحْنَا عَائِلَة وَحْدَة",
+       "rom": "nḥnā ʿāʾila waḥda",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نْحْنَا عَائِلَة وَحْدَة",
+       "rom": "nḥnā ʿāʾila waḥda",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حْنَا عَائِلَة وَحْدَة",
        "rom": "ḥnā ʿāʾila waḥda",
        "note": ""
       }
-     },
-     "common": "② إحنا عائلة واحدة"
+     }
     },
     {
-     "num": 909,
+     "num": 911,
      "cn": "你家人都好吗？",
      "dialects": {
       "msa": {
@@ -24635,16 +32879,25 @@ const DATA = {
        "rom": "ahlak ṭayyibīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَهْلَكْ طَيِّبِين؟",
+       "rom": "ahlak ṭayyibīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَهْلَكْ طَيِّبِين؟",
+       "rom": "ahlak ṭayyibīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عِيلْتَكْ بْخِير؟",
        "rom": "ʿīltak bkhīr",
        "note": ""
       }
-     },
-     "common": "② أهلك طيبين؟"
+     }
     },
     {
-     "num": 910,
+     "num": 912,
      "cn": "请代我向你家人问好",
      "dialects": {
       "msa": {
@@ -24662,16 +32915,25 @@ const DATA = {
        "rom": "sallim ʿalā ahlak min ʿindī",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَلِّمْ عَلَى أَهْلَك مِنْ عِنْدِي",
+       "rom": "sallim ʿalā ahlak min ʿindī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَلِّمْ عَلَى أَهْلَك مِنْ عِنْدِي",
+       "rom": "sallim ʿalā ahlak min ʿindī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "سَلِّمْ عَلَى عِيلْتَك بِالسَّلَام",
        "rom": "sallim ʿalā ʿīltak b-is-salām",
        "note": ""
       }
-     },
-     "common": "② سلّم لأهلك عليا"
+     }
     },
     {
-     "num": 911,
+     "num": 913,
      "cn": "我妈妈做饭很好吃",
      "dialects": {
       "msa": {
@@ -24689,16 +32951,25 @@ const DATA = {
        "rom": "māmā btṭibkh ḥilw",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَامَا بْتْطِبْخ حْلْو",
+       "rom": "māmā btṭibkh ḥilw",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَامَا بْتْطِبْخ حْلْو",
+       "rom": "māmā btṭibkh ḥilw",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَامَا كَتْطَيِّبْ زْوِين",
        "rom": "māmā katṭayyib zwīn",
        "note": ""
       }
-     },
-     "common": "② ماما بتطبخ حلو"
+     }
     },
     {
-     "num": 912,
+     "num": 914,
      "cn": "周末我们去看爷爷奶奶",
      "dialects": {
       "msa": {
@@ -24716,16 +32987,25 @@ const DATA = {
        "rom": "al-ʿaṭla nrūḥ nzūr jaddū wa-tattā",
        "note": ""
       },
+      "gulf": {
+       "ar": "العَطْلَة نْرُوح نْزُور جَدُّو وَتَتَّا",
+       "rom": "al-ʿaṭla nrūḥ nzūr jaddū wa-tattā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "العَطْلَة نْرُوح نْزُور جَدُّو وَتَتَّا",
+       "rom": "al-ʿaṭla nrūḥ nzūr jaddū wa-tattā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "العُطْلَة نْمْشِيو نْزُورُو جِيدِي وَلَالَّة",
        "rom": "al-ʿuṭla nmishyū nzūrū jīdī wa-lāla",
        "note": ""
       }
-     },
-     "common": "② الإجازة نروح نزور جدو وتاتا"
+     }
     },
     {
-     "num": 913,
+     "num": 915,
      "cn": "你在哪儿长大？",
      "dialects": {
       "msa": {
@@ -24743,16 +33023,25 @@ const DATA = {
        "rom": "kbart wēn",
        "note": ""
       },
+      "gulf": {
+       "ar": "كْبَرْت وَيْن؟",
+       "rom": "kbart wēn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كْبَرْت وَيْن؟",
+       "rom": "kbart wēn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كْبَرْتِي فِينْ؟",
        "rom": "kbartī fīn",
        "note": ""
       }
-     },
-     "common": "② كبرت فين؟"
+     }
     },
     {
-     "num": 914,
+     "num": 916,
      "cn": "我从小在这长大",
      "dialects": {
       "msa": {
@@ -24770,16 +33059,25 @@ const DATA = {
        "rom": "anā kbart hōn min ṣghīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "أنا كبرت هنا من صغير",
+       "rom": "anā kbart hinā min ṣghīr",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "أنا كبرت هنا من صغير",
+       "rom": "anā kbart hinā min ṣghīr",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "أَنَا كْبَرْت هُنَا مِنْ صْغِير",
        "rom": "anā kbart hunā min ṣghīr",
        "note": ""
       }
-     },
-     "common": "② أنا كبرت هنا من صغير"
+     }
     },
     {
-     "num": 915,
+     "num": 917,
      "cn": "我有一个哥哥和一个妹妹",
      "dialects": {
       "msa": {
@@ -24797,16 +33095,25 @@ const DATA = {
        "rom": "ʿindī akhūy kabīr wa-ukhtī ṣghīra",
        "note": ""
       },
+      "gulf": {
+       "ar": "عِنْدِي أَخُويْ كَبِير وَأُخْتِي صْغِيرَة",
+       "rom": "ʿindī akhūy kabīr wa-ukhtī ṣghīra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عِنْدِي أَخُويْ كَبِير وَأُخْتِي صْغِيرَة",
+       "rom": "ʿindī akhūy kabīr wa-ukhtī ṣghīra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "عَنْدِي خُوْيَا كْبِير وَخْتِي صْغِيرَة",
        "rom": "ʿandī khūyā kbīr wa-khti ṣghīra",
        "note": ""
       }
-     },
-     "common": "② عندي أخويا كبير وأختي صغيرة"
+     }
     },
     {
-     "num": 916,
+     "num": 918,
      "cn": "你爸爸是做什么的？",
      "dialects": {
       "msa": {
@@ -24824,16 +33131,25 @@ const DATA = {
        "rom": "bābā bshū btishtaghal",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَابَا بْشُو بْتِشْتَغَل؟",
+       "rom": "bābā bshū btishtaghal",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَابَا بْشُو بْتِشْتَغَل؟",
+       "rom": "bābā bshū btishtaghal",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بُوبَا أَشْكَادْ كَيْخْدَم؟",
        "rom": "būbā āsh-kād kīkhdam",
        "note": ""
       }
-     },
-     "common": "② بابا بيشتغل إيه؟"
+     }
     },
     {
-     "num": 917,
+     "num": 919,
      "cn": "我们家很幸福",
      "dialects": {
       "msa": {
@@ -24851,16 +33167,25 @@ const DATA = {
        "rom": "bētnā mbasūṭ",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَيْتْنَا مْبَسُوط",
+       "rom": "bētnā mbasūṭ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَيْتْنَا مْبَسُوط",
+       "rom": "bētnā mbasūṭ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دَارْنَا فْرْحَانَة",
        "rom": "dārnā farḥāna",
        "note": ""
       }
-     },
-     "common": "② بيتنا مبسوط"
+     }
     },
     {
-     "num": 918,
+     "num": 920,
      "cn": "恭喜你结婚！",
      "dialects": {
       "msa": {
@@ -24878,16 +33203,25 @@ const DATA = {
        "rom": "mbārīk ʿalēk al-jawāz",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْبَارِكْ عَلَيْكَ الجَوَاز",
+       "rom": "mbārīk ʿalēk al-jawāz",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْبَارِكْ عَلَيْكَ الجَوَاز",
+       "rom": "mbārīk ʿalēk al-jawāz",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا عَلِيكْ الجْوَاج",
        "rom": "barakka ʿalīk al-jwāj",
        "note": ""
       }
-     },
-     "common": "② مبارك عليك الجواز"
+     }
     },
     {
-     "num": 919,
+     "num": 921,
      "cn": "生了个男孩/女孩",
      "dialects": {
       "msa": {
@@ -24905,16 +33239,25 @@ const DATA = {
        "rom": "jābū walad / bint",
        "note": ""
       },
+      "gulf": {
+       "ar": "جَابُوا وَلَد / بِنْت",
+       "rom": "jābū walad / bint",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جَابُوا وَلَد / بِنْت",
+       "rom": "jābū walad / bint",
+       "note": ""
+      },
       "maghreb": {
        "ar": "جَابُوا وَلَد / بِنْت",
        "rom": "jābū walad / bint",
        "note": ""
       }
-     },
-     "common": "② جابوا ولد / بنت"
+     }
     },
     {
-     "num": 920,
+     "num": 922,
      "cn": "你老婆很漂亮",
      "dialects": {
       "msa": {
@@ -24932,16 +33275,25 @@ const DATA = {
        "rom": "martik ḥilwa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مْرْتِك حِلْوَة",
+       "rom": "martik ḥilwa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مْرْتِك حِلْوَة",
+       "rom": "martik ḥilwa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مْرَاتِك زْوِينَة",
        "rom": "mrātik zwīna",
        "note": ""
       }
-     },
-     "common": "② مراتك حلوة"
+     }
     },
     {
-     "num": 921,
+     "num": 923,
      "cn": "你老公人很好",
      "dialects": {
       "msa": {
@@ -24959,16 +33311,25 @@ const DATA = {
        "rom": "jōzik ṭayyib",
        "note": ""
       },
+      "gulf": {
+       "ar": "جُوزِك طَيِّب",
+       "rom": "jōzik ṭayyib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "جُوزِك طَيِّب",
+       "rom": "jōzik ṭayyib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَاجْلِك طْيِّب",
        "rom": "rājlik ṭyibb",
        "note": ""
       }
-     },
-     "common": "② جوزك طيب"
+     }
     },
     {
-     "num": 922,
+     "num": 924,
      "cn": "孩子很可爱",
      "dialects": {
       "msa": {
@@ -24986,16 +33347,25 @@ const DATA = {
        "rom": "aṣ-ṣghīr laṭīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "الصْغِير لَطِيف",
+       "rom": "aṣ-ṣghīr laṭīf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الصْغِير لَطِيف",
+       "rom": "aṣ-ṣghīr laṭīf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الصْغِير لْعِيب",
        "rom": "aṣ-ṣghīr lʿīb",
        "note": ""
       }
-     },
-     "common": "② العيل لطيف"
+     }
     },
     {
-     "num": 923,
+     "num": 925,
      "cn": "照顾好家人",
      "dialects": {
       "msa": {
@@ -25013,16 +33383,25 @@ const DATA = {
        "rom": "ihtam bi-ahlak",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِهْتَمْ بِأَهْلَك",
+       "rom": "ihtam bi-ahlak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِهْتَمْ بِأَهْلَك",
+       "rom": "ihtam bi-ahlak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِعْنَى بْعِيلْتَك",
        "rom": "iʿnā b-ʿīltak",
        "note": ""
       }
-     },
-     "common": "② اهتم بأهلك"
+     }
     },
     {
-     "num": 924,
+     "num": 926,
      "cn": "欢迎来我家",
      "dialects": {
       "msa": {
@@ -25040,16 +33419,25 @@ const DATA = {
        "rom": "ahlā b-bētī",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَهْلًا بِبَيْتِي",
+       "rom": "ahlā b-bētī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَهْلًا بِبَيْتِي",
+       "rom": "ahlā b-bētī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَرْحَبَا بِيك فِي دَارِي",
        "rom": "marḥabā bīk fī dārī",
        "note": ""
       }
-     },
-     "common": "② أهلا في بيتي"
+     }
     },
     {
-     "num": 925,
+     "num": 927,
      "cn": "家庭团聚 / 团圆",
      "dialects": {
       "msa": {
@@ -25067,16 +33455,25 @@ const DATA = {
        "rom": "limmat al-ʿāʾila",
        "note": ""
       },
+      "gulf": {
+       "ar": "لِمَّة العَائِلَة",
+       "rom": "limmat al-ʿāʾila",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لِمَّة العَائِلَة",
+       "rom": "limmat al-ʿāʾila",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْمَّة العَائِلَة",
        "rom": "lmat al-ʿāʾila",
        "note": ""
       }
-     },
-     "common": "② لمّة العائلة"
+     }
     },
     {
-     "num": 926,
+     "num": 928,
      "cn": "全家福",
      "dialects": {
       "msa": {
@@ -25094,16 +33491,25 @@ const DATA = {
        "rom": "ṣūrat al-ʿāʾila",
        "note": ""
       },
+      "gulf": {
+       "ar": "صُورَة العَائِلَة",
+       "rom": "ṣūrat al-ʿāʾila",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "صُورَة العَائِلَة",
+       "rom": "ṣūrat al-ʿāʾila",
+       "note": ""
+      },
       "maghreb": {
        "ar": "صُورَة العَائِلَة",
        "rom": "ṣūrat al-ʿāʾila",
        "note": ""
       }
-     },
-     "common": "② صورة العائلة"
+     }
     },
     {
-     "num": 927,
+     "num": 929,
      "cn": "他长得像他爸爸",
      "dialects": {
       "msa": {
@@ -25121,16 +33527,25 @@ const DATA = {
        "rom": "huwa shabīh bābā",
        "note": ""
       },
+      "gulf": {
+       "ar": "هُوَ شَبِيهْ بَابَا",
+       "rom": "huwa shabīh bābā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هُوَ شَبِيهْ بَابَا",
+       "rom": "huwa shabīh bābā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هُوَ كِيْشْبَهْ لِبُوبَاه",
        "rom": "huwa kīshbah li-būbāh",
        "note": ""
       }
-     },
-     "common": "② هو شبه باباه"
+     }
     },
     {
-     "num": 928,
+     "num": 930,
      "cn": "带家人一起",
      "dialects": {
       "msa": {
@@ -25148,16 +33563,25 @@ const DATA = {
        "rom": "khūd ahlak maʿak",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُودْ أَهْلَك مَعَك",
+       "rom": "khūd ahlak maʿak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُودْ أَهْلَك مَعَك",
+       "rom": "khūd ahlak maʿak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خُودْ عِيلْتَك مَعَاك",
        "rom": "khūd ʿīltak maʿāk",
        "note": ""
       }
-     },
-     "common": "② خود أهلك معاك"
+     }
     },
     {
-     "num": 929,
+     "num": 931,
      "cn": "谢谢你的款待",
      "dialects": {
       "msa": {
@@ -25175,16 +33599,25 @@ const DATA = {
        "rom": "mashkūr ʿalā aḍ-ḍiyāfa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَشْكُور عَلَى الضِّيَافَة",
+       "rom": "mashkūr ʿalā aḍ-ḍiyāfa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَشْكُور عَلَى الضِّيَافَة",
+       "rom": "mashkūr ʿalā aḍ-ḍiyāfa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْكَا عَلَى الضِّيَافَة",
        "rom": "barakka ʿalā aḍ-ḍiyāfa",
        "note": ""
       }
-     },
-     "common": "② متشكر على الضيافة"
+     }
     },
     {
-     "num": 930,
+     "num": 932,
      "cn": "保重 / 照顾好自己",
      "dialects": {
       "msa": {
@@ -25202,13 +33635,22 @@ const DATA = {
        "rom": "ḥāfiẓ ʿalā ḥālak",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَافِظْ عَلَى حَالَك",
+       "rom": "ḥāfiẓ ʿalā ḥālak",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَافِظْ عَلَى حَالَك",
+       "rom": "ḥāfiẓ ʿalā ḥālak",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رَانِي عَلَى رَاسَك",
        "rom": "rānī ʿalā rāsak",
        "note": ""
       }
-     },
-     "common": "② احفظ نفسك"
+     }
     }
    ]
   },
@@ -25216,7 +33658,7 @@ const DATA = {
    "title": "十九、学习与爱好（约90句）",
    "rows": [
     {
-     "num": 931,
+     "num": 933,
      "cn": "老师",
      "dialects": {
       "msa": {
@@ -25234,16 +33676,25 @@ const DATA = {
        "rom": "ustādh",
        "note": ""
       },
+      "gulf": {
+       "ar": "أُسْتَاذ",
+       "rom": "ustādh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أُسْتَاذ",
+       "rom": "ustādh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أُسْتَاذ",
        "rom": "ustādh",
        "note": ""
       }
-     },
-     "common": "② أستاذ"
+     }
     },
     {
-     "num": 932,
+     "num": 934,
      "cn": "同学",
      "dialects": {
       "msa": {
@@ -25261,16 +33712,25 @@ const DATA = {
        "rom": "zakīl",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَمِيل",
+       "rom": "zakīl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَمِيل",
+       "rom": "zakīl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زَمِيل",
        "rom": "zamīl",
        "note": ""
       }
-     },
-     "common": "② زميل"
+     }
     },
     {
-     "num": 933,
+     "num": 935,
      "cn": "作业",
      "dialects": {
       "msa": {
@@ -25288,16 +33748,25 @@ const DATA = {
        "rom": "wājib",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَاجِب",
+       "rom": "wājib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَاجِب",
+       "rom": "wājib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْوَاجِب",
        "rom": "l-wājib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 934,
+     "num": 936,
      "cn": "考试",
      "dialects": {
       "msa": {
@@ -25315,16 +33784,25 @@ const DATA = {
        "rom": "imtiḥān",
        "note": ""
       },
+      "gulf": {
+       "ar": "اِمْتِحَان",
+       "rom": "imtiḥān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "اِمْتِحَان",
+       "rom": "imtiḥān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "اِمْتِحَان",
        "rom": "imtiḥān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 935,
+     "num": 937,
      "cn": "课本",
      "dialects": {
       "msa": {
@@ -25342,16 +33820,25 @@ const DATA = {
        "rom": "kitāb al-madrasa",
        "note": ""
       },
+      "gulf": {
+       "ar": "كِتَاب المَدْرَسَة",
+       "rom": "kitāb al-madrasa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كِتَاب المَدْرَسَة",
+       "rom": "kitāb al-madrasa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كِتَاب المَدْرَسَة",
        "rom": "kitāb al-madrasa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 936,
+     "num": 938,
      "cn": "图书馆",
      "dialects": {
       "msa": {
@@ -25369,16 +33856,25 @@ const DATA = {
        "rom": "maktaba",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَكْتَبَة",
+       "rom": "maktaba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَكْتَبَة",
+       "rom": "maktaba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَكْتَبَة",
        "rom": "maktaba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 937,
+     "num": 939,
      "cn": "我去上学",
      "dialects": {
       "msa": {
@@ -25396,16 +33892,25 @@ const DATA = {
        "rom": "brūḥ ʿalā al-madrasa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْرُوحْ عَلَى المَدْرَسَة",
+       "rom": "brūḥ ʿalā al-madrasa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْرُوحْ عَلَى المَدْرَسَة",
+       "rom": "brūḥ ʿalā al-madrasa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْمْشِي لِلْمَدْرَسَة",
        "rom": "kanmshī lil-madrasa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 938,
+     "num": 940,
      "cn": "学校在哪？",
      "dialects": {
       "msa": {
@@ -25423,16 +33928,25 @@ const DATA = {
        "rom": "wēn al-madrasa",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ المَدْرَسَة؟",
+       "rom": "wēn al-madrasa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ المَدْرَسَة؟",
+       "rom": "wēn al-madrasa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ المَدْرَسَة؟",
        "rom": "fēn al-madrasa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 939,
+     "num": 941,
      "cn": "上课了（开始）",
      "dialects": {
       "msa": {
@@ -25450,16 +33964,25 @@ const DATA = {
        "rom": "badda' ad-dars",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَدَّأْ الدَّرْس",
+       "rom": "badda' ad-dars",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَدَّأْ الدَّرْس",
+       "rom": "badda' ad-dars",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بْدَا الدَّرْس",
        "rom": "bdā ad-dars",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 940,
+     "num": 942,
      "cn": "下课了（结束）",
      "dialects": {
       "msa": {
@@ -25477,16 +34000,25 @@ const DATA = {
        "rom": "khallaṣ ad-dars",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَلَّصْ الدَّرْس",
+       "rom": "khallaṣ ad-dars",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَلَّصْ الدَّرْس",
+       "rom": "khallaṣ ad-dars",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْكَمَّلْ الدَّرْس",
        "rom": "tkammal ad-dars",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 941,
+     "num": 943,
      "cn": "我做作业",
      "dialects": {
       "msa": {
@@ -25504,16 +34036,25 @@ const DATA = {
        "rom": "bʿmal al-wājib",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْعْمَلْ الوَاجِب",
+       "rom": "bʿmal al-wājib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْعْمَلْ الوَاجِب",
+       "rom": "bʿmal al-wājib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْعْمَلْ لْوَاجِب",
        "rom": "kanʿmal l-wājib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 942,
+     "num": 944,
      "cn": "我写完作业了",
      "dialects": {
       "msa": {
@@ -25531,16 +34072,25 @@ const DATA = {
        "rom": "khallaṣt al-wājib",
        "note": ""
       },
+      "gulf": {
+       "ar": "خَلَّصْتْ الوَاجِب",
+       "rom": "khallaṣt al-wājib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خَلَّصْتْ الوَاجِب",
+       "rom": "khallaṣt al-wājib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَمَّلْتْ لْوَاجِب",
        "rom": "kammalt l-wājib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 943,
+     "num": 945,
      "cn": "我考试及格了",
      "dialects": {
       "msa": {
@@ -25558,16 +34108,25 @@ const DATA = {
        "rom": "najaḥt fī al-imtiḥān",
        "note": ""
       },
+      "gulf": {
+       "ar": "نَجَحْتْ فِي الاِمْتِحَان",
+       "rom": "najaḥt fī al-imtiḥān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "نَجَحْتْ فِي الاِمْتِحَان",
+       "rom": "najaḥt fī al-imtiḥān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْجَحْتْ فِي الاِمْتِحَان",
        "rom": "njaḥt fī al-imtiḥān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 944,
+     "num": 946,
      "cn": "我考试不及格",
      "dialects": {
       "msa": {
@@ -25585,16 +34144,25 @@ const DATA = {
        "rom": "rasabt fī al-imtiḥān",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَسَبْتْ فِي الاِمْتِحَان",
+       "rom": "rasabt fī al-imtiḥān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَسَبْتْ فِي الاِمْتِحَان",
+       "rom": "rasabt fī al-imtiḥān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "رْسَبْتْ فِي الاِمْتِحَان",
        "rom": "rsabt fī al-imtiḥān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 945,
+     "num": 947,
      "cn": "我留学",
      "dialects": {
       "msa": {
@@ -25612,16 +34180,25 @@ const DATA = {
        "rom": "bdrus barra",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْدْرُسْ بَرَّا",
+       "rom": "bdrus barra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْدْرُسْ بَرَّا",
+       "rom": "bdrus barra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْقْرَأ فِي لْخَارِج",
        "rom": "kanqra fī l-khārij",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 946,
+     "num": 948,
      "cn": "我去图书馆",
      "dialects": {
       "msa": {
@@ -25639,16 +34216,25 @@ const DATA = {
        "rom": "brūḥ ʿalā al-maktaba",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْرُوحْ عَلَى المَكْتَبَة",
+       "rom": "brūḥ ʿalā al-maktaba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْرُوحْ عَلَى المَكْتَبَة",
+       "rom": "brūḥ ʿalā al-maktaba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْمْشِي لِلْمَكْتَبَة",
        "rom": "kanmshī lil-maktaba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 947,
+     "num": 949,
      "cn": "我借书",
      "dialects": {
       "msa": {
@@ -25666,16 +34252,25 @@ const DATA = {
        "rom": "bistaʿīr kitāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْسْتَعِيرْ كِتَاب",
+       "rom": "bistaʿīr kitāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْسْتَعِيرْ كِتَاب",
+       "rom": "bistaʿīr kitāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْسْتَعْرْ كِتَاب",
        "rom": "kanstaʿr kitāb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 948,
+     "num": 950,
      "cn": "我懂了",
      "dialects": {
       "msa": {
@@ -25693,16 +34288,25 @@ const DATA = {
        "rom": "fhīmt",
        "note": ""
       },
+      "gulf": {
+       "ar": "فْهِمْت",
+       "rom": "fhīmt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فْهِمْت",
+       "rom": "fhīmt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فْهِمْت",
        "rom": "fhīmt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 949,
+     "num": 951,
      "cn": "我记笔记",
      "dialects": {
       "msa": {
@@ -25720,16 +34324,25 @@ const DATA = {
        "rom": "baktub mulāḥaẓāt",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْكْتُبْ مُلَاحَظَات",
+       "rom": "baktub mulāḥaẓāt",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْكْتُبْ مُلَاحَظَات",
+       "rom": "baktub mulāḥaẓāt",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْكْتُبْ مُلَاحَظَات",
        "rom": "kanktub mulāḥaẓāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 950,
+     "num": 952,
      "cn": "请解释一下",
      "dialects": {
       "msa": {
@@ -25747,16 +34360,25 @@ const DATA = {
        "rom": "waḍḍiḥ lī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَضِّحْ لِي",
+       "rom": "waḍḍiḥ lī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَضِّحْ لِي",
+       "rom": "waḍḍiḥ lī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فَسِّرْلِي",
        "rom": "fassir-lī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 951,
+     "num": 953,
      "cn": "你会说阿拉伯语吗？",
      "dialects": {
       "msa": {
@@ -25774,16 +34396,25 @@ const DATA = {
        "rom": "btiḥkī ʿarabi",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِحْكِي عَرَبِي؟",
+       "rom": "btiḥkī ʿarabi",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِحْكِي عَرَبِي؟",
+       "rom": "btiḥkī ʿarabi",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْهْدَرْ بِالْعَرْبِيَّة؟",
        "rom": "katdhār b-al-ʿarabiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 952,
+     "num": 954,
      "cn": "我在学阿拉伯语",
      "dialects": {
       "msa": {
@@ -25801,16 +34432,25 @@ const DATA = {
        "rom": "btitʿallam ʿarabi",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِتْعَلَّمْ عَرَبِي",
+       "rom": "btitʿallam ʿarabi",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِتْعَلَّمْ عَرَبِي",
+       "rom": "btitʿallam ʿarabi",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْتَعَلَّمْ الْعَرْبِيَّة",
        "rom": "kantaʿallam al-ʿarabiyya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 953,
+     "num": 955,
      "cn": "我迟到了",
      "dialects": {
       "msa": {
@@ -25828,16 +34468,25 @@ const DATA = {
        "rom": "ta'akhkhart",
        "note": ""
       },
+      "gulf": {
+       "ar": "تْأَخَّرْت",
+       "rom": "ta'akhkhart",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تْأَخَّرْت",
+       "rom": "ta'akhkhart",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْأَخَّرْت",
        "rom": "ta'akhkhart",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 954,
+     "num": 956,
      "cn": "我早到了",
      "dialects": {
       "msa": {
@@ -25855,16 +34504,25 @@ const DATA = {
        "rom": "waṣalt badrī",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَصَلْتْ بَدْرِي",
+       "rom": "waṣalt badrī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَصَلْتْ بَدْرِي",
+       "rom": "waṣalt badrī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَصْلْتْ بْكْرِي",
        "rom": "waṣalt bkrī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 955,
+     "num": 957,
      "cn": "作业很多",
      "dialects": {
       "msa": {
@@ -25882,16 +34540,25 @@ const DATA = {
        "rom": "al-wājib ktīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "الواجب وايد",
+       "rom": "al-wājib wāyid",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "الواجب هواية",
+       "rom": "al-wājib hwāya",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "لْوَاجِبْ بْزَّاف",
        "rom": "l-wājib bzzāf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 956,
+     "num": 958,
      "cn": "明天有考试",
      "dialects": {
       "msa": {
@@ -25909,16 +34576,25 @@ const DATA = {
        "rom": "bukra fīhā imtiḥān",
        "note": ""
       },
+      "gulf": {
+       "ar": "بُكْرَة فِيهَا اِمْتِحَان",
+       "rom": "bukra fīhā imtiḥān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بُكْرَة فِيهَا اِمْتِحَان",
+       "rom": "bukra fīhā imtiḥān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غْدُوا كَايْنْ اِمْتِحَان",
        "rom": "ghduwa kāyn imtiḥān",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 957,
+     "num": 959,
      "cn": "我复习功课",
      "dialects": {
       "msa": {
@@ -25936,16 +34612,25 @@ const DATA = {
        "rom": "brājiʿ ad-durūs",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْرَاجِعْ الدُّرُوس",
+       "rom": "brājiʿ ad-durūs",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْرَاجِعْ الدُّرُوس",
+       "rom": "brājiʿ ad-durūs",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْرَاجْعْ الدُّرُوس",
        "rom": "kanrājiʿ ad-durūs",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 958,
+     "num": 960,
      "cn": "老师布置作业了",
      "dialects": {
       "msa": {
@@ -25963,16 +34648,25 @@ const DATA = {
        "rom": "al-ustādh ʿṭā al-wājib",
        "note": ""
       },
+      "gulf": {
+       "ar": "الأُسْتَاذْ عْطَى الوَاجِب",
+       "rom": "al-ustādh ʿṭā al-wājib",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الأُسْتَاذْ عْطَى الوَاجِب",
+       "rom": "al-ustādh ʿṭā al-wājib",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الأُسْتَاذْ عْطَى لْوَاجِب",
        "rom": "al-ustādh ʿṭā l-wājib",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 959,
+     "num": 961,
      "cn": "我读书",
      "dialects": {
       "msa": {
@@ -25990,16 +34684,25 @@ const DATA = {
        "rom": "bqra kitāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْقْرَا كِتَاب",
+       "rom": "bqra kitāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْقْرَا كِتَاب",
+       "rom": "bqra kitāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْقْرَا كِتَاب",
        "rom": "kanqra kitāb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 960,
+     "num": 962,
      "cn": "我写字",
      "dialects": {
       "msa": {
@@ -26017,16 +34720,25 @@ const DATA = {
        "rom": "bktub",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْكْتُب",
+       "rom": "bktub",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْكْتُب",
+       "rom": "bktub",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْكْتُب",
        "rom": "kanktub",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 961,
+     "num": 963,
      "cn": "还有几站？",
      "dialects": {
       "msa": {
@@ -26044,16 +34756,25 @@ const DATA = {
        "rom": "baqū kam maḥaṭṭa",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَقُو كَم مَحَطَّة؟",
+       "rom": "baqū kam maḥaṭṭa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَقُو كَم مَحَطَّة؟",
+       "rom": "baqū kam maḥaṭṭa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَقِي شْحَالْ فِي المَحَطَّات؟",
        "rom": "baqī shḥāl fī al-maḥaṭṭāt",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 962,
+     "num": 964,
      "cn": "我得换乘",
      "dialects": {
       "msa": {
@@ -26071,16 +34792,25 @@ const DATA = {
        "rom": "lāzim aʿdil",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ أَعْدِل",
+       "rom": "lāzim aʿdil",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ أَعْدِل",
+       "rom": "lāzim aʿdil",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ نُغَيِّرْ",
        "rom": "lāzim nughayyir",
        "note": ""
       }
-     },
-     "common": "② أعدل"
+     }
     },
     {
-     "num": 963,
+     "num": 965,
      "cn": "票价多少？",
      "dialects": {
       "msa": {
@@ -26098,16 +34828,25 @@ const DATA = {
        "rom": "at-tadhkira bikam",
        "note": ""
       },
+      "gulf": {
+       "ar": "التَّذْكِرَة بِكَم؟",
+       "rom": "at-tadhkira bikam",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "التَّذْكِرَة بِكَم؟",
+       "rom": "at-tadhkira bikam",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التِّذْكِرَة بْشْحَال؟",
        "rom": "at-tīzkira b-shḥāl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 964,
+     "num": 966,
      "cn": "堵车了",
      "dialects": {
       "msa": {
@@ -26125,16 +34864,25 @@ const DATA = {
        "rom": "zaḥma bi-s-sayr",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَحْمَة بِالسَّيْر",
+       "rom": "zaḥma bi-s-sayr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَحْمَة بِالسَّيْر",
+       "rom": "zaḥma bi-s-sayr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَايْنْ زْحْمَة",
        "rom": "kāyn zḥma",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 965,
+     "num": 967,
      "cn": "我晕车",
      "dialects": {
       "msa": {
@@ -26152,16 +34900,25 @@ const DATA = {
        "rom": "bduwwār min sayyāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْدُوَّارْ مِنْ سَيَّارَة",
+       "rom": "bduwwār min sayyāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْدُوَّارْ مِنْ سَيَّارَة",
+       "rom": "bduwwār min sayyāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْدُوَّرْ مِنْ كَار",
        "rom": "kanduwwār min kār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 966,
+     "num": 968,
      "cn": "我得加油",
      "dialects": {
       "msa": {
@@ -26179,16 +34936,25 @@ const DATA = {
        "rom": "lāzim aʿabbī benzīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "لَازِمْ أَعَبِّي بَنْزِين",
+       "rom": "lāzim aʿabbī benzīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "لَازِمْ أَعَبِّي بَنْزِين",
+       "rom": "lāzim aʿabbī benzīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لَازِمْ نْعَمَّرْ فِي البَنْزِين",
        "rom": "lāzim nʿammar fī al-banzīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 967,
+     "num": 969,
      "cn": "在哪停车？",
      "dialects": {
       "msa": {
@@ -26206,16 +34972,25 @@ const DATA = {
        "rom": "wēn bwaqqif as-sayyāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "وِينْ بْوَقِّفْ السَّيَّارَة؟",
+       "rom": "wēn bwaqqif as-sayyāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وِينْ بْوَقِّفْ السَّيَّارَة؟",
+       "rom": "wēn bwaqqif as-sayyāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِينْ نْوَقِّفْ الكَار؟",
        "rom": "fēn nwaqqif al-kār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 968,
+     "num": 970,
      "cn": "别超速",
      "dialects": {
       "msa": {
@@ -26233,16 +35008,25 @@ const DATA = {
        "rom": "mā tsūqsh bi-surʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَا تْسُوقْش بِسُرْعَة",
+       "rom": "mā tsūqsh bi-surʿa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَا تْسُوقْش بِسُرْعَة",
+       "rom": "mā tsūqsh bi-surʿa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَا تْسُوقْش بِسُرْعَة",
        "rom": "mā tsūqsh bi-surʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 969,
+     "num": 971,
      "cn": "交通事故",
      "dialects": {
       "msa": {
@@ -26260,16 +35044,25 @@ const DATA = {
        "rom": "ḥādith sayr",
        "note": ""
       },
+      "gulf": {
+       "ar": "حَادِث سَيْر",
+       "rom": "ḥādith sayr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "حَادِث سَيْر",
+       "rom": "ḥādith sayr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "حَادِثَة سِيَاقَة",
        "rom": "ḥāditha siyāqa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 970,
+     "num": 972,
      "cn": "我迷路了",
      "dialects": {
       "msa": {
@@ -26287,16 +35080,25 @@ const DATA = {
        "rom": "tiht",
        "note": ""
       },
+      "gulf": {
+       "ar": "تِّهْت",
+       "rom": "tiht",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تِّهْت",
+       "rom": "tiht",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تْهْت",
        "rom": "tiht",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 971,
+     "num": 973,
      "cn": "我走着去",
      "dialects": {
       "msa": {
@@ -26314,16 +35116,25 @@ const DATA = {
        "rom": "bmishī",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْمْشِي",
+       "rom": "bmishī",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْمْشِي",
+       "rom": "bmishī",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْمْشِي",
        "rom": "kanmshī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 972,
+     "num": 974,
      "cn": "近",
      "dialects": {
       "msa": {
@@ -26341,16 +35152,25 @@ const DATA = {
        "rom": "qarīb",
        "note": ""
       },
+      "gulf": {
+       "ar": "قَرِيب",
+       "rom": "qarīb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قَرِيب",
+       "rom": "qarīb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "قْرِيب",
        "rom": "qrīb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 973,
+     "num": 975,
      "cn": "加油站",
      "dialects": {
       "msa": {
@@ -26368,16 +35188,25 @@ const DATA = {
        "rom": "maḥaṭṭat benzīn",
        "note": ""
       },
+      "gulf": {
+       "ar": "مَحَطَّة بَنْزِين",
+       "rom": "maḥaṭṭat benzīn",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مَحَطَّة بَنْزِين",
+       "rom": "maḥaṭṭat benzīn",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مَحَطَّة بَنْزِين",
        "rom": "maḥaṭṭat benzīn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 974,
+     "num": 976,
      "cn": "停车场",
      "dialects": {
       "msa": {
@@ -26395,16 +35224,25 @@ const DATA = {
        "rom": "pārkīng",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَارْكِينْغ",
+       "rom": "pārkīng",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَارْكِينْغ",
+       "rom": "pārkīng",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَارْكِينْغ",
        "rom": "pārkīng",
        "note": ""
       }
-     },
-     "common": "②（借 parking）"
+     }
     },
     {
-     "num": 975,
+     "num": 977,
      "cn": "自行车",
      "dialects": {
       "msa": {
@@ -26422,16 +35260,25 @@ const DATA = {
        "rom": "darrāja",
        "note": ""
       },
+      "gulf": {
+       "ar": "دَرَّاجَة",
+       "rom": "darrāja",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "دَرَّاجَة",
+       "rom": "darrāja",
+       "note": ""
+      },
       "maghreb": {
        "ar": "دَرَّاجَة",
        "rom": "darrāja",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 976,
+     "num": 978,
      "cn": "春天",
      "dialects": {
       "msa": {
@@ -26449,16 +35296,25 @@ const DATA = {
        "rom": "ar-rabīʿ",
        "note": ""
       },
+      "gulf": {
+       "ar": "الرَّبِيع",
+       "rom": "ar-rabīʿ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الرَّبِيع",
+       "rom": "ar-rabīʿ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرَّبِيع",
        "rom": "ar-rabīʿ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 977,
+     "num": 979,
      "cn": "夏天",
      "dialects": {
       "msa": {
@@ -26476,16 +35332,25 @@ const DATA = {
        "rom": "aṣ-ṣayf",
        "note": ""
       },
+      "gulf": {
+       "ar": "الصَّيْف",
+       "rom": "aṣ-ṣayf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الصَّيْف",
+       "rom": "aṣ-ṣayf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الصِّيف",
        "rom": "aṣ-ṣīf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 978,
+     "num": 980,
      "cn": "秋天",
      "dialects": {
       "msa": {
@@ -26503,16 +35368,25 @@ const DATA = {
        "rom": "al-kharīf",
        "note": ""
       },
+      "gulf": {
+       "ar": "الخَرِيف",
+       "rom": "al-kharīf",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الخَرِيف",
+       "rom": "al-kharīf",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْخَرِيف",
        "rom": "l-kharīf",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 979,
+     "num": 981,
      "cn": "冬天",
      "dialects": {
       "msa": {
@@ -26530,16 +35404,25 @@ const DATA = {
        "rom": "ash-shitā'",
        "note": ""
       },
+      "gulf": {
+       "ar": "الشِّتَاء",
+       "rom": "ash-shitā'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الشِّتَاء",
+       "rom": "ash-shitā'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الشِّتَاء",
        "rom": "ash-shitā'",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 980,
+     "num": 982,
      "cn": "晴天",
      "dialects": {
       "msa": {
@@ -26557,16 +35440,25 @@ const DATA = {
        "rom": "al-jaw mushmis",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَو مُشْمِس",
+       "rom": "al-jaw mushmis",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَو مُشْمِس",
+       "rom": "al-jaw mushmis",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَوْ مْشَمْس",
        "rom": "al-jaw mshams",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 981,
+     "num": 983,
      "cn": "阴天",
      "dialects": {
       "msa": {
@@ -26584,16 +35476,25 @@ const DATA = {
        "rom": "al-jaw ghaym",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَو غَيْم",
+       "rom": "al-jaw ghaym",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَو غَيْم",
+       "rom": "al-jaw ghaym",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَوْ غَيْم",
        "rom": "al-jaw ghaym",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 982,
+     "num": 984,
      "cn": "下雪了",
      "dialects": {
       "msa": {
@@ -26611,16 +35512,25 @@ const DATA = {
        "rom": "btaluj",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتَلُج",
+       "rom": "btaluj",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتَلُج",
+       "rom": "btaluj",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَاتْلُج",
        "rom": "kātlūj",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 983,
+     "num": 985,
      "cn": "刮风",
      "dialects": {
       "msa": {
@@ -26638,16 +35548,25 @@ const DATA = {
        "rom": "fīh rīḥ",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيه رِيح",
+       "rom": "fīh rīḥ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيه رِيح",
+       "rom": "fīh rīḥ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِيه الرِّيح",
        "rom": "fīh ar-rīḥ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 984,
+     "num": 986,
      "cn": "温度多少？",
      "dialects": {
       "msa": {
@@ -26665,16 +35584,25 @@ const DATA = {
        "rom": "kam darajat al-ḥarāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "كَمْ دَرَجَة الحَرَارَة؟",
+       "rom": "kam darajat al-ḥarāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كَمْ دَرَجَة الحَرَارَة؟",
+       "rom": "kam darajat al-ḥarāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شْحَالْ دَرْجَة الحَرَارَة؟",
        "rom": "shḥāl darajat al-ḥarāra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 985,
+     "num": 987,
      "cn": "潮湿",
      "dialects": {
       "msa": {
@@ -26692,16 +35620,25 @@ const DATA = {
        "rom": "al-jaw ruṭūba",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَو رُطُوبَة",
+       "rom": "al-jaw ruṭūba",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَو رُطُوبَة",
+       "rom": "al-jaw ruṭūba",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَوْ رْطُوبَة",
        "rom": "al-jaw rṭūba",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 986,
+     "num": 988,
      "cn": "今天天气怎么样？",
      "dialects": {
       "msa": {
@@ -26719,16 +35656,25 @@ const DATA = {
        "rom": "kīf al-jaw al-yawm",
        "note": ""
       },
+      "gulf": {
+       "ar": "شلون الجو اليوم؟",
+       "rom": "shlūn al-jaw al-yawm",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلون الجو اليوم؟",
+       "rom": "shlūn al-jaw al-yawm",
+       "note": "派"
+      },
       "maghreb": {
        "ar": "كِيفَاشْ الجَوْ اليُومَا؟",
        "rom": "kīfāsh al-jaw al-yūmā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 987,
+     "num": 989,
      "cn": "天气预报",
      "dialects": {
       "msa": {
@@ -26746,16 +35692,25 @@ const DATA = {
        "rom": "tanabbū' al-jaw",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَنَبُّؤ الجَو",
+       "rom": "tanabbū' al-jaw",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَنَبُّؤ الجَو",
+       "rom": "tanabbū' al-jaw",
+       "note": ""
+      },
       "maghreb": {
        "ar": "تَنَبُّؤ الطَّقْس",
        "rom": "tanabbū' aṭ-ṭaqs",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 988,
+     "num": 990,
      "cn": "快下雨了",
      "dialects": {
       "msa": {
@@ -26773,16 +35728,25 @@ const DATA = {
        "rom": "raḥ ttmaṭṭar",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَحْ تْمَطَّر",
+       "rom": "raḥ ttmaṭṭar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَحْ تْمَطَّر",
+       "rom": "raḥ ttmaṭṭar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "غَادِي تَشْتِي",
        "rom": "ghādī tashtī",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 989,
+     "num": 991,
      "cn": "打雷",
      "dialects": {
       "msa": {
@@ -26800,16 +35764,25 @@ const DATA = {
        "rom": "byirʿud",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْيِرْعُد",
+       "rom": "byirʿud",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْيِرْعُد",
+       "rom": "byirʿud",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَيْرْعُد",
        "rom": "kayrʿud",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 990,
+     "num": 992,
      "cn": "闪电",
      "dialects": {
       "msa": {
@@ -26827,16 +35800,25 @@ const DATA = {
        "rom": "barq",
        "note": ""
       },
+      "gulf": {
+       "ar": "بَرْق",
+       "rom": "barq",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بَرْق",
+       "rom": "barq",
+       "note": ""
+      },
       "maghreb": {
        "ar": "بَرْق",
        "rom": "barq",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 991,
+     "num": 993,
      "cn": "我怕冷",
      "dialects": {
       "msa": {
@@ -26854,16 +35836,25 @@ const DATA = {
        "rom": "bkhāf min al-bard",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْخَافْ مِنْ البَرْد",
+       "rom": "bkhāf min al-bard",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْخَافْ مِنْ البَرْد",
+       "rom": "bkhāf min al-bard",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْخَافْ مِنْ البْرِيد",
        "rom": "kankhāf min al-brīd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 992,
+     "num": 994,
      "cn": "我很热",
      "dialects": {
       "msa": {
@@ -26881,16 +35872,25 @@ const DATA = {
        "rom": "anā sakhnān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا سَخْنَان",
+       "rom": "anā sakhnān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا سَخْنَان",
+       "rom": "anā sakhnān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا سْخُون",
        "rom": "anā skhūn",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 993,
+     "num": 995,
      "cn": "我很冷",
      "dialects": {
       "msa": {
@@ -26908,16 +35908,25 @@ const DATA = {
        "rom": "anā bardān",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَنَا بَرْدَان",
+       "rom": "anā bardān",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَنَا بَرْدَان",
+       "rom": "anā bardān",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَنَا بْرِيد",
        "rom": "anā brīd",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 994,
+     "num": 996,
      "cn": "带伞",
      "dialects": {
       "msa": {
@@ -26935,16 +35944,25 @@ const DATA = {
        "rom": "khūd shamsiyya",
        "note": ""
       },
+      "gulf": {
+       "ar": "خُودْ شَمْسِيَّة",
+       "rom": "khūd shamsiyya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "خُودْ شَمْسِيَّة",
+       "rom": "khūd shamsiyya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "خُودْ بَلَّاصَة",
        "rom": "khūd ballāṣa",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 995,
+     "num": 997,
      "cn": "天气干燥",
      "dialects": {
       "msa": {
@@ -26962,16 +35980,25 @@ const DATA = {
        "rom": "al-jaw yābis",
        "note": ""
       },
+      "gulf": {
+       "ar": "الجَو يَابِس",
+       "rom": "al-jaw yābis",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الجَو يَابِس",
+       "rom": "al-jaw yābis",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الجَوْ يَابِس",
        "rom": "al-jaw yābis",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 996,
+     "num": 998,
      "cn": "气温升高了",
      "dialects": {
       "msa": {
@@ -26989,16 +36016,25 @@ const DATA = {
        "rom": "zādat al-ḥarāra",
        "note": ""
       },
+      "gulf": {
+       "ar": "زَادَتْ الحَرَارَة",
+       "rom": "zādat al-ḥarāra",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "زَادَتْ الحَرَارَة",
+       "rom": "zādat al-ḥarāra",
+       "note": ""
+      },
       "maghreb": {
        "ar": "زَادَتْ الحَرَارَة",
        "rom": "zādat al-ḥarāra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 997,
+     "num": 999,
      "cn": "季节",
      "dialects": {
       "msa": {
@@ -27016,16 +36052,25 @@ const DATA = {
        "rom": "faṣl",
        "note": ""
       },
+      "gulf": {
+       "ar": "فَصْل",
+       "rom": "faṣl",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فَصْل",
+       "rom": "faṣl",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فَصْل",
        "rom": "faṣl",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 998,
+     "num": 1000,
      "cn": "你最喜欢哪个季节？",
      "dialects": {
       "msa": {
@@ -27043,16 +36088,25 @@ const DATA = {
        "rom": "aktar faṣl btiḥibbuh ēh",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَكْتَر فَصْل بْتِحِبَّه إِيه؟",
+       "rom": "aktar faṣl btiḥibbuh ēh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَكْتَر فَصْل بْتِحِبَّه إِيه؟",
+       "rom": "aktar faṣl btiḥibbuh ēh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "أَكْثَر فَصْل كَتْبْغِيه أَشْمُو؟",
        "rom": "akthar faṣl katbghīh āshmū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 999,
+     "num": 1001,
      "cn": "今天降温了",
      "dialects": {
       "msa": {
@@ -27070,16 +36124,25 @@ const DATA = {
        "rom": "al-ḥarāra nazalat al-yawm",
        "note": ""
       },
+      "gulf": {
+       "ar": "الحَرَارَة نَزَلَتْ اليَوْم",
+       "rom": "al-ḥarāra nazalat al-yawm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "الحَرَارَة نَزَلَتْ اليَوْم",
+       "rom": "al-ḥarāra nazalat al-yawm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الحَرَارَة نْزَلَتْ اليُومَا",
        "rom": "al-ḥarāra nzalat al-yūmā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1000,
+     "num": 1002,
      "cn": "阳光明媚",
      "dialects": {
       "msa": {
@@ -27097,16 +36160,25 @@ const DATA = {
        "rom": "shams sāṭiʿa",
        "note": ""
       },
+      "gulf": {
+       "ar": "شَمْس سَاطِعَة",
+       "rom": "shams sāṭiʿa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "شَمْس سَاطِعَة",
+       "rom": "shams sāṭiʿa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "شَمْش سَاطِعَة",
        "rom": "shams shāṭiʿa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1001,
+     "num": 1003,
      "cn": "爱好",
      "dialects": {
       "msa": {
@@ -27124,16 +36196,25 @@ const DATA = {
        "rom": "hiwāya",
        "note": ""
       },
+      "gulf": {
+       "ar": "هِوَايَة",
+       "rom": "hiwāya",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هِوَايَة",
+       "rom": "hiwāya",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هِوَايَة",
        "rom": "hiwāya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1002,
+     "num": 1004,
      "cn": "我的爱好是…",
      "dialects": {
       "msa": {
@@ -27151,16 +36232,25 @@ const DATA = {
        "rom": "hiwāyatī …",
        "note": ""
       },
+      "gulf": {
+       "ar": "هِوَايَتِي …",
+       "rom": "hiwāyatī …",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "هِوَايَتِي …",
+       "rom": "hiwāyatī …",
+       "note": ""
+      },
       "maghreb": {
        "ar": "هِوَايَتِي …",
        "rom": "hiwāyatī …",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1003,
+     "num": 1005,
      "cn": "运动",
      "dialects": {
       "msa": {
@@ -27178,16 +36268,25 @@ const DATA = {
        "rom": "riyāḍa",
        "note": ""
       },
+      "gulf": {
+       "ar": "رِيَاضَة",
+       "rom": "riyāḍa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رِيَاضَة",
+       "rom": "riyāḍa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرِّيَاضَة",
        "rom": "ar-riyāḍa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1004,
+     "num": 1006,
      "cn": "足球",
      "dialects": {
       "msa": {
@@ -27205,16 +36304,25 @@ const DATA = {
        "rom": "kura",
        "note": ""
       },
+      "gulf": {
+       "ar": "كُرَة",
+       "rom": "kura",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "كُرَة",
+       "rom": "kura",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كُورَة",
        "rom": "kūra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1005,
+     "num": 1007,
      "cn": "游泳",
      "dialects": {
       "msa": {
@@ -27232,16 +36340,25 @@ const DATA = {
        "rom": "sibāḥa",
        "note": ""
       },
+      "gulf": {
+       "ar": "سِبَاحَة",
+       "rom": "sibāḥa",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سِبَاحَة",
+       "rom": "sibāḥa",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السِّبَاحَة",
        "rom": "as-sibāḥa",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1006,
+     "num": 1008,
      "cn": "音乐",
      "dialects": {
       "msa": {
@@ -27259,16 +36376,25 @@ const DATA = {
        "rom": "mūsīqā",
        "note": ""
       },
+      "gulf": {
+       "ar": "مُوسِيقَى",
+       "rom": "mūsīqā",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "مُوسِيقَى",
+       "rom": "mūsīqā",
+       "note": ""
+      },
       "maghreb": {
        "ar": "مُوسِيقَى",
        "rom": "mūsīqā",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1007,
+     "num": 1009,
      "cn": "电影",
      "dialects": {
       "msa": {
@@ -27286,16 +36412,25 @@ const DATA = {
        "rom": "fīlm",
        "note": ""
       },
+      "gulf": {
+       "ar": "فِيلْم",
+       "rom": "fīlm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "فِيلْم",
+       "rom": "fīlm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "فِيلْم",
        "rom": "fīlm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1008,
+     "num": 1010,
      "cn": "读书（阅读）",
      "dialects": {
       "msa": {
@@ -27313,16 +36448,25 @@ const DATA = {
        "rom": "qirā'a",
        "note": ""
       },
+      "gulf": {
+       "ar": "قِرَاءَة",
+       "rom": "qirā'a",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "قِرَاءَة",
+       "rom": "qirā'a",
+       "note": ""
+      },
       "maghreb": {
        "ar": "القِّرَايَة",
        "rom": "al-qirāya",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1009,
+     "num": 1011,
      "cn": "旅游",
      "dialects": {
       "msa": {
@@ -27340,16 +36484,25 @@ const DATA = {
        "rom": "safar",
        "note": ""
       },
+      "gulf": {
+       "ar": "سَفَر",
+       "rom": "safar",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "سَفَر",
+       "rom": "safar",
+       "note": ""
+      },
       "maghreb": {
        "ar": "السَّفَر",
        "rom": "as-safar",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1010,
+     "num": 1012,
      "cn": "摄影",
      "dialects": {
       "msa": {
@@ -27367,16 +36520,25 @@ const DATA = {
        "rom": "taṣwīr",
        "note": ""
       },
+      "gulf": {
+       "ar": "تَصْوِير",
+       "rom": "taṣwīr",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "تَصْوِير",
+       "rom": "taṣwīr",
+       "note": ""
+      },
       "maghreb": {
        "ar": "التَّصْوِير",
        "rom": "at-taṣwīr",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1011,
+     "num": 1013,
      "cn": "游戏",
      "dialects": {
       "msa": {
@@ -27394,16 +36556,25 @@ const DATA = {
        "rom": "alʿāb",
        "note": ""
       },
+      "gulf": {
+       "ar": "أَلْعَاب",
+       "rom": "alʿāb",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "أَلْعَاب",
+       "rom": "alʿāb",
+       "note": ""
+      },
       "maghreb": {
        "ar": "لْعَاب",
        "rom": "lʿāb",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1012,
+     "num": 1014,
      "cn": "画画",
      "dialects": {
       "msa": {
@@ -27421,16 +36592,25 @@ const DATA = {
        "rom": "rasm",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَسْم",
+       "rom": "rasm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَسْم",
+       "rom": "rasm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرَّسْم",
        "rom": "ar-rasm",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1013,
+     "num": 1015,
      "cn": "唱歌",
      "dialects": {
       "msa": {
@@ -27448,16 +36628,25 @@ const DATA = {
        "rom": "ghinā'",
        "note": ""
       },
+      "gulf": {
+       "ar": "غِنَاء",
+       "rom": "ghinā'",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "غِنَاء",
+       "rom": "ghinā'",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الغِّنَاء",
        "rom": "al-ghinā'",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1014,
+     "num": 1016,
      "cn": "跳舞",
      "dialects": {
       "msa": {
@@ -27475,16 +36664,25 @@ const DATA = {
        "rom": "raqṣ",
        "note": ""
       },
+      "gulf": {
+       "ar": "رَقْص",
+       "rom": "raqṣ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "رَقْص",
+       "rom": "raqṣ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "الرَّقْص",
        "rom": "ar-raqṣ",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1015,
+     "num": 1017,
      "cn": "你喜欢做什么？",
      "dialects": {
       "msa": {
@@ -27502,16 +36700,25 @@ const DATA = {
        "rom": "btiḥibb tʿmal ēh",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِحِبْ تْعْمَلْ إِيه؟",
+       "rom": "btiḥibb tʿmal ēh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِحِبْ تْعْمَلْ إِيه؟",
+       "rom": "btiḥibb tʿmal ēh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْبْغِي تْدِيرْ أَشْنُو؟",
        "rom": "katbghī tdīr āshnū",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1016,
+     "num": 1018,
      "cn": "我们一起去吧",
      "dialects": {
       "msa": {
@@ -27529,16 +36736,25 @@ const DATA = {
        "rom": "yallā nrūḥ maʿ baʿḍ",
        "note": ""
       },
+      "gulf": {
+       "ar": "يَلَّا نْرُوحْ مَعْ بَعْض",
+       "rom": "yallā nrūḥ maʿ baʿḍ",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "يَلَّا نْرُوحْ مَعْ بَعْض",
+       "rom": "yallā nrūḥ maʿ baʿḍ",
+       "note": ""
+      },
       "maghreb": {
        "ar": "يَلَّا نْمْشِيوْ مَعًَا",
        "rom": "yallā nmishyū maʿan",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1017,
+     "num": 1019,
      "cn": "周末",
      "dialects": {
       "msa": {
@@ -27556,16 +36772,25 @@ const DATA = {
        "rom": "ʿaṭla",
        "note": ""
       },
+      "gulf": {
+       "ar": "عَطْلَة",
+       "rom": "ʿaṭla",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "عَطْلَة",
+       "rom": "ʿaṭla",
+       "note": ""
+      },
       "maghreb": {
        "ar": "نْهَايَة السِّيمَانَة",
        "rom": "nhāyat as-sīmāna",
        "note": "核"
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1018,
+     "num": 1020,
      "cn": "空闲时间",
      "dialects": {
       "msa": {
@@ -27583,16 +36808,25 @@ const DATA = {
        "rom": "waqt farāgh",
        "note": ""
       },
+      "gulf": {
+       "ar": "وَقْت فَرَاغ",
+       "rom": "waqt farāgh",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "وَقْت فَرَاغ",
+       "rom": "waqt farāgh",
+       "note": ""
+      },
       "maghreb": {
        "ar": "وَقْت فْرَاغ",
        "rom": "waqt frāgh",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1019,
+     "num": 1021,
      "cn": "你会踢足球吗？",
      "dialects": {
       "msa": {
@@ -27610,16 +36844,25 @@ const DATA = {
        "rom": "btilʿab kura",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتِلْعَبْ كُرَة؟",
+       "rom": "btilʿab kura",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتِلْعَبْ كُرَة؟",
+       "rom": "btilʿab kura",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَتْلَعَّبْ كُورَة؟",
        "rom": "katlʿabb kūra",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     },
     {
-     "num": 1020,
+     "num": 1022,
      "cn": "我每天锻炼",
      "dialects": {
       "msa": {
@@ -27637,13 +36880,22 @@ const DATA = {
        "rom": "btamarran kul yawm",
        "note": ""
       },
+      "gulf": {
+       "ar": "بْتَمَرَّنْ كُلْ يَوْم",
+       "rom": "btamarran kul yawm",
+       "note": ""
+      },
+      "iraqi": {
+       "ar": "بْتَمَرَّنْ كُلْ يَوْم",
+       "rom": "btamarran kul yawm",
+       "note": ""
+      },
       "maghreb": {
        "ar": "كَنْتَمَرَّنْ كُلْ نْهَار",
        "rom": "kantamarnan kul nhār",
        "note": ""
       }
-     },
-     "common": "②"
+     }
     }
    ]
   }

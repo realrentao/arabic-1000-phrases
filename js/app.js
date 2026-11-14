@@ -8,13 +8,25 @@
   // audio.js 顶层用 const 声明，不会挂到 window；这里直接引用全局词法绑定并兜底
   var AUDIO = (typeof AUDIO_MAP !== "undefined") ? AUDIO_MAP : {};
 
-  var DIAL_ORDER = ["msa", "egyptian", "levantine", "maghreb"];
+  var DIAL_ORDER = ["msa", "egyptian", "levantine", "gulf", "iraqi", "maghreb"];
   var DIAL_META = {
-    msa:       { tag: "① 标准语", short: "标准语" },
-    egyptian:  { tag: "② 埃及",   short: "埃及" },
-    levantine: { tag: "③ 黎凡特/海湾", short: "海湾" },
-    maghreb:   { tag: "④ 马格里布", short: "马格里布" }
+    msa:       { tag: "① 标准阿拉伯语",   short: "标准" },
+    egyptian:  { tag: "② 埃及阿拉伯语",   short: "埃及" },
+    levantine: { tag: "③ 黎凡特阿拉伯语", short: "黎凡特" },
+    gulf:      { tag: "④ 海湾阿拉伯语",   short: "海湾" },
+    iraqi:     { tag: "⑤ 伊拉克阿拉伯语", short: "伊拉克" },
+    maghreb:   { tag: "⑥ 马格里布阿拉伯语", short: "马格里布" }
   };
+  var DIAL_SWITCH = [
+    { key: "all",       label: "全部对照" },
+    { key: "msa",       label: "① 标准" },
+    { key: "egyptian",  label: "② 埃及" },
+    { key: "levantine", label: "③ 黎凡特" },
+    { key: "gulf",      label: "④ 海湾" },
+    { key: "iraqi",     label: "⑤ 伊拉克" },
+    { key: "maghreb",   label: "⑥ 马格里布" }
+  ];
+  var FOCUS = "all";   // 当前聚焦方言；"all" = 六列对照
 
   function esc(s) {
     return String(s == null ? "" : s)
@@ -25,19 +37,10 @@
   }
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
 
-  // 解析“最通用”列，找出推荐方言标记 ①②③④
-  function commonKey(common) {
-    if (!common) return null;
-    var m = common.match(/[①②③④]/);
-    if (!m) return null;
-    var map = { "①": "msa", "②": "egyptian", "③": "levantine", "④": "maghreb" };
-    return map[m[0]] || null;
-  }
-
   function cellLabel(el) {
     var tag = el.querySelector(".tag");
     if (!tag) return "";
-    return tag.textContent.replace("★", "").replace(/[①-④]/g, "").trim();
+    return tag.textContent.replace(/[①-⑥]/g, "").trim();
   }
 
   /* ---------------- 渲染 ---------------- */
@@ -61,6 +64,21 @@
     $("#legend").innerHTML = row + tip;
   }
 
+  /* 移动端目录下拉（桌面端沿用完整列表） */
+  function tocNavEl() { return document.getElementById("toc-nav"); }
+  function closeTocDropdown() {
+    var nav = tocNavEl();
+    if (!nav) return;
+    nav.classList.remove("is-open");
+    var btn = document.getElementById("toc-toggle");
+    if (btn) btn.setAttribute("aria-expanded", "false");
+  }
+  function updateTocLabel(idx) {
+    var label = document.getElementById("toc-toggle-label");
+    var s = DATA.sections[idx];
+    if (label && s) label.textContent = s.title;
+  }
+
   function renderToc() {
     var nav = $("#toc-list");
     var html = "";
@@ -69,19 +87,43 @@
                 '<span class="bullet"></span>' + esc(s.title) + "</a>";
     });
     nav.innerHTML = html;
+    updateTocLabel(0);
   }
 
-  function dialectCell(row, key, isCommon) {
+  /* 六方言分类切换条 */
+  function renderDialSwitch() {
+    var box = $("#dial-switch");
+    if (!box) return;
+    var html = "";
+    DIAL_SWITCH.forEach(function (o) {
+      html += '<button type="button" class="dial-btn' + (o.key === FOCUS ? " active" : "") +
+              '" data-dial="' + o.key + '">' + esc(o.label) + "</button>";
+    });
+    box.innerHTML = html;
+    var tip = $("#dial-tip");
+    if (tip) tip.textContent = (FOCUS === "all")
+      ? "六列对照 · 点上方切换为单方言精读"
+      : DIAL_META[FOCUS].tag + " · 单方言精读模式";
+  }
+
+  function setFocus(key) {
+    if (FOCUS === key) return;
+    FOCUS = key;
+    renderDialSwitch();
+    renderSections(searchBox ? searchBox.value.trim() : "");
+  }
+
+  function dialectCell(row, key) {
     var d = row.dialects[key];
     if (!d || !d.ar) return "";
     var src = (AUDIO && AUDIO[d.ar]) ? AUDIO[d.ar] : "";
-    var cls = "dial" + (isCommon ? " is-common" : "");
-    var star = isCommon ? '<span class="star">★</span>' : "";
     var noteBadge = d.note
-      ? '<span class="note-badge" title="合成/借词标注（' + esc(d.note) + '），原文建议使用前核对">' + esc(d.note) + "</span>"
+      ? '<span class="note-badge" title="' + (d.note === "派"
+          ? "由③黎凡特按方言差异规则派生，使用前建议核对"
+          : "合成/借词标注（" + esc(d.note) + "），原文建议使用前核对") + ')">' + esc(d.note) + "</span>"
       : "";
-    return '<div class="' + cls + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
-             '<div class="tag">' + star + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
+    return '<div class="dial" data-dial="' + key + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
+             '<div class="tag">' + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
              '<div class="ar">' + esc(d.ar) + "</div>" +
              (d.rom ? '<div class="rom">' + esc(d.rom) + "</div>" : "") +
            "</div>";
@@ -92,7 +134,6 @@
     if (!filter) return true;
     var f = filter.toLowerCase();
     if (r.cn && r.cn.toLowerCase().indexOf(f) >= 0) return true;
-    if (r.common && r.common.toLowerCase().indexOf(f) >= 0) return true;
     for (var k in r.dialects) {
       var d = r.dialects[k];
       if (d.ar && d.ar.indexOf(filter) >= 0) return true;   // 阿拉伯文不区分大小写
@@ -114,15 +155,13 @@
             '<button class="back-toc" data-sec="' + i + '" title="返回目录">↥ 目录</button></div>';
     html += '<div class="cards">';
     rows.forEach(function (r) {
-      var ck = commonKey(r.common);
       html += '<div class="card">';
       html += '<button class="back-toc card-toc" title="返回目录" aria-label="返回目录">↥</button>';
       html += '<div class="row-top"><span class="num">' + esc(r.num) + "</span>" +
-              '<span class="cn">' + esc(r.cn) + "</span>";
-      if (r.common) html += '<span class="common">' + esc(r.common) + "</span>";
-      html += "</div>";
-      html += '<div class="dialects">';
-      DIAL_ORDER.forEach(function (k) { html += dialectCell(r, k, k === ck); });
+              '<span class="cn">' + esc(r.cn) + "</span></div>";
+      html += '<div class="dialects' + (FOCUS === "all" ? "" : " one-col") + '">';
+      var order = (FOCUS === "all") ? DIAL_ORDER : [FOCUS];
+      order.forEach(function (k) { html += dialectCell(r, k); });
       html += "</div></div>";
     });
     html += "</div></section>";
@@ -207,11 +246,37 @@
 
   /* ---------------- 事件 ---------------- */
   document.addEventListener("click", function (e) {
-    // 返回目录
+    // 点下拉面板外部时收起（不阻断后续点击处理）
+    var navEl = tocNavEl();
+    if (navEl && navEl.classList.contains("is-open") &&
+        !(e.target.closest && e.target.closest("nav.toc"))) {
+      closeTocDropdown();
+    }
+    // 移动端目录下拉开关
+    var tocToggleBtn = e.target.closest ? e.target.closest("#toc-toggle") : null;
+    if (tocToggleBtn) {
+      var open = navEl.classList.toggle("is-open");
+      tocToggleBtn.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) {
+        var panel = $("#toc-list");
+        var act = panel ? panel.querySelector("a.active") : null;
+        if (panel && act) panel.scrollTop = Math.max(0, act.offsetTop - panel.clientHeight / 2);
+      }
+      return;
+    }
+    // 方言分类切换
+    var dBtn = e.target.closest ? e.target.closest(".dial-btn") : null;
+    if (dBtn) { setFocus(dBtn.getAttribute("data-dial")); return; }
+    // 返回目录（移动端顺手展开章节下拉）
     var tocBtn = e.target.closest ? e.target.closest(".back-toc") : null;
     if (tocBtn) {
       var toc = document.querySelector("nav.toc");
       if (toc) toc.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (window.matchMedia && window.matchMedia("(max-width: 900px)").matches && toc) {
+        toc.classList.add("is-open");
+        var tg = document.getElementById("toc-toggle");
+        if (tg) tg.setAttribute("aria-expanded", "true");
+      }
       return;
     }
     // 搜索结果条上的“清除”
@@ -233,8 +298,7 @@
       var idx = secBtn.getAttribute("data-sec");
       var sec = document.getElementById("sec-" + idx);
       if (!sec) return;
-      var cells = sec.querySelectorAll(".dial.is-common");
-      if (!cells.length) cells = sec.querySelectorAll(".dial");
+      var cells = sec.querySelectorAll(".dial");
       queue = [];
       for (var i = 0; i < cells.length; i++) {
         if (cells[i].getAttribute("data-src")) queue.push(cells[i]);
@@ -278,7 +342,10 @@
         if (en.isIntersecting) {
           var id = en.target.id.replace("sec-", "");
           for (var k in tocLinks) tocLinks[k].classList.remove("active");
-          if (tocLinks[id]) tocLinks[id].classList.add("active");
+          if (tocLinks[id]) {
+            tocLinks[id].classList.add("active");
+            updateTocLabel(parseInt(id, 10));
+          }
         }
       });
     }, { rootMargin: "-10% 0px -80% 0px" });
@@ -341,7 +408,9 @@
     lazy.upTo = 0;
     var main = $("#sections");
     main.innerHTML = "";
-    if (!lazy.sentinel) {
+    // main.innerHTML 会连同旧 sentinel 一起清掉；若仍沿用旧引用，
+    // renderNextBatch 的 insertBefore 会因「参照节点不是子节点」而报错。
+    if (!lazy.sentinel || lazy.sentinel.parentNode !== main) {
       lazy.sentinel = document.createElement("div");
       lazy.sentinel.id = "lazy-sentinel";
       lazy.sentinel.style.height = "1px";
@@ -368,6 +437,7 @@
     renderLegend();
     renderIntro();
     renderToc();
+    renderDialSwitch();
     setupTocSpy();
     renderSections("");
     // TOC 点击：目标章节尚未渲染时先渲染再跳转
@@ -381,6 +451,8 @@
         ensureRendered(idx);
         var sec = document.getElementById("sec-" + idx);
         if (sec) sec.scrollIntoView({ behavior: "smooth", block: "start" });
+        updateTocLabel(idx);
+        closeTocDropdown();
       });
     }
     window.addEventListener("scroll", onScroll, { passive: true });
