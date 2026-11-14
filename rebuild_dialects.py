@@ -181,6 +181,24 @@ def main():
                 if d.get("ar"):
                     old_texts.add(d["ar"])
 
+    # 原库勘误（须在 old_texts 收集之后应用，使勘误文本进入 new_texts 补配音）：
+    # #6「晚安」标准语误将 ص（ṣ）写作 س（s）。动词为 صَبَحَ（醒来），
+    # سَبَحَ 意为「游泳」；规范写法 تُصْبَحُ عَلَى خَيْرٍ（tuṣbaḥu ʿalā khayrin）。
+    # 注：马格里布列 تسبح/س 为有意记音——Darija 咽化 ص 磨平为 s，读 tsbaḥ，保留。
+    CORRECTIONS = {
+        "晚安": {"msa": {"ar": "تُصْبَحُ عَلَى خَيْرٍ", "rom": "tuṣbaḥu ʿalā khayrin"}},
+    }
+    fixed = 0
+    for s in data["sections"]:
+        for r in s["rows"]:
+            fix = CORRECTIONS.get(r["cn"])
+            if fix:
+                for k, v in fix.items():
+                    r["dialects"][k].update(v)
+                    fixed += 1
+    if fixed:
+        print("corrections applied:", fixed)
+
     stats = collections.Counter()
     new_texts = set()
 
