@@ -243,14 +243,14 @@ def main():
         "括号内为罗马化注音（拉丁字母模拟发音），帮助大家开口。",
     ]
 
-    # data.json / js/data.js
+    # data.json / js/data.js（紧凑单行输出：体积减半、解析更快）
     with open(os.path.join(BASE, "data.json"), "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
     os.makedirs(os.path.join(BASE, "js"), exist_ok=True)
     with open(os.path.join(BASE, "js", "data.js"), "w", encoding="utf-8") as f:
         f.write("// Auto-generated: 6 dialects (standard/egyptian/levantine/gulf/iraqi/maghreb)\n")
         f.write("const DATA = ")
-        json.dump(data, f, ensure_ascii=False, indent=1)
+        json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";\n")
 
     # js/audio.js：全部 6 方言文本 -> audio/<sha1[:12]>.mp3
@@ -266,7 +266,7 @@ def main():
     with open(os.path.join(BASE, "js", "audio.js"), "w", encoding="utf-8") as f:
         f.write("// Auto-generated: arabic text -> audio path (ar-AE Fatima)\n")
         f.write("const AUDIO_MAP = ")
-        json.dump(amap, f, ensure_ascii=False, indent=1)
+        json.dump(amap, f, ensure_ascii=False, separators=(",", ":"))
         f.write(";\n")
 
     with open(os.path.join(BASE, "new_texts.json"), "w", encoding="utf-8") as f:

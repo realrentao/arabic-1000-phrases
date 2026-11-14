@@ -258,6 +258,14 @@
   var prefetchQueue = [];
   var prefetchInFlight = 0;
   var PREFETCH_MAX = 4;
+  // 预热推迟到 window load 之后：避免与 data.js/首屏渲染抢带宽
+  var pageLoaded = document.readyState === "complete";
+  if (!pageLoaded) {
+    window.addEventListener("load", function () {
+      pageLoaded = true;
+      setTimeout(pumpPrefetch, 200);
+    });
+  }
 
   function enqueuePrefetch(src) {
     if (!src || prefetched[src]) return;
@@ -266,6 +274,7 @@
     pumpPrefetch();
   }
   function pumpPrefetch() {
+    if (!pageLoaded) return;
     while (prefetchInFlight < PREFETCH_MAX && prefetchQueue.length) {
       var src = prefetchQueue.shift();
       prefetchInFlight++;
