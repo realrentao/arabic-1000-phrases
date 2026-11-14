@@ -13,7 +13,7 @@ const DATA = {
  ],
  "sections": [
   {
-   "title": "一、问候与礼貌（17句）",
+   "title": "一、问候与礼貌（18句）",
    "rows": [
     {
      "num": 1,
@@ -161,6 +161,42 @@ const DATA = {
     },
     {
      "num": 5,
+     "cn": "你好吗？（对女）",
+     "dialects": {
+      "msa": {
+       "ar": "كَيْفَ حَالُكِ؟",
+       "rom": "kayfa ḥāluki",
+       "note": ""
+      },
+      "egyptian": {
+       "ar": "إِزَّيِّك؟",
+       "rom": "izzayyik",
+       "note": ""
+      },
+      "levantine": {
+       "ar": "كِيفِك؟",
+       "rom": "kīfik",
+       "note": ""
+      },
+      "gulf": {
+       "ar": "شلونكِ؟",
+       "rom": "shlūnik",
+       "note": "派"
+      },
+      "iraqi": {
+       "ar": "شلونكِ؟",
+       "rom": "shlūnik",
+       "note": "派"
+      },
+      "maghreb": {
+       "ar": "كِيفَ دَايْرَة؟",
+       "rom": "kīf dāyra",
+       "note": ""
+      }
+     }
+    },
+    {
+     "num": 6,
      "cn": "我很好，谢谢",
      "dialects": {
       "msa": {
@@ -196,7 +232,7 @@ const DATA = {
      }
     },
     {
-     "num": 6,
+     "num": 7,
      "cn": "早上好",
      "dialects": {
       "msa": {
@@ -232,7 +268,7 @@ const DATA = {
      }
     },
     {
-     "num": 7,
+     "num": 8,
      "cn": "晚上好",
      "dialects": {
       "msa": {
@@ -268,7 +304,7 @@ const DATA = {
      }
     },
     {
-     "num": 8,
+     "num": 9,
      "cn": "晚安",
      "dialects": {
       "msa": {
@@ -304,7 +340,7 @@ const DATA = {
      }
     },
     {
-     "num": 9,
+     "num": 10,
      "cn": "再见",
      "dialects": {
       "msa": {
@@ -340,7 +376,7 @@ const DATA = {
      }
     },
     {
-     "num": 10,
+     "num": 11,
      "cn": "谢谢",
      "dialects": {
       "msa": {
@@ -376,7 +412,7 @@ const DATA = {
      }
     },
     {
-     "num": 11,
+     "num": 12,
      "cn": "不客气",
      "dialects": {
       "msa": {
@@ -412,7 +448,7 @@ const DATA = {
      }
     },
     {
-     "num": 12,
+     "num": 13,
      "cn": "对不起 / 抱歉",
      "dialects": {
       "msa": {
@@ -448,7 +484,7 @@ const DATA = {
      }
     },
     {
-     "num": 13,
+     "num": 14,
      "cn": "请（礼貌）",
      "dialects": {
       "msa": {
@@ -484,7 +520,7 @@ const DATA = {
      }
     },
     {
-     "num": 14,
+     "num": 15,
      "cn": "是的",
      "dialects": {
       "msa": {
@@ -520,7 +556,7 @@ const DATA = {
      }
     },
     {
-     "num": 15,
+     "num": 16,
      "cn": "不 / 不是",
      "dialects": {
       "msa": {
@@ -556,7 +592,7 @@ const DATA = {
      }
     },
     {
-     "num": 16,
+     "num": 17,
      "cn": "祝好运",
      "dialects": {
       "msa": {
@@ -592,7 +628,7 @@ const DATA = {
      }
     },
     {
-     "num": 17,
+     "num": 18,
      "cn": "欢迎",
      "dialects": {
       "msa": {
@@ -633,7 +669,7 @@ const DATA = {
    "title": "二、自我介绍（12句）",
    "rows": [
     {
-     "num": 18,
+     "num": 19,
      "cn": "我叫…（例：穆罕默德）",
      "dialects": {
       "msa": {
@@ -669,7 +705,7 @@ const DATA = {
      }
     },
     {
-     "num": 19,
+     "num": 20,
      "cn": "你叫什么名字？（对男）",
      "dialects": {
       "msa": {
@@ -705,7 +741,7 @@ const DATA = {
      }
     },
     {
-     "num": 20,
+     "num": 21,
      "cn": "我来自中国",
      "dialects": {
       "msa": {
@@ -741,7 +777,7 @@ const DATA = {
      }
     },
     {
-     "num": 21,
+     "num": 22,
      "cn": "你来自哪里？（对男）",
      "dialects": {
       "msa": {
@@ -777,7 +813,7 @@ const DATA = {
      }
     },
     {
-     "num": 22,
+     "num": 23,
      "cn": "我是学生",
      "dialects": {
       "msa": {
@@ -813,7 +849,7 @@ const DATA = {
      }
     },
     {
-     "num": 23,
+     "num": 24,
      "cn": "你是做什么的？（对男）",
      "dialects": {
       "msa": {
@@ -849,7 +885,7 @@ const DATA = {
      }
     },
     {
-     "num": 24,
+     "num": 25,
      "cn": "我说一点阿拉伯语",
      "dialects": {
       "msa": {
@@ -885,7 +921,7 @@ const DATA = {
      }
     },
     {
-     "num": 25,
+     "num": 26,
      "cn": "我不懂",
      "dialects": {
       "msa": {
@@ -921,7 +957,7 @@ const DATA = {
      }
     },
     {
-     "num": 26,
+     "num": 27,
      "cn": "你能说慢一点吗？",
      "dialects": {
       "msa": {
@@ -957,7 +993,7 @@ const DATA = {
      }
     },
     {
-     "num": 27,
+     "num": 28,
      "cn": "请再说一遍",
      "dialects": {
       "msa": {
@@ -993,7 +1029,7 @@ const DATA = {
      }
     },
     {
-     "num": 28,
+     "num": 29,
      "cn": "很高兴认识你",
      "dialects": {
       "msa": {
@@ -1029,7 +1065,7 @@ const DATA = {
      }
     },
     {
-     "num": 29,
+     "num": 30,
      "cn": "我的朋友（男）",
      "dialects": {
       "msa": {
@@ -1070,7 +1106,7 @@ const DATA = {
    "title": "三、询问类（19句）",
    "rows": [
     {
-     "num": 30,
+     "num": 31,
      "cn": "你在哪？",
      "dialects": {
       "msa": {
@@ -1106,7 +1142,7 @@ const DATA = {
      }
     },
     {
-     "num": 31,
+     "num": 32,
      "cn": "你是谁？",
      "dialects": {
       "msa": {
@@ -1142,7 +1178,7 @@ const DATA = {
      }
     },
     {
-     "num": 32,
+     "num": 33,
      "cn": "你几岁？",
      "dialects": {
       "msa": {
@@ -1178,7 +1214,7 @@ const DATA = {
      }
     },
     {
-     "num": 33,
+     "num": 34,
      "cn": "今天几号？",
      "dialects": {
       "msa": {
@@ -1214,7 +1250,7 @@ const DATA = {
      }
     },
     {
-     "num": 34,
+     "num": 35,
      "cn": "现在几点？",
      "dialects": {
       "msa": {
@@ -1250,7 +1286,7 @@ const DATA = {
      }
     },
     {
-     "num": 35,
+     "num": 36,
      "cn": "这是什么？",
      "dialects": {
       "msa": {
@@ -1286,7 +1322,7 @@ const DATA = {
      }
     },
     {
-     "num": 36,
+     "num": 37,
      "cn": "那是什么？",
      "dialects": {
       "msa": {
@@ -1322,7 +1358,7 @@ const DATA = {
      }
     },
     {
-     "num": 37,
+     "num": 38,
      "cn": "为什么？",
      "dialects": {
       "msa": {
@@ -1358,7 +1394,7 @@ const DATA = {
      }
     },
     {
-     "num": 38,
+     "num": 39,
      "cn": "怎么 / 如何？",
      "dialects": {
       "msa": {
@@ -1394,7 +1430,7 @@ const DATA = {
      }
     },
     {
-     "num": 39,
+     "num": 40,
      "cn": "多少（钱）？",
      "dialects": {
       "msa": {
@@ -1430,7 +1466,7 @@ const DATA = {
      }
     },
     {
-     "num": 40,
+     "num": 41,
      "cn": "这个多少钱？",
      "dialects": {
       "msa": {
@@ -1466,7 +1502,7 @@ const DATA = {
      }
     },
     {
-     "num": 41,
+     "num": 42,
      "cn": "你喜欢…吗？",
      "dialects": {
       "msa": {
@@ -1502,7 +1538,7 @@ const DATA = {
      }
     },
     {
-     "num": 42,
+     "num": 43,
      "cn": "咖啡还是茶？",
      "dialects": {
       "msa": {
@@ -1538,7 +1574,7 @@ const DATA = {
      }
     },
     {
-     "num": 43,
+     "num": 44,
      "cn": "可以走了吗？",
      "dialects": {
       "msa": {
@@ -1574,7 +1610,7 @@ const DATA = {
      }
     },
     {
-     "num": 44,
+     "num": 45,
      "cn": "谁？",
      "dialects": {
       "msa": {
@@ -1610,7 +1646,7 @@ const DATA = {
      }
     },
     {
-     "num": 45,
+     "num": 46,
      "cn": "什么时候？",
      "dialects": {
       "msa": {
@@ -1646,7 +1682,7 @@ const DATA = {
      }
     },
     {
-     "num": 46,
+     "num": 47,
      "cn": "你会说英语吗？",
      "dialects": {
       "msa": {
@@ -1682,7 +1718,7 @@ const DATA = {
      }
     },
     {
-     "num": 47,
+     "num": 48,
      "cn": "洗手间在哪？",
      "dialects": {
       "msa": {
@@ -1718,7 +1754,7 @@ const DATA = {
      }
     },
     {
-     "num": 48,
+     "num": 49,
      "cn": "你有…吗？",
      "dialects": {
       "msa": {
@@ -1759,7 +1795,7 @@ const DATA = {
    "title": "四、问路与交通（21句）",
    "rows": [
     {
-     "num": 49,
+     "num": 50,
      "cn": "车站在哪？",
      "dialects": {
       "msa": {
@@ -1795,7 +1831,7 @@ const DATA = {
      }
     },
     {
-     "num": 50,
+     "num": 51,
      "cn": "这附近有…吗？",
      "dialects": {
       "msa": {
@@ -1831,7 +1867,7 @@ const DATA = {
      }
     },
     {
-     "num": 51,
+     "num": 52,
      "cn": "怎么去…？",
      "dialects": {
       "msa": {
@@ -1867,7 +1903,7 @@ const DATA = {
      }
     },
     {
-     "num": 52,
+     "num": 53,
      "cn": "远吗？",
      "dialects": {
       "msa": {
@@ -1903,7 +1939,7 @@ const DATA = {
      }
     },
     {
-     "num": 53,
+     "num": 54,
      "cn": "左转",
      "dialects": {
       "msa": {
@@ -1939,7 +1975,7 @@ const DATA = {
      }
     },
     {
-     "num": 54,
+     "num": 55,
      "cn": "右转",
      "dialects": {
       "msa": {
@@ -1975,7 +2011,7 @@ const DATA = {
      }
     },
     {
-     "num": 55,
+     "num": 56,
      "cn": "直走",
      "dialects": {
       "msa": {
@@ -2011,7 +2047,7 @@ const DATA = {
      }
     },
     {
-     "num": 56,
+     "num": 57,
      "cn": "在…旁边",
      "dialects": {
       "msa": {
@@ -2047,7 +2083,7 @@ const DATA = {
      }
     },
     {
-     "num": 57,
+     "num": 58,
      "cn": "在…对面",
      "dialects": {
       "msa": {
@@ -2083,7 +2119,7 @@ const DATA = {
      }
     },
     {
-     "num": 58,
+     "num": 59,
      "cn": "请带我去…",
      "dialects": {
       "msa": {
@@ -2119,7 +2155,7 @@ const DATA = {
      }
     },
     {
-     "num": 59,
+     "num": 60,
      "cn": "出租车",
      "dialects": {
       "msa": {
@@ -2155,7 +2191,7 @@ const DATA = {
      }
     },
     {
-     "num": 60,
+     "num": 61,
      "cn": "公共汽车",
      "dialects": {
       "msa": {
@@ -2191,7 +2227,7 @@ const DATA = {
      }
     },
     {
-     "num": 61,
+     "num": 62,
      "cn": "火车站",
      "dialects": {
       "msa": {
@@ -2227,7 +2263,7 @@ const DATA = {
      }
     },
     {
-     "num": 62,
+     "num": 63,
      "cn": "一张票",
      "dialects": {
       "msa": {
@@ -2263,7 +2299,7 @@ const DATA = {
      }
     },
     {
-     "num": 63,
+     "num": 64,
      "cn": "几点发车？",
      "dialects": {
       "msa": {
@@ -2299,7 +2335,7 @@ const DATA = {
      }
     },
     {
-     "num": 64,
+     "num": 65,
      "cn": "飞机场",
      "dialects": {
       "msa": {
@@ -2335,7 +2371,7 @@ const DATA = {
      }
     },
     {
-     "num": 65,
+     "num": 66,
      "cn": "我想去…",
      "dialects": {
       "msa": {
@@ -2371,7 +2407,7 @@ const DATA = {
      }
     },
     {
-     "num": 66,
+     "num": 67,
      "cn": "上车",
      "dialects": {
       "msa": {
@@ -2407,7 +2443,7 @@ const DATA = {
      }
     },
     {
-     "num": 67,
+     "num": 68,
      "cn": "下车",
      "dialects": {
       "msa": {
@@ -2443,7 +2479,7 @@ const DATA = {
      }
     },
     {
-     "num": 68,
+     "num": 69,
      "cn": "到…多少钱？",
      "dialects": {
       "msa": {
@@ -2484,7 +2520,7 @@ const DATA = {
    "title": "五、吃饭（20句）",
    "rows": [
     {
-     "num": 69,
+     "num": 70,
      "cn": "餐厅在哪？",
      "dialects": {
       "msa": {
@@ -2520,7 +2556,7 @@ const DATA = {
      }
     },
     {
-     "num": 70,
+     "num": 71,
      "cn": "菜单",
      "dialects": {
       "msa": {
@@ -2556,7 +2592,7 @@ const DATA = {
      }
     },
     {
-     "num": 71,
+     "num": 72,
      "cn": "我想点…",
      "dialects": {
       "msa": {
@@ -2592,7 +2628,7 @@ const DATA = {
      }
     },
     {
-     "num": 72,
+     "num": 73,
      "cn": "水",
      "dialects": {
       "msa": {
@@ -2628,7 +2664,7 @@ const DATA = {
      }
     },
     {
-     "num": 73,
+     "num": 74,
      "cn": "面包",
      "dialects": {
       "msa": {
@@ -2664,7 +2700,7 @@ const DATA = {
      }
     },
     {
-     "num": 74,
+     "num": 75,
      "cn": "米饭",
      "dialects": {
       "msa": {
@@ -2700,7 +2736,7 @@ const DATA = {
      }
     },
     {
-     "num": 75,
+     "num": 76,
      "cn": "鸡肉",
      "dialects": {
       "msa": {
@@ -2736,7 +2772,7 @@ const DATA = {
      }
     },
     {
-     "num": 76,
+     "num": 77,
      "cn": "鱼",
      "dialects": {
       "msa": {
@@ -2772,7 +2808,7 @@ const DATA = {
      }
     },
     {
-     "num": 77,
+     "num": 78,
      "cn": "茶",
      "dialects": {
       "msa": {
@@ -2808,7 +2844,7 @@ const DATA = {
      }
     },
     {
-     "num": 78,
+     "num": 79,
      "cn": "咖啡",
      "dialects": {
       "msa": {
@@ -2844,7 +2880,7 @@ const DATA = {
      }
     },
     {
-     "num": 79,
+     "num": 80,
      "cn": "好吃！",
      "dialects": {
       "msa": {
@@ -2880,7 +2916,7 @@ const DATA = {
      }
     },
     {
-     "num": 80,
+     "num": 81,
      "cn": "我吃饱了",
      "dialects": {
       "msa": {
@@ -2916,7 +2952,7 @@ const DATA = {
      }
     },
     {
-     "num": 81,
+     "num": 82,
      "cn": "买单 / 结账",
      "dialects": {
       "msa": {
@@ -2952,7 +2988,7 @@ const DATA = {
      }
     },
     {
-     "num": 82,
+     "num": 83,
      "cn": "太贵了",
      "dialects": {
       "msa": {
@@ -2988,7 +3024,7 @@ const DATA = {
      }
     },
     {
-     "num": 83,
+     "num": 84,
      "cn": "便宜一点",
      "dialects": {
       "msa": {
@@ -3024,7 +3060,7 @@ const DATA = {
      }
     },
     {
-     "num": 84,
+     "num": 85,
      "cn": "我不吃…",
      "dialects": {
       "msa": {
@@ -3060,7 +3096,7 @@ const DATA = {
      }
     },
     {
-     "num": 85,
+     "num": 86,
      "cn": "辣",
      "dialects": {
       "msa": {
@@ -3096,7 +3132,7 @@ const DATA = {
      }
     },
     {
-     "num": 86,
+     "num": 87,
      "cn": "请给我…",
      "dialects": {
       "msa": {
@@ -3132,7 +3168,7 @@ const DATA = {
      }
     },
     {
-     "num": 87,
+     "num": 88,
      "cn": "叉子",
      "dialects": {
       "msa": {
@@ -3168,7 +3204,7 @@ const DATA = {
      }
     },
     {
-     "num": 88,
+     "num": 89,
      "cn": "杯子",
      "dialects": {
       "msa": {
@@ -3209,7 +3245,7 @@ const DATA = {
    "title": "六、购物（10句）",
    "rows": [
     {
-     "num": 89,
+     "num": 90,
      "cn": "多少钱（询价）",
      "dialects": {
       "msa": {
@@ -3245,7 +3281,7 @@ const DATA = {
      }
     },
     {
-     "num": 90,
+     "num": 91,
      "cn": "能便宜点吗？",
      "dialects": {
       "msa": {
@@ -3281,7 +3317,7 @@ const DATA = {
      }
     },
     {
-     "num": 91,
+     "num": 92,
      "cn": "我买这个",
      "dialects": {
       "msa": {
@@ -3317,7 +3353,7 @@ const DATA = {
      }
     },
     {
-     "num": 92,
+     "num": 93,
      "cn": "有更大的吗？",
      "dialects": {
       "msa": {
@@ -3353,7 +3389,7 @@ const DATA = {
      }
     },
     {
-     "num": 93,
+     "num": 94,
      "cn": "有更小的吗？",
      "dialects": {
       "msa": {
@@ -3389,7 +3425,7 @@ const DATA = {
      }
     },
     {
-     "num": 94,
+     "num": 95,
      "cn": "试穿",
      "dialects": {
       "msa": {
@@ -3425,7 +3461,7 @@ const DATA = {
      }
     },
     {
-     "num": 95,
+     "num": 96,
      "cn": "颜色",
      "dialects": {
       "msa": {
@@ -3461,7 +3497,7 @@ const DATA = {
      }
     },
     {
-     "num": 96,
+     "num": 97,
      "cn": "红色",
      "dialects": {
       "msa": {
@@ -3497,7 +3533,7 @@ const DATA = {
      }
     },
     {
-     "num": 97,
+     "num": 98,
      "cn": "蓝色",
      "dialects": {
       "msa": {
@@ -3533,7 +3569,7 @@ const DATA = {
      }
     },
     {
-     "num": 98,
+     "num": 99,
      "cn": "商店",
      "dialects": {
       "msa": {
@@ -3574,7 +3610,7 @@ const DATA = {
    "title": "七、应急与求助（8句）",
    "rows": [
     {
-     "num": 99,
+     "num": 100,
      "cn": "帮帮我！",
      "dialects": {
       "msa": {
@@ -3610,7 +3646,7 @@ const DATA = {
      }
     },
     {
-     "num": 100,
+     "num": 101,
      "cn": "医生",
      "dialects": {
       "msa": {
@@ -3646,7 +3682,7 @@ const DATA = {
      }
     },
     {
-     "num": 101,
+     "num": 102,
      "cn": "医院",
      "dialects": {
       "msa": {
@@ -3682,7 +3718,7 @@ const DATA = {
      }
     },
     {
-     "num": 102,
+     "num": 103,
      "cn": "警察",
      "dialects": {
       "msa": {
@@ -3718,7 +3754,7 @@ const DATA = {
      }
     },
     {
-     "num": 103,
+     "num": 104,
      "cn": "我丢了…",
      "dialects": {
       "msa": {
@@ -3754,7 +3790,7 @@ const DATA = {
      }
     },
     {
-     "num": 104,
+     "num": 105,
      "cn": "护照",
      "dialects": {
       "msa": {
@@ -3790,7 +3826,7 @@ const DATA = {
      }
     },
     {
-     "num": 105,
+     "num": 106,
      "cn": "救命！",
      "dialects": {
       "msa": {
@@ -3826,7 +3862,7 @@ const DATA = {
      }
     },
     {
-     "num": 106,
+     "num": 107,
      "cn": "我病了",
      "dialects": {
       "msa": {
@@ -3867,7 +3903,7 @@ const DATA = {
    "title": "八、时间与天气（8句）",
    "rows": [
     {
-     "num": 107,
+     "num": 108,
      "cn": "今天",
      "dialects": {
       "msa": {
@@ -3903,7 +3939,7 @@ const DATA = {
      }
     },
     {
-     "num": 108,
+     "num": 109,
      "cn": "明天",
      "dialects": {
       "msa": {
@@ -3939,7 +3975,7 @@ const DATA = {
      }
     },
     {
-     "num": 109,
+     "num": 110,
      "cn": "昨天",
      "dialects": {
       "msa": {
@@ -3975,7 +4011,7 @@ const DATA = {
      }
     },
     {
-     "num": 110,
+     "num": 111,
      "cn": "周几？",
      "dialects": {
       "msa": {
@@ -4011,7 +4047,7 @@ const DATA = {
      }
     },
     {
-     "num": 111,
+     "num": 112,
      "cn": "热",
      "dialects": {
       "msa": {
@@ -4047,7 +4083,7 @@ const DATA = {
      }
     },
     {
-     "num": 112,
+     "num": 113,
      "cn": "冷",
      "dialects": {
       "msa": {
@@ -4083,7 +4119,7 @@ const DATA = {
      }
     },
     {
-     "num": 113,
+     "num": 114,
      "cn": "下雨",
      "dialects": {
       "msa": {
@@ -4119,7 +4155,7 @@ const DATA = {
      }
     },
     {
-     "num": 114,
+     "num": 115,
      "cn": "天气好",
      "dialects": {
       "msa": {
@@ -4160,7 +4196,7 @@ const DATA = {
    "title": "九、数字基础（8句）",
    "rows": [
     {
-     "num": 115,
+     "num": 116,
      "cn": "一",
      "dialects": {
       "msa": {
@@ -4196,7 +4232,7 @@ const DATA = {
      }
     },
     {
-     "num": 116,
+     "num": 117,
      "cn": "二",
      "dialects": {
       "msa": {
@@ -4232,7 +4268,7 @@ const DATA = {
      }
     },
     {
-     "num": 117,
+     "num": 118,
      "cn": "三",
      "dialects": {
       "msa": {
@@ -4268,7 +4304,7 @@ const DATA = {
      }
     },
     {
-     "num": 118,
+     "num": 119,
      "cn": "五",
      "dialects": {
       "msa": {
@@ -4304,7 +4340,7 @@ const DATA = {
      }
     },
     {
-     "num": 119,
+     "num": 120,
      "cn": "十",
      "dialects": {
       "msa": {
@@ -4340,7 +4376,7 @@ const DATA = {
      }
     },
     {
-     "num": 120,
+     "num": 121,
      "cn": "百",
      "dialects": {
       "msa": {
@@ -4376,7 +4412,7 @@ const DATA = {
      }
     },
     {
-     "num": 121,
+     "num": 122,
      "cn": "一共多少钱？",
      "dialects": {
       "msa": {
@@ -4412,7 +4448,7 @@ const DATA = {
      }
     },
     {
-     "num": 122,
+     "num": 123,
      "cn": "找零",
      "dialects": {
       "msa": {
@@ -4453,7 +4489,7 @@ const DATA = {
    "title": "十、数字与数量（约100句）",
    "rows": [
     {
-     "num": 123,
+     "num": 124,
      "cn": "一",
      "dialects": {
       "msa": {
@@ -4489,7 +4525,7 @@ const DATA = {
      }
     },
     {
-     "num": 124,
+     "num": 125,
      "cn": "二",
      "dialects": {
       "msa": {
@@ -4525,7 +4561,7 @@ const DATA = {
      }
     },
     {
-     "num": 125,
+     "num": 126,
      "cn": "三",
      "dialects": {
       "msa": {
@@ -4561,7 +4597,7 @@ const DATA = {
      }
     },
     {
-     "num": 126,
+     "num": 127,
      "cn": "四",
      "dialects": {
       "msa": {
@@ -4597,7 +4633,7 @@ const DATA = {
      }
     },
     {
-     "num": 127,
+     "num": 128,
      "cn": "五",
      "dialects": {
       "msa": {
@@ -4633,7 +4669,7 @@ const DATA = {
      }
     },
     {
-     "num": 128,
+     "num": 129,
      "cn": "六",
      "dialects": {
       "msa": {
@@ -4669,7 +4705,7 @@ const DATA = {
      }
     },
     {
-     "num": 129,
+     "num": 130,
      "cn": "七",
      "dialects": {
       "msa": {
@@ -4705,7 +4741,7 @@ const DATA = {
      }
     },
     {
-     "num": 130,
+     "num": 131,
      "cn": "八",
      "dialects": {
       "msa": {
@@ -4741,7 +4777,7 @@ const DATA = {
      }
     },
     {
-     "num": 131,
+     "num": 132,
      "cn": "九",
      "dialects": {
       "msa": {
@@ -4777,7 +4813,7 @@ const DATA = {
      }
     },
     {
-     "num": 132,
+     "num": 133,
      "cn": "十",
      "dialects": {
       "msa": {
@@ -4813,7 +4849,7 @@ const DATA = {
      }
     },
     {
-     "num": 133,
+     "num": 134,
      "cn": "十一",
      "dialects": {
       "msa": {
@@ -4849,7 +4885,7 @@ const DATA = {
      }
     },
     {
-     "num": 134,
+     "num": 135,
      "cn": "十二",
      "dialects": {
       "msa": {
@@ -4885,7 +4921,7 @@ const DATA = {
      }
     },
     {
-     "num": 135,
+     "num": 136,
      "cn": "十三",
      "dialects": {
       "msa": {
@@ -4921,7 +4957,7 @@ const DATA = {
      }
     },
     {
-     "num": 136,
+     "num": 137,
      "cn": "十四",
      "dialects": {
       "msa": {
@@ -4957,7 +4993,7 @@ const DATA = {
      }
     },
     {
-     "num": 137,
+     "num": 138,
      "cn": "十五",
      "dialects": {
       "msa": {
@@ -4993,7 +5029,7 @@ const DATA = {
      }
     },
     {
-     "num": 138,
+     "num": 139,
      "cn": "十六",
      "dialects": {
       "msa": {
@@ -5029,7 +5065,7 @@ const DATA = {
      }
     },
     {
-     "num": 139,
+     "num": 140,
      "cn": "十七",
      "dialects": {
       "msa": {
@@ -5065,7 +5101,7 @@ const DATA = {
      }
     },
     {
-     "num": 140,
+     "num": 141,
      "cn": "十八",
      "dialects": {
       "msa": {
@@ -5101,7 +5137,7 @@ const DATA = {
      }
     },
     {
-     "num": 141,
+     "num": 142,
      "cn": "十九",
      "dialects": {
       "msa": {
@@ -5137,7 +5173,7 @@ const DATA = {
      }
     },
     {
-     "num": 142,
+     "num": 143,
      "cn": "二十",
      "dialects": {
       "msa": {
@@ -5173,7 +5209,7 @@ const DATA = {
      }
     },
     {
-     "num": 143,
+     "num": 144,
      "cn": "三十",
      "dialects": {
       "msa": {
@@ -5209,7 +5245,7 @@ const DATA = {
      }
     },
     {
-     "num": 144,
+     "num": 145,
      "cn": "四十",
      "dialects": {
       "msa": {
@@ -5245,7 +5281,7 @@ const DATA = {
      }
     },
     {
-     "num": 145,
+     "num": 146,
      "cn": "五十",
      "dialects": {
       "msa": {
@@ -5281,7 +5317,7 @@ const DATA = {
      }
     },
     {
-     "num": 146,
+     "num": 147,
      "cn": "六十",
      "dialects": {
       "msa": {
@@ -5317,7 +5353,7 @@ const DATA = {
      }
     },
     {
-     "num": 147,
+     "num": 148,
      "cn": "七十",
      "dialects": {
       "msa": {
@@ -5353,7 +5389,7 @@ const DATA = {
      }
     },
     {
-     "num": 148,
+     "num": 149,
      "cn": "八十",
      "dialects": {
       "msa": {
@@ -5389,7 +5425,7 @@ const DATA = {
      }
     },
     {
-     "num": 149,
+     "num": 150,
      "cn": "九十",
      "dialects": {
       "msa": {
@@ -5425,7 +5461,7 @@ const DATA = {
      }
     },
     {
-     "num": 150,
+     "num": 151,
      "cn": "一百",
      "dialects": {
       "msa": {
@@ -5461,7 +5497,7 @@ const DATA = {
      }
     },
     {
-     "num": 151,
+     "num": 152,
      "cn": "两百",
      "dialects": {
       "msa": {
@@ -5497,7 +5533,7 @@ const DATA = {
      }
     },
     {
-     "num": 152,
+     "num": 153,
      "cn": "一千",
      "dialects": {
       "msa": {
@@ -5533,7 +5569,7 @@ const DATA = {
      }
     },
     {
-     "num": 153,
+     "num": 154,
      "cn": "第一",
      "dialects": {
       "msa": {
@@ -5569,7 +5605,7 @@ const DATA = {
      }
     },
     {
-     "num": 154,
+     "num": 155,
      "cn": "第二",
      "dialects": {
       "msa": {
@@ -5605,7 +5641,7 @@ const DATA = {
      }
     },
     {
-     "num": 155,
+     "num": 156,
      "cn": "第三",
      "dialects": {
       "msa": {
@@ -5641,7 +5677,7 @@ const DATA = {
      }
     },
     {
-     "num": 156,
+     "num": 157,
      "cn": "第四",
      "dialects": {
       "msa": {
@@ -5677,7 +5713,7 @@ const DATA = {
      }
     },
     {
-     "num": 157,
+     "num": 158,
      "cn": "第五",
      "dialects": {
       "msa": {
@@ -5713,7 +5749,7 @@ const DATA = {
      }
     },
     {
-     "num": 158,
+     "num": 159,
      "cn": "第六",
      "dialects": {
       "msa": {
@@ -5749,7 +5785,7 @@ const DATA = {
      }
     },
     {
-     "num": 159,
+     "num": 160,
      "cn": "第七",
      "dialects": {
       "msa": {
@@ -5785,7 +5821,7 @@ const DATA = {
      }
     },
     {
-     "num": 160,
+     "num": 161,
      "cn": "第八",
      "dialects": {
       "msa": {
@@ -5821,7 +5857,7 @@ const DATA = {
      }
     },
     {
-     "num": 161,
+     "num": 162,
      "cn": "第九",
      "dialects": {
       "msa": {
@@ -5857,7 +5893,7 @@ const DATA = {
      }
     },
     {
-     "num": 162,
+     "num": 163,
      "cn": "第十",
      "dialects": {
       "msa": {
@@ -5893,7 +5929,7 @@ const DATA = {
      }
     },
     {
-     "num": 163,
+     "num": 164,
      "cn": "一半",
      "dialects": {
       "msa": {
@@ -5929,7 +5965,7 @@ const DATA = {
      }
     },
     {
-     "num": 164,
+     "num": 165,
      "cn": "双倍",
      "dialects": {
       "msa": {
@@ -5965,7 +6001,7 @@ const DATA = {
      }
     },
     {
-     "num": 165,
+     "num": 166,
      "cn": "一些",
      "dialects": {
       "msa": {
@@ -6001,7 +6037,7 @@ const DATA = {
      }
     },
     {
-     "num": 166,
+     "num": 167,
      "cn": "很多",
      "dialects": {
       "msa": {
@@ -6037,7 +6073,7 @@ const DATA = {
      }
     },
     {
-     "num": 167,
+     "num": 168,
      "cn": "很少/一点",
      "dialects": {
       "msa": {
@@ -6073,7 +6109,7 @@ const DATA = {
      }
     },
     {
-     "num": 168,
+     "num": 169,
      "cn": "足够",
      "dialects": {
       "msa": {
@@ -6109,7 +6145,7 @@ const DATA = {
      }
     },
     {
-     "num": 169,
+     "num": 170,
      "cn": "更多",
      "dialects": {
       "msa": {
@@ -6145,7 +6181,7 @@ const DATA = {
      }
     },
     {
-     "num": 170,
+     "num": 171,
      "cn": "更少",
      "dialects": {
       "msa": {
@@ -6181,7 +6217,7 @@ const DATA = {
      }
     },
     {
-     "num": 171,
+     "num": 172,
      "cn": "全部",
      "dialects": {
       "msa": {
@@ -6217,7 +6253,7 @@ const DATA = {
      }
     },
     {
-     "num": 172,
+     "num": 173,
      "cn": "零",
      "dialects": {
       "msa": {
@@ -6253,7 +6289,7 @@ const DATA = {
      }
     },
     {
-     "num": 173,
+     "num": 174,
      "cn": "多少？",
      "dialects": {
       "msa": {
@@ -6289,7 +6325,7 @@ const DATA = {
      }
     },
     {
-     "num": 174,
+     "num": 175,
      "cn": "几个？",
      "dialects": {
       "msa": {
@@ -6325,7 +6361,7 @@ const DATA = {
      }
     },
     {
-     "num": 175,
+     "num": 176,
      "cn": "5块",
      "dialects": {
       "msa": {
@@ -6361,7 +6397,7 @@ const DATA = {
      }
     },
     {
-     "num": 176,
+     "num": 177,
      "cn": "10块",
      "dialects": {
       "msa": {
@@ -6397,7 +6433,7 @@ const DATA = {
      }
     },
     {
-     "num": 177,
+     "num": 178,
      "cn": "100块",
      "dialects": {
       "msa": {
@@ -6433,7 +6469,7 @@ const DATA = {
      }
     },
     {
-     "num": 178,
+     "num": 179,
      "cn": "1点",
      "dialects": {
       "msa": {
@@ -6469,7 +6505,7 @@ const DATA = {
      }
     },
     {
-     "num": 179,
+     "num": 180,
      "cn": "2点",
      "dialects": {
       "msa": {
@@ -6505,7 +6541,7 @@ const DATA = {
      }
     },
     {
-     "num": 180,
+     "num": 181,
      "cn": "3点",
      "dialects": {
       "msa": {
@@ -6541,7 +6577,7 @@ const DATA = {
      }
     },
     {
-     "num": 181,
+     "num": 182,
      "cn": "4点",
      "dialects": {
       "msa": {
@@ -6577,7 +6613,7 @@ const DATA = {
      }
     },
     {
-     "num": 182,
+     "num": 183,
      "cn": "5点",
      "dialects": {
       "msa": {
@@ -6613,7 +6649,7 @@ const DATA = {
      }
     },
     {
-     "num": 183,
+     "num": 184,
      "cn": "6点",
      "dialects": {
       "msa": {
@@ -6649,7 +6685,7 @@ const DATA = {
      }
     },
     {
-     "num": 184,
+     "num": 185,
      "cn": "7点",
      "dialects": {
       "msa": {
@@ -6685,7 +6721,7 @@ const DATA = {
      }
     },
     {
-     "num": 185,
+     "num": 186,
      "cn": "8点",
      "dialects": {
       "msa": {
@@ -6721,7 +6757,7 @@ const DATA = {
      }
     },
     {
-     "num": 186,
+     "num": 187,
      "cn": "9点",
      "dialects": {
       "msa": {
@@ -6757,7 +6793,7 @@ const DATA = {
      }
     },
     {
-     "num": 187,
+     "num": 188,
      "cn": "10点",
      "dialects": {
       "msa": {
@@ -6793,7 +6829,7 @@ const DATA = {
      }
     },
     {
-     "num": 188,
+     "num": 189,
      "cn": "11点",
      "dialects": {
       "msa": {
@@ -6829,7 +6865,7 @@ const DATA = {
      }
     },
     {
-     "num": 189,
+     "num": 190,
      "cn": "12点",
      "dialects": {
       "msa": {
@@ -6865,7 +6901,7 @@ const DATA = {
      }
     },
     {
-     "num": 190,
+     "num": 191,
      "cn": "几点？",
      "dialects": {
       "msa": {
@@ -6901,7 +6937,7 @@ const DATA = {
      }
     },
     {
-     "num": 191,
+     "num": 192,
      "cn": "半天",
      "dialects": {
       "msa": {
@@ -6937,7 +6973,7 @@ const DATA = {
      }
     },
     {
-     "num": 192,
+     "num": 193,
      "cn": "一天",
      "dialects": {
       "msa": {
@@ -6973,7 +7009,7 @@ const DATA = {
      }
     },
     {
-     "num": 193,
+     "num": 194,
      "cn": "两天",
      "dialects": {
       "msa": {
@@ -7009,7 +7045,7 @@ const DATA = {
      }
     },
     {
-     "num": 194,
+     "num": 195,
      "cn": "几天？",
      "dialects": {
       "msa": {
@@ -7045,7 +7081,7 @@ const DATA = {
      }
     },
     {
-     "num": 195,
+     "num": 196,
      "cn": "一周",
      "dialects": {
       "msa": {
@@ -7081,7 +7117,7 @@ const DATA = {
      }
     },
     {
-     "num": 196,
+     "num": 197,
      "cn": "两周",
      "dialects": {
       "msa": {
@@ -7117,7 +7153,7 @@ const DATA = {
      }
     },
     {
-     "num": 197,
+     "num": 198,
      "cn": "几周？",
      "dialects": {
       "msa": {
@@ -7153,7 +7189,7 @@ const DATA = {
      }
     },
     {
-     "num": 198,
+     "num": 199,
      "cn": "一个月",
      "dialects": {
       "msa": {
@@ -7189,7 +7225,7 @@ const DATA = {
      }
     },
     {
-     "num": 199,
+     "num": 200,
      "cn": "两个月",
      "dialects": {
       "msa": {
@@ -7225,7 +7261,7 @@ const DATA = {
      }
     },
     {
-     "num": 200,
+     "num": 201,
      "cn": "几个月？",
      "dialects": {
       "msa": {
@@ -7261,7 +7297,7 @@ const DATA = {
      }
     },
     {
-     "num": 201,
+     "num": 202,
      "cn": "一年",
      "dialects": {
       "msa": {
@@ -7297,7 +7333,7 @@ const DATA = {
      }
     },
     {
-     "num": 202,
+     "num": 203,
      "cn": "两年",
      "dialects": {
       "msa": {
@@ -7333,7 +7369,7 @@ const DATA = {
      }
     },
     {
-     "num": 203,
+     "num": 204,
      "cn": "几年？",
      "dialects": {
       "msa": {
@@ -7369,7 +7405,7 @@ const DATA = {
      }
     },
     {
-     "num": 204,
+     "num": 205,
      "cn": "第一个",
      "dialects": {
       "msa": {
@@ -7405,7 +7441,7 @@ const DATA = {
      }
     },
     {
-     "num": 205,
+     "num": 206,
      "cn": "最后一个",
      "dialects": {
       "msa": {
@@ -7441,7 +7477,7 @@ const DATA = {
      }
     },
     {
-     "num": 206,
+     "num": 207,
      "cn": "第三个",
      "dialects": {
       "msa": {
@@ -7477,7 +7513,7 @@ const DATA = {
      }
     },
     {
-     "num": 207,
+     "num": 208,
      "cn": "多少人？",
      "dialects": {
       "msa": {
@@ -7513,7 +7549,7 @@ const DATA = {
      }
     },
     {
-     "num": 208,
+     "num": 209,
      "cn": "一杯",
      "dialects": {
       "msa": {
@@ -7549,7 +7585,7 @@ const DATA = {
      }
     },
     {
-     "num": 209,
+     "num": 210,
      "cn": "两杯",
      "dialects": {
       "msa": {
@@ -7585,7 +7621,7 @@ const DATA = {
      }
     },
     {
-     "num": 210,
+     "num": 211,
      "cn": "一瓶",
      "dialects": {
       "msa": {
@@ -7621,7 +7657,7 @@ const DATA = {
      }
     },
     {
-     "num": 211,
+     "num": 212,
      "cn": "一公斤",
      "dialects": {
       "msa": {
@@ -7657,7 +7693,7 @@ const DATA = {
      }
     },
     {
-     "num": 212,
+     "num": 213,
      "cn": "几公斤？",
      "dialects": {
       "msa": {
@@ -7693,7 +7729,7 @@ const DATA = {
      }
     },
     {
-     "num": 213,
+     "num": 214,
      "cn": "一共多少？",
      "dialects": {
       "msa": {
@@ -7729,7 +7765,7 @@ const DATA = {
      }
     },
     {
-     "num": 214,
+     "num": 215,
      "cn": "加5",
      "dialects": {
       "msa": {
@@ -7765,7 +7801,7 @@ const DATA = {
      }
     },
     {
-     "num": 215,
+     "num": 216,
      "cn": "减3",
      "dialects": {
       "msa": {
@@ -7801,7 +7837,7 @@ const DATA = {
      }
     },
     {
-     "num": 216,
+     "num": 217,
      "cn": "每个",
      "dialects": {
       "msa": {
@@ -7837,7 +7873,7 @@ const DATA = {
      }
     },
     {
-     "num": 217,
+     "num": 218,
      "cn": "第几次？",
      "dialects": {
       "msa": {
@@ -7873,7 +7909,7 @@ const DATA = {
      }
     },
     {
-     "num": 218,
+     "num": 219,
      "cn": "大约/约",
      "dialects": {
       "msa": {
@@ -7909,7 +7945,7 @@ const DATA = {
      }
     },
     {
-     "num": 219,
+     "num": 220,
      "cn": "十几（10多个）",
      "dialects": {
       "msa": {
@@ -7945,7 +7981,7 @@ const DATA = {
      }
     },
     {
-     "num": 220,
+     "num": 221,
      "cn": "几十",
      "dialects": {
       "msa": {
@@ -7981,7 +8017,7 @@ const DATA = {
      }
     },
     {
-     "num": 221,
+     "num": 222,
      "cn": "上百",
      "dialects": {
       "msa": {
@@ -8017,7 +8053,7 @@ const DATA = {
      }
     },
     {
-     "num": 222,
+     "num": 223,
      "cn": "每星期",
      "dialects": {
       "msa": {
@@ -8058,7 +8094,7 @@ const DATA = {
    "title": "十一、身体与健康（约90句）",
    "rows": [
     {
-     "num": 223,
+     "num": 224,
      "cn": "头",
      "dialects": {
       "msa": {
@@ -8094,7 +8130,7 @@ const DATA = {
      }
     },
     {
-     "num": 224,
+     "num": 225,
      "cn": "头发",
      "dialects": {
       "msa": {
@@ -8130,7 +8166,7 @@ const DATA = {
      }
     },
     {
-     "num": 225,
+     "num": 226,
      "cn": "脸",
      "dialects": {
       "msa": {
@@ -8166,7 +8202,7 @@ const DATA = {
      }
     },
     {
-     "num": 226,
+     "num": 227,
      "cn": "眼睛",
      "dialects": {
       "msa": {
@@ -8202,7 +8238,7 @@ const DATA = {
      }
     },
     {
-     "num": 227,
+     "num": 228,
      "cn": "耳朵",
      "dialects": {
       "msa": {
@@ -8238,7 +8274,7 @@ const DATA = {
      }
     },
     {
-     "num": 228,
+     "num": 229,
      "cn": "鼻子",
      "dialects": {
       "msa": {
@@ -8274,7 +8310,7 @@ const DATA = {
      }
     },
     {
-     "num": 229,
+     "num": 230,
      "cn": "嘴",
      "dialects": {
       "msa": {
@@ -8310,7 +8346,7 @@ const DATA = {
      }
     },
     {
-     "num": 230,
+     "num": 231,
      "cn": "牙齿",
      "dialects": {
       "msa": {
@@ -8346,7 +8382,7 @@ const DATA = {
      }
     },
     {
-     "num": 231,
+     "num": 232,
      "cn": "舌头",
      "dialects": {
       "msa": {
@@ -8382,7 +8418,7 @@ const DATA = {
      }
     },
     {
-     "num": 232,
+     "num": 233,
      "cn": "脖子/颈",
      "dialects": {
       "msa": {
@@ -8418,7 +8454,7 @@ const DATA = {
      }
     },
     {
-     "num": 233,
+     "num": 234,
      "cn": "肩膀",
      "dialects": {
       "msa": {
@@ -8454,7 +8490,7 @@ const DATA = {
      }
     },
     {
-     "num": 234,
+     "num": 235,
      "cn": "手臂",
      "dialects": {
       "msa": {
@@ -8490,7 +8526,7 @@ const DATA = {
      }
     },
     {
-     "num": 235,
+     "num": 236,
      "cn": "手",
      "dialects": {
       "msa": {
@@ -8526,7 +8562,7 @@ const DATA = {
      }
     },
     {
-     "num": 236,
+     "num": 237,
      "cn": "手指",
      "dialects": {
       "msa": {
@@ -8562,7 +8598,7 @@ const DATA = {
      }
     },
     {
-     "num": 237,
+     "num": 238,
      "cn": "胸口/胸",
      "dialects": {
       "msa": {
@@ -8598,7 +8634,7 @@ const DATA = {
      }
     },
     {
-     "num": 238,
+     "num": 239,
      "cn": "肚子/胃",
      "dialects": {
       "msa": {
@@ -8634,7 +8670,7 @@ const DATA = {
      }
     },
     {
-     "num": 239,
+     "num": 240,
      "cn": "背",
      "dialects": {
       "msa": {
@@ -8670,7 +8706,7 @@ const DATA = {
      }
     },
     {
-     "num": 240,
+     "num": 241,
      "cn": "腿",
      "dialects": {
       "msa": {
@@ -8706,7 +8742,7 @@ const DATA = {
      }
     },
     {
-     "num": 241,
+     "num": 242,
      "cn": "脚",
      "dialects": {
       "msa": {
@@ -8742,7 +8778,7 @@ const DATA = {
      }
     },
     {
-     "num": 242,
+     "num": 243,
      "cn": "膝盖",
      "dialects": {
       "msa": {
@@ -8778,7 +8814,7 @@ const DATA = {
      }
     },
     {
-     "num": 243,
+     "num": 244,
      "cn": "心脏",
      "dialects": {
       "msa": {
@@ -8814,7 +8850,7 @@ const DATA = {
      }
     },
     {
-     "num": 244,
+     "num": 245,
      "cn": "血",
      "dialects": {
       "msa": {
@@ -8850,7 +8886,7 @@ const DATA = {
      }
     },
     {
-     "num": 245,
+     "num": 246,
      "cn": "骨头",
      "dialects": {
       "msa": {
@@ -8886,7 +8922,7 @@ const DATA = {
      }
     },
     {
-     "num": 246,
+     "num": 247,
      "cn": "我病了",
      "dialects": {
       "msa": {
@@ -8922,7 +8958,7 @@ const DATA = {
      }
     },
     {
-     "num": 247,
+     "num": 248,
      "cn": "我不舒服",
      "dialects": {
       "msa": {
@@ -8958,7 +8994,7 @@ const DATA = {
      }
     },
     {
-     "num": 248,
+     "num": 249,
      "cn": "头痛",
      "dialects": {
       "msa": {
@@ -8994,7 +9030,7 @@ const DATA = {
      }
     },
     {
-     "num": 249,
+     "num": 250,
      "cn": "发烧",
      "dialects": {
       "msa": {
@@ -9030,7 +9066,7 @@ const DATA = {
      }
     },
     {
-     "num": 250,
+     "num": 251,
      "cn": "咳嗽",
      "dialects": {
       "msa": {
@@ -9066,7 +9102,7 @@ const DATA = {
      }
     },
     {
-     "num": 251,
+     "num": 252,
      "cn": "感冒/着凉",
      "dialects": {
       "msa": {
@@ -9102,7 +9138,7 @@ const DATA = {
      }
     },
     {
-     "num": 252,
+     "num": 253,
      "cn": "拉肚子/腹泻",
      "dialects": {
       "msa": {
@@ -9138,7 +9174,7 @@ const DATA = {
      }
     },
     {
-     "num": 253,
+     "num": 254,
      "cn": "累/疲倦",
      "dialects": {
       "msa": {
@@ -9174,7 +9210,7 @@ const DATA = {
      }
     },
     {
-     "num": 254,
+     "num": 255,
      "cn": "头晕/晕",
      "dialects": {
       "msa": {
@@ -9210,7 +9246,7 @@ const DATA = {
      }
     },
     {
-     "num": 255,
+     "num": 256,
      "cn": "恶心/想吐",
      "dialects": {
       "msa": {
@@ -9246,7 +9282,7 @@ const DATA = {
      }
     },
     {
-     "num": 256,
+     "num": 257,
      "cn": "嗓子/喉咙痛",
      "dialects": {
       "msa": {
@@ -9282,7 +9318,7 @@ const DATA = {
      }
     },
     {
-     "num": 257,
+     "num": 258,
      "cn": "肚子/胃痛",
      "dialects": {
       "msa": {
@@ -9318,7 +9354,7 @@ const DATA = {
      }
     },
     {
-     "num": 258,
+     "num": 259,
      "cn": "牙痛",
      "dialects": {
       "msa": {
@@ -9354,7 +9390,7 @@ const DATA = {
      }
     },
     {
-     "num": 259,
+     "num": 260,
      "cn": "呕吐",
      "dialects": {
       "msa": {
@@ -9390,7 +9426,7 @@ const DATA = {
      }
     },
     {
-     "num": 260,
+     "num": 261,
      "cn": "浑身疼",
      "dialects": {
       "msa": {
@@ -9426,7 +9462,7 @@ const DATA = {
      }
     },
     {
-     "num": 261,
+     "num": 262,
      "cn": "失眠/睡不着",
      "dialects": {
       "msa": {
@@ -9462,7 +9498,7 @@ const DATA = {
      }
     },
     {
-     "num": 262,
+     "num": 263,
      "cn": "没胃口",
      "dialects": {
       "msa": {
@@ -9498,7 +9534,7 @@ const DATA = {
      }
     },
     {
-     "num": 263,
+     "num": 264,
      "cn": "过敏",
      "dialects": {
       "msa": {
@@ -9534,7 +9570,7 @@ const DATA = {
      }
     },
     {
-     "num": 264,
+     "num": 265,
      "cn": "呼吸困难",
      "dialects": {
       "msa": {
@@ -9570,7 +9606,7 @@ const DATA = {
      }
     },
     {
-     "num": 265,
+     "num": 266,
      "cn": "受伤",
      "dialects": {
       "msa": {
@@ -9606,7 +9642,7 @@ const DATA = {
      }
     },
     {
-     "num": 266,
+     "num": 267,
      "cn": "伤口",
      "dialects": {
       "msa": {
@@ -9642,7 +9678,7 @@ const DATA = {
      }
     },
     {
-     "num": 267,
+     "num": 268,
      "cn": "流血/出血",
      "dialects": {
       "msa": {
@@ -9678,7 +9714,7 @@ const DATA = {
      }
     },
     {
-     "num": 268,
+     "num": 269,
      "cn": "出汗/流汗",
      "dialects": {
       "msa": {
@@ -9714,7 +9750,7 @@ const DATA = {
      }
     },
     {
-     "num": 269,
+     "num": 270,
      "cn": "打喷嚏",
      "dialects": {
       "msa": {
@@ -9750,7 +9786,7 @@ const DATA = {
      }
     },
     {
-     "num": 270,
+     "num": 271,
      "cn": "虚弱/没力气",
      "dialects": {
       "msa": {
@@ -9786,7 +9822,7 @@ const DATA = {
      }
     },
     {
-     "num": 271,
+     "num": 272,
      "cn": "量体温",
      "dialects": {
       "msa": {
@@ -9822,7 +9858,7 @@ const DATA = {
      }
     },
     {
-     "num": 272,
+     "num": 273,
      "cn": "好转/好些",
      "dialects": {
       "msa": {
@@ -9858,7 +9894,7 @@ const DATA = {
      }
     },
     {
-     "num": 273,
+     "num": 274,
      "cn": "我需要看医生",
      "dialects": {
       "msa": {
@@ -9894,7 +9930,7 @@ const DATA = {
      }
     },
     {
-     "num": 274,
+     "num": 275,
      "cn": "医院在哪？",
      "dialects": {
       "msa": {
@@ -9930,7 +9966,7 @@ const DATA = {
      }
     },
     {
-     "num": 275,
+     "num": 276,
      "cn": "诊所在哪？",
      "dialects": {
       "msa": {
@@ -9966,7 +10002,7 @@ const DATA = {
      }
     },
     {
-     "num": 276,
+     "num": 277,
      "cn": "哪里不舒服？",
      "dialects": {
       "msa": {
@@ -10002,7 +10038,7 @@ const DATA = {
      }
     },
     {
-     "num": 277,
+     "num": 278,
      "cn": "这里痛",
      "dialects": {
       "msa": {
@@ -10038,7 +10074,7 @@ const DATA = {
      }
     },
     {
-     "num": 278,
+     "num": 279,
      "cn": "多久了？",
      "dialects": {
       "msa": {
@@ -10074,7 +10110,7 @@ const DATA = {
      }
     },
     {
-     "num": 279,
+     "num": 280,
      "cn": "吃药",
      "dialects": {
       "msa": {
@@ -10110,7 +10146,7 @@ const DATA = {
      }
     },
     {
-     "num": 280,
+     "num": 281,
      "cn": "打针/注射",
      "dialects": {
       "msa": {
@@ -10146,7 +10182,7 @@ const DATA = {
      }
     },
     {
-     "num": 281,
+     "num": 282,
      "cn": "处方/药方",
      "dialects": {
       "msa": {
@@ -10182,7 +10218,7 @@ const DATA = {
      }
     },
     {
-     "num": 282,
+     "num": 283,
      "cn": "药",
      "dialects": {
       "msa": {
@@ -10218,7 +10254,7 @@ const DATA = {
      }
     },
     {
-     "num": 283,
+     "num": 284,
      "cn": "抗生素/消炎药",
      "dialects": {
       "msa": {
@@ -10254,7 +10290,7 @@ const DATA = {
      }
     },
     {
-     "num": 284,
+     "num": 285,
      "cn": "止痛药",
      "dialects": {
       "msa": {
@@ -10290,7 +10326,7 @@ const DATA = {
      }
     },
     {
-     "num": 285,
+     "num": 286,
      "cn": "检查/体检",
      "dialects": {
       "msa": {
@@ -10326,7 +10362,7 @@ const DATA = {
      }
     },
     {
-     "num": 286,
+     "num": 287,
      "cn": "验血/抽血",
      "dialects": {
       "msa": {
@@ -10362,7 +10398,7 @@ const DATA = {
      }
     },
     {
-     "num": 287,
+     "num": 288,
      "cn": "拍片/X光",
      "dialects": {
       "msa": {
@@ -10398,7 +10434,7 @@ const DATA = {
      }
     },
     {
-     "num": 288,
+     "num": 289,
      "cn": "包扎/绷带",
      "dialects": {
       "msa": {
@@ -10434,7 +10470,7 @@ const DATA = {
      }
     },
     {
-     "num": 289,
+     "num": 290,
      "cn": "手术/开刀",
      "dialects": {
       "msa": {
@@ -10470,7 +10506,7 @@ const DATA = {
      }
     },
     {
-     "num": 290,
+     "num": 291,
      "cn": "住院",
      "dialects": {
       "msa": {
@@ -10506,7 +10542,7 @@ const DATA = {
      }
     },
     {
-     "num": 291,
+     "num": 292,
      "cn": "叫救护车",
      "dialects": {
       "msa": {
@@ -10542,7 +10578,7 @@ const DATA = {
      }
     },
     {
-     "num": 292,
+     "num": 293,
      "cn": "叫医生",
      "dialects": {
       "msa": {
@@ -10578,7 +10614,7 @@ const DATA = {
      }
     },
     {
-     "num": 293,
+     "num": 294,
      "cn": "好点了吗？",
      "dialects": {
       "msa": {
@@ -10614,7 +10650,7 @@ const DATA = {
      }
     },
     {
-     "num": 294,
+     "num": 295,
      "cn": "会好吗？",
      "dialects": {
       "msa": {
@@ -10650,7 +10686,7 @@ const DATA = {
      }
     },
     {
-     "num": 295,
+     "num": 296,
      "cn": "多久能好？",
      "dialects": {
       "msa": {
@@ -10686,7 +10722,7 @@ const DATA = {
      }
     },
     {
-     "num": 296,
+     "num": 297,
      "cn": "忌口/注意饮食",
      "dialects": {
       "msa": {
@@ -10722,7 +10758,7 @@ const DATA = {
      }
     },
     {
-     "num": 297,
+     "num": 298,
      "cn": "复诊/复查",
      "dialects": {
       "msa": {
@@ -10758,7 +10794,7 @@ const DATA = {
      }
     },
     {
-     "num": 298,
+     "num": 299,
      "cn": "药房/药店在哪？",
      "dialects": {
       "msa": {
@@ -10794,7 +10830,7 @@ const DATA = {
      }
     },
     {
-     "num": 299,
+     "num": 300,
      "cn": "我想买药",
      "dialects": {
       "msa": {
@@ -10830,7 +10866,7 @@ const DATA = {
      }
     },
     {
-     "num": 300,
+     "num": 301,
      "cn": "感冒药",
      "dialects": {
       "msa": {
@@ -10866,7 +10902,7 @@ const DATA = {
      }
     },
     {
-     "num": 301,
+     "num": 302,
      "cn": "退烧药",
      "dialects": {
       "msa": {
@@ -10902,7 +10938,7 @@ const DATA = {
      }
     },
     {
-     "num": 302,
+     "num": 303,
      "cn": "创可贴",
      "dialects": {
       "msa": {
@@ -10938,7 +10974,7 @@ const DATA = {
      }
     },
     {
-     "num": 303,
+     "num": 304,
      "cn": "药膏/软膏",
      "dialects": {
       "msa": {
@@ -10974,7 +11010,7 @@ const DATA = {
      }
     },
     {
-     "num": 304,
+     "num": 305,
      "cn": "咳嗽糖浆",
      "dialects": {
       "msa": {
@@ -11010,7 +11046,7 @@ const DATA = {
      }
     },
     {
-     "num": 305,
+     "num": 306,
      "cn": "维生素",
      "dialects": {
       "msa": {
@@ -11046,7 +11082,7 @@ const DATA = {
      }
     },
     {
-     "num": 306,
+     "num": 307,
      "cn": "温度计",
      "dialects": {
       "msa": {
@@ -11082,7 +11118,7 @@ const DATA = {
      }
     },
     {
-     "num": 307,
+     "num": 308,
      "cn": "抗过敏药",
      "dialects": {
       "msa": {
@@ -11118,7 +11154,7 @@ const DATA = {
      }
     },
     {
-     "num": 308,
+     "num": 309,
      "cn": "消毒水",
      "dialects": {
       "msa": {
@@ -11154,7 +11190,7 @@ const DATA = {
      }
     },
     {
-     "num": 309,
+     "num": 310,
      "cn": "纱布",
      "dialects": {
       "msa": {
@@ -11190,7 +11226,7 @@ const DATA = {
      }
     },
     {
-     "num": 310,
+     "num": 311,
      "cn": "棉签",
      "dialects": {
       "msa": {
@@ -11226,7 +11262,7 @@ const DATA = {
      }
     },
     {
-     "num": 311,
+     "num": 312,
      "cn": "医疗保险",
      "dialects": {
       "msa": {
@@ -11262,7 +11298,7 @@ const DATA = {
      }
     },
     {
-     "num": 312,
+     "num": 313,
      "cn": "保重/注意健康",
      "dialects": {
       "msa": {
@@ -11303,7 +11339,7 @@ const DATA = {
    "title": "十二、餐饮扩展（约90句）",
    "rows": [
     {
-     "num": 313,
+     "num": 314,
      "cn": "牛肉",
      "dialects": {
       "msa": {
@@ -11339,7 +11375,7 @@ const DATA = {
      }
     },
     {
-     "num": 314,
+     "num": 315,
      "cn": "羊肉",
      "dialects": {
       "msa": {
@@ -11375,7 +11411,7 @@ const DATA = {
      }
     },
     {
-     "num": 315,
+     "num": 316,
      "cn": "肉（泛指）",
      "dialects": {
       "msa": {
@@ -11411,7 +11447,7 @@ const DATA = {
      }
     },
     {
-     "num": 316,
+     "num": 317,
      "cn": "虾 / 虾仁",
      "dialects": {
       "msa": {
@@ -11447,7 +11483,7 @@ const DATA = {
      }
     },
     {
-     "num": 317,
+     "num": 318,
      "cn": "鸡蛋",
      "dialects": {
       "msa": {
@@ -11483,7 +11519,7 @@ const DATA = {
      }
     },
     {
-     "num": 318,
+     "num": 319,
      "cn": "面条",
      "dialects": {
       "msa": {
@@ -11519,7 +11555,7 @@ const DATA = {
      }
     },
     {
-     "num": 319,
+     "num": 320,
      "cn": "汤",
      "dialects": {
       "msa": {
@@ -11555,7 +11591,7 @@ const DATA = {
      }
     },
     {
-     "num": 320,
+     "num": 321,
      "cn": "沙拉",
      "dialects": {
       "msa": {
@@ -11591,7 +11627,7 @@ const DATA = {
      }
     },
     {
-     "num": 321,
+     "num": 322,
      "cn": "蔬菜",
      "dialects": {
       "msa": {
@@ -11627,7 +11663,7 @@ const DATA = {
      }
     },
     {
-     "num": 322,
+     "num": 323,
      "cn": "水果",
      "dialects": {
       "msa": {
@@ -11663,7 +11699,7 @@ const DATA = {
      }
     },
     {
-     "num": 323,
+     "num": 324,
      "cn": "甜点",
      "dialects": {
       "msa": {
@@ -11699,7 +11735,7 @@ const DATA = {
      }
     },
     {
-     "num": 324,
+     "num": 325,
      "cn": "冰淇淋",
      "dialects": {
       "msa": {
@@ -11735,7 +11771,7 @@ const DATA = {
      }
     },
     {
-     "num": 325,
+     "num": 326,
      "cn": "糖",
      "dialects": {
       "msa": {
@@ -11771,7 +11807,7 @@ const DATA = {
      }
     },
     {
-     "num": 326,
+     "num": 327,
      "cn": "盐",
      "dialects": {
       "msa": {
@@ -11807,7 +11843,7 @@ const DATA = {
      }
     },
     {
-     "num": 327,
+     "num": 328,
      "cn": "油",
      "dialects": {
       "msa": {
@@ -11843,7 +11879,7 @@ const DATA = {
      }
     },
     {
-     "num": 328,
+     "num": 329,
      "cn": "奶酪",
      "dialects": {
       "msa": {
@@ -11879,7 +11915,7 @@ const DATA = {
      }
     },
     {
-     "num": 329,
+     "num": 330,
      "cn": "土豆",
      "dialects": {
       "msa": {
@@ -11915,7 +11951,7 @@ const DATA = {
      }
     },
     {
-     "num": 330,
+     "num": 331,
      "cn": "番茄 / 西红柿",
      "dialects": {
       "msa": {
@@ -11951,7 +11987,7 @@ const DATA = {
      }
     },
     {
-     "num": 331,
+     "num": 332,
      "cn": "洋葱",
      "dialects": {
       "msa": {
@@ -11987,7 +12023,7 @@ const DATA = {
      }
     },
     {
-     "num": 332,
+     "num": 333,
      "cn": "柠檬",
      "dialects": {
       "msa": {
@@ -12023,7 +12059,7 @@ const DATA = {
      }
     },
     {
-     "num": 333,
+     "num": 334,
      "cn": "香蕉",
      "dialects": {
       "msa": {
@@ -12059,7 +12095,7 @@ const DATA = {
      }
     },
     {
-     "num": 334,
+     "num": 335,
      "cn": "苹果",
      "dialects": {
       "msa": {
@@ -12095,7 +12131,7 @@ const DATA = {
      }
     },
     {
-     "num": 335,
+     "num": 336,
      "cn": "橙子",
      "dialects": {
       "msa": {
@@ -12131,7 +12167,7 @@ const DATA = {
      }
     },
     {
-     "num": 336,
+     "num": 337,
      "cn": "葡萄",
      "dialects": {
       "msa": {
@@ -12167,7 +12203,7 @@ const DATA = {
      }
     },
     {
-     "num": 337,
+     "num": 338,
      "cn": "蜂蜜",
      "dialects": {
       "msa": {
@@ -12203,7 +12239,7 @@ const DATA = {
      }
     },
     {
-     "num": 338,
+     "num": 339,
      "cn": "酸奶",
      "dialects": {
       "msa": {
@@ -12239,7 +12275,7 @@ const DATA = {
      }
     },
     {
-     "num": 339,
+     "num": 340,
      "cn": "牛奶",
      "dialects": {
       "msa": {
@@ -12275,7 +12311,7 @@ const DATA = {
      }
     },
     {
-     "num": 340,
+     "num": 341,
      "cn": "果汁",
      "dialects": {
       "msa": {
@@ -12311,7 +12347,7 @@ const DATA = {
      }
     },
     {
-     "num": 341,
+     "num": 342,
      "cn": "汽水",
      "dialects": {
       "msa": {
@@ -12347,7 +12383,7 @@ const DATA = {
      }
     },
     {
-     "num": 342,
+     "num": 343,
      "cn": "可乐",
      "dialects": {
       "msa": {
@@ -12383,7 +12419,7 @@ const DATA = {
      }
     },
     {
-     "num": 343,
+     "num": 344,
      "cn": "甜（口味）",
      "dialects": {
       "msa": {
@@ -12419,7 +12455,7 @@ const DATA = {
      }
     },
     {
-     "num": 344,
+     "num": 345,
      "cn": "咸（口味）",
      "dialects": {
       "msa": {
@@ -12455,7 +12491,7 @@ const DATA = {
      }
     },
     {
-     "num": 345,
+     "num": 346,
      "cn": "酸（口味）",
      "dialects": {
       "msa": {
@@ -12491,7 +12527,7 @@ const DATA = {
      }
     },
     {
-     "num": 346,
+     "num": 347,
      "cn": "苦（口味）",
      "dialects": {
       "msa": {
@@ -12527,7 +12563,7 @@ const DATA = {
      }
     },
     {
-     "num": 347,
+     "num": 348,
      "cn": "新鲜",
      "dialects": {
       "msa": {
@@ -12563,7 +12599,7 @@ const DATA = {
      }
     },
     {
-     "num": 348,
+     "num": 349,
      "cn": "难吃",
      "dialects": {
       "msa": {
@@ -12599,7 +12635,7 @@ const DATA = {
      }
     },
     {
-     "num": 349,
+     "num": 350,
      "cn": "我饿了",
      "dialects": {
       "msa": {
@@ -12635,7 +12671,7 @@ const DATA = {
      }
     },
     {
-     "num": 350,
+     "num": 351,
      "cn": "我渴了",
      "dialects": {
       "msa": {
@@ -12671,7 +12707,7 @@ const DATA = {
      }
     },
     {
-     "num": 351,
+     "num": 352,
      "cn": "有空桌吗 / 有位置吗",
      "dialects": {
       "msa": {
@@ -12707,7 +12743,7 @@ const DATA = {
      }
     },
     {
-     "num": 352,
+     "num": 353,
      "cn": "可以点餐了吗？",
      "dialects": {
       "msa": {
@@ -12743,7 +12779,7 @@ const DATA = {
      }
     },
     {
-     "num": 353,
+     "num": 354,
      "cn": "我要这个",
      "dialects": {
       "msa": {
@@ -12779,7 +12815,7 @@ const DATA = {
      }
     },
     {
-     "num": 354,
+     "num": 355,
      "cn": "你们有什么特色菜？",
      "dialects": {
       "msa": {
@@ -12815,7 +12851,7 @@ const DATA = {
      }
     },
     {
-     "num": 355,
+     "num": 356,
      "cn": "你推荐吃什么？",
      "dialects": {
       "msa": {
@@ -12851,7 +12887,7 @@ const DATA = {
      }
     },
     {
-     "num": 356,
+     "num": 357,
      "cn": "不要辣",
      "dialects": {
       "msa": {
@@ -12887,7 +12923,7 @@ const DATA = {
      }
     },
     {
-     "num": 357,
+     "num": 358,
      "cn": "少放盐",
      "dialects": {
       "msa": {
@@ -12923,7 +12959,7 @@ const DATA = {
      }
     },
     {
-     "num": 358,
+     "num": 359,
      "cn": "菜怎么还没来 / 催菜",
      "dialects": {
       "msa": {
@@ -12959,7 +12995,7 @@ const DATA = {
      }
     },
     {
-     "num": 359,
+     "num": 360,
      "cn": "服务员！",
      "dialects": {
       "msa": {
@@ -12995,7 +13031,7 @@ const DATA = {
      }
     },
     {
-     "num": 360,
+     "num": 361,
      "cn": "打包 / 带回家",
      "dialects": {
       "msa": {
@@ -13031,7 +13067,7 @@ const DATA = {
      }
     },
     {
-     "num": 361,
+     "num": 362,
      "cn": "小费",
      "dialects": {
       "msa": {
@@ -13067,7 +13103,7 @@ const DATA = {
      }
     },
     {
-     "num": 362,
+     "num": 363,
      "cn": "分开买单",
      "dialects": {
       "msa": {
@@ -13103,7 +13139,7 @@ const DATA = {
      }
     },
     {
-     "num": 363,
+     "num": 364,
      "cn": "禁烟区",
      "dialects": {
       "msa": {
@@ -13139,7 +13175,7 @@ const DATA = {
      }
     },
     {
-     "num": 364,
+     "num": 365,
      "cn": "我订了位（有预订）",
      "dialects": {
       "msa": {
@@ -13175,7 +13211,7 @@ const DATA = {
      }
     },
     {
-     "num": 365,
+     "num": 366,
      "cn": "卫生间在哪？",
      "dialects": {
       "msa": {
@@ -13211,7 +13247,7 @@ const DATA = {
      }
     },
     {
-     "num": 366,
+     "num": 367,
      "cn": "能刷卡吗？",
      "dialects": {
       "msa": {
@@ -13247,7 +13283,7 @@ const DATA = {
      }
     },
     {
-     "num": 367,
+     "num": 368,
      "cn": "这顿多少钱？",
      "dialects": {
       "msa": {
@@ -13283,7 +13319,7 @@ const DATA = {
      }
     },
     {
-     "num": 368,
+     "num": 369,
      "cn": "饭菜很好吃",
      "dialects": {
       "msa": {
@@ -13319,7 +13355,7 @@ const DATA = {
      }
     },
     {
-     "num": 369,
+     "num": 370,
      "cn": "外卖（带走）",
      "dialects": {
       "msa": {
@@ -13355,7 +13391,7 @@ const DATA = {
      }
     },
     {
-     "num": 370,
+     "num": 371,
      "cn": "送餐到家",
      "dialects": {
       "msa": {
@@ -13391,7 +13427,7 @@ const DATA = {
      }
     },
     {
-     "num": 371,
+     "num": 372,
      "cn": "我请客（这顿我付）",
      "dialects": {
       "msa": {
@@ -13427,7 +13463,7 @@ const DATA = {
      }
     },
     {
-     "num": 372,
+     "num": 373,
      "cn": "谢谢款待",
      "dialects": {
       "msa": {
@@ -13463,7 +13499,7 @@ const DATA = {
      }
     },
     {
-     "num": 373,
+     "num": 374,
      "cn": "再来一份",
      "dialects": {
       "msa": {
@@ -13499,7 +13535,7 @@ const DATA = {
      }
     },
     {
-     "num": 374,
+     "num": 375,
      "cn": "蛋糕",
      "dialects": {
       "msa": {
@@ -13535,7 +13571,7 @@ const DATA = {
      }
     },
     {
-     "num": 375,
+     "num": 376,
      "cn": "巧克力",
      "dialects": {
       "msa": {
@@ -13571,7 +13607,7 @@ const DATA = {
      }
     },
     {
-     "num": 376,
+     "num": 377,
      "cn": "橄榄",
      "dialects": {
       "msa": {
@@ -13607,7 +13643,7 @@ const DATA = {
      }
     },
     {
-     "num": 377,
+     "num": 378,
      "cn": "鹰嘴豆 / 鹰嘴豆泥",
      "dialects": {
       "msa": {
@@ -13643,7 +13679,7 @@ const DATA = {
      }
     },
     {
-     "num": 378,
+     "num": 379,
      "cn": "坚果",
      "dialects": {
       "msa": {
@@ -13679,7 +13715,7 @@ const DATA = {
      }
     },
     {
-     "num": 379,
+     "num": 380,
      "cn": "香肠",
      "dialects": {
       "msa": {
@@ -13715,7 +13751,7 @@ const DATA = {
      }
     },
     {
-     "num": 380,
+     "num": 381,
      "cn": "汉堡",
      "dialects": {
       "msa": {
@@ -13751,7 +13787,7 @@ const DATA = {
      }
     },
     {
-     "num": 381,
+     "num": 382,
      "cn": "披萨",
      "dialects": {
       "msa": {
@@ -13787,7 +13823,7 @@ const DATA = {
      }
     },
     {
-     "num": 382,
+     "num": 383,
      "cn": "我们吃饱了",
      "dialects": {
       "msa": {
@@ -13823,7 +13859,7 @@ const DATA = {
      }
     },
     {
-     "num": 383,
+     "num": 384,
      "cn": "太饱了",
      "dialects": {
       "msa": {
@@ -13859,7 +13895,7 @@ const DATA = {
      }
     },
     {
-     "num": 384,
+     "num": 385,
      "cn": "还没吃饱",
      "dialects": {
       "msa": {
@@ -13895,7 +13931,7 @@ const DATA = {
      }
     },
     {
-     "num": 385,
+     "num": 386,
      "cn": "有英文菜单吗？",
      "dialects": {
       "msa": {
@@ -13931,7 +13967,7 @@ const DATA = {
      }
     },
     {
-     "num": 386,
+     "num": 387,
      "cn": "有素食吗？",
      "dialects": {
       "msa": {
@@ -13967,7 +14003,7 @@ const DATA = {
      }
     },
     {
-     "num": 387,
+     "num": 388,
      "cn": "这菜里有坚果吗？",
      "dialects": {
       "msa": {
@@ -14003,7 +14039,7 @@ const DATA = {
      }
     },
     {
-     "num": 388,
+     "num": 389,
      "cn": "来一杯水",
      "dialects": {
       "msa": {
@@ -14039,7 +14075,7 @@ const DATA = {
      }
     },
     {
-     "num": 389,
+     "num": 390,
      "cn": "再来一杯",
      "dialects": {
       "msa": {
@@ -14075,7 +14111,7 @@ const DATA = {
      }
     },
     {
-     "num": 390,
+     "num": 391,
      "cn": "慢慢吃",
      "dialects": {
       "msa": {
@@ -14111,7 +14147,7 @@ const DATA = {
      }
     },
     {
-     "num": 391,
+     "num": 392,
      "cn": "请慢用（祝好胃口）",
      "dialects": {
       "msa": {
@@ -14147,7 +14183,7 @@ const DATA = {
      }
     },
     {
-     "num": 392,
+     "num": 393,
      "cn": "这菜是怎么做的？",
      "dialects": {
       "msa": {
@@ -14183,7 +14219,7 @@ const DATA = {
      }
     },
     {
-     "num": 393,
+     "num": 394,
      "cn": "太咸了",
      "dialects": {
       "msa": {
@@ -14219,7 +14255,7 @@ const DATA = {
      }
     },
     {
-     "num": 394,
+     "num": 395,
      "cn": "太甜了",
      "dialects": {
       "msa": {
@@ -14255,7 +14291,7 @@ const DATA = {
      }
     },
     {
-     "num": 395,
+     "num": 396,
      "cn": "请给我勺子",
      "dialects": {
       "msa": {
@@ -14291,7 +14327,7 @@ const DATA = {
      }
     },
     {
-     "num": 396,
+     "num": 397,
      "cn": "请给我刀",
      "dialects": {
       "msa": {
@@ -14327,7 +14363,7 @@ const DATA = {
      }
     },
     {
-     "num": 397,
+     "num": 398,
      "cn": "请给我餐巾纸",
      "dialects": {
       "msa": {
@@ -14363,7 +14399,7 @@ const DATA = {
      }
     },
     {
-     "num": 398,
+     "num": 399,
      "cn": "这食物干净吗？",
      "dialects": {
       "msa": {
@@ -14399,7 +14435,7 @@ const DATA = {
      }
     },
     {
-     "num": 399,
+     "num": 400,
      "cn": "我过敏",
      "dialects": {
       "msa": {
@@ -14435,7 +14471,7 @@ const DATA = {
      }
     },
     {
-     "num": 400,
+     "num": 401,
      "cn": "能开发票吗？",
      "dialects": {
       "msa": {
@@ -14471,7 +14507,7 @@ const DATA = {
      }
     },
     {
-     "num": 401,
+     "num": 402,
      "cn": "我们走吧",
      "dialects": {
       "msa": {
@@ -14507,7 +14543,7 @@ const DATA = {
      }
     },
     {
-     "num": 402,
+     "num": 403,
      "cn": "下次再约",
      "dialects": {
       "msa": {
@@ -14548,7 +14584,7 @@ const DATA = {
    "title": "十三、购物扩展（约90句）",
    "rows": [
     {
-     "num": 403,
+     "num": 404,
      "cn": "衣服",
      "dialects": {
       "msa": {
@@ -14584,7 +14620,7 @@ const DATA = {
      }
     },
     {
-     "num": 404,
+     "num": 405,
      "cn": "裤子",
      "dialects": {
       "msa": {
@@ -14620,7 +14656,7 @@ const DATA = {
      }
     },
     {
-     "num": 405,
+     "num": 406,
      "cn": "裙子",
      "dialects": {
       "msa": {
@@ -14656,7 +14692,7 @@ const DATA = {
      }
     },
     {
-     "num": 406,
+     "num": 407,
      "cn": "鞋",
      "dialects": {
       "msa": {
@@ -14692,7 +14728,7 @@ const DATA = {
      }
     },
     {
-     "num": 407,
+     "num": 408,
      "cn": "帽子",
      "dialects": {
       "msa": {
@@ -14728,7 +14764,7 @@ const DATA = {
      }
     },
     {
-     "num": 408,
+     "num": 409,
      "cn": "袜子",
      "dialects": {
       "msa": {
@@ -14764,7 +14800,7 @@ const DATA = {
      }
     },
     {
-     "num": 409,
+     "num": 410,
      "cn": "衬衫",
      "dialects": {
       "msa": {
@@ -14800,7 +14836,7 @@ const DATA = {
      }
     },
     {
-     "num": 410,
+     "num": 411,
      "cn": "T恤",
      "dialects": {
       "msa": {
@@ -14836,7 +14872,7 @@ const DATA = {
      }
     },
     {
-     "num": 411,
+     "num": 412,
      "cn": "外套/大衣",
      "dialects": {
       "msa": {
@@ -14872,7 +14908,7 @@ const DATA = {
      }
     },
     {
-     "num": 412,
+     "num": 413,
      "cn": "这件衣服多少钱？",
      "dialects": {
       "msa": {
@@ -14908,7 +14944,7 @@ const DATA = {
      }
     },
     {
-     "num": 413,
+     "num": 414,
      "cn": "我想买一件衬衫",
      "dialects": {
       "msa": {
@@ -14944,7 +14980,7 @@ const DATA = {
      }
     },
     {
-     "num": 414,
+     "num": 415,
      "cn": "有别的款式吗？",
      "dialects": {
       "msa": {
@@ -14980,7 +15016,7 @@ const DATA = {
      }
     },
     {
-     "num": 415,
+     "num": 416,
      "cn": "这件好看",
      "dialects": {
       "msa": {
@@ -15016,7 +15052,7 @@ const DATA = {
      }
     },
     {
-     "num": 416,
+     "num": 417,
      "cn": "那件更便宜",
      "dialects": {
       "msa": {
@@ -15052,7 +15088,7 @@ const DATA = {
      }
     },
     {
-     "num": 417,
+     "num": 418,
      "cn": "可以试穿吗？",
      "dialects": {
       "msa": {
@@ -15088,7 +15124,7 @@ const DATA = {
      }
     },
     {
-     "num": 418,
+     "num": 419,
      "cn": "试衣间在哪？",
      "dialects": {
       "msa": {
@@ -15124,7 +15160,7 @@ const DATA = {
      }
     },
     {
-     "num": 419,
+     "num": 420,
      "cn": "这双鞋有其他颜色吗？",
      "dialects": {
       "msa": {
@@ -15160,7 +15196,7 @@ const DATA = {
      }
     },
     {
-     "num": 420,
+     "num": 421,
      "cn": "给我看看那顶帽子",
      "dialects": {
       "msa": {
@@ -15196,7 +15232,7 @@ const DATA = {
      }
     },
     {
-     "num": 421,
+     "num": 422,
      "cn": "大",
      "dialects": {
       "msa": {
@@ -15232,7 +15268,7 @@ const DATA = {
      }
     },
     {
-     "num": 422,
+     "num": 423,
      "cn": "中（码）",
      "dialects": {
       "msa": {
@@ -15268,7 +15304,7 @@ const DATA = {
      }
     },
     {
-     "num": 423,
+     "num": 424,
      "cn": "小",
      "dialects": {
       "msa": {
@@ -15304,7 +15340,7 @@ const DATA = {
      }
     },
     {
-     "num": 424,
+     "num": 425,
      "cn": "S号",
      "dialects": {
       "msa": {
@@ -15340,7 +15376,7 @@ const DATA = {
      }
     },
     {
-     "num": 425,
+     "num": 426,
      "cn": "M号",
      "dialects": {
       "msa": {
@@ -15376,7 +15412,7 @@ const DATA = {
      }
     },
     {
-     "num": 426,
+     "num": 427,
      "cn": "L号",
      "dialects": {
       "msa": {
@@ -15412,7 +15448,7 @@ const DATA = {
      }
     },
     {
-     "num": 427,
+     "num": 428,
      "cn": "我要大一点的",
      "dialects": {
       "msa": {
@@ -15448,7 +15484,7 @@ const DATA = {
      }
     },
     {
-     "num": 428,
+     "num": 429,
      "cn": "我要小一点的",
      "dialects": {
       "msa": {
@@ -15484,7 +15520,7 @@ const DATA = {
      }
     },
     {
-     "num": 429,
+     "num": 430,
      "cn": "这个尺寸不合适",
      "dialects": {
       "msa": {
@@ -15520,7 +15556,7 @@ const DATA = {
      }
     },
     {
-     "num": 430,
+     "num": 431,
      "cn": "太长",
      "dialects": {
       "msa": {
@@ -15556,7 +15592,7 @@ const DATA = {
      }
     },
     {
-     "num": 431,
+     "num": 432,
      "cn": "太短",
      "dialects": {
       "msa": {
@@ -15592,7 +15628,7 @@ const DATA = {
      }
     },
     {
-     "num": 432,
+     "num": 433,
      "cn": "合身",
      "dialects": {
       "msa": {
@@ -15628,7 +15664,7 @@ const DATA = {
      }
     },
     {
-     "num": 433,
+     "num": 434,
      "cn": "可以改短吗？",
      "dialects": {
       "msa": {
@@ -15664,7 +15700,7 @@ const DATA = {
      }
     },
     {
-     "num": 434,
+     "num": 435,
      "cn": "有没有我的尺码？",
      "dialects": {
       "msa": {
@@ -15700,7 +15736,7 @@ const DATA = {
      }
     },
     {
-     "num": 435,
+     "num": 436,
      "cn": "绿色",
      "dialects": {
       "msa": {
@@ -15736,7 +15772,7 @@ const DATA = {
      }
     },
     {
-     "num": 436,
+     "num": 437,
      "cn": "黄色",
      "dialects": {
       "msa": {
@@ -15772,7 +15808,7 @@ const DATA = {
      }
     },
     {
-     "num": 437,
+     "num": 438,
      "cn": "黑色",
      "dialects": {
       "msa": {
@@ -15808,7 +15844,7 @@ const DATA = {
      }
     },
     {
-     "num": 438,
+     "num": 439,
      "cn": "白色",
      "dialects": {
       "msa": {
@@ -15844,7 +15880,7 @@ const DATA = {
      }
     },
     {
-     "num": 439,
+     "num": 440,
      "cn": "紫色",
      "dialects": {
       "msa": {
@@ -15880,7 +15916,7 @@ const DATA = {
      }
     },
     {
-     "num": 440,
+     "num": 441,
      "cn": "什么颜色？",
      "dialects": {
       "msa": {
@@ -15916,7 +15952,7 @@ const DATA = {
      }
     },
     {
-     "num": 441,
+     "num": 442,
      "cn": "粉色",
      "dialects": {
       "msa": {
@@ -15952,7 +15988,7 @@ const DATA = {
      }
     },
     {
-     "num": 442,
+     "num": 443,
      "cn": "橙色",
      "dialects": {
       "msa": {
@@ -15988,7 +16024,7 @@ const DATA = {
      }
     },
     {
-     "num": 443,
+     "num": 444,
      "cn": "灰色",
      "dialects": {
       "msa": {
@@ -16024,7 +16060,7 @@ const DATA = {
      }
     },
     {
-     "num": 444,
+     "num": 445,
      "cn": "棕色",
      "dialects": {
       "msa": {
@@ -16060,7 +16096,7 @@ const DATA = {
      }
     },
     {
-     "num": 445,
+     "num": 446,
      "cn": "太贵了",
      "dialects": {
       "msa": {
@@ -16096,7 +16132,7 @@ const DATA = {
      }
     },
     {
-     "num": 446,
+     "num": 447,
      "cn": "便宜点",
      "dialects": {
       "msa": {
@@ -16132,7 +16168,7 @@ const DATA = {
      }
     },
     {
-     "num": 447,
+     "num": 448,
      "cn": "不买了",
      "dialects": {
       "msa": {
@@ -16168,7 +16204,7 @@ const DATA = {
      }
     },
     {
-     "num": 448,
+     "num": 449,
      "cn": "最低价多少？",
      "dialects": {
       "msa": {
@@ -16204,7 +16240,7 @@ const DATA = {
      }
     },
     {
-     "num": 449,
+     "num": 450,
      "cn": "包邮吗？",
      "dialects": {
       "msa": {
@@ -16240,7 +16276,7 @@ const DATA = {
      }
     },
     {
-     "num": 450,
+     "num": 451,
      "cn": "能刷卡吗？",
      "dialects": {
       "msa": {
@@ -16276,7 +16312,7 @@ const DATA = {
      }
     },
     {
-     "num": 451,
+     "num": 452,
      "cn": "开发票",
      "dialects": {
       "msa": {
@@ -16312,7 +16348,7 @@ const DATA = {
      }
     },
     {
-     "num": 452,
+     "num": 453,
      "cn": "再便宜点吧",
      "dialects": {
       "msa": {
@@ -16348,7 +16384,7 @@ const DATA = {
      }
     },
     {
-     "num": 453,
+     "num": 454,
      "cn": "我没那么多钱",
      "dialects": {
       "msa": {
@@ -16384,7 +16420,7 @@ const DATA = {
      }
     },
     {
-     "num": 454,
+     "num": 455,
      "cn": "我付现金",
      "dialects": {
       "msa": {
@@ -16420,7 +16456,7 @@ const DATA = {
      }
     },
     {
-     "num": 455,
+     "num": 456,
      "cn": "可以讲价吗？",
      "dialects": {
       "msa": {
@@ -16456,7 +16492,7 @@ const DATA = {
      }
     },
     {
-     "num": 456,
+     "num": 457,
      "cn": "这质量怎么样？",
      "dialects": {
       "msa": {
@@ -16492,7 +16528,7 @@ const DATA = {
      }
     },
     {
-     "num": 457,
+     "num": 458,
      "cn": "有折扣吗？",
      "dialects": {
       "msa": {
@@ -16528,7 +16564,7 @@ const DATA = {
      }
     },
     {
-     "num": 458,
+     "num": 459,
      "cn": "我付现金，再便宜点",
      "dialects": {
       "msa": {
@@ -16564,7 +16600,7 @@ const DATA = {
      }
     },
     {
-     "num": 459,
+     "num": 460,
      "cn": "能送个赠品吗？",
      "dialects": {
       "msa": {
@@ -16600,7 +16636,7 @@ const DATA = {
      }
     },
     {
-     "num": 460,
+     "num": 461,
      "cn": "这价格含税吗？",
      "dialects": {
       "msa": {
@@ -16636,7 +16672,7 @@ const DATA = {
      }
     },
     {
-     "num": 461,
+     "num": 462,
      "cn": "手机",
      "dialects": {
       "msa": {
@@ -16672,7 +16708,7 @@ const DATA = {
      }
     },
     {
-     "num": 462,
+     "num": 463,
      "cn": "电脑",
      "dialects": {
       "msa": {
@@ -16708,7 +16744,7 @@ const DATA = {
      }
     },
     {
-     "num": 463,
+     "num": 464,
      "cn": "充电线",
      "dialects": {
       "msa": {
@@ -16744,7 +16780,7 @@ const DATA = {
      }
     },
     {
-     "num": 464,
+     "num": 465,
      "cn": "充电器",
      "dialects": {
       "msa": {
@@ -16780,7 +16816,7 @@ const DATA = {
      }
     },
     {
-     "num": 465,
+     "num": 466,
      "cn": "耳机",
      "dialects": {
       "msa": {
@@ -16816,7 +16852,7 @@ const DATA = {
      }
     },
     {
-     "num": 466,
+     "num": 467,
      "cn": "这个手机多少钱？",
      "dialects": {
       "msa": {
@@ -16852,7 +16888,7 @@ const DATA = {
      }
     },
     {
-     "num": 467,
+     "num": 468,
      "cn": "有保修吗？",
      "dialects": {
       "msa": {
@@ -16888,7 +16924,7 @@ const DATA = {
      }
     },
     {
-     "num": 468,
+     "num": 469,
      "cn": "电池能用多久？",
      "dialects": {
       "msa": {
@@ -16924,7 +16960,7 @@ const DATA = {
      }
     },
     {
-     "num": 469,
+     "num": 470,
      "cn": "新款还是旧款？",
      "dialects": {
       "msa": {
@@ -16960,7 +16996,7 @@ const DATA = {
      }
     },
     {
-     "num": 470,
+     "num": 471,
      "cn": "能连WiFi吗？",
      "dialects": {
       "msa": {
@@ -16996,7 +17032,7 @@ const DATA = {
      }
     },
     {
-     "num": 471,
+     "num": 472,
      "cn": "有耳机卖吗？",
      "dialects": {
       "msa": {
@@ -17032,7 +17068,7 @@ const DATA = {
      }
     },
     {
-     "num": 472,
+     "num": 473,
      "cn": "超市",
      "dialects": {
       "msa": {
@@ -17068,7 +17104,7 @@ const DATA = {
      }
     },
     {
-     "num": 473,
+     "num": 474,
      "cn": "购物车",
      "dialects": {
       "msa": {
@@ -17104,7 +17140,7 @@ const DATA = {
      }
     },
     {
-     "num": 474,
+     "num": 475,
      "cn": "结账",
      "dialects": {
       "msa": {
@@ -17140,7 +17176,7 @@ const DATA = {
      }
     },
     {
-     "num": 475,
+     "num": 476,
      "cn": "袋子",
      "dialects": {
       "msa": {
@@ -17176,7 +17212,7 @@ const DATA = {
      }
     },
     {
-     "num": 476,
+     "num": 477,
      "cn": "收银台在哪？",
      "dialects": {
       "msa": {
@@ -17212,7 +17248,7 @@ const DATA = {
      }
     },
     {
-     "num": 477,
+     "num": 478,
      "cn": "这个多少钱一公斤？",
      "dialects": {
       "msa": {
@@ -17248,7 +17284,7 @@ const DATA = {
      }
     },
     {
-     "num": 478,
+     "num": 479,
      "cn": "在哪付钱？",
      "dialects": {
       "msa": {
@@ -17284,7 +17320,7 @@ const DATA = {
      }
     },
     {
-     "num": 479,
+     "num": 480,
      "cn": "要袋子吗？",
      "dialects": {
       "msa": {
@@ -17320,7 +17356,7 @@ const DATA = {
      }
     },
     {
-     "num": 480,
+     "num": 481,
      "cn": "有购物袋吗？",
      "dialects": {
       "msa": {
@@ -17356,7 +17392,7 @@ const DATA = {
      }
     },
     {
-     "num": 481,
+     "num": 482,
      "cn": "收银员",
      "dialects": {
       "msa": {
@@ -17392,7 +17428,7 @@ const DATA = {
      }
     },
     {
-     "num": 482,
+     "num": 483,
      "cn": "能退吗？",
      "dialects": {
       "msa": {
@@ -17428,7 +17464,7 @@ const DATA = {
      }
     },
     {
-     "num": 483,
+     "num": 484,
      "cn": "坏了",
      "dialects": {
       "msa": {
@@ -17464,7 +17500,7 @@ const DATA = {
      }
     },
     {
-     "num": 484,
+     "num": 485,
      "cn": "能换一个吗？",
      "dialects": {
       "msa": {
@@ -17500,7 +17536,7 @@ const DATA = {
      }
     },
     {
-     "num": 485,
+     "num": 486,
      "cn": "我要退款",
      "dialects": {
       "msa": {
@@ -17536,7 +17572,7 @@ const DATA = {
      }
     },
     {
-     "num": 486,
+     "num": 487,
      "cn": "在保修期内",
      "dialects": {
       "msa": {
@@ -17572,7 +17608,7 @@ const DATA = {
      }
     },
     {
-     "num": 487,
+     "num": 488,
      "cn": "买的东西有问题",
      "dialects": {
       "msa": {
@@ -17608,7 +17644,7 @@ const DATA = {
      }
     },
     {
-     "num": 488,
+     "num": 489,
      "cn": "小票/收据",
      "dialects": {
       "msa": {
@@ -17644,7 +17680,7 @@ const DATA = {
      }
     },
     {
-     "num": 489,
+     "num": 490,
      "cn": "什么时候能退？",
      "dialects": {
       "msa": {
@@ -17680,7 +17716,7 @@ const DATA = {
      }
     },
     {
-     "num": 490,
+     "num": 491,
      "cn": "能送货吗？",
      "dialects": {
       "msa": {
@@ -17716,7 +17752,7 @@ const DATA = {
      }
     },
     {
-     "num": 491,
+     "num": 492,
      "cn": "现金还是刷卡？",
      "dialects": {
       "msa": {
@@ -17752,7 +17788,7 @@ const DATA = {
      }
     },
     {
-     "num": 492,
+     "num": 493,
      "cn": "谢谢，我再看看",
      "dialects": {
       "msa": {
@@ -17793,7 +17829,7 @@ const DATA = {
    "title": "十四、旅行与住宿（约90句）",
    "rows": [
     {
-     "num": 493,
+     "num": 494,
      "cn": "有空房吗？",
      "dialects": {
       "msa": {
@@ -17829,7 +17865,7 @@ const DATA = {
      }
     },
     {
-     "num": 494,
+     "num": 495,
      "cn": "我想订一个房间",
      "dialects": {
       "msa": {
@@ -17865,7 +17901,7 @@ const DATA = {
      }
     },
     {
-     "num": 495,
+     "num": 496,
      "cn": "你要住几晚？",
      "dialects": {
       "msa": {
@@ -17901,7 +17937,7 @@ const DATA = {
      }
     },
     {
-     "num": 496,
+     "num": 497,
      "cn": "一晚多少钱？",
      "dialects": {
       "msa": {
@@ -17937,7 +17973,7 @@ const DATA = {
      }
     },
     {
-     "num": 497,
+     "num": 498,
      "cn": "有更便宜的房间吗？",
      "dialects": {
       "msa": {
@@ -17973,7 +18009,7 @@ const DATA = {
      }
     },
     {
-     "num": 498,
+     "num": 499,
      "cn": "我要一间双人房",
      "dialects": {
       "msa": {
@@ -18009,7 +18045,7 @@ const DATA = {
      }
     },
     {
-     "num": 499,
+     "num": 500,
      "cn": "我要一间单人房",
      "dialects": {
       "msa": {
@@ -18045,7 +18081,7 @@ const DATA = {
      }
     },
     {
-     "num": 500,
+     "num": 501,
      "cn": "含早餐吗？",
      "dialects": {
       "msa": {
@@ -18081,7 +18117,7 @@ const DATA = {
      }
     },
     {
-     "num": 501,
+     "num": 502,
      "cn": "早餐几点开始？",
      "dialects": {
       "msa": {
@@ -18117,7 +18153,7 @@ const DATA = {
      }
     },
     {
-     "num": 502,
+     "num": 503,
      "cn": "有WiFi吗？",
      "dialects": {
       "msa": {
@@ -18153,7 +18189,7 @@ const DATA = {
      }
     },
     {
-     "num": 503,
+     "num": 504,
      "cn": "退房时间是什么时候？",
      "dialects": {
       "msa": {
@@ -18189,7 +18225,7 @@ const DATA = {
      }
     },
     {
-     "num": 504,
+     "num": 505,
      "cn": "需要押金吗？",
      "dialects": {
       "msa": {
@@ -18225,7 +18261,7 @@ const DATA = {
      }
     },
     {
-     "num": 505,
+     "num": 506,
      "cn": "订房可以刷卡吗？",
      "dialects": {
       "msa": {
@@ -18261,7 +18297,7 @@ const DATA = {
      }
     },
     {
-     "num": 506,
+     "num": 507,
      "cn": "房卡",
      "dialects": {
       "msa": {
@@ -18297,7 +18333,7 @@ const DATA = {
      }
     },
     {
-     "num": 507,
+     "num": 508,
      "cn": "能开空调吗？",
      "dialects": {
       "msa": {
@@ -18333,7 +18369,7 @@ const DATA = {
      }
     },
     {
-     "num": 508,
+     "num": 509,
      "cn": "房间太吵了",
      "dialects": {
       "msa": {
@@ -18369,7 +18405,7 @@ const DATA = {
      }
     },
     {
-     "num": 509,
+     "num": 510,
      "cn": "卫生间坏了",
      "dialects": {
       "msa": {
@@ -18405,7 +18441,7 @@ const DATA = {
      }
     },
     {
-     "num": 510,
+     "num": 511,
      "cn": "能换一间房吗？",
      "dialects": {
       "msa": {
@@ -18441,7 +18477,7 @@ const DATA = {
      }
     },
     {
-     "num": 511,
+     "num": 512,
      "cn": "行李可以寄存吗？",
      "dialects": {
       "msa": {
@@ -18477,7 +18513,7 @@ const DATA = {
      }
     },
     {
-     "num": 512,
+     "num": 513,
      "cn": "有电梯吗？",
      "dialects": {
       "msa": {
@@ -18513,7 +18549,7 @@ const DATA = {
      }
     },
     {
-     "num": 513,
+     "num": 514,
      "cn": "登机口在哪？",
      "dialects": {
       "msa": {
@@ -18549,7 +18585,7 @@ const DATA = {
      }
     },
     {
-     "num": 514,
+     "num": 515,
      "cn": "我的航班延误了",
      "dialects": {
       "msa": {
@@ -18585,7 +18621,7 @@ const DATA = {
      }
     },
     {
-     "num": 515,
+     "num": 516,
      "cn": "航班取消了",
      "dialects": {
       "msa": {
@@ -18621,7 +18657,7 @@ const DATA = {
      }
     },
     {
-     "num": 516,
+     "num": 517,
      "cn": "我在哪个航站楼？",
      "dialects": {
       "msa": {
@@ -18657,7 +18693,7 @@ const DATA = {
      }
     },
     {
-     "num": 517,
+     "num": 518,
      "cn": "几点登机？",
      "dialects": {
       "msa": {
@@ -18693,7 +18729,7 @@ const DATA = {
      }
     },
     {
-     "num": 518,
+     "num": 519,
      "cn": "我要托运行李",
      "dialects": {
       "msa": {
@@ -18729,7 +18765,7 @@ const DATA = {
      }
     },
     {
-     "num": 519,
+     "num": 520,
      "cn": "行李超重了",
      "dialects": {
       "msa": {
@@ -18765,7 +18801,7 @@ const DATA = {
      }
     },
     {
-     "num": 520,
+     "num": 521,
      "cn": "安检在哪？",
      "dialects": {
       "msa": {
@@ -18801,7 +18837,7 @@ const DATA = {
      }
     },
     {
-     "num": 521,
+     "num": 522,
      "cn": "免税店在哪？",
      "dialects": {
       "msa": {
@@ -18837,7 +18873,7 @@ const DATA = {
      }
     },
     {
-     "num": 522,
+     "num": 523,
      "cn": "行李认领处在哪？",
      "dialects": {
       "msa": {
@@ -18873,7 +18909,7 @@ const DATA = {
      }
     },
     {
-     "num": 523,
+     "num": 524,
      "cn": "我的行李丢了",
      "dialects": {
       "msa": {
@@ -18909,7 +18945,7 @@ const DATA = {
      }
     },
     {
-     "num": 524,
+     "num": 525,
      "cn": "我要转机",
      "dialects": {
       "msa": {
@@ -18945,7 +18981,7 @@ const DATA = {
      }
     },
     {
-     "num": 525,
+     "num": 526,
      "cn": "登机牌",
      "dialects": {
       "msa": {
@@ -18981,7 +19017,7 @@ const DATA = {
      }
     },
     {
-     "num": 526,
+     "num": 527,
      "cn": "护照检查在哪？",
      "dialects": {
       "msa": {
@@ -19017,7 +19053,7 @@ const DATA = {
      }
     },
     {
-     "num": 527,
+     "num": 528,
      "cn": "我要一个靠窗的座位",
      "dialects": {
       "msa": {
@@ -19053,7 +19089,7 @@ const DATA = {
      }
     },
     {
-     "num": 528,
+     "num": 529,
      "cn": "飞机晚点了",
      "dialects": {
       "msa": {
@@ -19089,7 +19125,7 @@ const DATA = {
      }
     },
     {
-     "num": 529,
+     "num": 530,
      "cn": "我能带这个上飞机吗？",
      "dialects": {
       "msa": {
@@ -19125,7 +19161,7 @@ const DATA = {
      }
     },
     {
-     "num": 530,
+     "num": 531,
      "cn": "航班号是多少？",
      "dialects": {
       "msa": {
@@ -19161,7 +19197,7 @@ const DATA = {
      }
     },
     {
-     "num": 531,
+     "num": 532,
      "cn": "我要一个靠走道的座位",
      "dialects": {
       "msa": {
@@ -19197,7 +19233,7 @@ const DATA = {
      }
     },
     {
-     "num": 532,
+     "num": 533,
      "cn": "起飞时间是几点？",
      "dialects": {
       "msa": {
@@ -19233,7 +19269,7 @@ const DATA = {
      }
     },
     {
-     "num": 533,
+     "num": 534,
      "cn": "门票多少钱？",
      "dialects": {
       "msa": {
@@ -19269,7 +19305,7 @@ const DATA = {
      }
     },
     {
-     "num": 534,
+     "num": 535,
      "cn": "这里几点开门？",
      "dialects": {
       "msa": {
@@ -19305,7 +19341,7 @@ const DATA = {
      }
     },
     {
-     "num": 535,
+     "num": 536,
      "cn": "几点关门？",
      "dialects": {
       "msa": {
@@ -19341,7 +19377,7 @@ const DATA = {
      }
     },
     {
-     "num": 536,
+     "num": 537,
      "cn": "有导游吗？",
      "dialects": {
       "msa": {
@@ -19377,7 +19413,7 @@ const DATA = {
      }
     },
     {
-     "num": 537,
+     "num": 538,
      "cn": "可以拍照吗？",
      "dialects": {
       "msa": {
@@ -19413,7 +19449,7 @@ const DATA = {
      }
     },
     {
-     "num": 538,
+     "num": 539,
      "cn": "可以录像吗？",
      "dialects": {
       "msa": {
@@ -19449,7 +19485,7 @@ const DATA = {
      }
     },
     {
-     "num": 539,
+     "num": 540,
      "cn": "这是免费的吗？",
      "dialects": {
       "msa": {
@@ -19485,7 +19521,7 @@ const DATA = {
      }
     },
     {
-     "num": 540,
+     "num": 541,
      "cn": "洗手间在哪？",
      "dialects": {
       "msa": {
@@ -19521,7 +19557,7 @@ const DATA = {
      }
     },
     {
-     "num": 541,
+     "num": 542,
      "cn": "有中文导游吗？",
      "dialects": {
       "msa": {
@@ -19557,7 +19593,7 @@ const DATA = {
      }
     },
     {
-     "num": 542,
+     "num": 543,
      "cn": "旅游地图",
      "dialects": {
       "msa": {
@@ -19593,7 +19629,7 @@ const DATA = {
      }
     },
     {
-     "num": 543,
+     "num": 544,
      "cn": "在哪里换钱？",
      "dialects": {
       "msa": {
@@ -19629,7 +19665,7 @@ const DATA = {
      }
     },
     {
-     "num": 544,
+     "num": 545,
      "cn": "汇率是多少？",
      "dialects": {
       "msa": {
@@ -19665,7 +19701,7 @@ const DATA = {
      }
     },
     {
-     "num": 545,
+     "num": 546,
      "cn": "我想换美元",
      "dialects": {
       "msa": {
@@ -19701,7 +19737,7 @@ const DATA = {
      }
     },
     {
-     "num": 546,
+     "num": 547,
      "cn": "ATM在哪？",
      "dialects": {
       "msa": {
@@ -19737,7 +19773,7 @@ const DATA = {
      }
     },
     {
-     "num": 547,
+     "num": 548,
      "cn": "现金还是刷卡？",
      "dialects": {
       "msa": {
@@ -19773,7 +19809,7 @@ const DATA = {
      }
     },
     {
-     "num": 548,
+     "num": 549,
      "cn": "收人民币吗？",
      "dialects": {
       "msa": {
@@ -19809,7 +19845,7 @@ const DATA = {
      }
     },
     {
-     "num": 549,
+     "num": 550,
      "cn": "帮我换零钱",
      "dialects": {
       "msa": {
@@ -19845,7 +19881,7 @@ const DATA = {
      }
     },
     {
-     "num": 550,
+     "num": 551,
      "cn": "换钱要手续费吗？",
      "dialects": {
       "msa": {
@@ -19881,7 +19917,7 @@ const DATA = {
      }
     },
     {
-     "num": 551,
+     "num": 552,
      "cn": "需要签证吗？",
      "dialects": {
       "msa": {
@@ -19917,7 +19953,7 @@ const DATA = {
      }
     },
     {
-     "num": 552,
+     "num": 553,
      "cn": "我的签证",
      "dialects": {
       "msa": {
@@ -19953,7 +19989,7 @@ const DATA = {
      }
     },
     {
-     "num": 553,
+     "num": 554,
      "cn": "落地签",
      "dialects": {
       "msa": {
@@ -19989,7 +20025,7 @@ const DATA = {
      }
     },
     {
-     "num": 554,
+     "num": 555,
      "cn": "我可以停留多久？",
      "dialects": {
       "msa": {
@@ -20025,7 +20061,7 @@ const DATA = {
      }
     },
     {
-     "num": 555,
+     "num": 556,
      "cn": "签证过期了",
      "dialects": {
       "msa": {
@@ -20061,7 +20097,7 @@ const DATA = {
      }
     },
     {
-     "num": 556,
+     "num": 557,
      "cn": "我迷路了",
      "dialects": {
       "msa": {
@@ -20097,7 +20133,7 @@ const DATA = {
      }
     },
     {
-     "num": 557,
+     "num": 558,
      "cn": "帮我指路",
      "dialects": {
       "msa": {
@@ -20133,7 +20169,7 @@ const DATA = {
      }
     },
     {
-     "num": 558,
+     "num": 559,
      "cn": "我在地图上找不到",
      "dialects": {
       "msa": {
@@ -20169,7 +20205,7 @@ const DATA = {
      }
     },
     {
-     "num": 559,
+     "num": 560,
      "cn": "最近的地铁站在哪？",
      "dialects": {
       "msa": {
@@ -20205,7 +20241,7 @@ const DATA = {
      }
     },
     {
-     "num": 560,
+     "num": 561,
      "cn": "离这里远吗？",
      "dialects": {
       "msa": {
@@ -20241,7 +20277,7 @@ const DATA = {
      }
     },
     {
-     "num": 561,
+     "num": 562,
      "cn": "走路能到吗？",
      "dialects": {
       "msa": {
@@ -20277,7 +20313,7 @@ const DATA = {
      }
     },
     {
-     "num": 562,
+     "num": 563,
      "cn": "这附近有酒店吗？",
      "dialects": {
       "msa": {
@@ -20313,7 +20349,7 @@ const DATA = {
      }
     },
     {
-     "num": 563,
+     "num": 564,
      "cn": "可以帮我拍照吗？",
      "dialects": {
       "msa": {
@@ -20349,7 +20385,7 @@ const DATA = {
      }
     },
     {
-     "num": 564,
+     "num": 565,
      "cn": "我们合影吧",
      "dialects": {
       "msa": {
@@ -20385,7 +20421,7 @@ const DATA = {
      }
     },
     {
-     "num": 565,
+     "num": 566,
      "cn": "我可以自拍吗？",
      "dialects": {
       "msa": {
@@ -20421,7 +20457,7 @@ const DATA = {
      }
     },
     {
-     "num": 566,
+     "num": 567,
      "cn": "可以和你合影吗？",
      "dialects": {
       "msa": {
@@ -20457,7 +20493,7 @@ const DATA = {
      }
     },
     {
-     "num": 567,
+     "num": 568,
      "cn": "请别拍我",
      "dialects": {
       "msa": {
@@ -20493,7 +20529,7 @@ const DATA = {
      }
     },
     {
-     "num": 568,
+     "num": 569,
      "cn": "能再拍一张吗？",
      "dialects": {
       "msa": {
@@ -20529,7 +20565,7 @@ const DATA = {
      }
     },
     {
-     "num": 569,
+     "num": 570,
      "cn": "我的相机",
      "dialects": {
       "msa": {
@@ -20565,7 +20601,7 @@ const DATA = {
      }
     },
     {
-     "num": 570,
+     "num": 571,
      "cn": "照片能发给我吗？",
      "dialects": {
       "msa": {
@@ -20601,7 +20637,7 @@ const DATA = {
      }
     },
     {
-     "num": 571,
+     "num": 572,
      "cn": "这张照片很好看",
      "dialects": {
       "msa": {
@@ -20637,7 +20673,7 @@ const DATA = {
      }
     },
     {
-     "num": 572,
+     "num": 573,
      "cn": "行李（统称）",
      "dialects": {
       "msa": {
@@ -20673,7 +20709,7 @@ const DATA = {
      }
     },
     {
-     "num": 573,
+     "num": 574,
      "cn": "我想去旅行",
      "dialects": {
       "msa": {
@@ -20709,7 +20745,7 @@ const DATA = {
      }
     },
     {
-     "num": 574,
+     "num": 575,
      "cn": "带我去酒店",
      "dialects": {
       "msa": {
@@ -20745,7 +20781,7 @@ const DATA = {
      }
     },
     {
-     "num": 575,
+     "num": 576,
      "cn": "几点出发？",
      "dialects": {
       "msa": {
@@ -20781,7 +20817,7 @@ const DATA = {
      }
     },
     {
-     "num": 576,
+     "num": 577,
      "cn": "旅游团",
      "dialects": {
       "msa": {
@@ -20817,7 +20853,7 @@ const DATA = {
      }
     },
     {
-     "num": 577,
+     "num": 578,
      "cn": "纪念品",
      "dialects": {
       "msa": {
@@ -20853,7 +20889,7 @@ const DATA = {
      }
     },
     {
-     "num": 578,
+     "num": 579,
      "cn": "我在找…",
      "dialects": {
       "msa": {
@@ -20889,7 +20925,7 @@ const DATA = {
      }
     },
     {
-     "num": 579,
+     "num": 580,
      "cn": "有会说中文的人吗？",
      "dialects": {
       "msa": {
@@ -20925,7 +20961,7 @@ const DATA = {
      }
     },
     {
-     "num": 580,
+     "num": 581,
      "cn": "这是哪个国家？",
      "dialects": {
       "msa": {
@@ -20961,7 +20997,7 @@ const DATA = {
      }
     },
     {
-     "num": 581,
+     "num": 582,
      "cn": "附近有餐厅吗？",
      "dialects": {
       "msa": {
@@ -20997,7 +21033,7 @@ const DATA = {
      }
     },
     {
-     "num": 582,
+     "num": 583,
      "cn": "旅途愉快！",
      "dialects": {
       "msa": {
@@ -21038,7 +21074,7 @@ const DATA = {
    "title": "十五、社交与情感（约90句）",
    "rows": [
     {
-     "num": 583,
+     "num": 584,
      "cn": "好久不见",
      "dialects": {
       "msa": {
@@ -21074,7 +21110,7 @@ const DATA = {
      }
     },
     {
-     "num": 584,
+     "num": 585,
      "cn": "最近咋样？",
      "dialects": {
       "msa": {
@@ -21110,7 +21146,7 @@ const DATA = {
      }
     },
     {
-     "num": 585,
+     "num": 586,
      "cn": "代我问候…（请代问…好）",
      "dialects": {
       "msa": {
@@ -21146,7 +21182,7 @@ const DATA = {
      }
     },
     {
-     "num": 586,
+     "num": 587,
      "cn": "你也一样",
      "dialects": {
       "msa": {
@@ -21182,7 +21218,7 @@ const DATA = {
      }
     },
     {
-     "num": 587,
+     "num": 588,
      "cn": "见到你真高兴",
      "dialects": {
       "msa": {
@@ -21218,7 +21254,7 @@ const DATA = {
      }
     },
     {
-     "num": 588,
+     "num": 589,
      "cn": "你最近在忙什么？",
      "dialects": {
       "msa": {
@@ -21254,7 +21290,7 @@ const DATA = {
      }
     },
     {
-     "num": 589,
+     "num": 590,
      "cn": "一切都好吗？",
      "dialects": {
       "msa": {
@@ -21290,7 +21326,7 @@ const DATA = {
      }
     },
     {
-     "num": 590,
+     "num": 591,
      "cn": "你过得怎么样？",
      "dialects": {
       "msa": {
@@ -21326,7 +21362,7 @@ const DATA = {
      }
     },
     {
-     "num": 591,
+     "num": 592,
      "cn": "欢迎（欢迎来我家）",
      "dialects": {
       "msa": {
@@ -21362,7 +21398,7 @@ const DATA = {
      }
     },
     {
-     "num": 592,
+     "num": 593,
      "cn": "请进",
      "dialects": {
       "msa": {
@@ -21398,7 +21434,7 @@ const DATA = {
      }
     },
     {
-     "num": 593,
+     "num": 594,
      "cn": "请坐",
      "dialects": {
       "msa": {
@@ -21434,7 +21470,7 @@ const DATA = {
      }
     },
     {
-     "num": 594,
+     "num": 595,
      "cn": "保重 / 照顾好自己",
      "dialects": {
       "msa": {
@@ -21470,7 +21506,7 @@ const DATA = {
      }
     },
     {
-     "num": 595,
+     "num": 596,
      "cn": "回头见 / 待会儿见",
      "dialects": {
       "msa": {
@@ -21506,7 +21542,7 @@ const DATA = {
      }
     },
     {
-     "num": 596,
+     "num": 597,
      "cn": "代我问你家人好",
      "dialects": {
       "msa": {
@@ -21542,7 +21578,7 @@ const DATA = {
      }
     },
     {
-     "num": 597,
+     "num": 598,
      "cn": "很高兴又见到你",
      "dialects": {
       "msa": {
@@ -21578,7 +21614,7 @@ const DATA = {
      }
     },
     {
-     "num": 598,
+     "num": 599,
      "cn": "你家人好吗？",
      "dialects": {
       "msa": {
@@ -21614,7 +21650,7 @@ const DATA = {
      }
     },
     {
-     "num": 599,
+     "num": 600,
      "cn": "工作忙吗？",
      "dialects": {
       "msa": {
@@ -21650,7 +21686,7 @@ const DATA = {
      }
     },
     {
-     "num": 600,
+     "num": 601,
      "cn": "周末你打算干啥？",
      "dialects": {
       "msa": {
@@ -21686,7 +21722,7 @@ const DATA = {
      }
     },
     {
-     "num": 601,
+     "num": 602,
      "cn": "今天天气真好",
      "dialects": {
       "msa": {
@@ -21722,7 +21758,7 @@ const DATA = {
      }
     },
     {
-     "num": 602,
+     "num": 603,
      "cn": "你结婚了吗？",
      "dialects": {
       "msa": {
@@ -21758,7 +21794,7 @@ const DATA = {
      }
     },
     {
-     "num": 603,
+     "num": 604,
      "cn": "你有孩子吗？",
      "dialects": {
       "msa": {
@@ -21794,7 +21830,7 @@ const DATA = {
      }
     },
     {
-     "num": 604,
+     "num": 605,
      "cn": "你住在哪里？",
      "dialects": {
       "msa": {
@@ -21830,7 +21866,7 @@ const DATA = {
      }
     },
     {
-     "num": 605,
+     "num": 606,
      "cn": "你喜欢这个城市吗？",
      "dialects": {
       "msa": {
@@ -21866,7 +21902,7 @@ const DATA = {
      }
     },
     {
-     "num": 606,
+     "num": 607,
      "cn": "你在哪儿工作？",
      "dialects": {
       "msa": {
@@ -21902,7 +21938,7 @@ const DATA = {
      }
     },
     {
-     "num": 607,
+     "num": 608,
      "cn": "今天好热啊",
      "dialects": {
       "msa": {
@@ -21938,7 +21974,7 @@ const DATA = {
      }
     },
     {
-     "num": 608,
+     "num": 609,
      "cn": "你吃过了吗？",
      "dialects": {
       "msa": {
@@ -21974,7 +22010,7 @@ const DATA = {
      }
     },
     {
-     "num": 609,
+     "num": 610,
      "cn": "我们聊聊天吧",
      "dialects": {
       "msa": {
@@ -22010,7 +22046,7 @@ const DATA = {
      }
     },
     {
-     "num": 610,
+     "num": 611,
      "cn": "你有空吗？",
      "dialects": {
       "msa": {
@@ -22046,7 +22082,7 @@ const DATA = {
      }
     },
     {
-     "num": 611,
+     "num": 612,
      "cn": "一起喝杯咖啡吧",
      "dialects": {
       "msa": {
@@ -22082,7 +22118,7 @@ const DATA = {
      }
     },
     {
-     "num": 612,
+     "num": 613,
      "cn": "你老家是哪的？",
      "dialects": {
       "msa": {
@@ -22118,7 +22154,7 @@ const DATA = {
      }
     },
     {
-     "num": 613,
+     "num": 614,
      "cn": "你饿了吗？",
      "dialects": {
       "msa": {
@@ -22154,7 +22190,7 @@ const DATA = {
      }
     },
     {
-     "num": 614,
+     "num": 615,
      "cn": "我们要不要出去走走？",
      "dialects": {
       "msa": {
@@ -22190,7 +22226,7 @@ const DATA = {
      }
     },
     {
-     "num": 615,
+     "num": 616,
      "cn": "你习惯这儿的生活吗？",
      "dialects": {
       "msa": {
@@ -22226,7 +22262,7 @@ const DATA = {
      }
     },
     {
-     "num": 616,
+     "num": 617,
      "cn": "我喜欢你",
      "dialects": {
       "msa": {
@@ -22262,7 +22298,7 @@ const DATA = {
      }
     },
     {
-     "num": 617,
+     "num": 618,
      "cn": "我爱你",
      "dialects": {
       "msa": {
@@ -22298,7 +22334,7 @@ const DATA = {
      }
     },
     {
-     "num": 618,
+     "num": 619,
      "cn": "我想你",
      "dialects": {
       "msa": {
@@ -22334,7 +22370,7 @@ const DATA = {
      }
     },
     {
-     "num": 619,
+     "num": 620,
      "cn": "我（很）高兴",
      "dialects": {
       "msa": {
@@ -22370,7 +22406,7 @@ const DATA = {
      }
     },
     {
-     "num": 620,
+     "num": 621,
      "cn": "我很难过",
      "dialects": {
       "msa": {
@@ -22406,7 +22442,7 @@ const DATA = {
      }
     },
     {
-     "num": 621,
+     "num": 622,
      "cn": "我生气了",
      "dialects": {
       "msa": {
@@ -22442,7 +22478,7 @@ const DATA = {
      }
     },
     {
-     "num": 622,
+     "num": 623,
      "cn": "我害怕",
      "dialects": {
       "msa": {
@@ -22478,7 +22514,7 @@ const DATA = {
      }
     },
     {
-     "num": 623,
+     "num": 624,
      "cn": "我累了",
      "dialects": {
       "msa": {
@@ -22514,7 +22550,7 @@ const DATA = {
      }
     },
     {
-     "num": 624,
+     "num": 625,
      "cn": "我饿了",
      "dialects": {
       "msa": {
@@ -22550,7 +22586,7 @@ const DATA = {
      }
     },
     {
-     "num": 625,
+     "num": 626,
      "cn": "我渴了",
      "dialects": {
       "msa": {
@@ -22586,7 +22622,7 @@ const DATA = {
      }
     },
     {
-     "num": 626,
+     "num": 627,
      "cn": "我担心你",
      "dialects": {
       "msa": {
@@ -22622,7 +22658,7 @@ const DATA = {
      }
     },
     {
-     "num": 627,
+     "num": 628,
      "cn": "我为你感到骄傲",
      "dialects": {
       "msa": {
@@ -22658,7 +22694,7 @@ const DATA = {
      }
     },
     {
-     "num": 628,
+     "num": 629,
      "cn": "我吃醋了 / 我嫉妒",
      "dialects": {
       "msa": {
@@ -22694,7 +22730,7 @@ const DATA = {
      }
     },
     {
-     "num": 629,
+     "num": 630,
      "cn": "我好无聊",
      "dialects": {
       "msa": {
@@ -22730,7 +22766,7 @@ const DATA = {
      }
     },
     {
-     "num": 630,
+     "num": 631,
      "cn": "我好紧张",
      "dialects": {
       "msa": {
@@ -22766,7 +22802,7 @@ const DATA = {
      }
     },
     {
-     "num": 631,
+     "num": 632,
      "cn": "我很兴奋",
      "dialects": {
       "msa": {
@@ -22802,7 +22838,7 @@ const DATA = {
      }
     },
     {
-     "num": 632,
+     "num": 633,
      "cn": "我好害羞",
      "dialects": {
       "msa": {
@@ -22838,7 +22874,7 @@ const DATA = {
      }
     },
     {
-     "num": 633,
+     "num": 634,
      "cn": "我好失望",
      "dialects": {
       "msa": {
@@ -22874,7 +22910,7 @@ const DATA = {
      }
     },
     {
-     "num": 634,
+     "num": 635,
      "cn": "我好烦 / 我厌烦了",
      "dialects": {
       "msa": {
@@ -22910,7 +22946,7 @@ const DATA = {
      }
     },
     {
-     "num": 635,
+     "num": 636,
      "cn": "我原谅你",
      "dialects": {
       "msa": {
@@ -22946,7 +22982,7 @@ const DATA = {
      }
     },
     {
-     "num": 636,
+     "num": 637,
      "cn": "我信任你",
      "dialects": {
       "msa": {
@@ -22982,7 +23018,7 @@ const DATA = {
      }
     },
     {
-     "num": 637,
+     "num": 638,
      "cn": "我支持你",
      "dialects": {
       "msa": {
@@ -23018,7 +23054,7 @@ const DATA = {
      }
     },
     {
-     "num": 638,
+     "num": 639,
      "cn": "我理解你",
      "dialects": {
       "msa": {
@@ -23054,7 +23090,7 @@ const DATA = {
      }
     },
     {
-     "num": 639,
+     "num": 640,
      "cn": "我尊重你",
      "dialects": {
       "msa": {
@@ -23090,7 +23126,7 @@ const DATA = {
      }
     },
     {
-     "num": 640,
+     "num": 641,
      "cn": "谢谢你的礼物",
      "dialects": {
       "msa": {
@@ -23126,7 +23162,7 @@ const DATA = {
      }
     },
     {
-     "num": 641,
+     "num": 642,
      "cn": "恭喜你 / 祝贺你",
      "dialects": {
       "msa": {
@@ -23162,7 +23198,7 @@ const DATA = {
      }
     },
     {
-     "num": 642,
+     "num": 643,
      "cn": "生日快乐",
      "dialects": {
       "msa": {
@@ -23198,7 +23234,7 @@ const DATA = {
      }
     },
     {
-     "num": 643,
+     "num": 644,
      "cn": "新婚快乐",
      "dialects": {
       "msa": {
@@ -23234,7 +23270,7 @@ const DATA = {
      }
     },
     {
-     "num": 644,
+     "num": 645,
      "cn": "新年快乐",
      "dialects": {
       "msa": {
@@ -23270,7 +23306,7 @@ const DATA = {
      }
     },
     {
-     "num": 645,
+     "num": 646,
      "cn": "干杯",
      "dialects": {
       "msa": {
@@ -23306,7 +23342,7 @@ const DATA = {
      }
     },
     {
-     "num": 646,
+     "num": 647,
      "cn": "祝你健康",
      "dialects": {
       "msa": {
@@ -23342,7 +23378,7 @@ const DATA = {
      }
     },
     {
-     "num": 647,
+     "num": 648,
      "cn": "祝你好运",
      "dialects": {
       "msa": {
@@ -23378,7 +23414,7 @@ const DATA = {
      }
     },
     {
-     "num": 648,
+     "num": 649,
      "cn": "节日快乐",
      "dialects": {
       "msa": {
@@ -23414,7 +23450,7 @@ const DATA = {
      }
     },
     {
-     "num": 649,
+     "num": 650,
      "cn": "升职快乐 / 恭喜升职",
      "dialects": {
       "msa": {
@@ -23450,7 +23486,7 @@ const DATA = {
      }
     },
     {
-     "num": 650,
+     "num": 651,
      "cn": "一路平安 / 旅途愉快",
      "dialects": {
       "msa": {
@@ -23486,7 +23522,7 @@ const DATA = {
      }
     },
     {
-     "num": 651,
+     "num": 652,
      "cn": "我想邀请你",
      "dialects": {
       "msa": {
@@ -23522,7 +23558,7 @@ const DATA = {
      }
     },
     {
-     "num": 652,
+     "num": 653,
      "cn": "你有空来我家吗？",
      "dialects": {
       "msa": {
@@ -23558,7 +23594,7 @@ const DATA = {
      }
     },
     {
-     "num": 653,
+     "num": 654,
      "cn": "请来参加我的派对",
      "dialects": {
       "msa": {
@@ -23594,7 +23630,7 @@ const DATA = {
      }
     },
     {
-     "num": 654,
+     "num": 655,
      "cn": "下次见",
      "dialects": {
       "msa": {
@@ -23630,7 +23666,7 @@ const DATA = {
      }
     },
     {
-     "num": 655,
+     "num": 656,
      "cn": "我们什么时候见？",
      "dialects": {
       "msa": {
@@ -23666,7 +23702,7 @@ const DATA = {
      }
     },
     {
-     "num": 656,
+     "num": 657,
      "cn": "别客气，多吃点",
      "dialects": {
       "msa": {
@@ -23702,7 +23738,7 @@ const DATA = {
      }
     },
     {
-     "num": 657,
+     "num": 658,
      "cn": "玩得开心",
      "dialects": {
       "msa": {
@@ -23738,7 +23774,7 @@ const DATA = {
      }
     },
     {
-     "num": 658,
+     "num": 659,
      "cn": "我得走了",
      "dialects": {
       "msa": {
@@ -23774,7 +23810,7 @@ const DATA = {
      }
     },
     {
-     "num": 659,
+     "num": 660,
      "cn": "谢谢你邀请我",
      "dialects": {
       "msa": {
@@ -23810,7 +23846,7 @@ const DATA = {
      }
     },
     {
-     "num": 660,
+     "num": 661,
      "cn": "我们改天再聚",
      "dialects": {
       "msa": {
@@ -23846,7 +23882,7 @@ const DATA = {
      }
     },
     {
-     "num": 661,
+     "num": 662,
      "cn": "你一定要来",
      "dialects": {
       "msa": {
@@ -23882,7 +23918,7 @@ const DATA = {
      }
     },
     {
-     "num": 662,
+     "num": 663,
      "cn": "时间不早了",
      "dialects": {
       "msa": {
@@ -23918,7 +23954,7 @@ const DATA = {
      }
     },
     {
-     "num": 663,
+     "num": 664,
      "cn": "给我打电话",
      "dialects": {
       "msa": {
@@ -23954,7 +23990,7 @@ const DATA = {
      }
     },
     {
-     "num": 664,
+     "num": 665,
      "cn": "发消息给我",
      "dialects": {
       "msa": {
@@ -23990,7 +24026,7 @@ const DATA = {
      }
     },
     {
-     "num": 665,
+     "num": 666,
      "cn": "你在忙吗？",
      "dialects": {
       "msa": {
@@ -24026,7 +24062,7 @@ const DATA = {
      }
     },
     {
-     "num": 666,
+     "num": 667,
      "cn": "你的电话号码是多少？",
      "dialects": {
       "msa": {
@@ -24062,7 +24098,7 @@ const DATA = {
      }
     },
     {
-     "num": 667,
+     "num": 668,
      "cn": "我打不通",
      "dialects": {
       "msa": {
@@ -24098,7 +24134,7 @@ const DATA = {
      }
     },
     {
-     "num": 668,
+     "num": 669,
      "cn": "请回我消息",
      "dialects": {
       "msa": {
@@ -24134,7 +24170,7 @@ const DATA = {
      }
     },
     {
-     "num": 669,
+     "num": 670,
      "cn": "我给你发微信（发信息）",
      "dialects": {
       "msa": {
@@ -24170,7 +24206,7 @@ const DATA = {
      }
     },
     {
-     "num": 670,
+     "num": 671,
      "cn": "手机没电了",
      "dialects": {
       "msa": {
@@ -24206,7 +24242,7 @@ const DATA = {
      }
     },
     {
-     "num": 671,
+     "num": 672,
      "cn": "你在线吗？",
      "dialects": {
       "msa": {
@@ -24242,7 +24278,7 @@ const DATA = {
      }
     },
     {
-     "num": 672,
+     "num": 673,
      "cn": "收到消息了吗？",
      "dialects": {
       "msa": {
@@ -24283,7 +24319,7 @@ const DATA = {
    "title": "十六、工作与商务（约90句）",
    "rows": [
     {
-     "num": 673,
+     "num": 674,
      "cn": "我在办公室",
      "dialects": {
       "msa": {
@@ -24319,7 +24355,7 @@ const DATA = {
      }
     },
     {
-     "num": 674,
+     "num": 675,
      "cn": "我的电脑坏了",
      "dialects": {
       "msa": {
@@ -24355,7 +24391,7 @@ const DATA = {
      }
     },
     {
-     "num": 675,
+     "num": 676,
      "cn": "打印机不工作",
      "dialects": {
       "msa": {
@@ -24391,7 +24427,7 @@ const DATA = {
      }
     },
     {
-     "num": 676,
+     "num": 677,
      "cn": "我们去开会",
      "dialects": {
       "msa": {
@@ -24427,7 +24463,7 @@ const DATA = {
      }
     },
     {
-     "num": 677,
+     "num": 678,
      "cn": "会议几点开始？",
      "dialects": {
       "msa": {
@@ -24463,7 +24499,7 @@ const DATA = {
      }
     },
     {
-     "num": 678,
+     "num": 679,
      "cn": "请把文件打印出来",
      "dialects": {
       "msa": {
@@ -24499,7 +24535,7 @@ const DATA = {
      }
     },
     {
-     "num": 679,
+     "num": 680,
      "cn": "这份文件很重要",
      "dialects": {
       "msa": {
@@ -24535,7 +24571,7 @@ const DATA = {
      }
     },
     {
-     "num": 680,
+     "num": 681,
      "cn": "老板在吗？",
      "dialects": {
       "msa": {
@@ -24571,7 +24607,7 @@ const DATA = {
      }
     },
     {
-     "num": 681,
+     "num": 682,
      "cn": "我的同事很友好",
      "dialects": {
       "msa": {
@@ -24607,7 +24643,7 @@ const DATA = {
      }
     },
     {
-     "num": 682,
+     "num": 683,
      "cn": "我需要加班",
      "dialects": {
       "msa": {
@@ -24643,7 +24679,7 @@ const DATA = {
      }
     },
     {
-     "num": 683,
+     "num": 684,
      "cn": "我今天请假",
      "dialects": {
       "msa": {
@@ -24679,7 +24715,7 @@ const DATA = {
      }
     },
     {
-     "num": 684,
+     "num": 685,
      "cn": "我迟到了",
      "dialects": {
       "msa": {
@@ -24715,7 +24751,7 @@ const DATA = {
      }
     },
     {
-     "num": 685,
+     "num": 686,
      "cn": "你收到邮件了吗？",
      "dialects": {
       "msa": {
@@ -24751,7 +24787,7 @@ const DATA = {
      }
     },
     {
-     "num": 686,
+     "num": 687,
      "cn": "请发邮件给我",
      "dialects": {
       "msa": {
@@ -24787,7 +24823,7 @@ const DATA = {
      }
     },
     {
-     "num": 687,
+     "num": 688,
      "cn": "我忘记密码了",
      "dialects": {
       "msa": {
@@ -24823,7 +24859,7 @@ const DATA = {
      }
     },
     {
-     "num": 688,
+     "num": 689,
      "cn": "请帮我保存文件",
      "dialects": {
       "msa": {
@@ -24859,7 +24895,7 @@ const DATA = {
      }
     },
     {
-     "num": 689,
+     "num": 690,
      "cn": "文件夹在哪？",
      "dialects": {
       "msa": {
@@ -24895,7 +24931,7 @@ const DATA = {
      }
     },
     {
-     "num": 690,
+     "num": 691,
      "cn": "我很忙",
      "dialects": {
       "msa": {
@@ -24931,7 +24967,7 @@ const DATA = {
      }
     },
     {
-     "num": 691,
+     "num": 692,
      "cn": "我下班了",
      "dialects": {
       "msa": {
@@ -24967,7 +25003,7 @@ const DATA = {
      }
     },
     {
-     "num": 692,
+     "num": 693,
      "cn": "明天要交报告",
      "dialects": {
       "msa": {
@@ -25003,7 +25039,7 @@ const DATA = {
      }
     },
     {
-     "num": 693,
+     "num": 694,
      "cn": "我在找工作",
      "dialects": {
       "msa": {
@@ -25039,7 +25075,7 @@ const DATA = {
      }
     },
     {
-     "num": 694,
+     "num": 695,
      "cn": "请给我你的简历",
      "dialects": {
       "msa": {
@@ -25075,7 +25111,7 @@ const DATA = {
      }
     },
     {
-     "num": 695,
+     "num": 696,
      "cn": "我投了简历",
      "dialects": {
       "msa": {
@@ -25111,7 +25147,7 @@ const DATA = {
      }
     },
     {
-     "num": 696,
+     "num": 697,
      "cn": "你有工作经验吗？",
      "dialects": {
       "msa": {
@@ -25147,7 +25183,7 @@ const DATA = {
      }
     },
     {
-     "num": 697,
+     "num": 698,
      "cn": "你有面试吗？",
      "dialects": {
       "msa": {
@@ -25183,7 +25219,7 @@ const DATA = {
      }
     },
     {
-     "num": 698,
+     "num": 699,
      "cn": "面试几点？",
      "dialects": {
       "msa": {
@@ -25219,7 +25255,7 @@ const DATA = {
      }
     },
     {
-     "num": 699,
+     "num": 700,
      "cn": "我通过了面试",
      "dialects": {
       "msa": {
@@ -25255,7 +25291,7 @@ const DATA = {
      }
     },
     {
-     "num": 700,
+     "num": 701,
      "cn": "工资是多少？",
      "dialects": {
       "msa": {
@@ -25291,7 +25327,7 @@ const DATA = {
      }
     },
     {
-     "num": 701,
+     "num": 702,
      "cn": "我想要更高的工资",
      "dialects": {
       "msa": {
@@ -25327,7 +25363,7 @@ const DATA = {
      }
     },
     {
-     "num": 702,
+     "num": 703,
      "cn": "有奖金吗？",
      "dialects": {
       "msa": {
@@ -25363,7 +25399,7 @@ const DATA = {
      }
     },
     {
-     "num": 703,
+     "num": 704,
      "cn": "有年假吗？",
      "dialects": {
       "msa": {
@@ -25399,7 +25435,7 @@ const DATA = {
      }
     },
     {
-     "num": 704,
+     "num": 705,
      "cn": "我被录用了",
      "dialects": {
       "msa": {
@@ -25435,7 +25471,7 @@ const DATA = {
      }
     },
     {
-     "num": 705,
+     "num": 706,
      "cn": "录用通知 / 工作邀约",
      "dialects": {
       "msa": {
@@ -25471,7 +25507,7 @@ const DATA = {
      }
     },
     {
-     "num": 706,
+     "num": 707,
      "cn": "什么时候开始上班？",
      "dialects": {
       "msa": {
@@ -25507,7 +25543,7 @@ const DATA = {
      }
     },
     {
-     "num": 707,
+     "num": 708,
      "cn": "这是全职还是兼职？",
      "dialects": {
       "msa": {
@@ -25543,7 +25579,7 @@ const DATA = {
      }
     },
     {
-     "num": 708,
+     "num": 709,
      "cn": "试用期",
      "dialects": {
       "msa": {
@@ -25579,7 +25615,7 @@ const DATA = {
      }
     },
     {
-     "num": 709,
+     "num": 710,
      "cn": "我辞职了",
      "dialects": {
       "msa": {
@@ -25615,7 +25651,7 @@ const DATA = {
      }
     },
     {
-     "num": 710,
+     "num": 711,
      "cn": "我失业了",
      "dialects": {
       "msa": {
@@ -25651,7 +25687,7 @@ const DATA = {
      }
     },
     {
-     "num": 711,
+     "num": 712,
      "cn": "社保",
      "dialects": {
       "msa": {
@@ -25687,7 +25723,7 @@ const DATA = {
      }
     },
     {
-     "num": 712,
+     "num": 713,
      "cn": "工作合同",
      "dialects": {
       "msa": {
@@ -25723,7 +25759,7 @@ const DATA = {
      }
     },
     {
-     "num": 713,
+     "num": 714,
      "cn": "我们有合作项目",
      "dialects": {
       "msa": {
@@ -25759,7 +25795,7 @@ const DATA = {
      }
     },
     {
-     "num": 714,
+     "num": 715,
      "cn": "请签合同",
      "dialects": {
       "msa": {
@@ -25795,7 +25831,7 @@ const DATA = {
      }
     },
     {
-     "num": 715,
+     "num": 716,
      "cn": "合同准备好了",
      "dialects": {
       "msa": {
@@ -25831,7 +25867,7 @@ const DATA = {
      }
     },
     {
-     "num": 716,
+     "num": 717,
      "cn": "客户来了",
      "dialects": {
       "msa": {
@@ -25867,7 +25903,7 @@ const DATA = {
      }
     },
     {
-     "num": 717,
+     "num": 718,
      "cn": "这个价格太高",
      "dialects": {
       "msa": {
@@ -25903,7 +25939,7 @@ const DATA = {
      }
     },
     {
-     "num": 718,
+     "num": 719,
      "cn": "能优惠吗？",
      "dialects": {
       "msa": {
@@ -25939,7 +25975,7 @@ const DATA = {
      }
     },
     {
-     "num": 719,
+     "num": 720,
      "cn": "请报个价",
      "dialects": {
       "msa": {
@@ -25975,7 +26011,7 @@ const DATA = {
      }
     },
     {
-     "num": 720,
+     "num": 721,
      "cn": "我们接受订单",
      "dialects": {
       "msa": {
@@ -26011,7 +26047,7 @@ const DATA = {
      }
     },
     {
-     "num": 721,
+     "num": 722,
      "cn": "订单已确认",
      "dialects": {
       "msa": {
@@ -26047,7 +26083,7 @@ const DATA = {
      }
     },
     {
-     "num": 722,
+     "num": 723,
      "cn": "请付款",
      "dialects": {
       "msa": {
@@ -26083,7 +26119,7 @@ const DATA = {
      }
     },
     {
-     "num": 723,
+     "num": 724,
      "cn": "我转账了",
      "dialects": {
       "msa": {
@@ -26119,7 +26155,7 @@ const DATA = {
      }
     },
     {
-     "num": 724,
+     "num": 725,
      "cn": "发票开了吗？",
      "dialects": {
       "msa": {
@@ -26155,7 +26191,7 @@ const DATA = {
      }
     },
     {
-     "num": 725,
+     "num": 726,
      "cn": "利润不错",
      "dialects": {
       "msa": {
@@ -26191,7 +26227,7 @@ const DATA = {
      }
     },
     {
-     "num": 726,
+     "num": 727,
      "cn": "我们谈谈生意",
      "dialects": {
       "msa": {
@@ -26227,7 +26263,7 @@ const DATA = {
      }
     },
     {
-     "num": 727,
+     "num": 728,
      "cn": "这个项目很赚钱",
      "dialects": {
       "msa": {
@@ -26263,7 +26299,7 @@ const DATA = {
      }
     },
     {
-     "num": 728,
+     "num": 729,
      "cn": "市场需求大",
      "dialects": {
       "msa": {
@@ -26299,7 +26335,7 @@ const DATA = {
      }
     },
     {
-     "num": 729,
+     "num": 730,
      "cn": "质量很好",
      "dialects": {
       "msa": {
@@ -26335,7 +26371,7 @@ const DATA = {
      }
     },
     {
-     "num": 730,
+     "num": 731,
      "cn": "交货时间",
      "dialects": {
       "msa": {
@@ -26371,7 +26407,7 @@ const DATA = {
      }
     },
     {
-     "num": 731,
+     "num": 732,
      "cn": "我们长期合作",
      "dialects": {
       "msa": {
@@ -26407,7 +26443,7 @@ const DATA = {
      }
     },
     {
-     "num": 732,
+     "num": 733,
      "cn": "竞争对手",
      "dialects": {
       "msa": {
@@ -26443,7 +26479,7 @@ const DATA = {
      }
     },
     {
-     "num": 733,
+     "num": 734,
      "cn": "预算",
      "dialects": {
       "msa": {
@@ -26479,7 +26515,7 @@ const DATA = {
      }
     },
     {
-     "num": 734,
+     "num": 735,
      "cn": "营业额 / 收入",
      "dialects": {
       "msa": {
@@ -26515,7 +26551,7 @@ const DATA = {
      }
     },
     {
-     "num": 735,
+     "num": 736,
      "cn": "谈判",
      "dialects": {
       "msa": {
@@ -26551,7 +26587,7 @@ const DATA = {
      }
     },
     {
-     "num": 736,
+     "num": 737,
      "cn": "展销会 / 展会",
      "dialects": {
       "msa": {
@@ -26587,7 +26623,7 @@ const DATA = {
      }
     },
     {
-     "num": 737,
+     "num": 738,
      "cn": "工厂",
      "dialects": {
       "msa": {
@@ -26623,7 +26659,7 @@ const DATA = {
      }
     },
     {
-     "num": 738,
+     "num": 739,
      "cn": "仓库",
      "dialects": {
       "msa": {
@@ -26659,7 +26695,7 @@ const DATA = {
      }
     },
     {
-     "num": 739,
+     "num": 740,
      "cn": "物流 / 送货",
      "dialects": {
       "msa": {
@@ -26695,7 +26731,7 @@ const DATA = {
      }
     },
     {
-     "num": 740,
+     "num": 741,
      "cn": "进口 / 出口",
      "dialects": {
       "msa": {
@@ -26731,7 +26767,7 @@ const DATA = {
      }
     },
     {
-     "num": 741,
+     "num": 742,
      "cn": "货币",
      "dialects": {
       "msa": {
@@ -26767,7 +26803,7 @@ const DATA = {
      }
     },
     {
-     "num": 742,
+     "num": 743,
      "cn": "银行",
      "dialects": {
       "msa": {
@@ -26803,7 +26839,7 @@ const DATA = {
      }
     },
     {
-     "num": 743,
+     "num": 744,
      "cn": "请转接王经理",
      "dialects": {
       "msa": {
@@ -26839,7 +26875,7 @@ const DATA = {
      }
     },
     {
-     "num": 744,
+     "num": 745,
      "cn": "请稍等",
      "dialects": {
       "msa": {
@@ -26875,7 +26911,7 @@ const DATA = {
      }
     },
     {
-     "num": 745,
+     "num": 746,
      "cn": "他现在不在",
      "dialects": {
       "msa": {
@@ -26911,7 +26947,7 @@ const DATA = {
      }
     },
     {
-     "num": 746,
+     "num": 747,
      "cn": "请留言",
      "dialects": {
       "msa": {
@@ -26947,7 +26983,7 @@ const DATA = {
      }
     },
     {
-     "num": 747,
+     "num": 748,
      "cn": "请让他回电",
      "dialects": {
       "msa": {
@@ -26983,7 +27019,7 @@ const DATA = {
      }
     },
     {
-     "num": 748,
+     "num": 749,
      "cn": "我打不通",
      "dialects": {
       "msa": {
@@ -27019,7 +27055,7 @@ const DATA = {
      }
     },
     {
-     "num": 749,
+     "num": 750,
      "cn": "占线",
      "dialects": {
       "msa": {
@@ -27055,7 +27091,7 @@ const DATA = {
      }
     },
     {
-     "num": 750,
+     "num": 751,
      "cn": "请说慢一点",
      "dialects": {
       "msa": {
@@ -27091,7 +27127,7 @@ const DATA = {
      }
     },
     {
-     "num": 751,
+     "num": 752,
      "cn": "能重复一遍吗？",
      "dialects": {
       "msa": {
@@ -27127,7 +27163,7 @@ const DATA = {
      }
     },
     {
-     "num": 752,
+     "num": 753,
      "cn": "信号不好",
      "dialects": {
       "msa": {
@@ -27163,7 +27199,7 @@ const DATA = {
      }
     },
     {
-     "num": 753,
+     "num": 754,
      "cn": "请发到我的微信",
      "dialects": {
       "msa": {
@@ -27199,7 +27235,7 @@ const DATA = {
      }
     },
     {
-     "num": 754,
+     "num": 755,
      "cn": "我记下了",
      "dialects": {
       "msa": {
@@ -27235,7 +27271,7 @@ const DATA = {
      }
     },
     {
-     "num": 755,
+     "num": 756,
      "cn": "稍后联系你",
      "dialects": {
       "msa": {
@@ -27271,7 +27307,7 @@ const DATA = {
      }
     },
     {
-     "num": 756,
+     "num": 757,
      "cn": "方便通话吗？",
      "dialects": {
       "msa": {
@@ -27307,7 +27343,7 @@ const DATA = {
      }
     },
     {
-     "num": 757,
+     "num": 758,
      "cn": "请发传真",
      "dialects": {
       "msa": {
@@ -27343,7 +27379,7 @@ const DATA = {
      }
     },
     {
-     "num": 758,
+     "num": 759,
      "cn": "视频会议",
      "dialects": {
       "msa": {
@@ -27379,7 +27415,7 @@ const DATA = {
      }
     },
     {
-     "num": 759,
+     "num": 760,
      "cn": "我同意",
      "dialects": {
       "msa": {
@@ -27415,7 +27451,7 @@ const DATA = {
      }
     },
     {
-     "num": 760,
+     "num": 761,
      "cn": "没问题",
      "dialects": {
       "msa": {
@@ -27451,7 +27487,7 @@ const DATA = {
      }
     },
     {
-     "num": 761,
+     "num": 762,
      "cn": "祝合作愉快",
      "dialects": {
       "msa": {
@@ -27487,7 +27523,7 @@ const DATA = {
      }
     },
     {
-     "num": 762,
+     "num": 763,
      "cn": "期待合作",
      "dialects": {
       "msa": {
@@ -27528,7 +27564,7 @@ const DATA = {
    "title": "十七、家居与生活（约90句）",
    "rows": [
     {
-     "num": 763,
+     "num": 764,
      "cn": "家 / 房子",
      "dialects": {
       "msa": {
@@ -27564,7 +27600,7 @@ const DATA = {
      }
     },
     {
-     "num": 764,
+     "num": 765,
      "cn": "我的房间",
      "dialects": {
       "msa": {
@@ -27600,7 +27636,7 @@ const DATA = {
      }
     },
     {
-     "num": 765,
+     "num": 766,
      "cn": "卧室",
      "dialects": {
       "msa": {
@@ -27636,7 +27672,7 @@ const DATA = {
      }
     },
     {
-     "num": 766,
+     "num": 767,
      "cn": "厨房",
      "dialects": {
       "msa": {
@@ -27672,7 +27708,7 @@ const DATA = {
      }
     },
     {
-     "num": 767,
+     "num": 768,
      "cn": "客厅",
      "dialects": {
       "msa": {
@@ -27708,7 +27744,7 @@ const DATA = {
      }
     },
     {
-     "num": 768,
+     "num": 769,
      "cn": "浴室 / 卫生间",
      "dialects": {
       "msa": {
@@ -27744,7 +27780,7 @@ const DATA = {
      }
     },
     {
-     "num": 769,
+     "num": 770,
      "cn": "阳台",
      "dialects": {
       "msa": {
@@ -27780,7 +27816,7 @@ const DATA = {
      }
     },
     {
-     "num": 770,
+     "num": 771,
      "cn": "门",
      "dialects": {
       "msa": {
@@ -27816,7 +27852,7 @@ const DATA = {
      }
     },
     {
-     "num": 771,
+     "num": 772,
      "cn": "窗户",
      "dialects": {
       "msa": {
@@ -27852,7 +27888,7 @@ const DATA = {
      }
     },
     {
-     "num": 772,
+     "num": 773,
      "cn": "钥匙",
      "dialects": {
       "msa": {
@@ -27888,7 +27924,7 @@ const DATA = {
      }
     },
     {
-     "num": 773,
+     "num": 774,
      "cn": "墙",
      "dialects": {
       "msa": {
@@ -27924,7 +27960,7 @@ const DATA = {
      }
     },
     {
-     "num": 774,
+     "num": 775,
      "cn": "地板",
      "dialects": {
       "msa": {
@@ -27960,7 +27996,7 @@ const DATA = {
      }
     },
     {
-     "num": 775,
+     "num": 776,
      "cn": "天花板 / 屋顶",
      "dialects": {
       "msa": {
@@ -27996,7 +28032,7 @@ const DATA = {
      }
     },
     {
-     "num": 776,
+     "num": 777,
      "cn": "楼梯",
      "dialects": {
       "msa": {
@@ -28032,7 +28068,7 @@ const DATA = {
      }
     },
     {
-     "num": 777,
+     "num": 778,
      "cn": "花园",
      "dialects": {
       "msa": {
@@ -28068,7 +28104,7 @@ const DATA = {
      }
     },
     {
-     "num": 778,
+     "num": 779,
      "cn": "车库",
      "dialects": {
       "msa": {
@@ -28104,7 +28140,7 @@ const DATA = {
      }
     },
     {
-     "num": 779,
+     "num": 780,
      "cn": "邻居",
      "dialects": {
       "msa": {
@@ -28140,7 +28176,7 @@ const DATA = {
      }
     },
     {
-     "num": 780,
+     "num": 781,
      "cn": "公寓 / 房租",
      "dialects": {
       "msa": {
@@ -28176,7 +28212,7 @@ const DATA = {
      }
     },
     {
-     "num": 781,
+     "num": 782,
      "cn": "床",
      "dialects": {
       "msa": {
@@ -28212,7 +28248,7 @@ const DATA = {
      }
     },
     {
-     "num": 782,
+     "num": 783,
      "cn": "桌子",
      "dialects": {
       "msa": {
@@ -28248,7 +28284,7 @@ const DATA = {
      }
     },
     {
-     "num": 783,
+     "num": 784,
      "cn": "椅子",
      "dialects": {
       "msa": {
@@ -28284,7 +28320,7 @@ const DATA = {
      }
     },
     {
-     "num": 784,
+     "num": 785,
      "cn": "沙发",
      "dialects": {
       "msa": {
@@ -28320,7 +28356,7 @@ const DATA = {
      }
     },
     {
-     "num": 785,
+     "num": 786,
      "cn": "灯",
      "dialects": {
       "msa": {
@@ -28356,7 +28392,7 @@ const DATA = {
      }
     },
     {
-     "num": 786,
+     "num": 787,
      "cn": "冰箱",
      "dialects": {
       "msa": {
@@ -28392,7 +28428,7 @@ const DATA = {
      }
     },
     {
-     "num": 787,
+     "num": 788,
      "cn": "电视",
      "dialects": {
       "msa": {
@@ -28428,7 +28464,7 @@ const DATA = {
      }
     },
     {
-     "num": 788,
+     "num": 789,
      "cn": "洗衣机",
      "dialects": {
       "msa": {
@@ -28464,7 +28500,7 @@ const DATA = {
      }
     },
     {
-     "num": 789,
+     "num": 790,
      "cn": "空调",
      "dialects": {
       "msa": {
@@ -28500,7 +28536,7 @@ const DATA = {
      }
     },
     {
-     "num": 790,
+     "num": 791,
      "cn": "微波炉",
      "dialects": {
       "msa": {
@@ -28536,7 +28572,7 @@ const DATA = {
      }
     },
     {
-     "num": 791,
+     "num": 792,
      "cn": "遥控器",
      "dialects": {
       "msa": {
@@ -28572,7 +28608,7 @@ const DATA = {
      }
     },
     {
-     "num": 792,
+     "num": 793,
      "cn": "电话",
      "dialects": {
       "msa": {
@@ -28608,7 +28644,7 @@ const DATA = {
      }
     },
     {
-     "num": 793,
+     "num": 794,
      "cn": "电脑",
      "dialects": {
       "msa": {
@@ -28644,7 +28680,7 @@ const DATA = {
      }
     },
     {
-     "num": 794,
+     "num": 795,
      "cn": "风扇",
      "dialects": {
       "msa": {
@@ -28680,7 +28716,7 @@ const DATA = {
      }
     },
     {
-     "num": 795,
+     "num": 796,
      "cn": "电 / 电力",
      "dialects": {
       "msa": {
@@ -28716,7 +28752,7 @@ const DATA = {
      }
     },
     {
-     "num": 796,
+     "num": 797,
      "cn": "水",
      "dialects": {
       "msa": {
@@ -28752,7 +28788,7 @@ const DATA = {
      }
     },
     {
-     "num": 797,
+     "num": 798,
      "cn": "煤气 / 天然气",
      "dialects": {
       "msa": {
@@ -28788,7 +28824,7 @@ const DATA = {
      }
     },
     {
-     "num": 798,
+     "num": 799,
      "cn": "枕头",
      "dialects": {
       "msa": {
@@ -28824,7 +28860,7 @@ const DATA = {
      }
     },
     {
-     "num": 799,
+     "num": 800,
      "cn": "被子 / 毯子",
      "dialects": {
       "msa": {
@@ -28860,7 +28896,7 @@ const DATA = {
      }
     },
     {
-     "num": 800,
+     "num": 801,
      "cn": "衣柜 / 壁橱",
      "dialects": {
       "msa": {
@@ -28896,7 +28932,7 @@ const DATA = {
      }
     },
     {
-     "num": 801,
+     "num": 802,
      "cn": "书架",
      "dialects": {
       "msa": {
@@ -28932,7 +28968,7 @@ const DATA = {
      }
     },
     {
-     "num": 802,
+     "num": 803,
      "cn": "镜子",
      "dialects": {
       "msa": {
@@ -28968,7 +29004,7 @@ const DATA = {
      }
     },
     {
-     "num": 803,
+     "num": 804,
      "cn": "打扫房间",
      "dialects": {
       "msa": {
@@ -29004,7 +29040,7 @@ const DATA = {
      }
     },
     {
-     "num": 804,
+     "num": 805,
      "cn": "扫地",
      "dialects": {
       "msa": {
@@ -29040,7 +29076,7 @@ const DATA = {
      }
     },
     {
-     "num": 805,
+     "num": 806,
      "cn": "拖地",
      "dialects": {
       "msa": {
@@ -29076,7 +29112,7 @@ const DATA = {
      }
     },
     {
-     "num": 806,
+     "num": 807,
      "cn": "洗衣服",
      "dialects": {
       "msa": {
@@ -29112,7 +29148,7 @@ const DATA = {
      }
     },
     {
-     "num": 807,
+     "num": 808,
      "cn": "做饭",
      "dialects": {
       "msa": {
@@ -29148,7 +29184,7 @@ const DATA = {
      }
     },
     {
-     "num": 808,
+     "num": 809,
      "cn": "倒垃圾",
      "dialects": {
       "msa": {
@@ -29184,7 +29220,7 @@ const DATA = {
      }
     },
     {
-     "num": 809,
+     "num": 810,
      "cn": "整理 / 收拾",
      "dialects": {
       "msa": {
@@ -29220,7 +29256,7 @@ const DATA = {
      }
     },
     {
-     "num": 810,
+     "num": 811,
      "cn": "洗碗",
      "dialects": {
       "msa": {
@@ -29256,7 +29292,7 @@ const DATA = {
      }
     },
     {
-     "num": 811,
+     "num": 812,
      "cn": "晾衣服",
      "dialects": {
       "msa": {
@@ -29292,7 +29328,7 @@ const DATA = {
      }
     },
     {
-     "num": 812,
+     "num": 813,
      "cn": "熨衣服",
      "dialects": {
       "msa": {
@@ -29328,7 +29364,7 @@ const DATA = {
      }
     },
     {
-     "num": 813,
+     "num": 814,
      "cn": "去买菜",
      "dialects": {
       "msa": {
@@ -29364,7 +29400,7 @@ const DATA = {
      }
     },
     {
-     "num": 814,
+     "num": 815,
      "cn": "吸尘",
      "dialects": {
       "msa": {
@@ -29400,7 +29436,7 @@ const DATA = {
      }
     },
     {
-     "num": 815,
+     "num": 816,
      "cn": "擦桌子",
      "dialects": {
       "msa": {
@@ -29436,7 +29472,7 @@ const DATA = {
      }
     },
     {
-     "num": 816,
+     "num": 817,
      "cn": "换床单",
      "dialects": {
       "msa": {
@@ -29472,7 +29508,7 @@ const DATA = {
      }
     },
     {
-     "num": 817,
+     "num": 818,
      "cn": "垃圾",
      "dialects": {
       "msa": {
@@ -29508,7 +29544,7 @@ const DATA = {
      }
     },
     {
-     "num": 818,
+     "num": 819,
      "cn": "扫把",
      "dialects": {
       "msa": {
@@ -29544,7 +29580,7 @@ const DATA = {
      }
     },
     {
-     "num": 819,
+     "num": 820,
      "cn": "拖把",
      "dialects": {
       "msa": {
@@ -29580,7 +29616,7 @@ const DATA = {
      }
     },
     {
-     "num": 820,
+     "num": 821,
      "cn": "洗洁精",
      "dialects": {
       "msa": {
@@ -29616,7 +29652,7 @@ const DATA = {
      }
     },
     {
-     "num": 821,
+     "num": 822,
      "cn": "洗衣机在转",
      "dialects": {
       "msa": {
@@ -29652,7 +29688,7 @@ const DATA = {
      }
     },
     {
-     "num": 822,
+     "num": 823,
      "cn": "房间很干净",
      "dialects": {
       "msa": {
@@ -29688,7 +29724,7 @@ const DATA = {
      }
     },
     {
-     "num": 823,
+     "num": 824,
      "cn": "没水了",
      "dialects": {
       "msa": {
@@ -29724,7 +29760,7 @@ const DATA = {
      }
     },
     {
-     "num": 824,
+     "num": 825,
      "cn": "停电了",
      "dialects": {
       "msa": {
@@ -29760,7 +29796,7 @@ const DATA = {
      }
     },
     {
-     "num": 825,
+     "num": 826,
      "cn": "坏了",
      "dialects": {
       "msa": {
@@ -29796,7 +29832,7 @@ const DATA = {
      }
     },
     {
-     "num": 826,
+     "num": 827,
      "cn": "修一下",
      "dialects": {
       "msa": {
@@ -29832,7 +29868,7 @@ const DATA = {
      }
     },
     {
-     "num": 827,
+     "num": 828,
      "cn": "漏水",
      "dialects": {
       "msa": {
@@ -29868,7 +29904,7 @@ const DATA = {
      }
     },
     {
-     "num": 828,
+     "num": 829,
      "cn": "换灯泡",
      "dialects": {
       "msa": {
@@ -29904,7 +29940,7 @@ const DATA = {
      }
     },
     {
-     "num": 829,
+     "num": 830,
      "cn": "跳闸了",
      "dialects": {
       "msa": {
@@ -29940,7 +29976,7 @@ const DATA = {
      }
     },
     {
-     "num": 830,
+     "num": 831,
      "cn": "水管",
      "dialects": {
       "msa": {
@@ -29976,7 +30012,7 @@ const DATA = {
      }
     },
     {
-     "num": 831,
+     "num": 832,
      "cn": "水龙头",
      "dialects": {
       "msa": {
@@ -30012,7 +30048,7 @@ const DATA = {
      }
     },
     {
-     "num": 832,
+     "num": 833,
      "cn": "厕所堵了",
      "dialects": {
       "msa": {
@@ -30048,7 +30084,7 @@ const DATA = {
      }
     },
     {
-     "num": 833,
+     "num": 834,
      "cn": "灯泡",
      "dialects": {
       "msa": {
@@ -30084,7 +30120,7 @@ const DATA = {
      }
     },
     {
-     "num": 834,
+     "num": 835,
      "cn": "帮个忙",
      "dialects": {
       "msa": {
@@ -30120,7 +30156,7 @@ const DATA = {
      }
     },
     {
-     "num": 835,
+     "num": 836,
      "cn": "叫修理工",
      "dialects": {
       "msa": {
@@ -30156,7 +30192,7 @@ const DATA = {
      }
     },
     {
-     "num": 836,
+     "num": 837,
      "cn": "工具",
      "dialects": {
       "msa": {
@@ -30192,7 +30228,7 @@ const DATA = {
      }
     },
     {
-     "num": 837,
+     "num": 838,
      "cn": "开关",
      "dialects": {
       "msa": {
@@ -30228,7 +30264,7 @@ const DATA = {
      }
     },
     {
-     "num": 838,
+     "num": 839,
      "cn": "猫",
      "dialects": {
       "msa": {
@@ -30264,7 +30300,7 @@ const DATA = {
      }
     },
     {
-     "num": 839,
+     "num": 840,
      "cn": "狗",
      "dialects": {
       "msa": {
@@ -30300,7 +30336,7 @@ const DATA = {
      }
     },
     {
-     "num": 840,
+     "num": 841,
      "cn": "喂（喂食）",
      "dialects": {
       "msa": {
@@ -30336,7 +30372,7 @@ const DATA = {
      }
     },
     {
-     "num": 841,
+     "num": 842,
      "cn": "遛狗",
      "dialects": {
       "msa": {
@@ -30372,7 +30408,7 @@ const DATA = {
      }
     },
     {
-     "num": 842,
+     "num": 843,
      "cn": "宠物",
      "dialects": {
       "msa": {
@@ -30408,7 +30444,7 @@ const DATA = {
      }
     },
     {
-     "num": 843,
+     "num": 844,
      "cn": "鱼",
      "dialects": {
       "msa": {
@@ -30444,7 +30480,7 @@ const DATA = {
      }
     },
     {
-     "num": 844,
+     "num": 845,
      "cn": "鸟",
      "dialects": {
       "msa": {
@@ -30480,7 +30516,7 @@ const DATA = {
      }
     },
     {
-     "num": 845,
+     "num": 846,
      "cn": "笼子",
      "dialects": {
       "msa": {
@@ -30516,7 +30552,7 @@ const DATA = {
      }
     },
     {
-     "num": 846,
+     "num": 847,
      "cn": "给猫喂食",
      "dialects": {
       "msa": {
@@ -30552,7 +30588,7 @@ const DATA = {
      }
     },
     {
-     "num": 847,
+     "num": 848,
      "cn": "狗叫",
      "dialects": {
       "msa": {
@@ -30588,7 +30624,7 @@ const DATA = {
      }
     },
     {
-     "num": 848,
+     "num": 849,
      "cn": "猫在睡觉",
      "dialects": {
       "msa": {
@@ -30624,7 +30660,7 @@ const DATA = {
      }
     },
     {
-     "num": 849,
+     "num": 850,
      "cn": "我喜欢动物",
      "dialects": {
       "msa": {
@@ -30660,7 +30696,7 @@ const DATA = {
      }
     },
     {
-     "num": 850,
+     "num": 851,
      "cn": "狗粮",
      "dialects": {
       "msa": {
@@ -30696,7 +30732,7 @@ const DATA = {
      }
     },
     {
-     "num": 851,
+     "num": 852,
      "cn": "清猫砂",
      "dialects": {
       "msa": {
@@ -30732,7 +30768,7 @@ const DATA = {
      }
     },
     {
-     "num": 852,
+     "num": 853,
      "cn": "兽医",
      "dialects": {
       "msa": {
@@ -30773,7 +30809,7 @@ const DATA = {
    "title": "十八、家庭与亲友（约80句）",
    "rows": [
     {
-     "num": 853,
+     "num": 854,
      "cn": "爸爸",
      "dialects": {
       "msa": {
@@ -30809,7 +30845,7 @@ const DATA = {
      }
     },
     {
-     "num": 854,
+     "num": 855,
      "cn": "妈妈",
      "dialects": {
       "msa": {
@@ -30845,7 +30881,7 @@ const DATA = {
      }
     },
     {
-     "num": 855,
+     "num": 856,
      "cn": "爷爷（爸爸的爸爸）",
      "dialects": {
       "msa": {
@@ -30881,7 +30917,7 @@ const DATA = {
      }
     },
     {
-     "num": 856,
+     "num": 857,
      "cn": "奶奶（爸爸的妈妈）",
      "dialects": {
       "msa": {
@@ -30917,7 +30953,7 @@ const DATA = {
      }
     },
     {
-     "num": 857,
+     "num": 858,
      "cn": "外公（妈妈的爸爸）",
      "dialects": {
       "msa": {
@@ -30953,7 +30989,7 @@ const DATA = {
      }
     },
     {
-     "num": 858,
+     "num": 859,
      "cn": "外婆（妈妈的妈妈）",
      "dialects": {
       "msa": {
@@ -30989,7 +31025,7 @@ const DATA = {
      }
     },
     {
-     "num": 859,
+     "num": 860,
      "cn": "哥哥",
      "dialects": {
       "msa": {
@@ -31025,7 +31061,7 @@ const DATA = {
      }
     },
     {
-     "num": 860,
+     "num": 861,
      "cn": "弟弟",
      "dialects": {
       "msa": {
@@ -31061,7 +31097,7 @@ const DATA = {
      }
     },
     {
-     "num": 861,
+     "num": 862,
      "cn": "姐姐",
      "dialects": {
       "msa": {
@@ -31097,7 +31133,7 @@ const DATA = {
      }
     },
     {
-     "num": 862,
+     "num": 863,
      "cn": "妹妹",
      "dialects": {
       "msa": {
@@ -31133,7 +31169,7 @@ const DATA = {
      }
     },
     {
-     "num": 863,
+     "num": 864,
      "cn": "叔叔（爸爸的弟弟）",
      "dialects": {
       "msa": {
@@ -31169,7 +31205,7 @@ const DATA = {
      }
     },
     {
-     "num": 864,
+     "num": 865,
      "cn": "伯伯（爸爸的哥哥）",
      "dialects": {
       "msa": {
@@ -31205,7 +31241,7 @@ const DATA = {
      }
     },
     {
-     "num": 865,
+     "num": 866,
      "cn": "舅舅（妈妈的兄弟）",
      "dialects": {
       "msa": {
@@ -31241,7 +31277,7 @@ const DATA = {
      }
     },
     {
-     "num": 866,
+     "num": 867,
      "cn": "姑姑（爸爸的姐妹）",
      "dialects": {
       "msa": {
@@ -31277,7 +31313,7 @@ const DATA = {
      }
     },
     {
-     "num": 867,
+     "num": 868,
      "cn": "姨妈（妈妈的姐妹）",
      "dialects": {
       "msa": {
@@ -31313,7 +31349,7 @@ const DATA = {
      }
     },
     {
-     "num": 868,
+     "num": 869,
      "cn": "儿子",
      "dialects": {
       "msa": {
@@ -31349,7 +31385,7 @@ const DATA = {
      }
     },
     {
-     "num": 869,
+     "num": 870,
      "cn": "女儿",
      "dialects": {
       "msa": {
@@ -31385,7 +31421,7 @@ const DATA = {
      }
     },
     {
-     "num": 870,
+     "num": 871,
      "cn": "丈夫",
      "dialects": {
       "msa": {
@@ -31421,7 +31457,7 @@ const DATA = {
      }
     },
     {
-     "num": 871,
+     "num": 872,
      "cn": "妻子",
      "dialects": {
       "msa": {
@@ -31457,7 +31493,7 @@ const DATA = {
      }
     },
     {
-     "num": 872,
+     "num": 873,
      "cn": "孙子",
      "dialects": {
       "msa": {
@@ -31493,7 +31529,7 @@ const DATA = {
      }
     },
     {
-     "num": 873,
+     "num": 874,
      "cn": "孙女",
      "dialects": {
       "msa": {
@@ -31529,7 +31565,7 @@ const DATA = {
      }
     },
     {
-     "num": 874,
+     "num": 875,
      "cn": "侄子（兄弟的儿子）",
      "dialects": {
       "msa": {
@@ -31565,7 +31601,7 @@ const DATA = {
      }
     },
     {
-     "num": 875,
+     "num": 876,
      "cn": "外甥（姐妹的儿子）",
      "dialects": {
       "msa": {
@@ -31601,7 +31637,7 @@ const DATA = {
      }
     },
     {
-     "num": 876,
+     "num": 877,
      "cn": "全家 / 家庭",
      "dialects": {
       "msa": {
@@ -31637,7 +31673,7 @@ const DATA = {
      }
     },
     {
-     "num": 877,
+     "num": 878,
      "cn": "父母",
      "dialects": {
       "msa": {
@@ -31673,7 +31709,7 @@ const DATA = {
      }
     },
     {
-     "num": 878,
+     "num": 879,
      "cn": "兄弟姐妹",
      "dialects": {
       "msa": {
@@ -31709,7 +31745,7 @@ const DATA = {
      }
     },
     {
-     "num": 879,
+     "num": 880,
      "cn": "亲戚 / 亲属",
      "dialects": {
       "msa": {
@@ -31745,7 +31781,7 @@ const DATA = {
      }
     },
     {
-     "num": 880,
+     "num": 881,
      "cn": "双胞胎",
      "dialects": {
       "msa": {
@@ -31781,7 +31817,7 @@ const DATA = {
      }
     },
     {
-     "num": 881,
+     "num": 882,
      "cn": "我的家人",
      "dialects": {
       "msa": {
@@ -31817,7 +31853,7 @@ const DATA = {
      }
     },
     {
-     "num": 882,
+     "num": 883,
      "cn": "老家 / 故乡",
      "dialects": {
       "msa": {
@@ -31853,7 +31889,7 @@ const DATA = {
      }
     },
     {
-     "num": 883,
+     "num": 884,
      "cn": "男朋友",
      "dialects": {
       "msa": {
@@ -31889,7 +31925,7 @@ const DATA = {
      }
     },
     {
-     "num": 884,
+     "num": 885,
      "cn": "女朋友",
      "dialects": {
       "msa": {
@@ -31925,7 +31961,7 @@ const DATA = {
      }
     },
     {
-     "num": 885,
+     "num": 886,
      "cn": "闺蜜",
      "dialects": {
       "msa": {
@@ -31961,7 +31997,7 @@ const DATA = {
      }
     },
     {
-     "num": 886,
+     "num": 887,
      "cn": "兄弟（称呼语，男哥们）",
      "dialects": {
       "msa": {
@@ -31997,7 +32033,7 @@ const DATA = {
      }
     },
     {
-     "num": 887,
+     "num": 888,
      "cn": "我的朋友（男）",
      "dialects": {
       "msa": {
@@ -32033,7 +32069,7 @@ const DATA = {
      }
     },
     {
-     "num": 888,
+     "num": 889,
      "cn": "我的朋友（女）",
      "dialects": {
       "msa": {
@@ -32069,7 +32105,7 @@ const DATA = {
      }
     },
     {
-     "num": 889,
+     "num": 890,
      "cn": "我们是好朋友",
      "dialects": {
       "msa": {
@@ -32105,7 +32141,7 @@ const DATA = {
      }
     },
     {
-     "num": 890,
+     "num": 891,
      "cn": "我们是朋友",
      "dialects": {
       "msa": {
@@ -32141,7 +32177,7 @@ const DATA = {
      }
     },
     {
-     "num": 891,
+     "num": 892,
      "cn": "邻居（男）",
      "dialects": {
       "msa": {
@@ -32177,7 +32213,7 @@ const DATA = {
      }
     },
     {
-     "num": 892,
+     "num": 893,
      "cn": "邻居（女）",
      "dialects": {
       "msa": {
@@ -32213,7 +32249,7 @@ const DATA = {
      }
     },
     {
-     "num": 893,
+     "num": 894,
      "cn": "好邻居 / 邻里和睦",
      "dialects": {
       "msa": {
@@ -32249,7 +32285,7 @@ const DATA = {
      }
     },
     {
-     "num": 894,
+     "num": 895,
      "cn": "先生（Mr.）",
      "dialects": {
       "msa": {
@@ -32285,7 +32321,7 @@ const DATA = {
      }
     },
     {
-     "num": 895,
+     "num": 896,
      "cn": "女士（Ms./Mrs.）",
      "dialects": {
       "msa": {
@@ -32321,7 +32357,7 @@ const DATA = {
      }
     },
     {
-     "num": 896,
+     "num": 897,
      "cn": "帅哥",
      "dialects": {
       "msa": {
@@ -32357,7 +32393,7 @@ const DATA = {
      }
     },
     {
-     "num": 897,
+     "num": 898,
      "cn": "美女",
      "dialects": {
       "msa": {
@@ -32393,7 +32429,7 @@ const DATA = {
      }
     },
     {
-     "num": 898,
+     "num": 899,
      "cn": "小伙子",
      "dialects": {
       "msa": {
@@ -32429,7 +32465,7 @@ const DATA = {
      }
     },
     {
-     "num": 899,
+     "num": 900,
      "cn": "大叔",
      "dialects": {
       "msa": {
@@ -32465,7 +32501,7 @@ const DATA = {
      }
     },
     {
-     "num": 900,
+     "num": 901,
      "cn": "阿姨 / 大妈",
      "dialects": {
       "msa": {
@@ -32501,7 +32537,7 @@ const DATA = {
      }
     },
     {
-     "num": 901,
+     "num": 902,
      "cn": "小朋友 / 孩子",
      "dialects": {
       "msa": {
@@ -32537,7 +32573,7 @@ const DATA = {
      }
     },
     {
-     "num": 902,
+     "num": 903,
      "cn": "这是我的家人",
      "dialects": {
       "msa": {
@@ -32573,7 +32609,7 @@ const DATA = {
      }
     },
     {
-     "num": 903,
+     "num": 904,
      "cn": "我爸爸在家吗？",
      "dialects": {
       "msa": {
@@ -32609,7 +32645,7 @@ const DATA = {
      }
     },
     {
-     "num": 904,
+     "num": 905,
      "cn": "你妈妈身体好吗？",
      "dialects": {
       "msa": {
@@ -32645,7 +32681,7 @@ const DATA = {
      }
     },
     {
-     "num": 905,
+     "num": 906,
      "cn": "我爱我的家人",
      "dialects": {
       "msa": {
@@ -32681,7 +32717,7 @@ const DATA = {
      }
     },
     {
-     "num": 906,
+     "num": 907,
      "cn": "你结婚了吗？",
      "dialects": {
       "msa": {
@@ -32717,7 +32753,7 @@ const DATA = {
      }
     },
     {
-     "num": 907,
+     "num": 908,
      "cn": "你有孩子吗？",
      "dialects": {
       "msa": {
@@ -32753,7 +32789,7 @@ const DATA = {
      }
     },
     {
-     "num": 908,
+     "num": 909,
      "cn": "你有兄弟姐妹吗？",
      "dialects": {
       "msa": {
@@ -32789,7 +32825,7 @@ const DATA = {
      }
     },
     {
-     "num": 909,
+     "num": 910,
      "cn": "你家有几口人？",
      "dialects": {
       "msa": {
@@ -32825,7 +32861,7 @@ const DATA = {
      }
     },
     {
-     "num": 910,
+     "num": 911,
      "cn": "我们是一家人",
      "dialects": {
       "msa": {
@@ -32861,7 +32897,7 @@ const DATA = {
      }
     },
     {
-     "num": 911,
+     "num": 912,
      "cn": "你家人都好吗？",
      "dialects": {
       "msa": {
@@ -32897,7 +32933,7 @@ const DATA = {
      }
     },
     {
-     "num": 912,
+     "num": 913,
      "cn": "请代我向你家人问好",
      "dialects": {
       "msa": {
@@ -32933,7 +32969,7 @@ const DATA = {
      }
     },
     {
-     "num": 913,
+     "num": 914,
      "cn": "我妈妈做饭很好吃",
      "dialects": {
       "msa": {
@@ -32969,7 +33005,7 @@ const DATA = {
      }
     },
     {
-     "num": 914,
+     "num": 915,
      "cn": "周末我们去看爷爷奶奶",
      "dialects": {
       "msa": {
@@ -33005,7 +33041,7 @@ const DATA = {
      }
     },
     {
-     "num": 915,
+     "num": 916,
      "cn": "你在哪儿长大？",
      "dialects": {
       "msa": {
@@ -33041,7 +33077,7 @@ const DATA = {
      }
     },
     {
-     "num": 916,
+     "num": 917,
      "cn": "我从小在这长大",
      "dialects": {
       "msa": {
@@ -33077,7 +33113,7 @@ const DATA = {
      }
     },
     {
-     "num": 917,
+     "num": 918,
      "cn": "我有一个哥哥和一个妹妹",
      "dialects": {
       "msa": {
@@ -33113,7 +33149,7 @@ const DATA = {
      }
     },
     {
-     "num": 918,
+     "num": 919,
      "cn": "你爸爸是做什么的？",
      "dialects": {
       "msa": {
@@ -33149,7 +33185,7 @@ const DATA = {
      }
     },
     {
-     "num": 919,
+     "num": 920,
      "cn": "我们家很幸福",
      "dialects": {
       "msa": {
@@ -33185,7 +33221,7 @@ const DATA = {
      }
     },
     {
-     "num": 920,
+     "num": 921,
      "cn": "恭喜你结婚！",
      "dialects": {
       "msa": {
@@ -33221,7 +33257,7 @@ const DATA = {
      }
     },
     {
-     "num": 921,
+     "num": 922,
      "cn": "生了个男孩/女孩",
      "dialects": {
       "msa": {
@@ -33257,7 +33293,7 @@ const DATA = {
      }
     },
     {
-     "num": 922,
+     "num": 923,
      "cn": "你老婆很漂亮",
      "dialects": {
       "msa": {
@@ -33293,7 +33329,7 @@ const DATA = {
      }
     },
     {
-     "num": 923,
+     "num": 924,
      "cn": "你老公人很好",
      "dialects": {
       "msa": {
@@ -33329,7 +33365,7 @@ const DATA = {
      }
     },
     {
-     "num": 924,
+     "num": 925,
      "cn": "孩子很可爱",
      "dialects": {
       "msa": {
@@ -33365,7 +33401,7 @@ const DATA = {
      }
     },
     {
-     "num": 925,
+     "num": 926,
      "cn": "照顾好家人",
      "dialects": {
       "msa": {
@@ -33401,7 +33437,7 @@ const DATA = {
      }
     },
     {
-     "num": 926,
+     "num": 927,
      "cn": "欢迎来我家",
      "dialects": {
       "msa": {
@@ -33437,7 +33473,7 @@ const DATA = {
      }
     },
     {
-     "num": 927,
+     "num": 928,
      "cn": "家庭团聚 / 团圆",
      "dialects": {
       "msa": {
@@ -33473,7 +33509,7 @@ const DATA = {
      }
     },
     {
-     "num": 928,
+     "num": 929,
      "cn": "全家福",
      "dialects": {
       "msa": {
@@ -33509,7 +33545,7 @@ const DATA = {
      }
     },
     {
-     "num": 929,
+     "num": 930,
      "cn": "他长得像他爸爸",
      "dialects": {
       "msa": {
@@ -33545,7 +33581,7 @@ const DATA = {
      }
     },
     {
-     "num": 930,
+     "num": 931,
      "cn": "带家人一起",
      "dialects": {
       "msa": {
@@ -33581,7 +33617,7 @@ const DATA = {
      }
     },
     {
-     "num": 931,
+     "num": 932,
      "cn": "谢谢你的款待",
      "dialects": {
       "msa": {
@@ -33617,7 +33653,7 @@ const DATA = {
      }
     },
     {
-     "num": 932,
+     "num": 933,
      "cn": "保重 / 照顾好自己",
      "dialects": {
       "msa": {
@@ -33658,7 +33694,7 @@ const DATA = {
    "title": "十九、学习与爱好（约90句）",
    "rows": [
     {
-     "num": 933,
+     "num": 934,
      "cn": "老师",
      "dialects": {
       "msa": {
@@ -33694,7 +33730,7 @@ const DATA = {
      }
     },
     {
-     "num": 934,
+     "num": 935,
      "cn": "同学",
      "dialects": {
       "msa": {
@@ -33730,7 +33766,7 @@ const DATA = {
      }
     },
     {
-     "num": 935,
+     "num": 936,
      "cn": "作业",
      "dialects": {
       "msa": {
@@ -33766,7 +33802,7 @@ const DATA = {
      }
     },
     {
-     "num": 936,
+     "num": 937,
      "cn": "考试",
      "dialects": {
       "msa": {
@@ -33802,7 +33838,7 @@ const DATA = {
      }
     },
     {
-     "num": 937,
+     "num": 938,
      "cn": "课本",
      "dialects": {
       "msa": {
@@ -33838,7 +33874,7 @@ const DATA = {
      }
     },
     {
-     "num": 938,
+     "num": 939,
      "cn": "图书馆",
      "dialects": {
       "msa": {
@@ -33874,7 +33910,7 @@ const DATA = {
      }
     },
     {
-     "num": 939,
+     "num": 940,
      "cn": "我去上学",
      "dialects": {
       "msa": {
@@ -33910,7 +33946,7 @@ const DATA = {
      }
     },
     {
-     "num": 940,
+     "num": 941,
      "cn": "学校在哪？",
      "dialects": {
       "msa": {
@@ -33946,7 +33982,7 @@ const DATA = {
      }
     },
     {
-     "num": 941,
+     "num": 942,
      "cn": "上课了（开始）",
      "dialects": {
       "msa": {
@@ -33982,7 +34018,7 @@ const DATA = {
      }
     },
     {
-     "num": 942,
+     "num": 943,
      "cn": "下课了（结束）",
      "dialects": {
       "msa": {
@@ -34018,7 +34054,7 @@ const DATA = {
      }
     },
     {
-     "num": 943,
+     "num": 944,
      "cn": "我做作业",
      "dialects": {
       "msa": {
@@ -34054,7 +34090,7 @@ const DATA = {
      }
     },
     {
-     "num": 944,
+     "num": 945,
      "cn": "我写完作业了",
      "dialects": {
       "msa": {
@@ -34090,7 +34126,7 @@ const DATA = {
      }
     },
     {
-     "num": 945,
+     "num": 946,
      "cn": "我考试及格了",
      "dialects": {
       "msa": {
@@ -34126,7 +34162,7 @@ const DATA = {
      }
     },
     {
-     "num": 946,
+     "num": 947,
      "cn": "我考试不及格",
      "dialects": {
       "msa": {
@@ -34162,7 +34198,7 @@ const DATA = {
      }
     },
     {
-     "num": 947,
+     "num": 948,
      "cn": "我留学",
      "dialects": {
       "msa": {
@@ -34198,7 +34234,7 @@ const DATA = {
      }
     },
     {
-     "num": 948,
+     "num": 949,
      "cn": "我去图书馆",
      "dialects": {
       "msa": {
@@ -34234,7 +34270,7 @@ const DATA = {
      }
     },
     {
-     "num": 949,
+     "num": 950,
      "cn": "我借书",
      "dialects": {
       "msa": {
@@ -34270,7 +34306,7 @@ const DATA = {
      }
     },
     {
-     "num": 950,
+     "num": 951,
      "cn": "我懂了",
      "dialects": {
       "msa": {
@@ -34306,7 +34342,7 @@ const DATA = {
      }
     },
     {
-     "num": 951,
+     "num": 952,
      "cn": "我记笔记",
      "dialects": {
       "msa": {
@@ -34342,7 +34378,7 @@ const DATA = {
      }
     },
     {
-     "num": 952,
+     "num": 953,
      "cn": "请解释一下",
      "dialects": {
       "msa": {
@@ -34378,7 +34414,7 @@ const DATA = {
      }
     },
     {
-     "num": 953,
+     "num": 954,
      "cn": "你会说阿拉伯语吗？",
      "dialects": {
       "msa": {
@@ -34414,7 +34450,7 @@ const DATA = {
      }
     },
     {
-     "num": 954,
+     "num": 955,
      "cn": "我在学阿拉伯语",
      "dialects": {
       "msa": {
@@ -34450,7 +34486,7 @@ const DATA = {
      }
     },
     {
-     "num": 955,
+     "num": 956,
      "cn": "我迟到了",
      "dialects": {
       "msa": {
@@ -34486,7 +34522,7 @@ const DATA = {
      }
     },
     {
-     "num": 956,
+     "num": 957,
      "cn": "我早到了",
      "dialects": {
       "msa": {
@@ -34522,7 +34558,7 @@ const DATA = {
      }
     },
     {
-     "num": 957,
+     "num": 958,
      "cn": "作业很多",
      "dialects": {
       "msa": {
@@ -34558,7 +34594,7 @@ const DATA = {
      }
     },
     {
-     "num": 958,
+     "num": 959,
      "cn": "明天有考试",
      "dialects": {
       "msa": {
@@ -34594,7 +34630,7 @@ const DATA = {
      }
     },
     {
-     "num": 959,
+     "num": 960,
      "cn": "我复习功课",
      "dialects": {
       "msa": {
@@ -34630,7 +34666,7 @@ const DATA = {
      }
     },
     {
-     "num": 960,
+     "num": 961,
      "cn": "老师布置作业了",
      "dialects": {
       "msa": {
@@ -34666,7 +34702,7 @@ const DATA = {
      }
     },
     {
-     "num": 961,
+     "num": 962,
      "cn": "我读书",
      "dialects": {
       "msa": {
@@ -34702,7 +34738,7 @@ const DATA = {
      }
     },
     {
-     "num": 962,
+     "num": 963,
      "cn": "我写字",
      "dialects": {
       "msa": {
@@ -34738,7 +34774,7 @@ const DATA = {
      }
     },
     {
-     "num": 963,
+     "num": 964,
      "cn": "还有几站？",
      "dialects": {
       "msa": {
@@ -34774,7 +34810,7 @@ const DATA = {
      }
     },
     {
-     "num": 964,
+     "num": 965,
      "cn": "我得换乘",
      "dialects": {
       "msa": {
@@ -34810,7 +34846,7 @@ const DATA = {
      }
     },
     {
-     "num": 965,
+     "num": 966,
      "cn": "票价多少？",
      "dialects": {
       "msa": {
@@ -34846,7 +34882,7 @@ const DATA = {
      }
     },
     {
-     "num": 966,
+     "num": 967,
      "cn": "堵车了",
      "dialects": {
       "msa": {
@@ -34882,7 +34918,7 @@ const DATA = {
      }
     },
     {
-     "num": 967,
+     "num": 968,
      "cn": "我晕车",
      "dialects": {
       "msa": {
@@ -34918,7 +34954,7 @@ const DATA = {
      }
     },
     {
-     "num": 968,
+     "num": 969,
      "cn": "我得加油",
      "dialects": {
       "msa": {
@@ -34954,7 +34990,7 @@ const DATA = {
      }
     },
     {
-     "num": 969,
+     "num": 970,
      "cn": "在哪停车？",
      "dialects": {
       "msa": {
@@ -34990,7 +35026,7 @@ const DATA = {
      }
     },
     {
-     "num": 970,
+     "num": 971,
      "cn": "别超速",
      "dialects": {
       "msa": {
@@ -35026,7 +35062,7 @@ const DATA = {
      }
     },
     {
-     "num": 971,
+     "num": 972,
      "cn": "交通事故",
      "dialects": {
       "msa": {
@@ -35062,7 +35098,7 @@ const DATA = {
      }
     },
     {
-     "num": 972,
+     "num": 973,
      "cn": "我迷路了",
      "dialects": {
       "msa": {
@@ -35098,7 +35134,7 @@ const DATA = {
      }
     },
     {
-     "num": 973,
+     "num": 974,
      "cn": "我走着去",
      "dialects": {
       "msa": {
@@ -35134,7 +35170,7 @@ const DATA = {
      }
     },
     {
-     "num": 974,
+     "num": 975,
      "cn": "近",
      "dialects": {
       "msa": {
@@ -35170,7 +35206,7 @@ const DATA = {
      }
     },
     {
-     "num": 975,
+     "num": 976,
      "cn": "加油站",
      "dialects": {
       "msa": {
@@ -35206,7 +35242,7 @@ const DATA = {
      }
     },
     {
-     "num": 976,
+     "num": 977,
      "cn": "停车场",
      "dialects": {
       "msa": {
@@ -35242,7 +35278,7 @@ const DATA = {
      }
     },
     {
-     "num": 977,
+     "num": 978,
      "cn": "自行车",
      "dialects": {
       "msa": {
@@ -35278,7 +35314,7 @@ const DATA = {
      }
     },
     {
-     "num": 978,
+     "num": 979,
      "cn": "春天",
      "dialects": {
       "msa": {
@@ -35314,7 +35350,7 @@ const DATA = {
      }
     },
     {
-     "num": 979,
+     "num": 980,
      "cn": "夏天",
      "dialects": {
       "msa": {
@@ -35350,7 +35386,7 @@ const DATA = {
      }
     },
     {
-     "num": 980,
+     "num": 981,
      "cn": "秋天",
      "dialects": {
       "msa": {
@@ -35386,7 +35422,7 @@ const DATA = {
      }
     },
     {
-     "num": 981,
+     "num": 982,
      "cn": "冬天",
      "dialects": {
       "msa": {
@@ -35422,7 +35458,7 @@ const DATA = {
      }
     },
     {
-     "num": 982,
+     "num": 983,
      "cn": "晴天",
      "dialects": {
       "msa": {
@@ -35458,7 +35494,7 @@ const DATA = {
      }
     },
     {
-     "num": 983,
+     "num": 984,
      "cn": "阴天",
      "dialects": {
       "msa": {
@@ -35494,7 +35530,7 @@ const DATA = {
      }
     },
     {
-     "num": 984,
+     "num": 985,
      "cn": "下雪了",
      "dialects": {
       "msa": {
@@ -35530,7 +35566,7 @@ const DATA = {
      }
     },
     {
-     "num": 985,
+     "num": 986,
      "cn": "刮风",
      "dialects": {
       "msa": {
@@ -35566,7 +35602,7 @@ const DATA = {
      }
     },
     {
-     "num": 986,
+     "num": 987,
      "cn": "温度多少？",
      "dialects": {
       "msa": {
@@ -35602,7 +35638,7 @@ const DATA = {
      }
     },
     {
-     "num": 987,
+     "num": 988,
      "cn": "潮湿",
      "dialects": {
       "msa": {
@@ -35638,7 +35674,7 @@ const DATA = {
      }
     },
     {
-     "num": 988,
+     "num": 989,
      "cn": "今天天气怎么样？",
      "dialects": {
       "msa": {
@@ -35674,7 +35710,7 @@ const DATA = {
      }
     },
     {
-     "num": 989,
+     "num": 990,
      "cn": "天气预报",
      "dialects": {
       "msa": {
@@ -35710,7 +35746,7 @@ const DATA = {
      }
     },
     {
-     "num": 990,
+     "num": 991,
      "cn": "快下雨了",
      "dialects": {
       "msa": {
@@ -35746,7 +35782,7 @@ const DATA = {
      }
     },
     {
-     "num": 991,
+     "num": 992,
      "cn": "打雷",
      "dialects": {
       "msa": {
@@ -35782,7 +35818,7 @@ const DATA = {
      }
     },
     {
-     "num": 992,
+     "num": 993,
      "cn": "闪电",
      "dialects": {
       "msa": {
@@ -35818,7 +35854,7 @@ const DATA = {
      }
     },
     {
-     "num": 993,
+     "num": 994,
      "cn": "我怕冷",
      "dialects": {
       "msa": {
@@ -35854,7 +35890,7 @@ const DATA = {
      }
     },
     {
-     "num": 994,
+     "num": 995,
      "cn": "我很热",
      "dialects": {
       "msa": {
@@ -35890,7 +35926,7 @@ const DATA = {
      }
     },
     {
-     "num": 995,
+     "num": 996,
      "cn": "我很冷",
      "dialects": {
       "msa": {
@@ -35926,7 +35962,7 @@ const DATA = {
      }
     },
     {
-     "num": 996,
+     "num": 997,
      "cn": "带伞",
      "dialects": {
       "msa": {
@@ -35962,7 +35998,7 @@ const DATA = {
      }
     },
     {
-     "num": 997,
+     "num": 998,
      "cn": "天气干燥",
      "dialects": {
       "msa": {
@@ -35998,7 +36034,7 @@ const DATA = {
      }
     },
     {
-     "num": 998,
+     "num": 999,
      "cn": "气温升高了",
      "dialects": {
       "msa": {
@@ -36034,7 +36070,7 @@ const DATA = {
      }
     },
     {
-     "num": 999,
+     "num": 1000,
      "cn": "季节",
      "dialects": {
       "msa": {
@@ -36070,7 +36106,7 @@ const DATA = {
      }
     },
     {
-     "num": 1000,
+     "num": 1001,
      "cn": "你最喜欢哪个季节？",
      "dialects": {
       "msa": {
@@ -36106,7 +36142,7 @@ const DATA = {
      }
     },
     {
-     "num": 1001,
+     "num": 1002,
      "cn": "今天降温了",
      "dialects": {
       "msa": {
@@ -36142,7 +36178,7 @@ const DATA = {
      }
     },
     {
-     "num": 1002,
+     "num": 1003,
      "cn": "阳光明媚",
      "dialects": {
       "msa": {
@@ -36178,7 +36214,7 @@ const DATA = {
      }
     },
     {
-     "num": 1003,
+     "num": 1004,
      "cn": "爱好",
      "dialects": {
       "msa": {
@@ -36214,7 +36250,7 @@ const DATA = {
      }
     },
     {
-     "num": 1004,
+     "num": 1005,
      "cn": "我的爱好是…",
      "dialects": {
       "msa": {
@@ -36250,7 +36286,7 @@ const DATA = {
      }
     },
     {
-     "num": 1005,
+     "num": 1006,
      "cn": "运动",
      "dialects": {
       "msa": {
@@ -36286,7 +36322,7 @@ const DATA = {
      }
     },
     {
-     "num": 1006,
+     "num": 1007,
      "cn": "足球",
      "dialects": {
       "msa": {
@@ -36322,7 +36358,7 @@ const DATA = {
      }
     },
     {
-     "num": 1007,
+     "num": 1008,
      "cn": "游泳",
      "dialects": {
       "msa": {
@@ -36358,7 +36394,7 @@ const DATA = {
      }
     },
     {
-     "num": 1008,
+     "num": 1009,
      "cn": "音乐",
      "dialects": {
       "msa": {
@@ -36394,7 +36430,7 @@ const DATA = {
      }
     },
     {
-     "num": 1009,
+     "num": 1010,
      "cn": "电影",
      "dialects": {
       "msa": {
@@ -36430,7 +36466,7 @@ const DATA = {
      }
     },
     {
-     "num": 1010,
+     "num": 1011,
      "cn": "读书（阅读）",
      "dialects": {
       "msa": {
@@ -36466,7 +36502,7 @@ const DATA = {
      }
     },
     {
-     "num": 1011,
+     "num": 1012,
      "cn": "旅游",
      "dialects": {
       "msa": {
@@ -36502,7 +36538,7 @@ const DATA = {
      }
     },
     {
-     "num": 1012,
+     "num": 1013,
      "cn": "摄影",
      "dialects": {
       "msa": {
@@ -36538,7 +36574,7 @@ const DATA = {
      }
     },
     {
-     "num": 1013,
+     "num": 1014,
      "cn": "游戏",
      "dialects": {
       "msa": {
@@ -36574,7 +36610,7 @@ const DATA = {
      }
     },
     {
-     "num": 1014,
+     "num": 1015,
      "cn": "画画",
      "dialects": {
       "msa": {
@@ -36610,7 +36646,7 @@ const DATA = {
      }
     },
     {
-     "num": 1015,
+     "num": 1016,
      "cn": "唱歌",
      "dialects": {
       "msa": {
@@ -36646,7 +36682,7 @@ const DATA = {
      }
     },
     {
-     "num": 1016,
+     "num": 1017,
      "cn": "跳舞",
      "dialects": {
       "msa": {
@@ -36682,7 +36718,7 @@ const DATA = {
      }
     },
     {
-     "num": 1017,
+     "num": 1018,
      "cn": "你喜欢做什么？",
      "dialects": {
       "msa": {
@@ -36718,7 +36754,7 @@ const DATA = {
      }
     },
     {
-     "num": 1018,
+     "num": 1019,
      "cn": "我们一起去吧",
      "dialects": {
       "msa": {
@@ -36754,7 +36790,7 @@ const DATA = {
      }
     },
     {
-     "num": 1019,
+     "num": 1020,
      "cn": "周末",
      "dialects": {
       "msa": {
@@ -36790,7 +36826,7 @@ const DATA = {
      }
     },
     {
-     "num": 1020,
+     "num": 1021,
      "cn": "空闲时间",
      "dialects": {
       "msa": {
@@ -36826,7 +36862,7 @@ const DATA = {
      }
     },
     {
-     "num": 1021,
+     "num": 1022,
      "cn": "你会踢足球吗？",
      "dialects": {
       "msa": {
@@ -36862,7 +36898,7 @@ const DATA = {
      }
     },
     {
-     "num": 1022,
+     "num": 1023,
      "cn": "我每天锻炼",
      "dialects": {
       "msa": {

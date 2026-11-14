@@ -153,6 +153,19 @@ GREETING_ROWS = [
 ]
 
 
+# 在「你好吗？（对男）」正下方补入对应的「对女」版本。
+# 口语里问候分男女：标准语 حَالُكِ、埃及 إِزَّيِّك、黎凡特 كِيفِك、
+# 海湾/伊拉克 شلونكِ、马格里布 دَايْرَة；海湾/伊拉克为从黎凡特变体派生，标「派」。
+FEMALE_HOWAREYOU = {
+    "msa":       {"ar": "كَيْفَ حَالُكِ؟",  "rom": "kayfa ḥāluki",  "note": ""},
+    "egyptian":  {"ar": "إِزَّيِّك؟",      "rom": "izzayyik",      "note": ""},
+    "levantine": {"ar": "كِيفِك؟",        "rom": "kīfik",         "note": ""},
+    "gulf":      {"ar": "شلونكِ؟",        "rom": "shlūnik",       "note": "派"},
+    "iraqi":     {"ar": "شلونكِ؟",        "rom": "shlūnik",       "note": "派"},
+    "maghreb":   {"ar": "كِيفَ دَايْرَة؟", "rom": "kīf dāyra",     "note": ""},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -199,6 +212,16 @@ def main():
               "dialects": {k: dict(v) for k, v in r["dialects"].items()}}
              for r in GREETING_ROWS]
     sec0["rows"] = extra + sec0["rows"]
+
+    # 在「你好吗？（对男）」正下方补入对应的「对女」版本
+    male_n = "你好吗？（对男）"
+    female_row = {"cn": "你好吗？（对女）",
+                  "dialects": {k: dict(v) for k, v in FEMALE_HOWAREYOU.items()}}
+    for idx, r in enumerate(sec0["rows"]):
+        if r["cn"] == male_n:
+            sec0["rows"].insert(idx + 1, female_row)
+            break
+
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
     n = 0
     for s in data["sections"]:
