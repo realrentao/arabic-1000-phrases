@@ -379,6 +379,12 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
   margin-top: 3px; font-size: 10.5px; line-height: 1.35; color: var(--gold-deep);
   direction: ltr; text-align: left;
 }
+/* 空白方言（如伊拉克暂无专属道别语）：弱化为占位说明，不喧宾夺主 */
+.dial-empty { opacity: 0.72; background: repeating-linear-gradient(
+    45deg, rgba(0,0,0,0.02), rgba(0,0,0,0.02) 6px, transparent 6px, transparent 12px); }
+.dial-empty .ar-empty {
+  color: var(--ink-dim); font-size: 26px; font-weight: 400; letter-spacing: 2px;
+}
 .dial.playing { border-color: var(--turq); }
 
 @keyframes pulse {

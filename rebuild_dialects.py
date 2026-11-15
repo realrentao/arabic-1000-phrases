@@ -208,6 +208,27 @@ HELLO_GENERAL = {
 }
 
 
+# 「再见」按用户核验表更新：
+# 原库 6 方言全填成通用 maʿa as-salāma（马格里布误作 b-is-salāma），
+# 现改为各地道道别语，并补「字面 / 味道」flavor 说明。
+# 伊拉克用户明确「暂无专属个性款，宁可空缺不硬凑」——ar 留空字符串，
+# 仅保留 flavor 说明；前端 dialectCell 对空 ar 渲染「—」占位 + flavor。
+BYE_GENERAL = {
+    "msa":       {"ar": "مَعَ السَّلَامَةِ", "rom": "maʿa as-salāma",
+                  "flavor": "“伴随平安”——标准语本身就是代表款"},
+    "egyptian":  {"ar": "يَلَّا بِي", "rom": "yalla bi",
+                  "flavor": "“走吧（bye）”——埃及最溜嘴的市井道别"},
+    "levantine": {"ar": "يَلَّا سَلَام", "rom": "yalla salām",
+                  "flavor": "“走吧，平安”——轻快收尾"},
+    "gulf":      {"ar": "اَلله يَحْفَظَك", "rom": "allāh yaḥfaẓak",
+                  "flavor": "“愿真主保佑你”——海湾待客暖心祝福"},
+    "iraqi":     {"ar": "", "rom": "",
+                  "flavor": "暂无专属个性款，通用 maʿa as-salāma 即其日常主力（宁可空缺不硬凑 😄）"},
+    "maghreb":   {"ar": "سَلَام", "rom": "salam",
+                  "flavor": "“平安”——摩洛哥极简主义，甩一个就走 🐪"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -293,6 +314,18 @@ def main():
         for r in s["rows"]:
             if r["cn"] == "你好（通用）":
                 for k, v in HELLO_GENERAL.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
+                break
+
+    # 「再见」按用户核验表更新：6 方言改为地道道别语，并补 flavor；
+    # 伊拉克 ar 留空（用户要求宁可空缺不硬凑），仅保留 flavor 说明。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "再见":
+                for k, v in BYE_GENERAL.items():
                     if k in r["dialects"]:
                         r["dialects"][k]["ar"] = v["ar"]
                         r["dialects"][k]["rom"] = v["rom"]

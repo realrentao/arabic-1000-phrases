@@ -115,7 +115,15 @@
 
   function dialectCell(row, key) {
     var d = row.dialects[key];
-    if (!d || !d.ar) return "";
+    if (!d) return "";
+    if (!d.ar) {
+      // 空白方言：仅展示方言标签 + 说明（如伊拉克无专属道别语，宁可空缺不硬凑）
+      return '<div class="dial dial-empty" data-dial="' + key + '">' +
+               '<div class="tag">' + esc(DIAL_META[key].tag) + "</div>" +
+               '<div class="ar ar-empty">—</div>' +
+               (d.flavor ? '<div class="flavor-note">' + esc(d.flavor) + "</div>" : "") +
+             "</div>";
+    }
     var src = (AUDIO && AUDIO[d.ar]) ? AUDIO[d.ar] : "";
     var noteBadge = d.note
       ? '<span class="note-badge" title="' + (d.note === "派"
