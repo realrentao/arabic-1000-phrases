@@ -303,6 +303,27 @@ SPEAK_LITTLE = {
 }
 
 
+# 「我不懂」按用户核验表更新：
+# 伊拉克 🔧 修 bi-→a-（مَا بِفْهَمْش→مَا أَفْهَمْش），并清掉派生「派」；
+# MSA 转写补全词尾 -u（lā afham→lā afhamu），口语常省念 lā afham；
+# 其余方言阿文/转写已地道，仅写 verify 核验留痕。
+# 注：伊拉克新文本与埃及既有 مَا أَفْهَمْش 相同，音频共用无需新增。
+DONT_UNDERSTAND = {
+    "msa":       {"ar": "لَا أَفْهَمُ", "rom": "lā afhamu",
+                  "verify": "✅ 正确（MSA 用 lā+现在时，不用 mā…sh）；词尾 -u 口语常省念 lā afham"},
+    "egyptian":  {"ar": "مَا أَفْهَمْش", "rom": "mā afhamsh",
+                  "verify": "✅ 已地道（mā 直接取代 ba- 前缀）"},
+    "levantine": {"ar": "مَا بِفْهَمْش", "rom": "mā bifhamsh",
+                  "verify": "✅ 已地道（mā + bi- + sh）"},
+    "gulf":      {"ar": "مَا بِفْهَمْش", "rom": "mā bifhamsh",
+                  "verify": "✅ 已地道"},
+    "iraqi":     {"ar": "مَا أَفْهَمْش", "rom": "mā afhamsh",
+                  "verify": "🔧 修 bi-→a-（مَا بِفْهَمْش→مَا أَفْهَمْش）"},
+    "maghreb":   {"ar": "مَا فْهِمْتْش", "rom": "mā fhimtish",
+                  "verify": "✅ 完全正确（用过去时 fhimt「我没懂」+ mā…sh）"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -453,6 +474,19 @@ def main():
         for r in s["rows"]:
             if r["cn"] == "我说一点阿拉伯语":
                 for k, v in SPEAK_LITTLE.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["verify"] = v["verify"]
+                        r["dialects"][k]["note"] = ""
+                break
+
+    # 「我不懂」按用户核验表更新：伊拉克 bi-→a- 修正，MSA 转写补全 -u，
+    # 全部方言写入 verify 核验留痕；note 一律清空（伊拉克原无派，稳妥置空）。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "我不懂":
+                for k, v in DONT_UNDERSTAND.items():
                     if k in r["dialects"]:
                         r["dialects"][k]["ar"] = v["ar"]
                         r["dialects"][k]["rom"] = v["rom"]
