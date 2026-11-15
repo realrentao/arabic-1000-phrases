@@ -363,6 +363,24 @@ NO_NOT = {
 }
 
 
+# 「请（礼貌）」按用户核验表更新：6 方言主形全部正确，保持不变；
+# 第二列「更地道的请补充」为口语替代说法，写入 flavor（暖金提示），纯文字不臆造配音。
+PLEASE_POLITE = {
+    "msa":       {"ar": "مِنْ فَضْلِكَ", "rom": "min faḍlika",
+                  "flavor": "也用 تَفَضَّل (tafaḍḍal)、لَوْ سَمَحْتَ (law samaḥta)"},
+    "egyptian":  {"ar": "مِنْ فَضْلَك", "rom": "min faḍlak",
+                  "flavor": "也用 لَوْ سَمَحْتَ (law samaḥta)"},
+    "levantine": {"ar": "مِنْ فَضْلَك", "rom": "min faḍlak",
+                  "flavor": "⭐ لَوْ سَمَحْت (law samaḥt) 才是最招牌「请」"},
+    "gulf":      {"ar": "مِنْ فَضْلَك", "rom": "min faḍlak",
+                  "flavor": "也用 تَفَضَّل (tafaḍḍal)、لَوْ سَمَحْتَ (law samaḥta)"},
+    "iraqi":     {"ar": "مِنْ فَضْلَك", "rom": "min faḍlak",
+                  "flavor": "也用 تَفَضَّل、لَوْ سَمَحْتَ"},
+    "maghreb":   {"ar": "عَفَاك", "rom": "ʿafāk",
+                  "flavor": "摩洛哥原生「请」✅；也用 الله يخليك (llah ykhallik 更软)"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -554,6 +572,18 @@ def main():
                         r["dialects"][k]["ar2"] = v["ar2"]
                         r["dialects"][k]["rom2"] = v["rom2"]
                         r["dialects"][k]["verify"] = v["verify"]
+                        r["dialects"][k]["note"] = ""
+                break
+
+    # 「请（礼貌）」按用户核验表更新：6 方言主形经核验全对保持不变，写入「更地道的请补充」到 flavor；清 note。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "请（礼貌）":
+                for k, v in PLEASE_POLITE.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
                         r["dialects"][k]["note"] = ""
                 break
 
