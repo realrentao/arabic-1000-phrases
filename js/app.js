@@ -125,11 +125,15 @@
     var verifyNote = d.verify
       ? '<div class="verify-note">' + esc(d.verify) + "</div>"
       : "";
+    var flavorNote = d.flavor
+      ? '<div class="flavor-note">' + esc(d.flavor) + "</div>"
+      : "";
     return '<div class="dial" data-dial="' + key + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
              '<div class="tag">' + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
              '<div class="ar">' + esc(d.ar) + "</div>" +
              (d.rom ? '<div class="rom">' + esc(d.rom) + "</div>" : "") +
              verifyNote +
+             flavorNote +
            "</div>";
   }
 

@@ -178,6 +178,26 @@ VERIFY_MALE = {
 }
 
 
+# 「你好（通用）」按用户核验表更新：
+# 原库 4 方言（黎/海湾/伊拉克/马格里布）都误填成通用词 marḥaba，
+# 现改为各地道口语 hello，并补「字面 / 味道」flavor 说明。
+# 伊拉克用户给了 hala / halo 两式，取通用 hala 为正文，halo 写入 flavor。
+HELLO_GENERAL = {
+    "msa":       {"ar": "مَرْحَباً", "rom": "marḥaban",
+                  "flavor": "“愿你宽裕/欢迎”，教科书标准款"},
+    "egyptian":  {"ar": "أَهْلَا", "rom": "ahlan",
+                  "flavor": "“你像家人一样”，埃及人开口就这句（口语念 ahlā）"},
+    "levantine": {"ar": "هَلَا", "rom": "hala",
+                  "flavor": "由 ahlan 缩读而来，黎/叙/约/巴的亲切口语"},
+    "gulf":      {"ar": "هَلَا وَالله", "rom": "hala wallah",
+                  "flavor": "“以真主之名欢迎你”，海湾最热情的招牌"},
+    "iraqi":     {"ar": "هَلَا", "rom": "hala",
+                  "flavor": "通用；هلو (halo) 借自英语 hello，市井味"},
+    "maghreb":   {"ar": "سَلَام", "rom": "salam",
+                  "flavor": "摩洛哥/西北非日常的极简 hello"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -254,6 +274,17 @@ def main():
                 if k in r["dialects"]:
                     r["dialects"][k]["verify"] = v
             break
+
+    # 「你好（通用）」按用户核验表更新：4 方言改为地道口语 hello，并补 flavor
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "你好（通用）":
+                for k, v in HELLO_GENERAL.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
+                break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
     n = 0
