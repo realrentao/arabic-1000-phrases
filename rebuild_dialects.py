@@ -324,6 +324,25 @@ DONT_UNDERSTAND = {
 }
 
 
+# 「是的」按用户核验表更新：6 方言主形阿文/转写经核验均正确，保持不变；
+# 本次写入第三列「也可说 / 备注」的口语补充信息，用 flavor（暖金提示）呈现。
+# 备注里的替代说法（أَجَل/ayywa/ēh/aywah/ī/ih/eeh/آه 等）为纯文字，不臆造配音。
+YES_INDEED = {
+    "msa":       {"ar": "نَعَمْ", "rom": "naʿam",
+                  "flavor": "标准「是」；没听清时升调 naʿam? = 请重复；也用 أَجَل (ajal「对/是」)"},
+    "egyptian":  {"ar": "أَيْوَه", "rom": "aywa",
+                  "flavor": "埃及招牌 ✅；也写 ayywa"},
+    "levantine": {"ar": "إِيه", "rom": "īh",
+                  "flavor": "北黎凡特常念 ēh；南黎凡特爱说 aywah"},
+    "gulf":      {"ar": "إِيه", "rom": "īh",
+                  "flavor": "也念短 ī；应答点名/对长辈常说 naʿam（海湾不显生硬）"},
+    "iraqi":     {"ar": "إِيه", "rom": "īh",
+                  "flavor": "也念 ih / eeh"},
+    "maghreb":   {"ar": "وَاخَا", "rom": "wākha",
+                  "flavor": "摩洛哥招牌 ✅；「yes/ok/alright」三合一；也用 آه (ah)"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -491,6 +510,18 @@ def main():
                         r["dialects"][k]["ar"] = v["ar"]
                         r["dialects"][k]["rom"] = v["rom"]
                         r["dialects"][k]["verify"] = v["verify"]
+                        r["dialects"][k]["note"] = ""
+                break
+
+    # 「是的」按用户核验表更新：6 方言主形不变，写入「也可说/备注」到 flavor；清 note。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "是的":
+                for k, v in YES_INDEED.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
                         r["dialects"][k]["note"] = ""
                 break
 
