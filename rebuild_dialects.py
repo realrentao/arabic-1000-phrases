@@ -177,6 +177,16 @@ VERIFY_MALE = {
     "maghreb":   "✅ 对（指摩洛哥 Darija）",
 }
 
+# 「你好吗？（对女）」按用户核验表更新（阴性词尾）：
+VERIFY_FEMALE = {
+    "msa":       "✅ 标准阴性",
+    "egyptian":  "✅ 埃及地道（女）",
+    "levantine": "✅ 黎凡特地道（女）",
+    "gulf":      "✅ 海湾地道（女）",
+    "iraqi":     "✅ 伊拉克地道（女）",
+    "maghreb":   "✅ 摩洛哥地道（女），补了转写",
+}
+
 
 # 「你好（通用）」按用户核验表更新：
 # 原库 4 方言（黎/海湾/伊拉克/马格里布）都误填成通用词 marḥaba，
@@ -273,6 +283,9 @@ def main():
             for k, v in VERIFY_MALE.items():
                 if k in r["dialects"]:
                     r["dialects"][k]["verify"] = v
+            for k, v in VERIFY_FEMALE.items():
+                if k in female_row["dialects"]:
+                    female_row["dialects"][k]["verify"] = v
             break
 
     # 「你好（通用）」按用户核验表更新：4 方言改为地道口语 hello，并补 flavor
