@@ -166,6 +166,18 @@ FEMALE_HOWAREYOU = {
 }
 
 
+# 「你好吗？（对男）」逐方言核对结论（用户人工核验，全部确认正确）。
+# 写入各方言 dialect 的 verify 字段，前端以弱提示文案呈现，仅作质量留痕。
+VERIFY_MALE = {
+    "msa":       "✅ 完全标准",
+    "egyptian":  "✅ 正确（对男性）",
+    "levantine": "✅ 正确（黎长音 ī）",
+    "gulf":      "✅ 正确",
+    "iraqi":     "✅ 正确",
+    "maghreb":   "✅ 对（指摩洛哥 Darija）",
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -238,6 +250,9 @@ def main():
     for idx, r in enumerate(sec0["rows"]):
         if r["cn"] == male_n:
             sec0["rows"].insert(idx + 1, female_row)
+            for k, v in VERIFY_MALE.items():
+                if k in r["dialects"]:
+                    r["dialects"][k]["verify"] = v
             break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])

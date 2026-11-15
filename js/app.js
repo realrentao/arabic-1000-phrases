@@ -122,10 +122,14 @@
           ? "由③黎凡特按方言差异规则派生，使用前建议核对"
           : "合成/借词标注（" + esc(d.note) + "），原文建议使用前核对") + ')">' + esc(d.note) + "</span>"
       : "";
+    var verifyNote = d.verify
+      ? '<div class="verify-note">' + esc(d.verify) + "</div>"
+      : "";
     return '<div class="dial" data-dial="' + key + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
              '<div class="tag">' + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
              '<div class="ar">' + esc(d.ar) + "</div>" +
              (d.rom ? '<div class="rom">' + esc(d.rom) + "</div>" : "") +
+             verifyNote +
            "</div>";
   }
 
