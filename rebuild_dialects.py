@@ -381,6 +381,41 @@ PLEASE_POLITE = {
 }
 
 
+# 「你来自哪里？（对男）」按用户核验表优化：
+# 埃及/马格里布换主形；黎凡特/海湾/伊拉克转写 wēn→ween；MSA 保持不变。
+# 有完整阿文的升级款做 ar2/rom2「另」小卡（可点读/配音）：埃及 ēh 旧款、伊拉克 mnayn、马格里布 ʒīti。
+# verify 写核验/勘误说明 + 字面义 + 对女备注；wayn 为同一句读法变体，写进 verify 不单列卡。
+WHERE_FROM_MALE = {
+    "msa": {
+        "ar": "مِنْ أَيْنَ أَنْتَ؟", "rom": "min ayna anta",
+        "verify": "✅ 完美无需改｜字面义：从·哪里·你。对女把 أَنْتَ 换 أَنْتِ → min ayna anti",
+    },
+    "egyptian": {
+        "ar": "إِنْتَ مِنِّين؟", "rom": "inta mneen",
+        "ar2": "إِنْتَ مِنْ إِيه؟", "rom2": "inta min ēh「个性款：用 what 代 where」",
+        "verify": "⚠️ 原 inta min ēh（你来自「什么」）也对，但日常最通用是 mneen；二者并存：ēh 偏个性款，mneen 更标准口语｜字面义：你·从·哪里",
+    },
+    "levantine": {
+        "ar": "مِنْ وَيْنْ إِنْتَ؟", "rom": "min ween inta",
+        "verify": "✅ 招牌说法。转写 ween（وِين，IPA /weːn/）比 wēn 更准｜字面义：从·哪里·你。对女 → enti",
+    },
+    "gulf": {
+        "ar": "مِنْ وَيْنْ إِنْتَ؟", "rom": "min ween inta",
+        "verify": "✅ 正确，也常说 wayn（واين，同一句的不同读法）｜字面义：从·哪里·你。对女 → inti / intay",
+    },
+    "iraqi": {
+        "ar": "مِنْ وَيْنْ إِنْتَ؟", "rom": "min ween inta",
+        "ar2": "مِنِّينْ إِنْتَ؟", "rom2": "mnayn inta「منين，更个性地道」",
+        "verify": "✅ 正确｜字面义：从·哪里·你。另附更个性地道款（见「另」卡）",
+    },
+    "maghreb": {
+        "ar": "مْنِينْ نْتَا؟", "rom": "mnīn ntā",
+        "ar2": "مْنِينْ جِيتِي؟", "rom2": "mnīn ʒīti「منين جيتي，你从哪来」",
+        "verify": "⚠️ 原 min āyn ntā 语法对但偏正式（借标准语 āyn）；摩洛哥口语「哪里」用 mnīn｜字面义：从·哪里·你",
+    },
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -585,6 +620,26 @@ def main():
                         r["dialects"][k]["rom"] = v["rom"]
                         r["dialects"][k]["flavor"] = v["flavor"]
                         r["dialects"][k]["note"] = ""
+                break
+
+    # 「你来自哪里？（对男）」按用户核验表优化：主形 ar/rom 覆写 + verify 核验说明；
+    # 有升级款的方言写 ar2/rom2「另」小卡（无则清残留）。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "你来自哪里？（对男）":
+                for k, v in WHERE_FROM_MALE.items():
+                    if k in r["dialects"]:
+                        d = r["dialects"][k]
+                        d["ar"] = v["ar"]
+                        d["rom"] = v["rom"]
+                        d["verify"] = v["verify"]
+                        d["note"] = ""
+                        if "ar2" in v:
+                            d["ar2"] = v["ar2"]
+                            d["rom2"] = v["rom2"]
+                        else:
+                            d.pop("ar2", None)
+                            d.pop("rom2", None)
                 break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
