@@ -385,7 +385,20 @@ section.chapter { margin-bottom: 34px; scroll-margin-top: 18px; }
 .dial-empty .ar-empty {
   color: var(--ink-dim); font-size: 26px; font-weight: 400; letter-spacing: 2px;
 }
+/* 同一方言的「另款」第二形式（如埃及 يَلَّا بِي 之外的 الله يسلمك） */
+.dial .subdial {
+  margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line, #e3e3e3);
+  cursor: pointer; text-align: right; direction: rtl;
+}
+.dial .subdial .ar2-label {
+  display: inline-block; font-size: 9px; line-height: 1; color: var(--ink-dim);
+  border: 1px solid var(--ink-dim); border-radius: 4px; padding: 1px 4px; margin-bottom: 3px;
+  direction: ltr;
+}
+.dial .subdial .ar { font-size: 21px; }
+.dial .subdial .rom { font-size: 11px; margin-top: 2px; }
 .dial.playing { border-color: var(--turq); }
+.dial .subdial.playing { border-top-color: var(--turq); }
 
 @keyframes pulse {
   0%,100% { box-shadow: 0 0 0 0 rgba(43,182,168,0.55); }

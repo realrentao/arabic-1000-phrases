@@ -217,13 +217,14 @@ BYE_GENERAL = {
     "msa":       {"ar": "مَعَ السَّلَامَةِ", "rom": "maʿa as-salāma",
                   "flavor": "“伴随平安”——标准语本身就是代表款"},
     "egyptian":  {"ar": "يَلَّا بِي", "rom": "yalla bi",
-                  "flavor": "“走吧（bye）”——埃及最溜嘴的市井道别"},
+                  "flavor": "“走吧（bye）”——埃及最溜嘴的市井道别",
+                  "ar2": "الله يسلمك", "rom2": "allāh yisallimak"},
     "levantine": {"ar": "يَلَّا سَلَام", "rom": "yalla salām",
                   "flavor": "“走吧，平安”——轻快收尾"},
     "gulf":      {"ar": "اَلله يَحْفَظَك", "rom": "allāh yaḥfaẓak",
                   "flavor": "“愿真主保佑你”——海湾待客暖心祝福"},
-    "iraqi":     {"ar": "", "rom": "",
-                  "flavor": "暂无专属个性款，通用 maʿa as-salāma 即其日常主力（宁可空缺不硬凑 😄）"},
+    "iraqi":     {"ar": "مَعَ السَّلَامَةِ", "rom": "maʿa as-salāma",
+                  "flavor": "伊拉克日常即用标准语的 maʿa as-salāma（用户确认；原留空处已填）"},
     "maghreb":   {"ar": "سَلَام", "rom": "salam",
                   "flavor": "“平安”——摩洛哥极简主义，甩一个就走 🐪"},
 }
@@ -321,7 +322,7 @@ def main():
                 break
 
     # 「再见」按用户核验表更新：6 方言改为地道道别语，并补 flavor；
-    # 伊拉克 ar 留空（用户要求宁可空缺不硬凑），仅保留 flavor 说明。
+    # 伊拉克用标准语 maʿa as-salāma 填空（用户确认）；埃及另加第二形式 ar2=الله يسلمك。
     for s in data["sections"]:
         for r in s["rows"]:
             if r["cn"] == "再见":
@@ -330,6 +331,10 @@ def main():
                         r["dialects"][k]["ar"] = v["ar"]
                         r["dialects"][k]["rom"] = v["rom"]
                         r["dialects"][k]["flavor"] = v["flavor"]
+                        if v.get("ar2") is not None:
+                            r["dialects"][k]["ar2"] = v["ar2"]
+                        if v.get("rom2") is not None:
+                            r["dialects"][k]["rom2"] = v["rom2"]
                 break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
@@ -370,6 +375,8 @@ def main():
             for d in r["dialects"].values():
                 if d.get("ar"):
                     all_texts.add(d["ar"])
+                if d.get("ar2"):
+                    all_texts.add(d["ar2"])
     amap = {t: "audio/" + hash_name(t) for t in sorted(all_texts)}
     # 需要配音的文本 = 全 6 方言文本 - 原库已有音频的文本（含新补入的问候语）
     new_texts = sorted(all_texts - old_texts)

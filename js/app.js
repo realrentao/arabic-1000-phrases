@@ -38,7 +38,8 @@
   function $(sel, ctx) { return (ctx || document).querySelector(sel); }
 
   function cellLabel(el) {
-    var tag = el.querySelector(".tag");
+    var dial = el.closest ? el.closest(".dial") : el;
+    var tag = dial && dial.querySelector(".tag");
     if (!tag) return "";
     return tag.textContent.replace(/[①-⑥]/g, "").trim();
   }
@@ -136,12 +137,21 @@
     var flavorNote = d.flavor
       ? '<div class="flavor-note">' + esc(d.flavor) + "</div>"
       : "";
+    var ar2Src = (d.ar2 && AUDIO && AUDIO[d.ar2]) ? AUDIO[d.ar2] : "";
+    var ar2Html = d.ar2
+      ? '<div class="subdial" data-ar="' + esc(d.ar2) + '" data-src="' + esc(ar2Src) + '">' +
+          '<span class="ar2-label">另</span>' +
+          '<div class="ar">' + esc(d.ar2) + "</div>" +
+          (d.rom2 ? '<div class="rom">' + esc(d.rom2) + "</div>" : "") +
+        "</div>"
+      : "";
     return '<div class="dial" data-dial="' + key + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
              '<div class="tag">' + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
              '<div class="ar">' + esc(d.ar) + "</div>" +
              (d.rom ? '<div class="rom">' + esc(d.rom) + "</div>" : "") +
              verifyNote +
              flavorNote +
+             ar2Html +
            "</div>";
   }
 
@@ -301,7 +311,7 @@
     }
   }
   function prefetchCard(cardEl) {
-    var cells = cardEl.querySelectorAll(".dial[data-src]");
+    var cells = cardEl.querySelectorAll(".dial[data-src], .subdial[data-src]");
     for (var i = 0; i < cells.length; i++) enqueuePrefetch(cells[i].getAttribute("data-src"));
   }
   // 进入视口（提前 240px）的句子卡片，预热其音频；命中后即取消观察
@@ -363,9 +373,9 @@
       if (box) { box.value = ""; renderSections(""); box.focus(); }
       return;
     }
-    // 点击任意句子 -> 立即中断连播，改播所选句子
-    var cell = e.target.closest ? e.target.closest(".dial") : null;
-    if (cell && cell.getAttribute("data-src")) {
+    // 点击任意句子 -> 立即中断连播，改播所选句子（含嵌套的另款 ar2）
+    var cell = e.target.closest ? e.target.closest("[data-src]") : null;
+    if (cell) {
       queue = [];          // 中断连播队列，避免后续自动播放
       playEl(cell);
       return;
