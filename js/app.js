@@ -137,14 +137,7 @@
     var flavorNote = d.flavor
       ? '<div class="flavor-note">' + esc(d.flavor) + "</div>"
       : "";
-    var ar2Src = (d.ar2 && AUDIO && AUDIO[d.ar2]) ? AUDIO[d.ar2] : "";
-    var ar2Html = d.ar2
-      ? '<div class="subdial" data-ar="' + esc(d.ar2) + '" data-src="' + esc(ar2Src) + '">' +
-          '<span class="ar2-label">另</span>' +
-          '<div class="ar">' + esc(d.ar2) + "</div>" +
-          (d.rom2 ? '<div class="rom">' + esc(d.rom2) + "</div>" : "") +
-        "</div>"
-      : "";
+    var ar2Html = buildSubdials(d);
     return '<div class="dial" data-dial="' + key + '" data-ar="' + esc(d.ar) + '" data-src="' + esc(src) + '">' +
              '<div class="tag">' + esc(DIAL_META[key].tag) + noteBadge + "</div>" +
              '<div class="ar">' + esc(d.ar) + "</div>" +
@@ -153,6 +146,32 @@
              flavorNote +
              ar2Html +
            "</div>";
+
+    // 构建「另」第二形式（支持单条 ar2 或 ar2List 多条）
+    function buildSubdials(d) {
+      var forms = [];
+      if (Array.isArray(d.ar2List)) {
+        for (var i = 0; i < d.ar2List.length; i++) {
+          var it = d.ar2List[i];
+          if (it && it.ar) forms.push({ ar: it.ar, rom: it.rom || "" });
+        }
+      } else if (d.ar2) {
+        forms.push({ ar: d.ar2, rom: d.rom2 || "" });
+      }
+      if (!forms.length) return "";
+      var html = "";
+      for (var j = 0; j < forms.length; j++) {
+        var f = forms[j];
+        var s2 = (AUDIO && AUDIO[f.ar]) ? AUDIO[f.ar] : "";
+        var label = forms.length > 1 ? "另" + (j + 1) : "另";
+        html += '<div class="subdial" data-ar="' + esc(f.ar) + '" data-src="' + esc(s2) + '">' +
+                  '<span class="ar2-label">' + label + "</span>" +
+                  '<div class="ar">' + esc(f.ar) + "</div>" +
+                  (f.rom ? '<div class="rom">' + esc(f.rom) + "</div>" : "") +
+                "</div>";
+      }
+      return html;
+    }
   }
 
   // 全局检索：中文 / 阿拉伯文 / 罗马音

@@ -248,6 +248,39 @@ THANKS = {
                   "flavor": "亦常用 بَارَكَ الله فِيك「愿主祝福你」"},
 }
 
+WELCOME_BACK = {
+    "msa":       {"ar": "عَفْواً", "rom": "ʿafwan", "ar2List": None,
+                  "flavor": "标准形式（通用中性款），全方言通用——「不用谢」"},
+    "egyptian":  {"ar": "عَفْواً", "rom": "ʿafwan",
+                  "ar2List": [
+                      {"ar": "مَعْلِيش", "rom": "maʿlēsh「没事」"},
+                      {"ar": "ولا يهمك", "rom": "wala yhemmak「也没关系/别放心上」"},
+                  ],
+                  "flavor": "埃及地道个性款：مَعْلِيش 最常见，wala yhemmak 亦常用"},
+    "levantine": {"ar": "عَفْواً", "rom": "ʿafwan",
+                  "ar2List": [
+                      {"ar": "تِكْرَم", "rom": "tikram(男)/tikrami(女)「我的荣幸」；ʿalēk 也行"},
+                  ],
+                  "flavor": "黎凡特地道个性款"},
+    "gulf":      {"ar": "عَفْواً", "rom": "ʿafwan",
+                  "ar2List": [
+                      {"ar": "عَلِيهْ", "rom": "ʿalēh「没什么/为你」"},
+                      {"ar": "مَا عَلَيْه", "rom": "mā ʿalayh「没什么/为你」"},
+                  ],
+                  "flavor": "海湾地道个性款"},
+    "iraqi":     {"ar": "عَفْواً", "rom": "ʿafwan",
+                  "ar2List": [
+                      {"ar": "عَلِيهْ", "rom": "ʿalēh「没什么/为你」（同海湾）"},
+                  ],
+                  "flavor": "同海湾 ʿalēh，伊拉克日常即此"},
+    "maghreb":   {"ar": "عَفْواً", "rom": "ʿafwan",
+                  "ar2List": [
+                      {"ar": "مَاشِي مُشْكِيل", "rom": "māshī mushkīl「没问题」"},
+                      {"ar": "بْلَا جَمِيل", "rom": "bla jmīl「不足挂齿」"},
+                  ],
+                  "flavor": "马格里布地道个性款"},
+}
+
 
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
@@ -374,6 +407,25 @@ def main():
                             r["dialects"][k].pop("rom2", None)
                 break
 
+    # 「不客气」按用户核验表精细化：通用款 عَفْواً(ʿafwan) 作主形（全方言通用），
+    # 各方言个性款作 ar2List 第二形式（埃及/马格里布各两款）；男女变体标注于 rom / flavor。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "不客气":
+                for k, v in WELCOME_BACK.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
+                        if v.get("ar2List") is not None:
+                            r["dialects"][k]["ar2List"] = v["ar2List"]
+                        else:
+                            r["dialects"][k].pop("ar2List", None)
+                        # 清理旧的单一 ar2/rom2（若有），避免与 ar2List 并存
+                        r["dialects"][k].pop("ar2", None)
+                        r["dialects"][k].pop("rom2", None)
+                break
+
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
     n = 0
     for s in data["sections"]:
@@ -414,6 +466,10 @@ def main():
                     all_texts.add(d["ar"])
                 if d.get("ar2"):
                     all_texts.add(d["ar2"])
+                if d.get("ar2List"):
+                    for item in d["ar2List"]:
+                        if item.get("ar"):
+                            all_texts.add(item["ar"])
     amap = {t: "audio/" + hash_name(t) for t in sorted(all_texts)}
     # 需要配音的文本 = 全 6 方言文本 - 原库已有音频的文本（含新补入的问候语）
     new_texts = sorted(all_texts - old_texts)
