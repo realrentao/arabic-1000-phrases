@@ -230,6 +230,25 @@ BYE_GENERAL = {
 }
 
 
+# 「谢谢」按用户核验表精细化：
+# 通用款 شُكْراً（shukran）全方言都懂，作为每格主形；
+# 各方言另有「个性款」口语，作为 ar2 第二形式（含男女变体标注于 rom2 / flavor）。
+THANKS = {
+    "msa":       {"ar": "شُكْراً", "rom": "shukran", "ar2": None, "rom2": None,
+                  "flavor": "标准形式，全方言通用——「谢谢」"},
+    "egyptian":  {"ar": "شُكْراً", "rom": "shukran", "ar2": "مُتَشَكِّر", "rom2": "mutashakkir(男)/mutashakkira(女)",
+                  "flavor": "「我感谢」——埃及地道个性款（对应通用 shukran）"},
+    "levantine": {"ar": "شُكْراً", "rom": "shukran", "ar2": "بِتْشَكَّرِك", "rom2": "betshakkarak(男)/betshakkarek(女)",
+                  "flavor": "「我谢你」——黎凡特地道个性款"},
+    "gulf":      {"ar": "شُكْراً", "rom": "shukran", "ar2": "مَشْكُور", "rom2": "mashkūr(男)/mashkūrah(女)",
+                  "flavor": "「你值得谢」——海湾地道个性款"},
+    "iraqi":     {"ar": "شُكْراً", "rom": "shukran", "ar2": "مَشْكُور", "rom2": "mashkūr「你值得谢」（同海湾）",
+                  "flavor": "同海湾 mashkūr，伊拉克日常即此"},
+    "maghreb":   {"ar": "شُكْراً", "rom": "shukran", "ar2": "مِيرْسِي", "rom2": "merci（法语借词）",
+                  "flavor": "亦常用 بَارَكَ الله فِيك「愿主祝福你」"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -335,6 +354,24 @@ def main():
                             r["dialects"][k]["ar2"] = v["ar2"]
                         if v.get("rom2") is not None:
                             r["dialects"][k]["rom2"] = v["rom2"]
+                break
+
+    # 「谢谢」按用户核验表精细化：通用款 شُكْراً 作主形（全方言通用），
+    # 各方言个性款作 ar2 第二形式；男女变体标注于 rom2 / flavor。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "谢谢":
+                for k, v in THANKS.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["flavor"] = v["flavor"]
+                        if v.get("ar2") is not None:
+                            r["dialects"][k]["ar2"] = v["ar2"]
+                            r["dialects"][k]["rom2"] = v["rom2"]
+                        else:
+                            r["dialects"][k].pop("ar2", None)
+                            r["dialects"][k].pop("rom2", None)
                 break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
