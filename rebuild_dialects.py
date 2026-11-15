@@ -282,6 +282,27 @@ WELCOME_BACK = {
 }
 
 
+# 「我说一点阿拉伯语」按用户核验表更新：
+# MSA 🔧 微调 qalīla→qalīlan（"一点"作副词修饰"说"，比形容词更地道）；
+# 伊拉克 a- 前缀 baḥkī 用对，覆写为带符号写法并去掉派生「派」徽章；
+# 其余方言阿文/转写已地道，仅写 verify 核验留痕；
+# 海湾/马格里布的「也常说」为口语补充，保留罗马化写入 verify（不臆造阿文配音）。
+SPEAK_LITTLE = {
+    "msa":       {"ar": "أَتَحَدَّثُ عَرَبِيَّةً قَلِيلًا", "rom": "ataḥaddathu ʿarabiyya qalīlan",
+                  "verify": "🔧 微调：qalīla→qalīlan（「一点」作副词修饰「说」，比形容词更地道）"},
+    "egyptian":  {"ar": "بَتْكَلِّمْ عَرَبِي شَوِيَّة", "rom": "batkallim ʿarabi shwayya",
+                  "verify": "✅ 已地道（ba- + kallama）"},
+    "levantine": {"ar": "بِحْكِي عَرَبِي شَوِي", "rom": "biḥkī ʿarabi shway",
+                  "verify": "✅ 已地道（bi- + ḥaka）"},
+    "gulf":      {"ar": "بِحْكِي عَرَبِي شَوِي", "rom": "biḥkī ʿarabi shway",
+                  "verify": "✅ 已地道；海湾也常说 bitkallim ʿarabi shway（用 kallama 动词）"},
+    "iraqi":     {"ar": "بَحْكِي عَرَبِي شَوِيَّة", "rom": "baḥkī ʿarabi shwayya",
+                  "verify": "✅ a- 前缀用对了，已去掉「派」"},
+    "maghreb":   {"ar": "كَنْتَكَلَّمْ عَرْبِي شْوِيَّة", "rom": "kantkallam ʿarbi shwiyya",
+                  "verify": "✅ ka-nt- 前缀用对了；摩洛哥也常说 kanehder shwiyya d l-ʿarbiya"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -424,6 +445,19 @@ def main():
                         # 清理旧的单一 ar2/rom2（若有），避免与 ar2List 并存
                         r["dialects"][k].pop("ar2", None)
                         r["dialects"][k].pop("rom2", None)
+                break
+
+    # 「我说一点阿拉伯语」按用户核验表更新：MSA 微调 + 伊拉克去「派」，
+    # 全部方言写入 verify 核验留痕；note 一律清空（伊拉克原为派生「派」）。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "我说一点阿拉伯语":
+                for k, v in SPEAK_LITTLE.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar"] = v["ar"]
+                        r["dialects"][k]["rom"] = v["rom"]
+                        r["dialects"][k]["verify"] = v["verify"]
+                        r["dialects"][k]["note"] = ""
                 break
 
     sec0["title"] = re.sub(r"（\d+句）", "（%d句）" % len(sec0["rows"]), sec0["title"])
