@@ -343,6 +343,26 @@ YES_INDEED = {
 }
 
 
+# 「不 / 不是」按用户核验表精修：
+# 第一列「回答『不』」6 方言主形经核验全部正确，保持不变；
+# 第二列「系词『不是（某身份）』」为新增语法形式，用 ar2/rom2「另」小卡承载（可点读/配音）；
+# verify 说明两列区别（回答否定 vs 判断句系词）。
+NO_NOT = {
+    "msa":       {"ar2": "لَيْسَ", "rom2": "laysa「不是」",
+                  "verify": "لَا 回答「不」；لَيْسَ(laysa) 是系词「不是」，用于「我不是…」判断句，随人称变"},
+    "egyptian":  {"ar2": "مِش", "rom2": "mish「不是」",
+                  "verify": "لَأْ 回答「不」；مِش(mish) 是系词「不是」，埃及万能否定"},
+    "levantine": {"ar2": "مِش", "rom2": "mish「不是」",
+                  "verify": "لَا/لَأْ 回答「不」；مِش(mish) 系词「不是」，同埃及"},
+    "gulf":      {"ar2": "مُو", "rom2": "mū「不是」",
+                  "verify": "لَا/لَأْ 回答「不」；مُو(mū) 是系词「不是」"},
+    "iraqi":     {"ar2": "مُو", "rom2": "mū「不是」",
+                  "verify": "لَا/لَأْ 回答「不」；مُو(mū) 系词「不是」，同海湾"},
+    "maghreb":   {"ar2": "مَاشِي", "rom2": "māshī「不是」",
+                  "verify": "لَّا 回答「不」；مَاشِي(māshī) 系词「不是」（也作「没问题」，与「不客气」同款）"},
+}
+
+
 def hash_name(text):
     return hashlib.sha1(text.encode("utf-8")).hexdigest()[:12] + ".mp3"
 
@@ -522,6 +542,18 @@ def main():
                         r["dialects"][k]["ar"] = v["ar"]
                         r["dialects"][k]["rom"] = v["rom"]
                         r["dialects"][k]["flavor"] = v["flavor"]
+                        r["dialects"][k]["note"] = ""
+                break
+
+    # 「不 / 不是」按用户核验表精修：第一列主形不动，第二列系词作 ar2/rom2「另」小卡，写 verify 说明。
+    for s in data["sections"]:
+        for r in s["rows"]:
+            if r["cn"] == "不 / 不是":
+                for k, v in NO_NOT.items():
+                    if k in r["dialects"]:
+                        r["dialects"][k]["ar2"] = v["ar2"]
+                        r["dialects"][k]["rom2"] = v["rom2"]
+                        r["dialects"][k]["verify"] = v["verify"]
                         r["dialects"][k]["note"] = ""
                 break
 
